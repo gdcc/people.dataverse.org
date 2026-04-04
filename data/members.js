@@ -2,9 +2,9 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T21:37:26.619Z",
+  "generatedAt": "2026-04-04T22:13:54.554Z",
   "rowCount": 296,
-  "matchedCountryCount": 123,
+  "matchedCountryCount": 124,
   "matchedGitHubProfileCount": 292
 };
 
@@ -6801,7 +6801,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "agostinho-gomes",
     "Timezone": "Europe/Lisbon",
     "Matrix name": "@agostinho_gomes:matrix.org",
-    "Primary installation": "datarepositorium.uminho.pt",
+    "Primary installation": "datarepositorium.sdum.uminho.pt",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -6811,7 +6811,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Portugal",
     "GitHub Profile": {
       "login": "agostinho-gomes",
       "name": "Agostinho Gomes",
