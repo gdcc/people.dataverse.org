@@ -1,8 +1,5 @@
 import { MEMBERS_SNAPSHOT, SNAPSHOT_META } from "./data/members.js";
 
-const REMOTE_TSV_URL =
-  "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv";
-
 const fieldLabels = {
   primaryInstallation: "Primary installation",
   country: "Country",
@@ -16,7 +13,6 @@ const fieldLabels = {
 const enrichmentMaps = buildEnrichmentMaps(MEMBERS_SNAPSHOT);
 const state = {
   members: normalizeMembers(MEMBERS_SNAPSHOT),
-  source: "snapshot",
   loadedAt: SNAPSHOT_META.generatedAt,
   filters: {
     search: "",
@@ -30,7 +26,6 @@ const elements = {
   installationFilter: document.querySelector("#installation-filter"),
   countryFilter: document.querySelector("#country-filter"),
   resetButton: document.querySelector("#reset-button"),
-  refreshButton: document.querySelector("#refresh-button"),
   profileCount: document.querySelector("#profile-count"),
   installationCount: document.querySelector("#installation-count"),
   countryCount: document.querySelector("#country-count"),
@@ -44,39 +39,6 @@ const elements = {
 bindEvents();
 populateFilters();
 render();
-
-async function refreshFromRemote() {
-  const button = elements.refreshButton;
-  button.disabled = true;
-  button.textContent = "Refreshing…";
-
-  try {
-    const response = await fetch(REMOTE_TSV_URL, { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error(`Request failed with ${response.status}`);
-    }
-
-    const tsv = await response.text();
-    const members = normalizeMembers(parseTsv(tsv));
-    if (!members.length) {
-      throw new Error("No rows returned");
-    }
-
-    state.members = members;
-    state.source = "live";
-    state.loadedAt = new Date().toISOString();
-    populateFilters();
-    render();
-  } catch (error) {
-    window.alert(
-      "Live refresh failed, so the app kept using the bundled snapshot.\n\n" +
-        error.message,
-    );
-  } finally {
-    button.disabled = false;
-    button.textContent = "Refresh from source";
-  }
-}
 
 function bindEvents() {
   elements.searchInput.addEventListener("input", (event) => {
@@ -113,8 +75,6 @@ function bindEvents() {
     }
     render();
   });
-
-  elements.refreshButton.addEventListener("click", refreshFromRemote);
 }
 
 function render() {
@@ -134,8 +94,7 @@ function updateStats(filteredMembers) {
     filteredMembers.map((member) => member.country),
   ).toString();
 
-  elements.sourceBadge.textContent =
-    state.source === "live" ? "Live sheet data" : "Bundled snapshot";
+  elements.sourceBadge.textContent = "Bundled snapshot";
   elements.updatedAt.textContent = `Dataset size: ${allMembers.length} members • Updated ${formatDate(
     state.loadedAt,
   )}`;
