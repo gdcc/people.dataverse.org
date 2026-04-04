@@ -1,4 +1,4 @@
-# Dataverse Community Directory
+# Dataverse People
 
 A lightweight browser app for exploring the community TSV at:
 
