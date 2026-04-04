@@ -448,12 +448,8 @@ function looksLikeWebAddress(value) {
     return false;
   }
 
-  if (host !== host.toLowerCase()) {
-    return false;
-  }
-
   // Accept common web-style domains, optionally followed by a path/query/hash.
-  return /^(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$/i.test(
+  return /^(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)*\.[a-z]{2,}$/i.test(
     host,
   );
 }
