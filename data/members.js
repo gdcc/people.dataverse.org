@@ -1,6 +1,6 @@
 export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
-  "generatedAt": "2026-04-04T00:25:45.325Z",
+  "generatedAt": "2026-04-04T01:23:47.327Z",
   "rowCount": 300
 };
 
@@ -324,7 +324,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "bryanmgee",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "dataverse.tdl.org",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
