@@ -186,7 +186,7 @@ function renderCards(members) {
     );
     displayName.textContent = member.name ? `@${member.githubUsername}` : "";
     displayName.hidden = !member.name;
-    bio.textContent = member.bio || "";
+    appendLinkedText(bio, member.bio || "");
     bio.hidden = !member.bio;
 
     const meta = node.querySelector(".member-meta");
@@ -339,20 +339,57 @@ function getGitHubAvatarUrl(username) {
 }
 
 function appendFieldValue(container, value) {
-  const text = String(value ?? "").trim();
-  const href = toExternalHref(text);
+  appendLinkedText(container, String(value ?? "").trim());
+}
 
-  if (!href) {
-    container.textContent = text;
-    return;
+function appendLinkedText(container, value) {
+  container.textContent = "";
+
+  const text = String(value ?? "");
+  const pattern =
+    /(?:[a-z][a-z0-9+.-]*:\/\/[^\s<>"']+|(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+(?:\/[^\s<>"']*)?)/gi;
+
+  let lastIndex = 0;
+
+  for (const match of text.matchAll(pattern)) {
+    const matchedText = match[0];
+    const start = match.index ?? 0;
+
+    if (start > lastIndex) {
+      appendPlainText(container, text.slice(lastIndex, start));
+    }
+
+    const href = toExternalHref(matchedText);
+    if (href) {
+      const anchor = document.createElement("a");
+      anchor.href = href;
+      anchor.target = "_blank";
+      anchor.rel = "noreferrer";
+      anchor.textContent = matchedText;
+      container.append(anchor);
+    } else {
+      appendPlainText(container, matchedText);
+    }
+
+    lastIndex = start + matchedText.length;
   }
 
-  const anchor = document.createElement("a");
-  anchor.href = href;
-  anchor.target = "_blank";
-  anchor.rel = "noreferrer";
-  anchor.textContent = text;
-  container.append(anchor);
+  if (lastIndex < text.length) {
+    appendPlainText(container, text.slice(lastIndex));
+  }
+}
+
+function appendPlainText(container, text) {
+  const parts = String(text).split(/\r?\n/);
+
+  parts.forEach((part, index) => {
+    if (index > 0) {
+      container.append(document.createElement("br"));
+    }
+    if (part) {
+      container.append(document.createTextNode(part));
+    }
+  });
 }
 
 function toExternalHref(value) {
@@ -360,20 +397,36 @@ function toExternalHref(value) {
     return "";
   }
 
-  if (/^https?:\/\//i.test(value)) {
-    return value;
+  const trimmed = value.trim().replace(/[),.;!?]+$/, "");
+
+  if (/^[a-z][a-z0-9+.-]*:\/\//i.test(trimmed)) {
+    return trimmed;
   }
 
-  if (isHostname(value)) {
-    return `https://${value}`;
+  if (looksLikeWebAddress(trimmed)) {
+    return `https://${trimmed.replace(/^\/+/, "")}`;
   }
 
   return "";
 }
 
-function isHostname(value) {
-  return /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$/i.test(
-    value,
+function looksLikeWebAddress(value) {
+  if (/\s/.test(value)) {
+    return false;
+  }
+
+  const [host] = value.split(/[/?#]/, 1);
+  if (!host) {
+    return false;
+  }
+
+  if (host !== host.toLowerCase()) {
+    return false;
+  }
+
+  // Accept common web-style domains, optionally followed by a path/query/hash.
+  return /^(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$/i.test(
+    host,
   );
 }
 
