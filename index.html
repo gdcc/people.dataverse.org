@@ -97,12 +97,18 @@
       <article class="member-card">
         <div class="member-card-header">
           <img class="member-avatar" alt="" loading="lazy" />
-          <div>
+          <div class="member-heading">
             <h3 class="member-name"></h3>
-            <a class="member-display-name" hidden target="_blank" rel="noreferrer">
-              <img class="member-display-icon" src="./assets/github.svg" alt="" aria-hidden="true" />
-              <span class="member-display-handle"></span>
-            </a>
+            <div class="member-identities">
+              <a class="member-display-name" hidden target="_blank" rel="noreferrer">
+                <img class="member-display-icon" src="./assets/github.svg" alt="" aria-hidden="true" />
+                <span class="member-display-handle"></span>
+              </a>
+              <a class="member-zulip-link" hidden target="_blank" rel="noreferrer">
+                <img class="member-display-icon" src="./assets/zulip.svg" alt="" aria-hidden="true" />
+                <span class="member-zulip-label">Zulip</span>
+              </a>
+            </div>
           </div>
         </div>
         <p class="member-bio" hidden></p>

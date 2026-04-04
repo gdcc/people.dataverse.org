@@ -284,7 +284,26 @@ select {
   line-height: 1.1;
 }
 
+.member-heading {
+  min-width: 0;
+}
+
+.member-identities {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .member-display-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0 0;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.member-zulip-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;

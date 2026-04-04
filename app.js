@@ -173,6 +173,7 @@ function renderCards(members) {
     const memberName = node.querySelector(".member-name");
     const displayName = node.querySelector(".member-display-name");
     const displayHandle = node.querySelector(".member-display-handle");
+    const zulipLink = node.querySelector(".member-zulip-link");
     const bio = node.querySelector(".member-bio");
     memberName.textContent = member.name || member.githubUsername;
     avatar.src = member.avatarUrl || getGitHubAvatarUrl(member.githubUsername);
@@ -188,6 +189,12 @@ function renderCards(members) {
     displayHandle.textContent = `@${member.githubUsername}`;
     displayName.href = member.htmlUrl || `https://github.com/${member.githubUsername}`;
     displayName.hidden = false;
+    if (member.zulipId) {
+      zulipLink.href = getZulipProfileUrl(member.zulipId);
+      zulipLink.hidden = false;
+    } else {
+      zulipLink.hidden = true;
+    }
     appendLinkedText(bio, member.bio || "");
     bio.hidden = !member.bio;
 
@@ -195,7 +202,6 @@ function renderCards(members) {
     const fields = [
       "primaryInstallation",
       "country",
-      "zulipId",
       "orcid",
       "githubLocation",
       "githubCompany",
@@ -338,6 +344,10 @@ function formatDate(value) {
 
 function getGitHubAvatarUrl(username) {
   return `https://github.com/${encodeURIComponent(username)}.png`;
+}
+
+function getZulipProfileUrl(zulipId) {
+  return `https://dataverse.zulipchat.com/#user/${encodeURIComponent(zulipId)}`;
 }
 
 function appendFieldValue(container, value) {
