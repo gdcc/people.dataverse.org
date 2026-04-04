@@ -2,10 +2,10 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T02:17:50.858Z",
+  "generatedAt": "2026-04-04T12:15:53.646Z",
   "rowCount": 300,
   "matchedCountryCount": 105,
-  "matchedGitHubProfileCount": 113
+  "matchedGitHubProfileCount": 174
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -3418,7 +3418,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Belgium",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "Kris-LIBIS",
+      "name": "Kris Dekeyser",
+      "company": "LIBIS",
+      "location": "Leuven, Belgium",
+      "bio": "",
+      "blog": "https://www.libis.be",
+      "twitterUsername": "",
+      "followers": 5,
+      "following": 3,
+      "publicRepos": 54,
+      "htmlUrl": "https://github.com/Kris-LIBIS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/477395?v=4"
+    }
   },
   {
     "GitHub Username": "4tikhonov",
@@ -3435,7 +3448,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Netherlands",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "4tikhonov",
+      "name": "Slava Tykhonov",
+      "company": "https://codata.org",
+      "location": "Paris, France",
+      "bio": "CODATA Head of AI, Harvard Dataverse Ambassador.",
+      "blog": "",
+      "twitterUsername": "4tykhonov",
+      "followers": 38,
+      "following": 5,
+      "publicRepos": 63,
+      "htmlUrl": "https://github.com/4tikhonov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/704075?v=4"
+    }
   },
   {
     "GitHub Username": "philippconzett",
@@ -3452,7 +3478,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Norway",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "philippconzett",
+      "name": "Philipp Conzett",
+      "company": "UiT The Arctic University of Norway",
+      "location": "Tromsø",
+      "bio": "Senior Research Librarian | Research Infrastructure | Open Science | Research Data Management | Digital Scholarship | Linguistics",
+      "blog": "https://uit.no/ansatte/philipp.conzett",
+      "twitterUsername": "PhilippConzett",
+      "followers": 5,
+      "following": 6,
+      "publicRepos": 16,
+      "htmlUrl": "https://github.com/philippconzett",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21955790?v=4"
+    }
   },
   {
     "GitHub Username": "qqmyers",
@@ -3469,7 +3508,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "qqmyers",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 12,
+      "following": 0,
+      "publicRepos": 10,
+      "htmlUrl": "https://github.com/qqmyers",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6731983?v=4"
+    }
   },
   {
     "GitHub Username": "carlo318",
@@ -3486,7 +3538,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "carlo318",
+      "name": "",
+      "company": "",
+      "location": "Italy",
+      "bio": "C# .Net developer, Ionic Cordova hybrid app developer. Arduino, Raspberry PI and 3D printing enthusiast. ",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 10,
+      "publicRepos": 16,
+      "htmlUrl": "https://github.com/carlo318",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6966708?v=4"
+    }
   },
   {
     "GitHub Username": "atniph",
@@ -3503,7 +3568,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "atniph",
+      "name": "Finta Norbert",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/atniph",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55395248?v=4"
+    }
   },
   {
     "GitHub Username": "hamidtam",
@@ -3520,7 +3598,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "hamidtam",
+      "name": "Tameem Hamid",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/hamidtam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19354125?v=4"
+    }
   },
   {
     "GitHub Username": "DaftPug",
@@ -3537,7 +3628,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "DaftPug",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 17,
+      "htmlUrl": "https://github.com/DaftPug",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46531841?v=4"
+    }
   },
   {
     "GitHub Username": "nmunatsibw",
@@ -3554,7 +3658,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "nmunatsibw",
+      "name": "Nimrod Munatsi",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 4,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/nmunatsibw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/129177120?v=4"
+    }
   },
   {
     "GitHub Username": "JeyaSam",
@@ -3571,7 +3688,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "JeyaSam",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/JeyaSam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51686455?v=4"
+    }
   },
   {
     "GitHub Username": "aseeland",
@@ -3588,7 +3718,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "aseeland",
+      "name": "Anett Seeland",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 1,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/aseeland",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5227118?v=4"
+    }
   },
   {
     "GitHub Username": "Nikos-Askitas",
@@ -3605,7 +3748,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "Nikos-Askitas",
+      "name": "Nikos-Askitas",
+      "company": "",
+      "location": "Bonn",
+      "bio": "",
+      "blog": "https://www.askitas.com",
+      "twitterUsername": "askitas",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/Nikos-Askitas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148442281?v=4"
+    }
   },
   {
     "GitHub Username": "DominikWA",
@@ -3622,7 +3778,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "DominikWA",
+      "name": "Dominik",
+      "company": "@iza-institute-of-labor-economics ",
+      "location": "Bonn",
+      "bio": "",
+      "blog": "https://www.iza.org/de/person/8284",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 1,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/DominikWA",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/27404965?v=4"
+    }
   },
   {
     "GitHub Username": "yh-repo",
@@ -3639,7 +3808,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "yh-repo",
+      "name": "Yee Heng",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/yh-repo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128443265?v=4"
+    }
   },
   {
     "GitHub Username": "M-DOREL",
@@ -3656,7 +3838,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "M-DOREL",
+      "name": "SOUL",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 265,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/M-DOREL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147842161?v=4"
+    }
   },
   {
     "GitHub Username": "tosunmerve",
@@ -3673,7 +3868,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "tosunmerve",
+      "name": "Merve Tosun",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/tosunmerve",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100139006?v=4"
+    }
   },
   {
     "GitHub Username": "Sakshi-75",
@@ -3690,7 +3898,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "Sakshi-75",
+      "name": "Sakshi Jain",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 11,
+      "following": 0,
+      "publicRepos": 56,
+      "htmlUrl": "https://github.com/Sakshi-75",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20265098?v=4"
+    }
   },
   {
     "GitHub Username": "JacekChudzik",
@@ -3707,7 +3928,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "JacekChudzik",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/JacekChudzik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25703252?v=4"
+    }
   },
   {
     "GitHub Username": "JFLopez7",
@@ -3724,7 +3958,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "JFLopez7",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/JFLopez7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17785064?v=4"
+    }
   },
   {
     "GitHub Username": "dozed",
@@ -3741,7 +3988,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "dozed",
+      "name": "Stefan Ollinger",
+      "company": "",
+      "location": "Trier",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 50,
+      "following": 25,
+      "publicRepos": 131,
+      "htmlUrl": "https://github.com/dozed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/239058?v=4"
+    }
   },
   {
     "GitHub Username": "bjosel",
@@ -3758,7 +4018,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "bjosel",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/bjosel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/135325484?v=4"
+    }
   },
   {
     "GitHub Username": "JBGruber",
@@ -3775,7 +4048,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "JBGruber",
+      "name": "Johannes Gruber",
+      "company": "GESIS",
+      "location": "Cologne",
+      "bio": "Senior Researcher/Team Lead @ GESIS",
+      "blog": "https://www.johannesbgruber.eu/",
+      "twitterUsername": "",
+      "followers": 186,
+      "following": 48,
+      "publicRepos": 108,
+      "htmlUrl": "https://github.com/JBGruber",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23524101?v=4"
+    }
   },
   {
     "GitHub Username": "Asbjoedt",
@@ -3792,7 +4078,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "Asbjoedt",
+      "name": "Asbjørn Skødt",
+      "company": "University of Copenhagen",
+      "location": "Copenhagen",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 5,
+      "following": 27,
+      "publicRepos": 14,
+      "htmlUrl": "https://github.com/Asbjoedt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16759989?v=4"
+    }
   },
   {
     "GitHub Username": "kobbejager",
@@ -3809,7 +4108,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "kobbejager",
+      "name": "Wim Fremout",
+      "company": "Royal Institute for Cultural Heritage (KIK-IRPA) @KIKIRPA ",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 0,
+      "publicRepos": 15,
+      "htmlUrl": "https://github.com/kobbejager",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4146403?v=4"
+    }
   },
   {
     "GitHub Username": "RichCaloggero",
@@ -3826,7 +4138,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "RichCaloggero",
+      "name": "Rich Caloggero",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 1,
+      "publicRepos": 80,
+      "htmlUrl": "https://github.com/RichCaloggero",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6731039?v=4"
+    }
   },
   {
     "GitHub Username": "aadorian",
@@ -3843,7 +4168,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "aadorian",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 35,
+      "following": 27,
+      "publicRepos": 651,
+      "htmlUrl": "https://github.com/aadorian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/734790?v=4"
+    }
   },
   {
     "GitHub Username": "zolttoth",
@@ -3860,7 +4198,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "zolttoth",
+      "name": "Zoltán Tóth",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/zolttoth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3974882?v=4"
+    }
   },
   {
     "GitHub Username": "phillipsjs",
@@ -3877,7 +4228,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "phillipsjs",
+      "name": "Jonathan  Scott  Phillips ",
+      "company": "Dartmouth College",
+      "location": "Hanover, NH",
+      "bio": "Asst. Prof at Dartmouth doing research in cognitive Science of high-level human cognition  ",
+      "blog": "http://phillab.host.dartmouth.edu/",
+      "twitterUsername": "phillipsjs",
+      "followers": 15,
+      "following": 5,
+      "publicRepos": 19,
+      "htmlUrl": "https://github.com/phillipsjs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5552158?v=4"
+    }
   },
   {
     "GitHub Username": "kulsoomzahra",
@@ -3894,7 +4258,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "kulsoomzahra",
+      "name": "",
+      "company": "",
+      "location": "India",
+      "bio": "Software Engineer Intern @Quansight \r\nOutreachy Intern @torproject",
+      "blog": "https://www.linkedin.com/in/kulsoom-zahra-4110b9197/",
+      "twitterUsername": "KulsoomZahra3",
+      "followers": 7,
+      "following": 12,
+      "publicRepos": 24,
+      "htmlUrl": "https://github.com/kulsoomzahra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46336830?v=4"
+    }
   },
   {
     "GitHub Username": "cristobaltapia",
@@ -3911,7 +4288,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "cristobaltapia",
+      "name": "Cristóbal Tapia",
+      "company": "University of Stuttgart",
+      "location": "Stuttgart, Germany",
+      "bio": "",
+      "blog": "www.cristobal-tapia.de",
+      "twitterUsername": "",
+      "followers": 12,
+      "following": 6,
+      "publicRepos": 49,
+      "htmlUrl": "https://github.com/cristobaltapia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7276493?v=4"
+    }
   },
   {
     "GitHub Username": "jorgelpolanco",
@@ -3928,7 +4318,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "jorgelpolanco",
+      "name": "",
+      "company": "",
+      "location": "Costa Rica",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 6,
+      "htmlUrl": "https://github.com/jorgelpolanco",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13474701?v=4"
+    }
   },
   {
     "GitHub Username": "diego-guillen",
@@ -3945,7 +4348,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "diego-guillen",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/diego-guillen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108262102?v=4"
+    }
   },
   {
     "GitHub Username": "DonRichards",
@@ -3962,7 +4378,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "DonRichards",
+      "name": "Don Richards",
+      "company": "Johns Hopkins University",
+      "location": "Knoxville, TN",
+      "bio": "Sr. Software Engineer @ Johns Hopkins University. . . Leadership is not about being in charge. Leadership is about taking care of those in your charge.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 31,
+      "following": 28,
+      "publicRepos": 143,
+      "htmlUrl": "https://github.com/DonRichards",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2738244?v=4"
+    }
   },
   {
     "GitHub Username": "stefanandonov",
@@ -3979,7 +4408,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "stefanandonov",
+      "name": "Stefan Andonov",
+      "company": "Faculty of computer science and engineering - Skopje",
+      "location": "Skopje, Macedonia",
+      "bio": "Computer science and engineering student at FCSE-Skopje",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 223,
+      "following": 4,
+      "publicRepos": 93,
+      "htmlUrl": "https://github.com/stefanandonov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25883420?v=4"
+    }
   },
   {
     "GitHub Username": "coret",
@@ -3996,7 +4438,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "coret",
+      "name": "Bob Coret",
+      "company": "",
+      "location": "The Netherlands",
+      "bio": "",
+      "blog": "https://bob.coret.org/",
+      "twitterUsername": "",
+      "followers": 23,
+      "following": 68,
+      "publicRepos": 43,
+      "htmlUrl": "https://github.com/coret",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101820?v=4"
+    }
   },
   {
     "GitHub Username": "wtr-icm",
@@ -4013,7 +4468,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "wtr-icm",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/wtr-icm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58430746?v=4"
+    }
   },
   {
     "GitHub Username": "bgunia",
@@ -4030,7 +4498,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "bgunia",
+      "name": "Betsy Gunia",
+      "company": "Johns Hopkins University",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/bgunia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47605686?v=4"
+    }
   },
   {
     "GitHub Username": "rwvaldivia",
@@ -4047,7 +4528,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "rwvaldivia",
+      "name": "Richard W Valdivia",
+      "company": "Robobase - Instructional",
+      "location": "São Paulo - Brazil",
+      "bio": "Java, PHP, C, C++ developer",
+      "blog": "https://www.robobase.com.br",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 2,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/rwvaldivia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1844023?v=4"
+    }
   },
   {
     "GitHub Username": "charmoniumQ",
@@ -4064,7 +4558,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "charmoniumQ",
+      "name": "Sam Grayson",
+      "company": "University of Illinois at Urbana-Champaign",
+      "location": "/home/bedroom/bed",
+      "bio": "PhD student, on a crusade to improve scientific software",
+      "blog": "https://samgrayson.me",
+      "twitterUsername": "charmoniumQ",
+      "followers": 106,
+      "following": 88,
+      "publicRepos": 155,
+      "htmlUrl": "https://github.com/charmoniumQ",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/928570?v=4"
+    }
   },
   {
     "GitHub Username": "orazionelson",
@@ -4081,7 +4588,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "orazionelson",
+      "name": "Alfredo Cosco",
+      "company": "",
+      "location": "Italy",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 19,
+      "following": 17,
+      "publicRepos": 38,
+      "htmlUrl": "https://github.com/orazionelson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113308?v=4"
+    }
   },
   {
     "GitHub Username": "rawidiyaningrum",
@@ -4098,7 +4618,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "rawidiyaningrum",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/rawidiyaningrum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30921155?v=4"
+    }
   },
   {
     "GitHub Username": "zieglerms",
@@ -4115,7 +4648,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "zieglerms",
+      "name": "Micah S. Ziegler",
+      "company": "Massachusetts Institute of Technology",
+      "location": "",
+      "bio": "",
+      "blog": "www.micahsziegler.com",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/zieglerms",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36274412?v=4"
+    }
   },
   {
     "GitHub Username": "adkinsrs",
@@ -4132,7 +4678,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "adkinsrs",
+      "name": "Shaun Adkins",
+      "company": "Institute for Genome Sciences",
+      "location": "Baltimore, MD",
+      "bio": "Senior Bioinformatics Software Engineer\r\n@IGS ",
+      "blog": "www.shaunadkins.com",
+      "twitterUsername": "",
+      "followers": 19,
+      "following": 20,
+      "publicRepos": 31,
+      "htmlUrl": "https://github.com/adkinsrs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5665914?v=4"
+    }
   },
   {
     "GitHub Username": "guinslym",
@@ -4149,7 +4708,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "guinslym",
+      "name": "Guinslym",
+      "company": "mongex",
+      "location": "Ottw-Vancouver-Montreal",
+      "bio": "",
+      "blog": "http://www.guinslym.info/",
+      "twitterUsername": "",
+      "followers": 128,
+      "following": 70,
+      "publicRepos": 420,
+      "htmlUrl": "https://github.com/guinslym",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4588993?v=4"
+    }
   },
   {
     "GitHub Username": "kaczmirek",
@@ -4166,7 +4738,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "kaczmirek",
+      "name": "Lars Kaczmirek",
+      "company": "@aussda",
+      "location": "",
+      "bio": "www.kaczmirek.de",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 4,
+      "following": 1,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/kaczmirek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31477308?v=4"
+    }
   },
   {
     "GitHub Username": "CB-HAL",
@@ -4183,7 +4768,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "CB-HAL",
+      "name": "Christian Bischof",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/CB-HAL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73164983?v=4"
+    }
   },
   {
     "GitHub Username": "Ash84",
@@ -4200,7 +4798,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "Ash84",
+      "name": "L. Tromel",
+      "company": "INRAE",
+      "location": "Lyon",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 1,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/Ash84",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58844429?v=4"
+    }
   },
   {
     "GitHub Username": "jakobmolandergeus",
@@ -4217,7 +4828,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "jakobmolandergeus",
+      "name": "Jakob Molander (GEUS)",
+      "company": "GEUS",
+      "location": "Copenhagen, Denmark",
+      "bio": "",
+      "blog": "www.geus.dk",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/jakobmolandergeus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26303145?v=4"
+    }
   },
   {
     "GitHub Username": "Gabriel-Besombes",
@@ -4234,7 +4858,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "Gabriel-Besombes",
+      "name": "Gaby",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 3,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/Gabriel-Besombes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43054081?v=4"
+    }
   },
   {
     "GitHub Username": "rhijmans",
@@ -4251,7 +4888,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "rhijmans",
+      "name": "Robert Hijmans",
+      "company": "University of California, Davis",
+      "location": "California",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 374,
+      "following": 1,
+      "publicRepos": 31,
+      "htmlUrl": "https://github.com/rhijmans",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11481397?v=4"
+    }
   },
   {
     "GitHub Username": "thiagombrasil",
@@ -4268,7 +4918,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "thiagombrasil",
+      "name": "thiagomatos",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/thiagombrasil",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34483743?v=4"
+    }
   },
   {
     "GitHub Username": "pablovp86",
@@ -4285,7 +4948,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "pablovp86",
+      "name": "Pablo",
+      "company": "@lepidus",
+      "location": "América Latina",
+      "bio": "",
+      "blog": "https://lepidus.com.br/",
+      "twitterUsername": "",
+      "followers": 9,
+      "following": 33,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/pablovp86",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26493682?v=4"
+    }
   },
   {
     "GitHub Username": "myi100",
@@ -4302,7 +4978,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "myi100",
+      "name": "Muhammed Y. Idris",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 11,
+      "following": 0,
+      "publicRepos": 18,
+      "htmlUrl": "https://github.com/myi100",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2923059?v=4"
+    }
   },
   {
     "GitHub Username": "schorcht-ioer",
@@ -4319,7 +5008,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "schorcht-ioer",
+      "name": "Martin Schorcht",
+      "company": "IOER Dresden",
+      "location": "Dresden, Germany",
+      "bio": "Researcher and developer at the Leibniz Institute of Ecological Urban and Regional Development (IOER), part of Research Area Spatial Information and Modelling.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 0,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/schorcht-ioer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/123582538?v=4"
+    }
   },
   {
     "GitHub Username": "aialves",
@@ -4336,7 +5038,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "aialves",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 6,
+      "htmlUrl": "https://github.com/aialves",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13556933?v=4"
+    }
   },
   {
     "GitHub Username": "joelfan",
@@ -4353,7 +5068,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Italy",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "joelfan",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 6,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/joelfan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24876842?v=4"
+    }
   },
   {
     "GitHub Username": "transfluxus",
@@ -4370,7 +5098,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "transfluxus",
+      "name": "Ramin",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "https://diskordier.net",
+      "twitterUsername": "",
+      "followers": 38,
+      "following": 16,
+      "publicRepos": 51,
+      "htmlUrl": "https://github.com/transfluxus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1574219?v=4"
+    }
   },
   {
     "GitHub Username": "yikangfengnie",
@@ -4387,7 +5128,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "yikangfengnie",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/yikangfengnie",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/122010545?v=4"
+    }
   },
   {
     "GitHub Username": "ysuarez",
@@ -4506,7 +5260,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "yikangfengnie",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/yikangfengnie",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/122010545?v=4"
+    }
   },
   {
     "GitHub Username": "beepsoft",
@@ -4608,7 +5375,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "Gabriel-Besombes",
+      "name": "Gaby",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 3,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/Gabriel-Besombes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43054081?v=4"
+    }
   },
   {
     "GitHub Username": "jeromeroucou",
@@ -5760,7 +6540,20 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "orazionelson",
+      "name": "Alfredo Cosco",
+      "company": "",
+      "location": "Italy",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 19,
+      "following": 17,
+      "publicRepos": 38,
+      "htmlUrl": "https://github.com/orazionelson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113308?v=4"
+    }
   },
   {
     "GitHub Username": "KhoaBuind",
