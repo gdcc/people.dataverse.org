@@ -2,10 +2,10 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T14:43:36.617Z",
-  "rowCount": 299,
-  "matchedCountryCount": 119,
-  "matchedGitHubProfileCount": 295
+  "generatedAt": "2026-04-04T16:03:26.411Z",
+  "rowCount": 296,
+  "matchedCountryCount": 123,
+  "matchedGitHubProfileCount": 292
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -313,7 +313,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "TillJan",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "data.fz-juelich.de",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -323,7 +323,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Germany",
     "GitHub Profile": {
       "login": "TillJan",
       "name": "",
@@ -2417,7 +2417,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "glevyhas",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "dataverse.yale.edu",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -2427,7 +2427,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "USA",
     "GitHub Profile": {
       "login": "glevyhas",
       "name": "Gavi Levy Haskell",
@@ -2741,36 +2741,6 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 16,
       "htmlUrl": "https://github.com/Cook4986",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7727928?v=4"
-    }
-  },
-  {
-    "GitHub Username": "jonquet",
-    "Timezone": "",
-    "Matrix name": "",
-    "Primary installation": "",
-    "Sweets": "",
-    "Zulip ID": "",
-    "Active": "",
-    "ORCID": "",
-    "Functional Areas": "",
-    "Example pull request": "",
-    "Shout out": "",
-    "URL": "",
-    "freenode nick": "",
-    "Country": "",
-    "GitHub Profile": {
-      "login": "jonquet",
-      "name": "Clement Jonquet",
-      "company": "INRAE (MISTEA) & Univ. of Montpellier (LIRMM)",
-      "location": "Montpellier, France",
-      "bio": "",
-      "blog": "https://jonquet.mystrikingly.com/",
-      "twitterUsername": "",
-      "followers": 23,
-      "following": 11,
-      "publicRepos": 2,
-      "htmlUrl": "https://github.com/jonquet",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7379183?v=4"
     }
   },
   {
@@ -4574,36 +4544,6 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
-    "GitHub Username": "orazionelson",
-    "Timezone": "",
-    "Matrix name": "",
-    "Primary installation": "",
-    "Sweets": "",
-    "Zulip ID": "",
-    "Active": "",
-    "ORCID": "",
-    "Functional Areas": "",
-    "Example pull request": "",
-    "Shout out": "",
-    "URL": "",
-    "freenode nick": "",
-    "Country": "",
-    "GitHub Profile": {
-      "login": "orazionelson",
-      "name": "Alfredo Cosco",
-      "company": "",
-      "location": "Italy",
-      "bio": "",
-      "blog": "",
-      "twitterUsername": "",
-      "followers": 19,
-      "following": 17,
-      "publicRepos": 38,
-      "htmlUrl": "https://github.com/orazionelson",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/113308?v=4"
-    }
-  },
-  {
     "GitHub Username": "rawidiyaningrum",
     "Timezone": "",
     "Matrix name": "",
@@ -5081,36 +5021,6 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 51,
       "htmlUrl": "https://github.com/transfluxus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1574219?v=4"
-    }
-  },
-  {
-    "GitHub Username": "yikangfengnie",
-    "Timezone": "",
-    "Matrix name": "",
-    "Primary installation": "",
-    "Sweets": "",
-    "Zulip ID": "",
-    "Active": "",
-    "ORCID": "",
-    "Functional Areas": "",
-    "Example pull request": "",
-    "Shout out": "",
-    "URL": "",
-    "freenode nick": "",
-    "Country": "",
-    "GitHub Profile": {
-      "login": "yikangfengnie",
-      "name": "",
-      "company": "",
-      "location": "",
-      "bio": "",
-      "blog": "",
-      "twitterUsername": "",
-      "followers": 0,
-      "following": 0,
-      "publicRepos": 0,
-      "htmlUrl": "https://github.com/yikangfengnie",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/122010545?v=4"
     }
   },
   {
@@ -7401,7 +7311,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "jonquet",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "entrepot.recherche.data.gouv.fr",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -7411,7 +7321,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "France",
     "GitHub Profile": {
       "login": "jonquet",
       "name": "Clement Jonquet",
@@ -7551,7 +7461,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "jalperin",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "abacus.library.ubc.ca",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -7561,7 +7471,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Canada",
     "GitHub Profile": {
       "login": "jalperin",
       "name": "Juan Pablo Alperin",

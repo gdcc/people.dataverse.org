@@ -9,7 +9,7 @@ isaacpratt
 gtsueng												
 Ozoubia												
 alungarska												
-TillJan												
+TillJan			data.fz-juelich.de									
 c2dhfma												
 22tb												
 JulianRein												
@@ -80,7 +80,7 @@ plecor
 bseeger	America/New_York		dataverse.yale.edu									
 nana-boateng			borealisdata.ca									
 okaradeniz	Europe/Brussels		rdr.kuleuven.be									
-glevyhas												
+glevyhas			dataverse.yale.edu									
 Gepiro												
 erodde												
 Esteban-Mtz												
@@ -91,7 +91,6 @@ vaidap
 vbonamy												
 PatrickKibies												
 Cook4986			dataverse.harvard.edu									
-jonquet												
 zearaujo25												
 larsvilhuber												
 bnavigator												
@@ -152,7 +151,6 @@ wtr-icm
 bgunia			archive.data.jhu.edu									
 rwvaldivia												
 charmoniumQ												
-orazionelson												
 rawidiyaningrum												
 zieglerms												
 adkinsrs												
@@ -169,7 +167,6 @@ schorcht-ioer
 aialves	Europe/Lisbon	@aialves:matrix.org	dados.ipb.pt									
 joelfan	Europe/Rome	@joelfan:matrix.org	dataverse.unimi.it									
 transfluxus		@ra_min_:matrix.org										
-yikangfengnie												
 ysuarez	America/New_York											
 luddaniel	Europe/Paris	@luddaniel:matrix.org	entrepot.recherche.data.gouv.fr									
 maximilian-tech												
@@ -247,12 +244,12 @@ Abalduin-adm			planetary-data-portal.org
 alsantiagoabreu	America/Sao_Paulo	@alsantiagoabreu:matrix.org	dataverse.fgv.br									
 kevinworthington	America/Denver							bug fixing	https://github.com/IQSS/dataverse/pull/3317		https://github.com/scholarsportal/SP-dataverse	
 golsch												
-jonquet												
+jonquet			entrepot.recherche.data.gouv.fr									
 Bramvdhout												
 orazionelson												
 KhoaBuind												
 zhoulvjun												
-jalperin												
+jalperin			abacus.library.ubc.ca									
 pacian	Europe/Copenhagen	@pacian:matrix.org										
 eunices												
 pallinger	Europe/Budapest	@pallinger:sztaki.hu	repo.researchdata.hu									
