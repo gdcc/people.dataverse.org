@@ -262,8 +262,23 @@ select {
 
 .member-card-header {
   align-items: start;
-  justify-content: space-between;
   gap: 12px;
+}
+
+.member-avatar {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background:
+    linear-gradient(135deg, rgba(14, 124, 102, 0.16), rgba(235, 123, 77, 0.18)),
+    rgba(255, 255, 255, 0.92);
+}
+
+.member-avatar.is-missing {
+  opacity: 0.45;
 }
 
 .member-name {

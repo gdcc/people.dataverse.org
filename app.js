@@ -168,7 +168,18 @@ function renderCards(members) {
   const fragment = document.createDocumentFragment();
   for (const member of members) {
     const node = elements.cardTemplate.content.firstElementChild.cloneNode(true);
+    const avatar = node.querySelector(".member-avatar");
     node.querySelector(".member-name").textContent = member.githubUsername;
+    avatar.src = getGitHubAvatarUrl(member.githubUsername);
+    avatar.alt = `${member.githubUsername} avatar`;
+    avatar.addEventListener(
+      "error",
+      () => {
+        avatar.classList.add("is-missing");
+        avatar.alt = "";
+      },
+      { once: true },
+    );
 
     const meta = node.querySelector(".member-meta");
     const fields = [
@@ -319,4 +330,8 @@ function formatDate(value) {
     dateStyle: "medium",
     timeStyle: "short",
   }).format(new Date(value));
+}
+
+function getGitHubAvatarUrl(username) {
+  return `https://github.com/${encodeURIComponent(username)}.png`;
 }
