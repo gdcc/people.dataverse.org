@@ -312,6 +312,11 @@ select {
   text-decoration: none;
 }
 
+.member-display-name[hidden],
+.member-zulip-link[hidden] {
+  display: none;
+}
+
 .member-display-icon {
   width: 20px;
   height: 20px;
