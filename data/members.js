@@ -2,9 +2,9 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T23:09:14.967Z",
+  "generatedAt": "2026-04-04T23:11:03.857Z",
   "rowCount": 296,
-  "matchedCountryCount": 130,
+  "matchedCountryCount": 131,
   "matchedGitHubProfileCount": 292
 };
 
@@ -1363,7 +1363,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "kbatyuk",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "dataverse.whoi.edu",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -1373,7 +1373,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "USA",
     "GitHub Profile": {
       "login": "kbatyuk",
       "name": "Kirill Batyuk",
