@@ -173,9 +173,10 @@ function renderCards(members) {
   for (const member of members) {
     const node = elements.cardTemplate.content.firstElementChild.cloneNode(true);
     const avatar = node.querySelector(".member-avatar");
-    node.querySelector(".member-name").textContent = member.githubUsername;
+    const memberName = node.querySelector(".member-name");
     const displayName = node.querySelector(".member-display-name");
     const bio = node.querySelector(".member-bio");
+    memberName.textContent = member.name || member.githubUsername;
     avatar.src = member.avatarUrl || getGitHubAvatarUrl(member.githubUsername);
     avatar.alt = `${member.githubUsername} avatar`;
     avatar.addEventListener(
@@ -186,7 +187,7 @@ function renderCards(members) {
       },
       { once: true },
     );
-    displayName.textContent = member.name || "";
+    displayName.textContent = member.name ? `@${member.githubUsername}` : "";
     displayName.hidden = !member.name;
     bio.textContent = member.bio || "";
     bio.hidden = !member.bio;
