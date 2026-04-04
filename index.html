@@ -43,10 +43,6 @@
             <strong id="profile-count">0</strong>
           </div>
           <div class="stat-card">
-            <span class="stat-label">Active</span>
-            <strong id="active-count">0</strong>
-          </div>
-          <div class="stat-card">
             <span class="stat-label">Installations</span>
             <strong id="installation-count">0</strong>
           </div>
@@ -66,7 +62,7 @@
             <input
               id="search-input"
               type="search"
-              placeholder="Username, installation, matrix handle, skills..."
+              placeholder="Username, timezone, installation, Zulip ID, ORCID..."
             />
           </label>
           <label class="field">
@@ -80,10 +76,6 @@
             <select id="installation-filter">
               <option value="">All installations</option>
             </select>
-          </label>
-          <label class="toggle">
-            <input id="active-filter" type="checkbox" />
-            <span>Active only</span>
           </label>
           <button id="reset-button" class="ghost-button" type="button">
             Reset filters
@@ -108,7 +100,6 @@
             <p class="member-kicker">GitHub</p>
             <h3 class="member-name"></h3>
           </div>
-          <span class="status-pill"></span>
         </div>
         <dl class="member-meta"></dl>
         <div class="member-links"></div>

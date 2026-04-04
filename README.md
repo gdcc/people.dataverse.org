@@ -8,8 +8,8 @@ A lightweight browser app for exploring the community TSV at:
 
 - Loads a bundled snapshot of the sheet so the app works immediately.
 - Supports live refresh from the Google Sheets TSV export.
-- Lets you search members and filter by timezone, installation, and active status.
-- Shows profile links, installations, Matrix handles, and functional areas when available.
+- Lets you search members and filter by timezone and installation.
+- Shows GitHub usernames alongside timezone, primary installation, Zulip ID, and ORCID when available.
 
 ## Run it
 

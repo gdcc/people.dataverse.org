@@ -5,14 +5,9 @@ const REMOTE_TSV_URL =
 
 const fieldLabels = {
   timezone: "Timezone",
-  matrixName: "Matrix",
   primaryInstallation: "Primary installation",
-  sweets: "Sweets",
   zulipId: "Zulip ID",
   orcid: "ORCID",
-  functionalAreas: "Functional areas",
-  shoutOut: "Shout out",
-  freenodeNick: "Freenode nick",
 };
 
 const state = {
@@ -23,7 +18,6 @@ const state = {
     search: "",
     timezone: "",
     installation: "",
-    activeOnly: false,
   },
 };
 
@@ -31,11 +25,9 @@ const elements = {
   searchInput: document.querySelector("#search-input"),
   timezoneFilter: document.querySelector("#timezone-filter"),
   installationFilter: document.querySelector("#installation-filter"),
-  activeFilter: document.querySelector("#active-filter"),
   resetButton: document.querySelector("#reset-button"),
   refreshButton: document.querySelector("#refresh-button"),
   profileCount: document.querySelector("#profile-count"),
-  activeCount: document.querySelector("#active-count"),
   installationCount: document.querySelector("#installation-count"),
   timezoneCount: document.querySelector("#timezone-count"),
   sourceBadge: document.querySelector("#source-badge"),
@@ -98,22 +90,15 @@ function bindEvents() {
     render();
   });
 
-  elements.activeFilter.addEventListener("change", (event) => {
-    state.filters.activeOnly = event.target.checked;
-    render();
-  });
-
   elements.resetButton.addEventListener("click", () => {
     state.filters = {
       search: "",
       timezone: "",
       installation: "",
-      activeOnly: false,
     };
     elements.searchInput.value = "";
     elements.timezoneFilter.value = "";
     elements.installationFilter.value = "";
-    elements.activeFilter.checked = false;
     render();
   });
 
@@ -130,9 +115,6 @@ function render() {
 function updateStats(filteredMembers) {
   const allMembers = state.members;
   elements.profileCount.textContent = filteredMembers.length.toString();
-  elements.activeCount.textContent = filteredMembers
-    .filter((member) => member.active)
-    .length.toString();
   elements.installationCount.textContent = uniqueCount(
     filteredMembers.map((member) => member.primaryInstallation),
   ).toString();
@@ -148,14 +130,13 @@ function updateStats(filteredMembers) {
 }
 
 function renderMeta(filteredMembers) {
-  const { timezone, installation, activeOnly, search } = state.filters;
-  const activeLabel = activeOnly ? " active" : "";
+  const { timezone, installation, search } = state.filters;
   const timezoneLabel = timezone ? ` in ${timezone}` : "";
   const installationLabel = installation ? ` at ${installation}` : "";
   const searchLabel = search ? ` matching "${search}"` : "";
 
   elements.resultsCopy.textContent =
-    `${filteredMembers.length} members${activeLabel}${timezoneLabel}${installationLabel}${searchLabel}.`.replace(
+    `${filteredMembers.length} members${timezoneLabel}${installationLabel}${searchLabel}.`.replace(
       /\s+\./,
       ".",
     );
@@ -178,21 +159,12 @@ function renderCards(members) {
     const node = elements.cardTemplate.content.firstElementChild.cloneNode(true);
     node.querySelector(".member-name").textContent = member.githubUsername;
 
-    const status = node.querySelector(".status-pill");
-    status.textContent = member.active ? "Active" : "Listed";
-    status.className = `status-pill ${member.active ? "is-active" : "is-inactive"}`;
-
     const meta = node.querySelector(".member-meta");
     const fields = [
       "timezone",
-      "matrixName",
       "primaryInstallation",
-      "functionalAreas",
-      "sweets",
       "zulipId",
       "orcid",
-      "shoutOut",
-      "freenodeNick",
     ];
 
     for (const key of fields) {
@@ -210,14 +182,7 @@ function renderCards(members) {
     }
 
     const links = node.querySelector(".member-links");
-    const linkSpecs = [
-      [
-        `https://github.com/${member.githubUsername}`,
-        "GitHub profile",
-      ],
-      [member.examplePullRequest, "Example PR"],
-      [member.url, "Project URL"],
-    ].filter(([href]) => Boolean(href));
+    const linkSpecs = [[`https://github.com/${member.githubUsername}`, "GitHub profile"]];
 
     for (const [href, label] of linkSpecs) {
       const anchor = document.createElement("a");
@@ -269,7 +234,6 @@ function fillSelect(element, values, defaultLabel, selectedValue) {
 
 function filterMembers(members, filters) {
   return [...members]
-    .filter((member) => !filters.activeOnly || member.active)
     .filter((member) => !filters.timezone || member.timezone === filters.timezone)
     .filter(
       (member) =>
@@ -277,13 +241,7 @@ function filterMembers(members, filters) {
         member.primaryInstallation === filters.installation,
     )
     .filter((member) => matchesSearch(member, filters.search))
-    .sort((left, right) => {
-      if (left.active !== right.active) {
-        return Number(right.active) - Number(left.active);
-      }
-
-      return left.githubUsername.localeCompare(right.githubUsername);
-    });
+    .sort((left, right) => left.githubUsername.localeCompare(right.githubUsername));
 }
 
 function matchesSearch(member, search) {
@@ -302,17 +260,9 @@ function normalizeMembers(rows) {
     .map((row) => ({
       githubUsername: row["GitHub Username"]?.trim() ?? "",
       timezone: row.Timezone?.trim() ?? "",
-      matrixName: row["Matrix name"]?.trim() ?? "",
       primaryInstallation: row["Primary installation"]?.trim() ?? "",
-      sweets: row.Sweets?.trim() ?? "",
       zulipId: row["Zulip ID"]?.trim() ?? "",
-      active: isTruthy(row.Active),
       orcid: row.ORCID?.trim() ?? "",
-      functionalAreas: row["Functional Areas"]?.trim() ?? "",
-      examplePullRequest: row["Example pull request"]?.trim() ?? "",
-      shoutOut: row["Shout out"]?.trim() ?? "",
-      url: row.URL?.trim() ?? "",
-      freenodeNick: row["freenode nick"]?.trim() ?? "",
     }))
     .filter((member) => member.githubUsername);
 }
@@ -338,10 +288,6 @@ function uniqueValues(values) {
 
 function uniqueCount(values) {
   return uniqueValues(values).length;
-}
-
-function isTruthy(value) {
-  return ["1", "true", "yes"].includes(String(value).trim().toLowerCase());
 }
 
 function formatDate(value) {

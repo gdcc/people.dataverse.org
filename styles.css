@@ -56,7 +56,6 @@ body {
 .member-kicker,
 .stat-label,
 .field span,
-.toggle span,
 .source-note,
 .results-header p {
   color: var(--muted);
@@ -189,8 +188,7 @@ select {
   padding: 8px 4px;
 }
 
-.badge,
-.status-pill {
+.badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -227,18 +225,6 @@ select {
   background: rgba(255, 255, 255, 0.9);
   color: var(--text);
   padding: 0 16px;
-}
-
-.toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 50px;
-  padding: 0 12px;
-}
-
-.toggle input {
-  min-height: auto;
 }
 
 .results-header {
@@ -283,16 +269,6 @@ select {
 .member-name {
   font-size: 1.3rem;
   line-height: 1.1;
-}
-
-.status-pill.is-active {
-  background: rgba(14, 124, 102, 0.14);
-  color: var(--accent-strong);
-}
-
-.status-pill.is-inactive {
-  background: rgba(94, 104, 111, 0.12);
-  color: var(--muted);
 }
 
 .member-meta {
@@ -364,8 +340,7 @@ select {
     align-items: stretch;
   }
 
-  .field,
-  .toggle {
+  .field {
     width: 100%;
   }
 }
