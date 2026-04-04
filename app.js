@@ -209,7 +209,7 @@ function renderCards(members) {
       const dt = document.createElement("dt");
       const dd = document.createElement("dd");
       dt.textContent = fieldLabels[key];
-      dd.textContent = member[key];
+      appendFieldValue(dd, member[key]);
       wrapper.append(dt, dd);
       meta.append(wrapper);
     }
@@ -336,6 +336,45 @@ function formatDate(value) {
 
 function getGitHubAvatarUrl(username) {
   return `https://github.com/${encodeURIComponent(username)}.png`;
+}
+
+function appendFieldValue(container, value) {
+  const text = String(value ?? "").trim();
+  const href = toExternalHref(text);
+
+  if (!href) {
+    container.textContent = text;
+    return;
+  }
+
+  const anchor = document.createElement("a");
+  anchor.href = href;
+  anchor.target = "_blank";
+  anchor.rel = "noreferrer";
+  anchor.textContent = text;
+  container.append(anchor);
+}
+
+function toExternalHref(value) {
+  if (!value) {
+    return "";
+  }
+
+  if (/^https?:\/\//i.test(value)) {
+    return value;
+  }
+
+  if (isHostname(value)) {
+    return `https://${value}`;
+  }
+
+  return "";
+}
+
+function isHostname(value) {
+  return /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$/i.test(
+    value,
+  );
 }
 
 function extractMember(row) {
