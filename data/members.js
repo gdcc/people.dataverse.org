@@ -2,9 +2,9 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T22:55:25.712Z",
+  "generatedAt": "2026-04-04T23:09:14.967Z",
   "rowCount": 296,
-  "matchedCountryCount": 128,
+  "matchedCountryCount": 130,
   "matchedGitHubProfileCount": 292
 };
 
@@ -4247,7 +4247,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "cristobaltapia",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "darus.uni-stuttgart.de",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -4257,7 +4257,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Germany",
     "GitHub Profile": {
       "login": "cristobaltapia",
       "name": "Cristóbal Tapia",
@@ -4667,7 +4667,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "kaczmirek",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "data.aussda.at",
     "Sweets": "",
     "Zulip ID": "",
     "Active": "",
@@ -4677,7 +4677,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Austria",
     "GitHub Profile": {
       "login": "kaczmirek",
       "name": "Lars Kaczmirek",
