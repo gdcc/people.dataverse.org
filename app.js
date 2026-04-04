@@ -224,21 +224,6 @@ function renderCards(members) {
       wrapper.append(dt, dd);
       meta.append(wrapper);
     }
-
-    const links = node.querySelector(".member-links");
-    const linkSpecs = [
-      [member.htmlUrl || `https://github.com/${member.githubUsername}`, "GitHub profile"],
-    ];
-
-    for (const [href, label] of linkSpecs) {
-      const anchor = document.createElement("a");
-      anchor.href = href;
-      anchor.target = "_blank";
-      anchor.rel = "noreferrer";
-      anchor.textContent = label;
-      links.append(anchor);
-    }
-
     fragment.append(node);
   }
 
