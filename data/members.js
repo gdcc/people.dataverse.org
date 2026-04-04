@@ -2,9 +2,9 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T22:13:54.554Z",
+  "generatedAt": "2026-04-04T22:19:32.147Z",
   "rowCount": 296,
-  "matchedCountryCount": 124,
+  "matchedCountryCount": 125,
   "matchedGitHubProfileCount": 292
 };
 
@@ -793,9 +793,9 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "amandhawb",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "dataverse.fiu.edu",
     "Sweets": "",
-    "Zulip ID": "",
+    "Zulip ID": "940523",
     "Active": "",
     "ORCID": "",
     "Functional Areas": "",
@@ -803,7 +803,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "USA",
     "GitHub Profile": {
       "login": "amandhawb",
       "name": "Amandha Wingert Barok",
