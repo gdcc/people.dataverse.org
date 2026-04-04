@@ -2,9 +2,9 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T23:18:50.585Z",
+  "generatedAt": "2026-04-04T23:19:45.230Z",
   "rowCount": 296,
-  "matchedCountryCount": 133,
+  "matchedCountryCount": 134,
   "matchedGitHubProfileCount": 292
 };
 
@@ -13,7 +13,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "srmanda-cs",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "dataverse.unc.edu",
     "Sweets": "",
     "Zulip ID": "1034135",
     "Active": "",
@@ -23,7 +23,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "USA",
     "GitHub Profile": {
       "login": "srmanda-cs",
       "name": "Ash Manda",
