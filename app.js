@@ -6,6 +6,7 @@ const REMOTE_TSV_URL =
 const fieldLabels = {
   timezone: "Timezone",
   primaryInstallation: "Primary installation",
+  country: "Country",
   zulipId: "Zulip ID",
   orcid: "ORCID",
 };
@@ -18,6 +19,7 @@ const state = {
     search: "",
     timezone: "",
     installation: "",
+    country: "",
   },
 };
 
@@ -25,6 +27,7 @@ const elements = {
   searchInput: document.querySelector("#search-input"),
   timezoneFilter: document.querySelector("#timezone-filter"),
   installationFilter: document.querySelector("#installation-filter"),
+  countryFilter: document.querySelector("#country-filter"),
   resetButton: document.querySelector("#reset-button"),
   refreshButton: document.querySelector("#refresh-button"),
   profileCount: document.querySelector("#profile-count"),
@@ -90,15 +93,22 @@ function bindEvents() {
     render();
   });
 
+  elements.countryFilter.addEventListener("change", (event) => {
+    state.filters.country = event.target.value;
+    render();
+  });
+
   elements.resetButton.addEventListener("click", () => {
     state.filters = {
       search: "",
       timezone: "",
       installation: "",
+      country: "",
     };
     elements.searchInput.value = "";
     elements.timezoneFilter.value = "";
     elements.installationFilter.value = "";
+    elements.countryFilter.value = "";
     render();
   });
 
@@ -130,13 +140,14 @@ function updateStats(filteredMembers) {
 }
 
 function renderMeta(filteredMembers) {
-  const { timezone, installation, search } = state.filters;
+  const { timezone, installation, country, search } = state.filters;
   const timezoneLabel = timezone ? ` in ${timezone}` : "";
   const installationLabel = installation ? ` at ${installation}` : "";
+  const countryLabel = country ? ` in ${country}` : "";
   const searchLabel = search ? ` matching "${search}"` : "";
 
   elements.resultsCopy.textContent =
-    `${filteredMembers.length} members${timezoneLabel}${installationLabel}${searchLabel}.`.replace(
+    `${filteredMembers.length} members${timezoneLabel}${installationLabel}${countryLabel}${searchLabel}.`.replace(
       /\s+\./,
       ".",
     );
@@ -163,6 +174,7 @@ function renderCards(members) {
     const fields = [
       "timezone",
       "primaryInstallation",
+      "country",
       "zulipId",
       "orcid",
     ];
@@ -212,6 +224,12 @@ function populateFilters() {
     "All installations",
     state.filters.installation,
   );
+  fillSelect(
+    elements.countryFilter,
+    uniqueValues(state.members.map((member) => member.country)),
+    "All countries",
+    state.filters.country,
+  );
 }
 
 function fillSelect(element, values, defaultLabel, selectedValue) {
@@ -240,6 +258,7 @@ function filterMembers(members, filters) {
         !filters.installation ||
         member.primaryInstallation === filters.installation,
     )
+    .filter((member) => !filters.country || member.country === filters.country)
     .filter((member) => matchesSearch(member, filters.search))
     .sort((left, right) => left.githubUsername.localeCompare(right.githubUsername));
 }
@@ -261,6 +280,7 @@ function normalizeMembers(rows) {
       githubUsername: row["GitHub Username"]?.trim() ?? "",
       timezone: row.Timezone?.trim() ?? "",
       primaryInstallation: row["Primary installation"]?.trim() ?? "",
+      country: row.Country?.trim() ?? "",
       zulipId: row["Zulip ID"]?.trim() ?? "",
       orcid: row.ORCID?.trim() ?? "",
     }))
