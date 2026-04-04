@@ -172,6 +172,7 @@ function renderCards(members) {
     const avatar = node.querySelector(".member-avatar");
     const memberName = node.querySelector(".member-name");
     const displayName = node.querySelector(".member-display-name");
+    const displayHandle = node.querySelector(".member-display-handle");
     const bio = node.querySelector(".member-bio");
     memberName.textContent = member.name || member.githubUsername;
     avatar.src = member.avatarUrl || getGitHubAvatarUrl(member.githubUsername);
@@ -184,8 +185,9 @@ function renderCards(members) {
       },
       { once: true },
     );
-    displayName.textContent = member.name ? `@${member.githubUsername}` : "";
-    displayName.hidden = !member.name;
+    displayHandle.textContent = `@${member.githubUsername}`;
+    displayName.href = member.htmlUrl || `https://github.com/${member.githubUsername}`;
+    displayName.hidden = false;
     appendLinkedText(bio, member.bio || "");
     bio.hidden = !member.bio;
 

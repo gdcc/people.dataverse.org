@@ -285,8 +285,19 @@ select {
 }
 
 .member-display-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   margin: 6px 0 0;
   color: var(--muted);
+  text-decoration: none;
+}
+
+.member-display-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  opacity: 0.85;
 }
 
 .member-bio {
