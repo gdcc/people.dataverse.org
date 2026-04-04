@@ -2,10 +2,10 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T14:42:03.709Z",
-  "rowCount": 300,
+  "generatedAt": "2026-04-04T14:43:36.617Z",
+  "rowCount": 299,
   "matchedCountryCount": 119,
-  "matchedGitHubProfileCount": 296
+  "matchedGitHubProfileCount": 295
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -4841,36 +4841,6 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/jakobmolandergeus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/26303145?v=4"
-    }
-  },
-  {
-    "GitHub Username": "Gabriel-Besombes",
-    "Timezone": "",
-    "Matrix name": "",
-    "Primary installation": "",
-    "Sweets": "",
-    "Zulip ID": "",
-    "Active": "",
-    "ORCID": "",
-    "Functional Areas": "",
-    "Example pull request": "",
-    "Shout out": "",
-    "URL": "",
-    "freenode nick": "",
-    "Country": "",
-    "GitHub Profile": {
-      "login": "Gabriel-Besombes",
-      "name": "Gaby",
-      "company": "",
-      "location": "",
-      "bio": "",
-      "blog": "",
-      "twitterUsername": "",
-      "followers": 1,
-      "following": 3,
-      "publicRepos": 5,
-      "htmlUrl": "https://github.com/Gabriel-Besombes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43054081?v=4"
     }
   },
   {
