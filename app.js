@@ -201,7 +201,6 @@ function renderCards(members) {
     const meta = node.querySelector(".member-meta");
     const fields = [
       "primaryInstallation",
-      "country",
       "orcid",
       "githubLocation",
       "githubCompany",
@@ -217,7 +216,11 @@ function renderCards(members) {
       const dt = document.createElement("dt");
       const dd = document.createElement("dd");
       dt.textContent = fieldLabels[key];
-      appendFieldValue(dd, member[key]);
+      if (key === "primaryInstallation") {
+        appendInstallationValue(dd, member.primaryInstallation, member.country);
+      } else {
+        appendFieldValue(dd, member[key]);
+      }
       wrapper.append(dt, dd);
       meta.append(wrapper);
     }
@@ -352,6 +355,19 @@ function getZulipProfileUrl(zulipId) {
 
 function appendFieldValue(container, value) {
   appendLinkedText(container, String(value ?? "").trim());
+}
+
+function appendInstallationValue(container, installation, country) {
+  appendLinkedText(container, String(installation ?? "").trim());
+
+  if (!country) {
+    return;
+  }
+
+  container.append(document.createElement("br"));
+  const countryText = document.createElement("span");
+  countryText.textContent = `(${country})`;
+  container.append(countryText);
 }
 
 function appendLinkedText(container, value) {
