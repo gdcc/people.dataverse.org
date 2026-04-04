@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dataverse Community Directory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Community Explorer</p>
+        <h1>Dataverse Community Directory</h1>
+        <p class="hero-copy">
+          Browse contributors, installations, timezones, and contact points from
+          the shared community sheet.
+        </p>
+        <div class="hero-actions">
+          <button id="refresh-button" class="primary-button" type="button">
+            Refresh from source
+          </button>
+          <a
+            class="ghost-button"
+            href="https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/edit?gid=0#gid=0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open spreadsheet
+          </a>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel stats-panel" aria-label="Overview">
+          <div class="stat-card">
+            <span class="stat-label">Profiles</span>
+            <strong id="profile-count">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Active</span>
+            <strong id="active-count">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Installations</span>
+            <strong id="installation-count">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Timezones</span>
+            <strong id="timezone-count">0</strong>
+          </div>
+          <div class="source-note">
+            <span id="source-badge" class="badge">Bundled snapshot</span>
+            <span id="updated-at">Waiting for data</span>
+          </div>
+        </section>
+
+        <section class="panel controls-panel" aria-label="Filters">
+          <label class="field">
+            <span>Search</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Username, installation, matrix handle, skills..."
+            />
+          </label>
+          <label class="field">
+            <span>Timezone</span>
+            <select id="timezone-filter">
+              <option value="">All timezones</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Installation</span>
+            <select id="installation-filter">
+              <option value="">All installations</option>
+            </select>
+          </label>
+          <label class="toggle">
+            <input id="active-filter" type="checkbox" />
+            <span>Active only</span>
+          </label>
+          <button id="reset-button" class="ghost-button" type="button">
+            Reset filters
+          </button>
+        </section>
+
+        <section class="results-header" aria-label="Results summary">
+          <div>
+            <h2>Members</h2>
+            <p id="results-copy">Loading directory…</p>
+          </div>
+        </section>
+
+        <section id="card-grid" class="card-grid" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <template id="member-card-template">
+      <article class="member-card">
+        <div class="member-card-header">
+          <div>
+            <p class="member-kicker">GitHub</p>
+            <h3 class="member-name"></h3>
+          </div>
+          <span class="status-pill"></span>
+        </div>
+        <dl class="member-meta"></dl>
+        <div class="member-links"></div>
+      </article>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
