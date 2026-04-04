@@ -9,8 +9,12 @@ const fieldLabels = {
   country: "Country",
   zulipId: "Zulip ID",
   orcid: "ORCID",
+  githubLocation: "GitHub location",
+  githubCompany: "GitHub company",
+  githubBlog: "Website",
 };
 
+const enrichmentMaps = buildEnrichmentMaps(MEMBERS_SNAPSHOT);
 const state = {
   members: normalizeMembers(MEMBERS_SNAPSHOT),
   source: "snapshot",
@@ -170,7 +174,9 @@ function renderCards(members) {
     const node = elements.cardTemplate.content.firstElementChild.cloneNode(true);
     const avatar = node.querySelector(".member-avatar");
     node.querySelector(".member-name").textContent = member.githubUsername;
-    avatar.src = getGitHubAvatarUrl(member.githubUsername);
+    const displayName = node.querySelector(".member-display-name");
+    const bio = node.querySelector(".member-bio");
+    avatar.src = member.avatarUrl || getGitHubAvatarUrl(member.githubUsername);
     avatar.alt = `${member.githubUsername} avatar`;
     avatar.addEventListener(
       "error",
@@ -180,6 +186,10 @@ function renderCards(members) {
       },
       { once: true },
     );
+    displayName.textContent = member.name || "";
+    displayName.hidden = !member.name;
+    bio.textContent = member.bio || "";
+    bio.hidden = !member.bio;
 
     const meta = node.querySelector(".member-meta");
     const fields = [
@@ -188,6 +198,9 @@ function renderCards(members) {
       "country",
       "zulipId",
       "orcid",
+      "githubLocation",
+      "githubCompany",
+      "githubBlog",
     ];
 
     for (const key of fields) {
@@ -205,7 +218,9 @@ function renderCards(members) {
     }
 
     const links = node.querySelector(".member-links");
-    const linkSpecs = [[`https://github.com/${member.githubUsername}`, "GitHub profile"]];
+    const linkSpecs = [
+      [member.htmlUrl || `https://github.com/${member.githubUsername}`, "GitHub profile"],
+    ];
 
     for (const [href, label] of linkSpecs) {
       const anchor = document.createElement("a");
@@ -287,14 +302,7 @@ function matchesSearch(member, search) {
 
 function normalizeMembers(rows) {
   return rows
-    .map((row) => ({
-      githubUsername: row["GitHub Username"]?.trim() ?? "",
-      timezone: row.Timezone?.trim() ?? "",
-      primaryInstallation: row["Primary installation"]?.trim() ?? "",
-      country: row.Country?.trim() ?? "",
-      zulipId: row["Zulip ID"]?.trim() ?? "",
-      orcid: row.ORCID?.trim() ?? "",
-    }))
+    .map((row) => applyEnrichment(extractMember(row)))
     .filter((member) => member.githubUsername);
 }
 
@@ -334,4 +342,93 @@ function formatDate(value) {
 
 function getGitHubAvatarUrl(username) {
   return `https://github.com/${encodeURIComponent(username)}.png`;
+}
+
+function extractMember(row) {
+  return {
+    githubUsername: row["GitHub Username"]?.trim() ?? "",
+    timezone: row.Timezone?.trim() ?? "",
+    primaryInstallation: row["Primary installation"]?.trim() ?? "",
+    country: row.Country?.trim() ?? "",
+    zulipId: row["Zulip ID"]?.trim() ?? "",
+    orcid: row.ORCID?.trim() ?? "",
+    name: row["GitHub Profile"]?.name?.trim?.() ?? row["GitHub Profile"]?.name ?? "",
+    bio: row["GitHub Profile"]?.bio?.trim?.() ?? row["GitHub Profile"]?.bio ?? "",
+    githubLocation:
+      row["GitHub Profile"]?.location?.trim?.() ??
+      row["GitHub Profile"]?.location ??
+      "",
+    githubCompany:
+      row["GitHub Profile"]?.company?.trim?.() ??
+      row["GitHub Profile"]?.company ??
+      "",
+    githubBlog:
+      row["GitHub Profile"]?.blog?.trim?.() ?? row["GitHub Profile"]?.blog ?? "",
+    htmlUrl:
+      row["GitHub Profile"]?.htmlUrl?.trim?.() ??
+      row["GitHub Profile"]?.htmlUrl ??
+      "",
+    avatarUrl:
+      row["GitHub Profile"]?.avatarUrl?.trim?.() ??
+      row["GitHub Profile"]?.avatarUrl ??
+      "",
+  };
+}
+
+function applyEnrichment(member) {
+  const githubProfile = enrichmentMaps.githubByUsername.get(member.githubUsername) ?? {};
+  const country =
+    member.country ||
+    enrichmentMaps.countryByInstallation.get(member.primaryInstallation) ||
+    "";
+
+  return {
+    ...member,
+    country,
+    name: member.name || githubProfile.name || "",
+    bio: member.bio || githubProfile.bio || "",
+    githubLocation: member.githubLocation || githubProfile.githubLocation || "",
+    githubCompany: member.githubCompany || githubProfile.githubCompany || "",
+    githubBlog: member.githubBlog || githubProfile.githubBlog || "",
+    htmlUrl: member.htmlUrl || githubProfile.htmlUrl || "",
+    avatarUrl: member.avatarUrl || githubProfile.avatarUrl || "",
+  };
+}
+
+function buildEnrichmentMaps(rows) {
+  const countryByInstallation = new Map();
+  const githubByUsername = new Map();
+
+  for (const row of rows) {
+    const member = extractMember(row);
+    if (member.primaryInstallation && member.country) {
+      countryByInstallation.set(member.primaryInstallation, member.country);
+    }
+
+    if (
+      member.githubUsername &&
+      (member.name ||
+        member.bio ||
+        member.githubLocation ||
+        member.githubCompany ||
+        member.githubBlog ||
+        member.htmlUrl ||
+        member.avatarUrl)
+    ) {
+      githubByUsername.set(member.githubUsername, {
+        name: member.name,
+        bio: member.bio,
+        githubLocation: member.githubLocation,
+        githubCompany: member.githubCompany,
+        githubBlog: member.githubBlog,
+        htmlUrl: member.htmlUrl,
+        avatarUrl: member.avatarUrl,
+      });
+    }
+  }
+
+  return {
+    countryByInstallation,
+    githubByUsername,
+  };
 }

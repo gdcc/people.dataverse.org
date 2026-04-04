@@ -7,6 +7,7 @@ A lightweight browser app for exploring the community TSV at:
 ## What it does
 
 - Loads a bundled snapshot of the sheet so the app works immediately.
+- Uses cached GitHub API profile data so member cards can show richer profile details without runtime API calls.
 - Supports live refresh from the Google Sheets TSV export.
 - Lets you search members and filter by timezone, installation, and country.
 - Shows GitHub usernames alongside timezone, primary installation, country, Zulip ID, and ORCID when available.
@@ -28,5 +29,8 @@ If the cached source files change and you want to update the checked-in snapshot
 ```bash
 ./scripts/download-tsv.sh
 ./scripts/download-installations-json.sh
+node ./scripts/update-github-users.mjs
 node ./scripts/build-data.mjs
 ```
+
+If you set `GITHUB_TOKEN`, the GitHub profile refresh can fetch many more users before hitting rate limits.

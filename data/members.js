@@ -1,9 +1,11 @@
 export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
-  "generatedAt": "2026-04-04T01:44:55.098Z",
+  "githubUserSource": "https://api.github.com/users/{username}",
+  "generatedAt": "2026-04-04T02:01:52.918Z",
   "rowCount": 300,
-  "matchedCountryCount": 105
+  "matchedCountryCount": 105,
+  "matchedGitHubProfileCount": 58
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -21,7 +23,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "srmanda-cs",
+      "name": "Ash Manda",
+      "company": "University of North Carolina at Chapel Hill",
+      "location": "Chapel Hill, NC",
+      "bio": "I do computers kinda stuff for cash.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 31,
+      "following": 31,
+      "publicRepos": 10,
+      "htmlUrl": "https://github.com/srmanda-cs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72903456?v=4"
+    }
   },
   {
     "GitHub Username": "yesilms",
@@ -37,7 +53,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "yesilms",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/yesilms",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/215659881?v=4"
+    }
   },
   {
     "GitHub Username": "ProfPhoenix",
@@ -53,7 +83,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "ProfPhoenix",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "Ph.D. student in Germany.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/ProfPhoenix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89162090?v=4"
+    }
   },
   {
     "GitHub Username": "christopherkenny",
@@ -69,7 +113,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "christopherkenny",
+      "name": "Christopher T. Kenny",
+      "company": "Princeton University",
+      "location": "Princeton, NJ",
+      "bio": "Postdoc @princeton-ddss.\r\nRedistricting and rstats.  \r\n\r\nHarvard Government PhD '25.   \r\nCornell '19.",
+      "blog": "https://www.christophertkenny.com",
+      "twitterUsername": "chris_t_kenny",
+      "followers": 141,
+      "following": 25,
+      "publicRepos": 112,
+      "htmlUrl": "https://github.com/christopherkenny",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28026893?v=4"
+    }
   },
   {
     "GitHub Username": "Parthsuii",
@@ -85,7 +143,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Parthsuii",
+      "name": "Parth karalkar",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 14,
+      "htmlUrl": "https://github.com/Parthsuii",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125957510?v=4"
+    }
   },
   {
     "GitHub Username": "AnneGerlach",
@@ -101,7 +173,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "AnneGerlach",
+      "name": "Anne Gerlach",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 4,
+      "following": 4,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/AnneGerlach",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45122888?v=4"
+    }
   },
   {
     "GitHub Username": "isaacpratt",
@@ -117,7 +203,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "isaacpratt",
+      "name": "Isaac Pratt",
+      "company": "@McMaster-University-Library ",
+      "location": "Canada",
+      "bio": "Research Data Management Specialist @McMaster-University-Library ",
+      "blog": "isaacpratt.ca",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/isaacpratt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22667420?v=4"
+    }
   },
   {
     "GitHub Username": "gtsueng",
@@ -133,7 +233,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "gtsueng",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 4,
+      "publicRepos": 70,
+      "htmlUrl": "https://github.com/gtsueng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9200138?v=4"
+    }
   },
   {
     "GitHub Username": "Ozoubia",
@@ -149,7 +263,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Ozoubia",
+      "name": "Oussama Zoubia",
+      "company": "Uni Klinik Koln",
+      "location": "Düren, Germany",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 13,
+      "following": 23,
+      "publicRepos": 54,
+      "htmlUrl": "https://github.com/Ozoubia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18463201?v=4"
+    }
   },
   {
     "GitHub Username": "alungarska",
@@ -165,7 +293,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "alungarska",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/alungarska",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50579708?v=4"
+    }
   },
   {
     "GitHub Username": "TillJan",
@@ -181,7 +323,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "TillJan",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/TillJan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/129257955?v=4"
+    }
   },
   {
     "GitHub Username": "c2dhfma",
@@ -197,7 +353,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "c2dhfma",
+      "name": "Frederic Maguin",
+      "company": "C²DH - Université du Luxembourg",
+      "location": "Esch-sur-Alzette",
+      "bio": "",
+      "blog": "https://www.uni.lu/c2dh-en/",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/c2dhfma",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134602822?v=4"
+    }
   },
   {
     "GitHub Username": "22tb",
@@ -213,7 +383,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "22tb",
+      "name": "Tobi",
+      "company": "",
+      "location": "Brunswick, Lower-Saxony",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 6,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/22tb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51000626?v=4"
+    }
   },
   {
     "GitHub Username": "JulianRein",
@@ -229,7 +413,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "JulianRein",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 6,
+      "htmlUrl": "https://github.com/JulianRein",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35046938?v=4"
+    }
   },
   {
     "GitHub Username": "Sathvikaundala",
@@ -245,7 +443,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Sathvikaundala",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 39,
+      "htmlUrl": "https://github.com/Sathvikaundala",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/221063571?v=4"
+    }
   },
   {
     "GitHub Username": "juriroemer",
@@ -261,7 +473,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "juriroemer",
+      "name": "Juri",
+      "company": "University of Münster",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 6,
+      "following": 13,
+      "publicRepos": 14,
+      "htmlUrl": "https://github.com/juriroemer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31971585?v=4"
+    }
   },
   {
     "GitHub Username": "ainajene",
@@ -277,7 +503,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "ainajene",
+      "name": "",
+      "company": "BSC",
+      "location": "Barcelona",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/ainajene",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72206387?v=4"
+    }
   },
   {
     "GitHub Username": "hitzelbe",
@@ -293,7 +533,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "hitzelbe",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/hitzelbe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49186209?v=4"
+    }
   },
   {
     "GitHub Username": "jennaqi2001",
@@ -309,7 +563,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "jennaqi2001",
+      "name": "Yijia Jenna Qi",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 10,
+      "htmlUrl": "https://github.com/jennaqi2001",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90373001?v=4"
+    }
   },
   {
     "GitHub Username": "Maham802",
@@ -325,7 +593,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Maham802",
+      "name": "Maham Maham",
+      "company": "",
+      "location": "Turin, Italy",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 9,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/Maham802",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116267645?v=4"
+    }
   },
   {
     "GitHub Username": "konradoberwimmer",
@@ -341,7 +623,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "konradoberwimmer",
+      "name": "Konrad Oberwimmer",
+      "company": "",
+      "location": "Austria",
+      "bio": "Former social scientist, now software developer (C#, .NET, Rust, PHP, Symfony, JS, R).",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 5,
+      "following": 1,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/konradoberwimmer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12108511?v=4"
+    }
   },
   {
     "GitHub Username": "bryanmgee",
@@ -357,7 +653,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": {
+      "login": "bryanmgee",
+      "name": "Bryan Gee",
+      "company": "",
+      "location": "",
+      "bio": "Research data librarian @ the University of Texas at Austin by day; amphibian paleontologist by night. B.A. in Geology; Ph.D. in Ecology & Evolutionary Biology",
+      "blog": "https://bryangee.weebly.com/",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/bryanmgee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113212676?v=4"
+    }
   },
   {
     "GitHub Username": "emmaw786",
@@ -373,7 +683,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "emmaw786",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/emmaw786",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/204848579?v=4"
+    }
   },
   {
     "GitHub Username": "joannag555",
@@ -389,7 +713,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "joannag555",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/joannag555",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/224524825?v=4"
+    }
   },
   {
     "GitHub Username": "cesarpferreira",
@@ -405,7 +743,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "cesarpferreira",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 6,
+      "htmlUrl": "https://github.com/cesarpferreira",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100295910?v=4"
+    }
   },
   {
     "GitHub Username": "yaof22",
@@ -421,7 +773,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "yaof22",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/yaof22",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/203778983?v=4"
+    }
   },
   {
     "GitHub Username": "amandhawb",
@@ -437,7 +803,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "amandhawb",
+      "name": "Amandha Wingert Barok",
+      "company": "FIU",
+      "location": "Miami, FL",
+      "bio": "Software Engineer at FIU Research Center",
+      "blog": "www.linkedin.com/in/amandha-barok/",
+      "twitterUsername": "",
+      "followers": 103,
+      "following": 75,
+      "publicRepos": 29,
+      "htmlUrl": "https://github.com/amandhawb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74625367?v=4"
+    }
   },
   {
     "GitHub Username": "datacuratorcsuc",
@@ -453,7 +833,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "datacuratorcsuc",
+      "name": "Curació Dades CSUC",
+      "company": "Consorci de Serveis Universitaris de Catalunya",
+      "location": "Barcelona",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 1,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/datacuratorcsuc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/161481307?v=4"
+    }
   },
   {
     "GitHub Username": "jonathanbohan",
@@ -469,7 +863,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "jonathanbohan",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/jonathanbohan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33063235?v=4"
+    }
   },
   {
     "GitHub Username": "shuffle2",
@@ -485,7 +893,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "shuffle2",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 58,
+      "htmlUrl": "https://github.com/shuffle2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113063?v=4"
+    }
   },
   {
     "GitHub Username": "thisisbillie",
@@ -501,7 +923,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "thisisbillie",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 2,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/thisisbillie",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/95002283?v=4"
+    }
   },
   {
     "GitHub Username": "univiedev",
@@ -517,7 +953,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "univiedev",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/univiedev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/219859838?v=4"
+    }
   },
   {
     "GitHub Username": "foa2",
@@ -533,7 +983,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "foa2",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 11,
+      "htmlUrl": "https://github.com/foa2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9935074?v=4"
+    }
   },
   {
     "GitHub Username": "superpegaso2703",
@@ -549,7 +1013,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "superpegaso2703",
+      "name": "Pablo Picurelli Ortiz ",
+      "company": "",
+      "location": "",
+      "bio": "Pentester.\r\nRootedCON2026 speaker.\r\nHTB CPTS, HTB CWES.\r\nCybersecurity student at URJC.\r\nWinner of second prize in III URJC bug bounty program ",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 7,
+      "following": 27,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/superpegaso2703",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/177873564?v=4"
+    }
   },
   {
     "GitHub Username": "Athemis",
@@ -565,7 +1043,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Athemis",
+      "name": "Alexander Minges",
+      "company": "University of Duisburg-Essen",
+      "location": "Germany",
+      "bio": "Former Structural Biologist turned Data Steward",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 20,
+      "following": 2,
+      "publicRepos": 110,
+      "htmlUrl": "https://github.com/Athemis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/552653?v=4"
+    }
   },
   {
     "GitHub Username": "Firestar-Reimu",
@@ -581,7 +1073,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Firestar-Reimu",
+      "name": "Firestar-Reimu",
+      "company": "",
+      "location": "Peking University",
+      "bio": "今宵は永い夜になるだろう。",
+      "blog": "blog.firestar-reimu.top",
+      "twitterUsername": "",
+      "followers": 34,
+      "following": 50,
+      "publicRepos": 24,
+      "htmlUrl": "https://github.com/Firestar-Reimu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65082432?v=4"
+    }
   },
   {
     "GitHub Username": "emily-katz",
@@ -597,7 +1103,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "emily-katz",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/emily-katz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/165943350?v=4"
+    }
   },
   {
     "GitHub Username": "kenlhlui",
@@ -613,7 +1133,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "kenlhlui",
+      "name": "Ken Lui",
+      "company": "@MDLutoronto",
+      "location": "Toronto",
+      "bio": "I work in a library.",
+      "blog": "",
+      "twitterUsername": "kenlhlui",
+      "followers": 13,
+      "following": 60,
+      "publicRepos": 22,
+      "htmlUrl": "https://github.com/kenlhlui",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116421546?v=4"
+    }
   },
   {
     "GitHub Username": "prpfialho",
@@ -629,7 +1163,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "prpfialho",
+      "name": "Pedro Fialho",
+      "company": "",
+      "location": "Lisboa",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 27,
+      "publicRepos": 8,
+      "htmlUrl": "https://github.com/prpfialho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7935214?v=4"
+    }
   },
   {
     "GitHub Username": "rachfern85",
@@ -645,7 +1193,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": {
+      "login": "rachfern85",
+      "name": "Rachel Fernandez",
+      "company": "",
+      "location": "Arizona",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/rachfern85",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59843025?v=4"
+    }
   },
   {
     "GitHub Username": "chrisjcameron",
@@ -661,7 +1223,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "chrisjcameron",
+      "name": "",
+      "company": "Cornell",
+      "location": "Northeast USA",
+      "bio": "",
+      "blog": "chrisjcameron.github.io",
+      "twitterUsername": "",
+      "followers": 10,
+      "following": 1,
+      "publicRepos": 11,
+      "htmlUrl": "https://github.com/chrisjcameron",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1383080?v=4"
+    }
   },
   {
     "GitHub Username": "wshahn",
@@ -677,7 +1253,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "wshahn",
+      "name": "",
+      "company": "",
+      "location": "Chapel Hill, NC",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/wshahn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/162052406?v=4"
+    }
   },
   {
     "GitHub Username": "jpedataeditor",
@@ -693,7 +1283,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "jpedataeditor",
+      "name": "JPE Data Editor",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "https://jpedataeditor.github.io/",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/jpedataeditor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/191240343?v=4"
+    }
   },
   {
     "GitHub Username": "mbarram",
@@ -709,7 +1313,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "mbarram",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/mbarram",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/152221784?v=4"
+    }
   },
   {
     "GitHub Username": "kwenzig",
@@ -725,7 +1343,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "kwenzig",
+      "name": "Knut Wenzig",
+      "company": "DIW Berlin",
+      "location": "Berlin",
+      "bio": "",
+      "blog": "http://www.diw.de/cv/en/kwenzig",
+      "twitterUsername": "",
+      "followers": 14,
+      "following": 31,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/kwenzig",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6614820?v=4"
+    }
   },
   {
     "GitHub Username": "kbatyuk",
@@ -741,7 +1373,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "kbatyuk",
+      "name": "Kirill Batyuk",
+      "company": "WHOI",
+      "location": "Falmouth, MA",
+      "bio": "Systems Librarian at the MBLWHOI Library",
+      "blog": "http://mblwhoilibrary.org",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/kbatyuk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44371797?v=4"
+    }
   },
   {
     "GitHub Username": "daniel-om-weber",
@@ -757,7 +1403,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "daniel-om-weber",
+      "name": "Daniel Weber",
+      "company": "Leibniz Universität Hannover",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 2,
+      "publicRepos": 15,
+      "htmlUrl": "https://github.com/daniel-om-weber",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37004549?v=4"
+    }
   },
   {
     "GitHub Username": "synapticrain",
@@ -773,7 +1433,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "synapticrain",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 2,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/synapticrain",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46411893?v=4"
+    }
   },
   {
     "GitHub Username": "miramgleiber",
@@ -789,7 +1463,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "miramgleiber",
+      "name": "Miram Gleiber",
+      "company": "",
+      "location": "Newport, Oregon",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/miramgleiber",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19195120?v=4"
+    }
   },
   {
     "GitHub Username": "ahsouri",
@@ -805,7 +1493,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "ahsouri",
+      "name": "Amir H. Souri",
+      "company": "NASA Goddard Space Flight Center",
+      "location": "MA",
+      "bio": "A researcher working on atmospheric models and satellite data ",
+      "blog": "ahsouri.com",
+      "twitterUsername": "",
+      "followers": 21,
+      "following": 1,
+      "publicRepos": 20,
+      "htmlUrl": "https://github.com/ahsouri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40439250?v=4"
+    }
   },
   {
     "GitHub Username": "CharityEverett",
@@ -821,7 +1523,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "CharityEverett",
+      "name": "Charity Everett",
+      "company": "",
+      "location": "",
+      "bio": "WebXR Journalist | Immersive Storyteller | Award-Winning XR Producer",
+      "blog": "",
+      "twitterUsername": "CharityLovesXR",
+      "followers": 1,
+      "following": 6,
+      "publicRepos": 45,
+      "htmlUrl": "https://github.com/CharityEverett",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/155777861?v=4"
+    }
   },
   {
     "GitHub Username": "javieru-dialnet",
@@ -837,7 +1553,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "javieru-dialnet",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/javieru-dialnet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/203098969?v=4"
+    }
   },
   {
     "GitHub Username": "Baroti",
@@ -853,7 +1583,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Baroti",
+      "name": "Steve Baroti",
+      "company": "University of Toronto Libraries",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 4,
+      "publicRepos": 11,
+      "htmlUrl": "https://github.com/Baroti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2582511?v=4"
+    }
   },
   {
     "GitHub Username": "Jerry-Ma",
@@ -869,7 +1613,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Jerry-Ma",
+      "name": "Zhiyuan  Ma",
+      "company": "University of Massachusetts",
+      "location": "Amherst, MA",
+      "bio": "\r\n    Astronomer\r\n",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 11,
+      "following": 4,
+      "publicRepos": 59,
+      "htmlUrl": "https://github.com/Jerry-Ma",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2752708?v=4"
+    }
   },
   {
     "GitHub Username": "Odysseas640",
@@ -885,7 +1643,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "Odysseas640",
+      "name": "Odysseas Stefas",
+      "company": "",
+      "location": "Greece",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 6,
+      "following": 1,
+      "publicRepos": 17,
+      "htmlUrl": "https://github.com/Odysseas640",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68035017?v=4"
+    }
   },
   {
     "GitHub Username": "aliassheikh",
@@ -901,7 +1673,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "aliassheikh",
+      "name": "Alias",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 45,
+      "htmlUrl": "https://github.com/aliassheikh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93505057?v=4"
+    }
   },
   {
     "GitHub Username": "andrecastro0o",
@@ -917,7 +1703,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "andrecastro0o",
+      "name": "André Castro",
+      "company": "DANS",
+      "location": "Netherlands",
+      "bio": "@DANS-KNAW Integrations Systems Team",
+      "blog": "https://artserver.org/",
+      "twitterUsername": "",
+      "followers": 17,
+      "following": 48,
+      "publicRepos": 23,
+      "htmlUrl": "https://github.com/andrecastro0o",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1690557?v=4"
+    }
   },
   {
     "GitHub Username": "davidverdu",
@@ -933,7 +1733,21 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": {
+      "login": "davidverdu",
+      "name": "David Verdú",
+      "company": "",
+      "location": "Las Palmas de Gran Canaria - Spain",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 7,
+      "following": 17,
+      "publicRepos": 12,
+      "htmlUrl": "https://github.com/davidverdu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7900069?v=4"
+    }
   },
   {
     "GitHub Username": "kjentech",
@@ -949,7 +1763,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jamessi1989",
@@ -965,7 +1780,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jdmar3",
@@ -981,7 +1797,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "BenediktMeierUIT",
@@ -997,7 +1814,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "super-lou",
@@ -1013,7 +1831,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "summitcheung",
@@ -1029,7 +1848,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "mlage",
@@ -1045,7 +1865,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "reikoch",
@@ -1061,7 +1882,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "fgassert",
@@ -1077,7 +1899,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jbiernaux",
@@ -1093,7 +1916,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "AFIOCCA-INRAE",
@@ -1109,7 +1933,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "seaneu",
@@ -1125,7 +1950,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "BeebBenjamin",
@@ -1141,7 +1967,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bikramj",
@@ -1157,7 +1984,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "apmireia",
@@ -1173,7 +2001,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "lobbikerivm",
@@ -1189,7 +2018,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jarulsamy",
@@ -1205,7 +2035,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "RemieJanssen",
@@ -1221,7 +2052,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "samusz",
@@ -1237,7 +2069,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "plecor",
@@ -1253,7 +2086,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bseeger",
@@ -1269,7 +2103,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "nana-boateng",
@@ -1285,7 +2120,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "okaradeniz",
@@ -1301,7 +2137,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Belgium"
+    "Country": "Belgium",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "glevyhas",
@@ -1317,7 +2154,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Gepiro",
@@ -1333,7 +2171,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "erodde",
@@ -1349,7 +2188,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Esteban-Mtz",
@@ -1365,7 +2205,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "diptechexpo",
@@ -1381,7 +2222,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "faborg",
@@ -1397,7 +2239,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "younnoh",
@@ -1413,7 +2256,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "vaidap",
@@ -1429,7 +2273,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "vbonamy",
@@ -1445,7 +2290,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "PatrickKibies",
@@ -1461,7 +2307,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Cook4986",
@@ -1477,7 +2324,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jonquet",
@@ -1493,7 +2341,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "zearaujo25",
@@ -1509,7 +2358,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "larsvilhuber",
@@ -1525,7 +2375,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bnavigator",
@@ -1541,7 +2392,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "RoHei",
@@ -1557,7 +2409,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "foobarbecue",
@@ -1573,7 +2426,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "poikilotherm",
@@ -1589,7 +2443,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "https://github.com/poikilotherm/dataverse",
     "freenode nick": "poikilotherm",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "gaelforget",
@@ -1605,7 +2460,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "TanayKarve",
@@ -1621,7 +2477,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "donsizemore",
@@ -1637,7 +2494,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "http://guides.dataverse.org/en/4.2.4/installation/prep.html#advanced-installation",
     "URL": "https://github.com/IQSS/dataverse-ansible",
     "freenode nick": "donsizemore",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "MellyGray",
@@ -1653,7 +2511,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "GPortas",
@@ -1669,7 +2528,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ErykKul",
@@ -1685,7 +2545,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Belgium"
+    "Country": "Belgium",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "johannes-darms",
@@ -1701,7 +2562,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "JR-1991",
@@ -1717,7 +2579,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "tcoupin",
@@ -1733,7 +2596,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "PaulBoon",
@@ -1749,7 +2613,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "https://github.com/DANS-KNAW/dataverse",
     "freenode nick": "",
-    "Country": "Netherlands"
+    "Country": "Netherlands",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "janvanmansum",
@@ -1765,7 +2630,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Netherlands"
+    "Country": "Netherlands",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "matthew-a-dunlap",
@@ -1781,7 +2647,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ericdevries",
@@ -1797,7 +2664,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "sirineREKIK",
@@ -1813,7 +2681,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "vera",
@@ -1829,7 +2698,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Kris-LIBIS",
@@ -1845,7 +2715,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Belgium"
+    "Country": "Belgium",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "4tikhonov",
@@ -1861,7 +2732,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Netherlands"
+    "Country": "Netherlands",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "philippconzett",
@@ -1877,7 +2749,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Norway"
+    "Country": "Norway",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "qqmyers",
@@ -1893,7 +2766,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "carlo318",
@@ -1909,7 +2783,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "atniph",
@@ -1925,7 +2800,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "hamidtam",
@@ -1941,7 +2817,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "DaftPug",
@@ -1957,7 +2834,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "nmunatsibw",
@@ -1973,7 +2851,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "JeyaSam",
@@ -1989,7 +2868,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "aseeland",
@@ -2005,7 +2885,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Nikos-Askitas",
@@ -2021,7 +2902,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "DominikWA",
@@ -2037,7 +2919,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "yh-repo",
@@ -2053,7 +2936,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "M-DOREL",
@@ -2069,7 +2953,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "tosunmerve",
@@ -2085,7 +2970,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Sakshi-75",
@@ -2101,7 +2987,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "JacekChudzik",
@@ -2117,7 +3004,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "JFLopez7",
@@ -2133,7 +3021,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "dozed",
@@ -2149,7 +3038,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bjosel",
@@ -2165,7 +3055,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "JBGruber",
@@ -2181,7 +3072,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Asbjoedt",
@@ -2197,7 +3089,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kobbejager",
@@ -2213,7 +3106,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "RichCaloggero",
@@ -2229,7 +3123,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "aadorian",
@@ -2245,7 +3140,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "zolttoth",
@@ -2261,7 +3157,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "phillipsjs",
@@ -2277,7 +3174,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kulsoomzahra",
@@ -2293,7 +3191,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "cristobaltapia",
@@ -2309,7 +3208,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jorgelpolanco",
@@ -2325,7 +3225,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "diego-guillen",
@@ -2341,7 +3242,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "DonRichards",
@@ -2357,7 +3259,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "stefanandonov",
@@ -2373,7 +3276,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "coret",
@@ -2389,7 +3293,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "wtr-icm",
@@ -2405,7 +3310,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bgunia",
@@ -2421,7 +3327,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "rwvaldivia",
@@ -2437,7 +3344,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "charmoniumQ",
@@ -2453,7 +3361,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "orazionelson",
@@ -2469,7 +3378,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "rawidiyaningrum",
@@ -2485,7 +3395,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "zieglerms",
@@ -2501,7 +3412,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "adkinsrs",
@@ -2517,7 +3429,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "guinslym",
@@ -2533,7 +3446,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kaczmirek",
@@ -2549,7 +3463,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "CB-HAL",
@@ -2565,7 +3480,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Ash84",
@@ -2581,7 +3497,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jakobmolandergeus",
@@ -2597,7 +3514,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Gabriel-Besombes",
@@ -2613,7 +3531,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "rhijmans",
@@ -2629,7 +3548,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "thiagombrasil",
@@ -2645,7 +3565,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "pablovp86",
@@ -2661,7 +3582,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "myi100",
@@ -2677,7 +3599,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "schorcht-ioer",
@@ -2693,7 +3616,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "aialves",
@@ -2709,7 +3633,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Portugal"
+    "Country": "Portugal",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "joelfan",
@@ -2725,7 +3650,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Italy"
+    "Country": "Italy",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "transfluxus",
@@ -2741,7 +3667,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "yikangfengnie",
@@ -2757,7 +3684,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ysuarez",
@@ -2773,7 +3701,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "luddaniel",
@@ -2789,7 +3718,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "maximilian-tech",
@@ -2805,7 +3735,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "dataversebot",
@@ -2821,7 +3752,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "markwilkinson",
@@ -2837,7 +3769,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ReneFGJr",
@@ -2853,7 +3786,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "yikangfengnie",
@@ -2869,7 +3803,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "beepsoft",
@@ -2885,7 +3820,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "vkush",
@@ -2901,7 +3837,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "josekarvalho",
@@ -2917,7 +3854,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Portugal"
+    "Country": "Portugal",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "j-n-c",
@@ -2933,7 +3871,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Portugal"
+    "Country": "Portugal",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "otter606",
@@ -2949,7 +3888,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Gabriel-Besombes",
@@ -2965,7 +3905,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jeromeroucou",
@@ -2981,7 +3922,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "shlake",
@@ -2997,7 +3939,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "michbarsinai",
@@ -3013,7 +3956,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "https://github.com/IQSS/dataverse",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "atrisovic",
@@ -3029,7 +3973,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "eugene-barsky",
@@ -3045,7 +3990,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kaitlinnewson",
@@ -3061,7 +4007,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "johnhuck",
@@ -3077,7 +4024,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "pkiraly",
@@ -3093,7 +4041,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "adam3smith",
@@ -3109,7 +4058,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bappun",
@@ -3125,7 +4075,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "AleixMT",
@@ -3141,7 +4092,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Spain"
+    "Country": "Spain",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "claudiodsf",
@@ -3157,7 +4109,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "CCMumma",
@@ -3173,7 +4126,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jmjamison",
@@ -3189,7 +4143,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jonc1438",
@@ -3205,7 +4160,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "solhm",
@@ -3221,7 +4177,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Mexico"
+    "Country": "Mexico",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Gerafp",
@@ -3237,7 +4194,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Mexico"
+    "Country": "Mexico",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "JoaoMFCardoso",
@@ -3253,7 +4211,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "zbenta",
@@ -3269,7 +4228,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Venki18",
@@ -3285,7 +4245,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Singapore"
+    "Country": "Singapore",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "BPeuch",
@@ -3301,7 +4262,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Belgium"
+    "Country": "Belgium",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "youssefOuahalou",
@@ -3317,7 +4279,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Belgium"
+    "Country": "Belgium",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "PLoboC",
@@ -3333,7 +4296,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Portugal"
+    "Country": "Portugal",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "gwendoux",
@@ -3349,7 +4313,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "wpavan",
@@ -3365,7 +4330,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "carlsonp",
@@ -3381,7 +4347,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "skasberger",
@@ -3397,7 +4364,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "twtw",
@@ -3413,7 +4381,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Taiwan (ROC)"
+    "Country": "Taiwan (ROC)",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "alejandratenorio",
@@ -3429,7 +4398,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Kenya"
+    "Country": "Kenya",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "mglavica",
@@ -3445,7 +4415,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Croatia"
+    "Country": "Croatia",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "plesubc",
@@ -3461,7 +4432,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "wendysmann",
@@ -3477,7 +4449,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ar062800",
@@ -3493,7 +4466,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "DieuwertjeBloemen",
@@ -3509,7 +4483,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Belgium"
+    "Country": "Belgium",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "tjouneau",
@@ -3525,7 +4500,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "juancorr",
@@ -3541,7 +4517,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "https://github.com/Consorcio-Madrono/dataverse/branches",
     "freenode nick": "",
-    "Country": "Spain"
+    "Country": "Spain",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "mbamouni",
@@ -3557,7 +4534,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "edzale",
@@ -3573,7 +4551,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "lmaylein",
@@ -3589,7 +4568,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "linsherpa",
@@ -3605,7 +4585,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "philip-muench",
@@ -3621,7 +4602,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "akio-sone",
@@ -3637,7 +4619,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "tlchristian",
@@ -3653,7 +4636,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "lubitchv",
@@ -3669,7 +4653,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "meghangoodchild",
@@ -3685,7 +4670,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "amberleahey",
@@ -3701,7 +4687,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "rmo-cdsp",
@@ -3717,7 +4704,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "agostinho-gomes",
@@ -3733,7 +4721,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "stevenmce",
@@ -3749,7 +4738,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Australia"
+    "Country": "Australia",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "mdmADA",
@@ -3765,7 +4755,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Australia"
+    "Country": "Australia",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "janetm",
@@ -3781,7 +4772,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Australia"
+    "Country": "Australia",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "WittenbergM",
@@ -3797,7 +4789,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Netherlands"
+    "Country": "Netherlands",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "LauraHuisintveld",
@@ -3813,7 +4806,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Netherlands"
+    "Country": "Netherlands",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Louis-wr",
@@ -3829,7 +4823,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Norway"
+    "Country": "Norway",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "nightowlaz",
@@ -3845,7 +4840,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "JayanthyChengan",
@@ -3861,7 +4857,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "https://github.com/JayanthyChengan/dataverse/tree/language-toggle-branch",
     "freenode nick": "",
-    "Country": "Canada"
+    "Country": "Canada",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "doigl",
@@ -3877,7 +4874,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ElvisAravena",
@@ -3893,7 +4891,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Chile"
+    "Country": "Chile",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "sindribaldur",
@@ -3909,7 +4908,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Iceland"
+    "Country": "Iceland",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "RDA-UNR",
@@ -3925,7 +4925,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Argentina"
+    "Country": "Argentina",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Abalduin-adm",
@@ -3941,7 +4942,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Germany"
+    "Country": "Germany",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "alsantiagoabreu",
@@ -3957,7 +4959,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Brazil"
+    "Country": "Brazil",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kevinworthington",
@@ -3973,7 +4976,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "https://github.com/scholarsportal/SP-dataverse",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "golsch",
@@ -3989,7 +4993,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jonquet",
@@ -4005,7 +5010,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Bramvdhout",
@@ -4021,7 +5027,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "orazionelson",
@@ -4037,7 +5044,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "KhoaBuind",
@@ -4053,7 +5061,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "zhoulvjun",
@@ -4069,7 +5078,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jalperin",
@@ -4085,7 +5095,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "pacian",
@@ -4101,7 +5112,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "eunices",
@@ -4117,7 +5129,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "pallinger",
@@ -4133,7 +5146,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "Hungary"
+    "Country": "Hungary",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bricas",
@@ -4149,7 +5163,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "tgoelles",
@@ -4165,7 +5180,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "RAHMAHAMMA",
@@ -4181,7 +5197,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "sergejzr",
@@ -4197,7 +5214,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "virgilejarrige",
@@ -4213,7 +5231,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "mcgaerty",
@@ -4229,7 +5248,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "aeonSolutions",
@@ -4245,7 +5265,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ajdabrowski",
@@ -4261,7 +5282,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "xiaya2309",
@@ -4277,7 +5299,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "DS-INRAE",
@@ -4293,7 +5316,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "lgarciap",
@@ -4309,7 +5333,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ekoi",
@@ -4325,7 +5350,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "IlariaBelvedere",
@@ -4341,7 +5367,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kuriwaki",
@@ -4357,7 +5384,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "haarli",
@@ -4373,7 +5401,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "cheneyfeng3",
@@ -4389,7 +5418,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "FlorianRhiem",
@@ -4405,7 +5435,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ischmahl",
@@ -4421,7 +5452,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "espenfl",
@@ -4437,7 +5469,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kamil386",
@@ -4453,7 +5486,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jgara",
@@ -4469,7 +5503,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Falco-KUB",
@@ -4485,7 +5520,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ofahimIQSS",
@@ -4501,7 +5537,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "stevenferey",
@@ -4517,7 +5554,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "France"
+    "Country": "France",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "siacus",
@@ -4533,7 +5571,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "pdurbin",
@@ -4549,7 +5588,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jggautier",
@@ -4565,7 +5605,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "dliburd",
@@ -4581,7 +5622,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kmika11",
@@ -4597,7 +5639,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "sekmiller",
@@ -4613,7 +5656,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "landreev",
@@ -4629,7 +5673,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "scolapasta",
@@ -4645,7 +5690,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ekraffmiller",
@@ -4661,7 +5707,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "stevenwinship",
@@ -4677,7 +5724,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "jp-tosca",
@@ -4693,7 +5741,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "cmbz",
@@ -4709,7 +5758,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "rtreacy",
@@ -4725,7 +5775,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "ChengShi-1",
@@ -4741,7 +5792,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "g-saracca",
@@ -4757,7 +5809,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "Saixel",
@@ -4773,7 +5826,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": ""
+    "Country": "",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "danielEbanks",
@@ -4789,7 +5843,8 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "rnichols7",
@@ -4805,6 +5860,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "USA"
+    "Country": "USA",
+    "GitHub Profile": null
   }
 ];

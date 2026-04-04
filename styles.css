@@ -286,6 +286,17 @@ select {
   line-height: 1.1;
 }
 
+.member-display-name {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.member-bio {
+  margin: 0;
+  line-height: 1.5;
+  color: var(--text);
+}
+
 .member-meta {
   display: grid;
   gap: 10px;

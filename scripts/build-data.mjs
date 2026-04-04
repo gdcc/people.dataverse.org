@@ -2,13 +2,16 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const inputPath = new URL("../data/community-members.tsv", import.meta.url);
 const installationsPath = new URL("../data/installations.json", import.meta.url);
+const githubUsersPath = new URL("../data/github-users.json", import.meta.url);
 const outputPath = new URL("../data/members.js", import.meta.url);
 
 const raw = await readFile(inputPath, "utf8");
 const installationsRaw = await readFile(installationsPath, "utf8");
+const githubUsersRaw = await readFile(githubUsersPath, "utf8");
 const lines = raw.trim().split(/\r?\n/);
 const headers = lines[0].split("\t");
 const installationData = JSON.parse(installationsRaw);
+const githubUsers = JSON.parse(githubUsersRaw);
 const countryByHostname = new Map(
   (installationData.installations ?? [])
     .map((installation) => [
@@ -25,13 +28,17 @@ const rows = lines.slice(1).map((line) => {
     return entry;
   }, {});
   const installationHost = normalizeHostname(record["Primary installation"]);
+  const githubUsername = String(record["GitHub Username"] ?? "").trim();
+  const githubProfile = githubUsers[githubUsername]?.profile ?? null;
 
   record.Country = countryByHostname.get(installationHost) ?? "";
+  record["GitHub Profile"] = githubProfile;
 
   return record;
 });
 
 const matchedCountries = rows.filter((row) => row.Country).length;
+const matchedGitHubProfiles = rows.filter((row) => row["GitHub Profile"]).length;
 
 const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
   {
@@ -39,9 +46,11 @@ const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
       "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
     installationSource:
       "https://iqss.github.io/dataverse-installations/data/data.json",
+    githubUserSource: "https://api.github.com/users/{username}",
     generatedAt: new Date().toISOString(),
     rowCount: rows.length,
     matchedCountryCount: matchedCountries,
+    matchedGitHubProfileCount: matchedGitHubProfiles,
   },
   null,
   2,
@@ -53,7 +62,7 @@ export const MEMBERS_SNAPSHOT = ${JSON.stringify(rows, null, 2)};
 await writeFile(outputPath, moduleSource);
 
 console.log(
-  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches`,
+  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches and ${matchedGitHubProfiles} GitHub profile matches`,
 );
 
 function normalizeHostname(value) {
