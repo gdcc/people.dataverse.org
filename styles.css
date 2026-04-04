@@ -80,19 +80,12 @@ h1 {
   color: var(--muted);
 }
 
-.hero-actions,
 .layout,
 .controls-panel,
 .results-header,
 .member-card-header,
 .member-links {
   display: flex;
-}
-
-.hero-actions {
-  gap: 12px;
-  margin-top: 24px;
-  flex-wrap: wrap;
 }
 
 .primary-button,
