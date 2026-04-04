@@ -4,7 +4,6 @@ const REMOTE_TSV_URL =
   "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv";
 
 const fieldLabels = {
-  timezone: "Timezone",
   primaryInstallation: "Primary installation",
   country: "Country",
   zulipId: "Zulip ID",
@@ -21,7 +20,6 @@ const state = {
   loadedAt: SNAPSHOT_META.generatedAt,
   filters: {
     search: "",
-    timezone: "",
     installation: "",
     country: "",
   },
@@ -29,14 +27,13 @@ const state = {
 
 const elements = {
   searchInput: document.querySelector("#search-input"),
-  timezoneFilter: document.querySelector("#timezone-filter"),
   installationFilter: document.querySelector("#installation-filter"),
   countryFilter: document.querySelector("#country-filter"),
   resetButton: document.querySelector("#reset-button"),
   refreshButton: document.querySelector("#refresh-button"),
   profileCount: document.querySelector("#profile-count"),
   installationCount: document.querySelector("#installation-count"),
-  timezoneCount: document.querySelector("#timezone-count"),
+  countryCount: document.querySelector("#country-count"),
   sourceBadge: document.querySelector("#source-badge"),
   updatedAt: document.querySelector("#updated-at"),
   resultsCopy: document.querySelector("#results-copy"),
@@ -87,32 +84,33 @@ function bindEvents() {
     render();
   });
 
-  elements.timezoneFilter.addEventListener("change", (event) => {
-    state.filters.timezone = event.target.value;
-    render();
-  });
+  if (elements.installationFilter) {
+    elements.installationFilter.addEventListener("change", (event) => {
+      state.filters.installation = event.target.value;
+      render();
+    });
+  }
 
-  elements.installationFilter.addEventListener("change", (event) => {
-    state.filters.installation = event.target.value;
-    render();
-  });
-
-  elements.countryFilter.addEventListener("change", (event) => {
-    state.filters.country = event.target.value;
-    render();
-  });
+  if (elements.countryFilter) {
+    elements.countryFilter.addEventListener("change", (event) => {
+      state.filters.country = event.target.value;
+      render();
+    });
+  }
 
   elements.resetButton.addEventListener("click", () => {
     state.filters = {
       search: "",
-      timezone: "",
       installation: "",
       country: "",
     };
     elements.searchInput.value = "";
-    elements.timezoneFilter.value = "";
-    elements.installationFilter.value = "";
-    elements.countryFilter.value = "";
+    if (elements.installationFilter) {
+      elements.installationFilter.value = "";
+    }
+    if (elements.countryFilter) {
+      elements.countryFilter.value = "";
+    }
     render();
   });
 
@@ -132,8 +130,8 @@ function updateStats(filteredMembers) {
   elements.installationCount.textContent = uniqueCount(
     filteredMembers.map((member) => member.primaryInstallation),
   ).toString();
-  elements.timezoneCount.textContent = uniqueCount(
-    filteredMembers.map((member) => member.timezone),
+  elements.countryCount.textContent = uniqueCount(
+    filteredMembers.map((member) => member.country),
   ).toString();
 
   elements.sourceBadge.textContent =
@@ -144,14 +142,13 @@ function updateStats(filteredMembers) {
 }
 
 function renderMeta(filteredMembers) {
-  const { timezone, installation, country, search } = state.filters;
-  const timezoneLabel = timezone ? ` in ${timezone}` : "";
+  const { installation, country, search } = state.filters;
   const installationLabel = installation ? ` at ${installation}` : "";
   const countryLabel = country ? ` in ${country}` : "";
   const searchLabel = search ? ` matching "${search}"` : "";
 
   elements.resultsCopy.textContent =
-    `${filteredMembers.length} members${timezoneLabel}${installationLabel}${countryLabel}${searchLabel}.`.replace(
+    `${filteredMembers.length} members${installationLabel}${countryLabel}${searchLabel}.`.replace(
       /\s+\./,
       ".",
     );
@@ -194,7 +191,6 @@ function renderCards(members) {
 
     const meta = node.querySelector(".member-meta");
     const fields = [
-      "timezone",
       "primaryInstallation",
       "country",
       "zulipId",
@@ -239,24 +235,22 @@ function renderCards(members) {
 }
 
 function populateFilters() {
-  fillSelect(
-    elements.timezoneFilter,
-    uniqueValues(state.members.map((member) => member.timezone)),
-    "All timezones",
-    state.filters.timezone,
-  );
-  fillSelect(
-    elements.installationFilter,
-    uniqueValues(state.members.map((member) => member.primaryInstallation)),
-    "All installations",
-    state.filters.installation,
-  );
-  fillSelect(
-    elements.countryFilter,
-    uniqueValues(state.members.map((member) => member.country)),
-    "All countries",
-    state.filters.country,
-  );
+  if (elements.installationFilter) {
+    fillSelect(
+      elements.installationFilter,
+      uniqueValues(state.members.map((member) => member.primaryInstallation)),
+      "All installations",
+      state.filters.installation,
+    );
+  }
+  if (elements.countryFilter) {
+    fillSelect(
+      elements.countryFilter,
+      uniqueValues(state.members.map((member) => member.country)),
+      "All countries",
+      state.filters.country,
+    );
+  }
 }
 
 function fillSelect(element, values, defaultLabel, selectedValue) {
@@ -279,7 +273,6 @@ function fillSelect(element, values, defaultLabel, selectedValue) {
 
 function filterMembers(members, filters) {
   return [...members]
-    .filter((member) => !filters.timezone || member.timezone === filters.timezone)
     .filter(
       (member) =>
         !filters.installation ||
@@ -348,7 +341,6 @@ function getGitHubAvatarUrl(username) {
 function extractMember(row) {
   return {
     githubUsername: row["GitHub Username"]?.trim() ?? "",
-    timezone: row.Timezone?.trim() ?? "",
     primaryInstallation: row["Primary installation"]?.trim() ?? "",
     country: row.Country?.trim() ?? "",
     zulipId: row["Zulip ID"]?.trim() ?? "",
