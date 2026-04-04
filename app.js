@@ -347,13 +347,19 @@ function appendLinkedText(container, value) {
 
   const text = String(value ?? "");
   const pattern =
-    /(?:[a-z][a-z0-9+.-]*:\/\/[^\s<>"']+|(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+(?:\/[^\s<>"']*)?)/gi;
+    /@[a-z0-9](?:[a-z0-9-]{0,38}[a-z0-9])?|[a-z][a-z0-9+.-]*:\/\/[^\s<>"']+|(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+(?:\/[^\s<>"']*)?/gi;
 
   let lastIndex = 0;
 
   for (const match of text.matchAll(pattern)) {
     const matchedText = match[0];
     const start = match.index ?? 0;
+    const previousChar = start > 0 ? text[start - 1] : "";
+
+    if (matchedText.startsWith("@") && /[\w@]/.test(previousChar)) {
+      continue;
+    }
+
     const { linkText, trailingText } = splitTrailingPunctuation(matchedText);
 
     if (start > lastIndex) {
@@ -413,6 +419,10 @@ function toExternalHref(value) {
 
   const trimmed = value.trim();
 
+  if (isGitHubMention(trimmed)) {
+    return `https://github.com/${trimmed.slice(1)}`;
+  }
+
   if (/^[a-z][a-z0-9+.-]*:\/\//i.test(trimmed)) {
     return trimmed;
   }
@@ -422,6 +432,10 @@ function toExternalHref(value) {
   }
 
   return "";
+}
+
+function isGitHubMention(value) {
+  return /^@[a-z0-9](?:[a-z0-9-]{0,38}[a-z0-9])?$/i.test(value);
 }
 
 function looksLikeWebAddress(value) {
