@@ -52,20 +52,11 @@ body {
     var(--panel);
 }
 
-.eyebrow,
 .stat-label,
 .field span,
 .source-note,
 .results-header p {
   color: var(--muted);
-}
-
-.eyebrow {
-  margin: 0 0 8px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 h1,
