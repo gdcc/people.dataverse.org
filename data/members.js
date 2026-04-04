@@ -2,9 +2,9 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T22:19:32.147Z",
+  "generatedAt": "2026-04-04T22:55:25.712Z",
   "rowCount": 296,
-  "matchedCountryCount": 125,
+  "matchedCountryCount": 128,
   "matchedGitHubProfileCount": 292
 };
 
@@ -733,7 +733,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "cesarpferreira",
     "Timezone": "",
     "Matrix name": "",
-    "Primary installation": "",
+    "Primary installation": "datahub.polen.fccn.pt",
     "Sweets": "",
     "Zulip ID": "622863",
     "Active": "",
@@ -743,7 +743,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Portugal",
     "GitHub Profile": {
       "login": "cesarpferreira",
       "name": "",
@@ -5927,7 +5927,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "JoaoMFCardoso",
     "Timezone": "Europe/Lisbon",
     "Matrix name": "@jmfc:matrix.org",
-    "Primary installation": "repositorio.polen.fccn.pt",
+    "Primary installation": "datahub.polen.fccn.pt",
     "Sweets": "",
     "Zulip ID": "622855",
     "Active": "",
@@ -5937,7 +5937,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Portugal",
     "GitHub Profile": {
       "login": "JoaoMFCardoso",
       "name": "Thejmfc",
@@ -5957,7 +5957,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "zbenta",
     "Timezone": "Europe/Lisbon",
     "Matrix name": "@zbenta:matrix.org",
-    "Primary installation": "repositorio.polen.fccn.pt",
+    "Primary installation": "datahub.polen.fccn.pt",
     "Sweets": "",
     "Zulip ID": "662399",
     "Active": "",
@@ -5967,7 +5967,7 @@ export const MEMBERS_SNAPSHOT = [
     "Shout out": "",
     "URL": "",
     "freenode nick": "",
-    "Country": "",
+    "Country": "Portugal",
     "GitHub Profile": {
       "login": "zbenta",
       "name": "",
