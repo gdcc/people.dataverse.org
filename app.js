@@ -8,8 +8,8 @@ const fieldLabels = {
   country: "Country",
   zulipId: "Zulip ID",
   orcid: "ORCID",
-  githubLocation: "GitHub location",
-  githubCompany: "GitHub company",
+  githubLocation: "Location",
+  githubCompany: "Organization",
   githubBlog: "Website",
 };
 
