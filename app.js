@@ -354,21 +354,26 @@ function appendLinkedText(container, value) {
   for (const match of text.matchAll(pattern)) {
     const matchedText = match[0];
     const start = match.index ?? 0;
+    const { linkText, trailingText } = splitTrailingPunctuation(matchedText);
 
     if (start > lastIndex) {
       appendPlainText(container, text.slice(lastIndex, start));
     }
 
-    const href = toExternalHref(matchedText);
+    const href = toExternalHref(linkText);
     if (href) {
       const anchor = document.createElement("a");
       anchor.href = href;
       anchor.target = "_blank";
       anchor.rel = "noreferrer";
-      anchor.textContent = matchedText;
+      anchor.textContent = linkText;
       container.append(anchor);
     } else {
-      appendPlainText(container, matchedText);
+      appendPlainText(container, linkText);
+    }
+
+    if (trailingText) {
+      appendPlainText(container, trailingText);
     }
 
     lastIndex = start + matchedText.length;
@@ -392,12 +397,21 @@ function appendPlainText(container, text) {
   });
 }
 
+function splitTrailingPunctuation(text) {
+  const match = text.match(/^(.*?)([),.;!?]+)?$/);
+
+  return {
+    linkText: match?.[1] ?? text,
+    trailingText: match?.[2] ?? "",
+  };
+}
+
 function toExternalHref(value) {
   if (!value) {
     return "";
   }
 
-  const trimmed = value.trim().replace(/[),.;!?]+$/, "");
+  const trimmed = value.trim();
 
   if (/^[a-z][a-z0-9+.-]*:\/\//i.test(trimmed)) {
     return trimmed;
