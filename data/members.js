@@ -2,11 +2,11 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-05T23:23:06.655Z",
-  "rowCount": 296,
-  "matchedCountryCount": 139,
-  "matchedContinentCount": 139,
-  "matchedInstallationDescriptionCount": 137,
+  "generatedAt": "2026-04-05T23:49:19.337Z",
+  "rowCount": 300,
+  "matchedCountryCount": 142,
+  "matchedContinentCount": 142,
+  "matchedInstallationDescriptionCount": 140,
   "matchedGdccMemberCount": 79,
   "matchedCoreTrustSealCount": 39,
   "matchedDataverseTvCount": 41,
@@ -655,6 +655,23 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "anarchivist",
+    "Primary installation": "datasets.lib.berkeley.edu",
+    "Zulip ID": "735407",
+    "ORCID": "",
+    "Working Groups": "",
+    "Sweets": "",
+    "Matrix name": "",
+    "freenode nick": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "All data in the UC Berkeley Library Dataverse has been acquired and licensed by the library for use by UC Berkeley and Lawrence Berkeley National Lab students, faculty, and staff. Data records and terms are viewable by any user, regardless of affiliation. Please login to the repository using a Calnet ID and passphrase to view and download data files. Note that accessing some data files requires agreeing to the terms of use as listed in the guestbook functionality. Research data (i.e. data, code, and other outputs generated during the research process) are not stored on UC Berkeley Library’s Dataverse.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null
+  },
+  {
     "GitHub Username": "andrecastro0o",
     "Primary installation": "dataverse.nl",
     "Zulip ID": "",
@@ -942,6 +959,23 @@ export const MEMBERS_SNAPSHOT = [
       "htmlUrl": "https://github.com/atrisovic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13986265?v=4"
     }
+  },
+  {
+    "GitHub Username": "awilfox",
+    "Primary installation": "datasets.lib.berkeley.edu",
+    "Zulip ID": "931818",
+    "ORCID": "",
+    "Working Groups": "",
+    "Sweets": "",
+    "Matrix name": "",
+    "freenode nick": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "All data in the UC Berkeley Library Dataverse has been acquired and licensed by the library for use by UC Berkeley and Lawrence Berkeley National Lab students, faculty, and staff. Data records and terms are viewable by any user, regardless of affiliation. Please login to the repository using a Calnet ID and passphrase to view and download data files. Note that accessing some data files requires agreeing to the terms of use as listed in the guestbook functionality. Research data (i.e. data, code, and other outputs generated during the research process) are not stored on UC Berkeley Library’s Dataverse.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "bappun",
@@ -4608,6 +4642,23 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "kaiongithub",
+    "Primary installation": "",
+    "Zulip ID": "784992",
+    "ORCID": "",
+    "Working Groups": "",
+    "Sweets": "",
+    "Matrix name": "",
+    "freenode nick": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null
+  },
+  {
     "GitHub Username": "kaitlinnewson",
     "Primary installation": "borealisdata.ca",
     "Zulip ID": "",
@@ -8212,6 +8263,23 @@ export const MEMBERS_SNAPSHOT = [
       "htmlUrl": "https://github.com/vaidap",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13666710?v=4"
     }
+  },
+  {
+    "GitHub Username": "vaidasmo",
+    "Primary installation": "lida.dataverse.lt",
+    "Zulip ID": "696837",
+    "ORCID": "",
+    "Working Groups": "",
+    "Sweets": "",
+    "Matrix name": "",
+    "freenode nick": "",
+    "Country": "Lithuania",
+    "Continent": "Europe",
+    "Installation Description": "Lithuanian Data Archive for Social Sciences and Humanities (LiDA) is a virtual digital infrastructure for data acquisition, long-term preservation and dissemination. It provides access to more than 700 datasets. All the international and national data resources are documented in both Lithuanian and English. Access to the data is provided via this Dataverse repository (not all the datasets are available, as in 2019-2021 a migration project from the old infrastructure is being implemented). LiDA curates most of the data collected conducting the most important international social surveys in Lithuania – the European Social Survey, European Values Studies, European Election Studies and the International Social Research Program. LiDA is hosted by the Centre for Data Analysis and Archiving of Kaunas University of Technology (data.ktu.edu).",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "vbonamy",
