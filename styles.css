@@ -77,6 +77,20 @@ h1 {
   text-decoration: none;
 }
 
+.hero-project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+  margin-top: 14px;
+}
+
+.hero-project-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
 .hero-copy {
   max-width: 58ch;
   margin: 16px 0 0;
