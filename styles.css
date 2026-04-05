@@ -243,14 +243,16 @@ select {
 }
 
 .member-card-header {
-  align-items: start;
-  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
 }
 
 .member-avatar {
-  width: 64px;
-  height: 64px;
-  flex: 0 0 64px;
+  width: 72px;
+  height: 72px;
+  flex: 0 0 72px;
   border-radius: 18px;
   object-fit: cover;
   border: 1px solid var(--border);
@@ -276,13 +278,15 @@ select {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .member-display-name {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin: 6px 0 0;
+  margin: 0;
   color: var(--muted);
   text-decoration: none;
 }
@@ -291,7 +295,7 @@ select {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin: 6px 0 0;
+  margin: 0;
   color: var(--muted);
   text-decoration: none;
 }
@@ -300,7 +304,7 @@ select {
   display: inline-flex;
   align-items: flex-start;
   gap: 6px;
-  margin: 6px 0 0;
+  margin: 0;
   color: var(--muted);
   text-decoration: none;
   max-width: 100%;
