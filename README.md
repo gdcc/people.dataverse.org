@@ -8,6 +8,7 @@ A lightweight browser app for exploring the community TSV at:
 
 - Loads a bundled snapshot of the sheet so the app works immediately.
 - Uses cached GitHub API profile data so member cards can show richer profile details without runtime API calls.
+- Uses cached DataverseTV talk data to add a watch link for members who appear there.
 - Lets you search members and filter by installation, country, and continent.
 - Shows GitHub usernames alongside primary installation, country, Zulip ID, and ORCID when available.
 
@@ -26,6 +27,7 @@ If the cached source files change and you want to update the checked-in snapshot
 ```bash
 ./scripts/download-tsv.sh
 ./scripts/download-installations-json.sh
+./scripts/update-dataversetv.sh
 node ./scripts/update-github-users.mjs
 node ./scripts/build-data.mjs
 ```

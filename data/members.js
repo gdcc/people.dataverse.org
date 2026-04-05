@@ -2,14 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-05T16:29:14.980Z",
-  "rowCount": 296,
+  "generatedAt": "2026-04-05T18:14:26.820Z",
+  "rowCount": 295,
   "matchedCountryCount": 138,
   "matchedContinentCount": 138,
   "matchedInstallationDescriptionCount": 136,
   "matchedGdccMemberCount": 78,
   "matchedCoreTrustSealCount": 39,
-  "matchedGitHubProfileCount": 292
+  "matchedDataverseTvCount": 41,
+  "matchedGitHubProfileCount": 291
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -34,6 +35,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/10/Odum-Institute-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "srmanda-cs",
       "name": "Ash Manda",
@@ -68,6 +70,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "yesilms",
       "name": "",
@@ -102,6 +105,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ProfPhoenix",
       "name": "",
@@ -136,6 +140,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "christopherkenny",
       "name": "Christopher T. Kenny",
@@ -170,6 +175,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Parthsuii",
       "name": "Parth karalkar",
@@ -204,6 +210,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "AnneGerlach",
       "name": "Anne Gerlach",
@@ -238,6 +245,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "isaacpratt",
       "name": "Isaac Pratt",
@@ -272,6 +280,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "gtsueng",
       "name": "",
@@ -306,6 +315,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Ozoubia",
       "name": "Oussama Zoubia",
@@ -340,6 +350,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "alungarska",
       "name": "",
@@ -374,6 +385,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Jülich DATA is the institutional research data repositorium made at Forschungszentrum Jülich. Featuring metadata focus and running on Kubernetes.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "TillJan",
       "name": "",
@@ -408,6 +420,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "c2dhfma",
       "name": "Frederic Maguin",
@@ -442,6 +455,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "22tb",
       "name": "Tobi",
@@ -476,6 +490,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "JulianRein",
       "name": "",
@@ -510,6 +525,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Sathvikaundala",
       "name": "",
@@ -544,6 +560,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "juriroemer",
       "name": "Juri",
@@ -578,6 +595,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The BSC Dataverse is the institutional research data and metadata repository of the Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS). It seeks to enable the storage, sharing, and search of research data coming from the BSC researchers, collaborators, and affiliated projects.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ainajene",
       "name": "",
@@ -612,6 +630,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "hitzelbe",
       "name": "",
@@ -646,6 +665,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jennaqi2001",
       "name": "Yijia Jenna Qi",
@@ -680,6 +700,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Maham802",
       "name": "Maham Maham",
@@ -714,6 +735,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "konradoberwimmer",
       "name": "Konrad Oberwimmer",
@@ -748,6 +770,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "A statewide archive of research data from Texas Digital Library (TDL) member institutions.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "bryanmgee",
       "name": "Bryan Gee",
@@ -782,6 +805,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "emmaw786",
       "name": "",
@@ -816,6 +840,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "joannag555",
       "name": "",
@@ -850,6 +875,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "POLEN DataHub Repository is provided by FCCN, digital services FCT – Fundação para a Ciência e Tecnologia, with the aim of promoting the openness and sharing of data resulting from funded research, serving the national scientific community. This platform is aligned with Open Science practices and FAIR principles for research data management.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "cesarpferreira",
       "name": "",
@@ -884,6 +910,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "yaof22",
       "name": "",
@@ -918,6 +945,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The FIU Research Data Portal serves as an inter-disciplinary data archive to support access and reuse of research data produced at FIU.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "amandhawb",
       "name": "Amandha Wingert Barok",
@@ -952,6 +980,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "datacuratorcsuc",
       "name": "Curació Dades CSUC",
@@ -986,6 +1015,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jonathanbohan",
       "name": "",
@@ -1020,6 +1050,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "shuffle2",
       "name": "",
@@ -1054,6 +1085,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "thisisbillie",
       "name": "",
@@ -1088,6 +1120,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "univiedev",
       "name": "",
@@ -1122,6 +1155,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "foa2",
       "name": "",
@@ -1156,6 +1190,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "superpegaso2703",
       "name": "Pablo Picurelli Ortiz ",
@@ -1190,6 +1225,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Athemis",
       "name": "Alexander Minges",
@@ -1224,6 +1260,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Firestar-Reimu",
       "name": "Firestar-Reimu",
@@ -1258,6 +1295,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "emily-katz",
       "name": "",
@@ -1292,6 +1330,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kenlhlui",
       "name": "Ken Lui",
@@ -1326,6 +1365,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "prpfialho",
       "name": "Pedro Fialho",
@@ -1360,6 +1400,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "ASU Library's research data repository (powered by Harvard’s Dataverse software) helps ASU affiliated researchers share, store, preserve, cite, explore, and make research data accessible and discoverable. Dataverse is a dedicated research data management service platform that serves in the publication and reuse phase of the research data lifecycle and works in concert with the ASU Digital Repository ecosystem to present a more complete picture of ASU’s scholarly activities.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "rachfern85",
       "name": "Rachel Fernandez",
@@ -1394,6 +1435,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "chrisjcameron",
       "name": "",
@@ -1430,6 +1472,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/10/Odum-Institute-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "wshahn",
       "name": "",
@@ -1464,6 +1507,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jpedataeditor",
       "name": "JPE Data Editor",
@@ -1498,6 +1542,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "mbarram",
       "name": "",
@@ -1532,6 +1577,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kwenzig",
       "name": "Knut Wenzig",
@@ -1566,6 +1612,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "MBLWHOI Library Dataverse is operated by Woods Hole Oceanographic Institution Data Library and Archive. Its purpose is to store, share, and preserve scientific datasets, particularly those related to oceanographic and marine science research. It enables researchers to make their data publicly accessible, ensures long-term data stewardship, and supports reproducibility and transparency in scientific research.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kbatyuk",
       "name": "Kirill Batyuk",
@@ -1600,6 +1647,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "daniel-om-weber",
       "name": "Daniel Weber",
@@ -1634,6 +1682,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "synapticrain",
       "name": "",
@@ -1668,6 +1717,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "miramgleiber",
       "name": "Miram Gleiber",
@@ -1702,6 +1752,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ahsouri",
       "name": "Amir H. Souri",
@@ -1736,6 +1787,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "CharityEverett",
       "name": "Charity Everett",
@@ -1770,6 +1822,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "javieru-dialnet",
       "name": "",
@@ -1806,6 +1859,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Baroti",
       "name": "Steve Baroti",
@@ -1840,6 +1894,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Jerry-Ma",
       "name": "Zhiyuan  Ma",
@@ -1874,6 +1929,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Odysseas640",
       "name": "Odysseas Stefas",
@@ -1910,6 +1966,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "aliassheikh",
       "name": "Alias",
@@ -1946,6 +2003,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "andrecastro0o",
       "name": "André Castro",
@@ -1980,6 +2038,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "davidverdu",
       "name": "David Verdú",
@@ -2014,6 +2073,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kjentech",
       "name": "",
@@ -2048,6 +2108,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jamessi1989",
       "name": "",
@@ -2082,6 +2143,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jdmar3",
       "name": "John D. Martin III",
@@ -2118,6 +2180,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/03/DataverseNO.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": null
   },
   {
@@ -2139,6 +2202,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": null
   },
   {
@@ -2160,6 +2224,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "summitcheung",
       "name": "",
@@ -2194,6 +2259,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "mlage",
       "name": "Marcos Lage",
@@ -2228,6 +2294,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "reikoch",
       "name": "",
@@ -2262,6 +2329,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "fgassert",
       "name": "Francis Gassert",
@@ -2296,6 +2364,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jbiernaux",
       "name": "",
@@ -2330,6 +2399,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "AFIOCCA-INRAE",
       "name": "Amélie Fiocca",
@@ -2364,6 +2434,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "seaneu",
       "name": "",
@@ -2398,6 +2469,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "BeebBenjamin",
       "name": "Richard Benjamin Allen",
@@ -2434,6 +2506,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "bikramj",
       "name": "Bikramjit Singh",
@@ -2468,6 +2541,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "apmireia",
       "name": "",
@@ -2502,6 +2576,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "lobbikerivm",
       "name": "Stefan Lobner",
@@ -2536,6 +2611,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jarulsamy",
       "name": "Joshua Arulsamy",
@@ -2570,6 +2646,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "RemieJanssen",
       "name": "Remie Janssen",
@@ -2604,6 +2681,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "samusz",
       "name": "Sacha Muszlak",
@@ -2638,6 +2716,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "plecor",
       "name": "Pierre Le Corre",
@@ -2672,6 +2751,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Yale Dataverse is a data repository service for Yale University faculty, staff, students, and affiliates to share, preserve, and cite research data. Yale Library hosts and manages Yale Dataverse to ensure research produced at Yale is accessible and discoverable to the global community.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "bseeger",
       "name": "B. Seeger",
@@ -2708,6 +2788,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "nana-boateng",
       "name": "Nana Boateng",
@@ -2744,6 +2825,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/X9G8HU"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "okaradeniz",
       "name": "Oguz Ozgur Karadeniz",
@@ -2778,6 +2860,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Yale Dataverse is a data repository service for Yale University faculty, staff, students, and affiliates to share, preserve, and cite research data. Yale Library hosts and manages Yale Dataverse to ensure research produced at Yale is accessible and discoverable to the global community.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "glevyhas",
       "name": "Gavi Levy Haskell",
@@ -2812,6 +2895,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Gepiro",
       "name": "",
@@ -2846,6 +2930,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "erodde",
       "name": "",
@@ -2880,6 +2965,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Esteban-Mtz",
       "name": "Esteban Martinez",
@@ -2914,6 +3000,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "diptechexpo",
       "name": "",
@@ -2948,6 +3035,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "faborg",
       "name": "",
@@ -2982,6 +3070,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Yale Dataverse is a data repository service for Yale University faculty, staff, students, and affiliates to share, preserve, and cite research data. Yale Library hosts and manages Yale Dataverse to ensure research produced at Yale is accessible and discoverable to the global community.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "younnoh",
       "name": "",
@@ -3016,6 +3105,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "vaidap",
       "name": "Vaida",
@@ -3050,6 +3140,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "vbonamy",
       "name": "Vincent Bonamy",
@@ -3084,6 +3175,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "PatrickKibies",
       "name": "",
@@ -3118,6 +3210,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Cook4986",
       "name": "Matt Cook",
@@ -3152,6 +3245,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "zearaujo25",
       "name": "Jose Lucas Cordeiro",
@@ -3186,6 +3280,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "larsvilhuber",
       "name": "Lars Vilhuber",
@@ -3220,6 +3315,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "bnavigator",
       "name": "Ben Greiner",
@@ -3254,6 +3350,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "RoHei",
       "name": "",
@@ -3288,6 +3385,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The JPL Open Repository (JOR), replaces the JPL Technical Report Server (TRS) in 2023, is a repository for digital copies of technical publications authored by JPL employees. It includes journal articles (the Final Accepted Version), meeting papers, presentations, and other publications cleared for external distribution from 1992 to the present. It also include research datasets from 2022 on.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "foobarbecue",
       "name": "Aaron Curtis",
@@ -3322,6 +3420,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Jülich DATA is the institutional research data repositorium made at Forschungszentrum Jülich. Featuring metadata focus and running on Kubernetes.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "poikilotherm",
       "name": "Oliver Bertuch",
@@ -3356,6 +3455,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "gaelforget",
       "name": "Gael Forget",
@@ -3390,6 +3490,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "TanayKarve",
       "name": "Tanay Karve",
@@ -3426,6 +3527,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/10/Odum-Institute-Data-Archive.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "donsizemore",
       "name": "Don Sizemore",
@@ -3460,6 +3562,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "MellyGray",
       "name": "Melina Hernández",
@@ -3494,6 +3597,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "GPortas",
       "name": "Guillermo Portas",
@@ -3530,6 +3634,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/X9G8HU"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "ErykKul",
       "name": "Eryk Kulikowski",
@@ -3564,6 +3669,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "johannes-darms",
       "name": "Johannes Darms",
@@ -3598,6 +3704,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DaRUS, the data repository of the University of Stuttgart, offers a secure location for research data and codes of members or partners of the University of Stuttgart. DaRUS is used not only for publishing finished data, but also for managing and exchanging data at all stages of the lifecycle.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "JR-1991",
       "name": "Jan Range",
@@ -3632,6 +3739,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Hosted by IRD, a french public research institution, who defends an original model of equitable scientific partnership with the countries of the South and an interdisciplinary and citizen science, committed to the achievement of the Sustainable Development Goals.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "tcoupin",
       "name": "Thibault Coupin",
@@ -3668,6 +3776,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "PaulBoon",
       "name": "Paul Boon",
@@ -3704,6 +3813,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "janvanmansum",
       "name": "Jan van Mansum",
@@ -3740,6 +3850,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/10/Odum-Institute-Data-Archive.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "matthew-a-dunlap",
       "name": "Matthew Dunlap",
@@ -3774,6 +3885,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ericdevries",
       "name": "Eric de Vries",
@@ -3808,6 +3920,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "sirineREKIK",
       "name": "",
@@ -3842,6 +3955,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "vera",
       "name": "Vera Clemens",
@@ -3878,6 +3992,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/X9G8HU"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Kris-LIBIS",
       "name": "Kris Dekeyser",
@@ -3914,6 +4029,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "4tikhonov",
       "name": "Slava Tykhonov",
@@ -3950,6 +4066,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/03/DataverseNO.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "philippconzett",
       "name": "Philipp Conzett",
@@ -3986,6 +4103,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/11/Qualitative-Data-Repository.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "qqmyers",
       "name": "",
@@ -4020,6 +4138,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "carlo318",
       "name": "",
@@ -4054,6 +4173,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "atniph",
       "name": "Finta Norbert",
@@ -4088,6 +4208,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "hamidtam",
       "name": "Tameem Hamid",
@@ -4122,6 +4243,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "DaftPug",
       "name": "",
@@ -4156,6 +4278,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "nmunatsibw",
       "name": "Nimrod Munatsi",
@@ -4190,6 +4313,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "JeyaSam",
       "name": "",
@@ -4224,6 +4348,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "aseeland",
       "name": "Anett Seeland",
@@ -4258,6 +4383,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Nikos-Askitas",
       "name": "Nikos-Askitas",
@@ -4292,6 +4418,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "DominikWA",
       "name": "Dominik",
@@ -4326,6 +4453,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "yh-repo",
       "name": "Yee Heng",
@@ -4360,6 +4488,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "M-DOREL",
       "name": "SOUL",
@@ -4394,6 +4523,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "tosunmerve",
       "name": "Merve Tosun",
@@ -4428,6 +4558,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Sakshi-75",
       "name": "Sakshi Jain",
@@ -4462,6 +4593,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "JacekChudzik",
       "name": "",
@@ -4496,6 +4628,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "JFLopez7",
       "name": "",
@@ -4530,6 +4663,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "dozed",
       "name": "Stefan Ollinger",
@@ -4564,6 +4698,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "bjosel",
       "name": "",
@@ -4598,6 +4733,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "JBGruber",
       "name": "Johannes Gruber",
@@ -4632,6 +4768,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Asbjoedt",
       "name": "Asbjørn Skødt",
@@ -4666,6 +4803,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kobbejager",
       "name": "Wim Fremout",
@@ -4700,6 +4838,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "RichCaloggero",
       "name": "Rich Caloggero",
@@ -4734,6 +4873,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "aadorian",
       "name": "",
@@ -4768,6 +4908,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "zolttoth",
       "name": "Zoltán Tóth",
@@ -4802,6 +4943,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "phillipsjs",
       "name": "Jonathan  Scott  Phillips ",
@@ -4836,6 +4978,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kulsoomzahra",
       "name": "",
@@ -4870,6 +5013,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DaRUS, the data repository of the University of Stuttgart, offers a secure location for research data and codes of members or partners of the University of Stuttgart. DaRUS is used not only for publishing finished data, but also for managing and exchanging data at all stages of the lifecycle.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "cristobaltapia",
       "name": "Cristóbal Tapia",
@@ -4904,6 +5048,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jorgelpolanco",
       "name": "",
@@ -4938,6 +5083,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "diego-guillen",
       "name": "",
@@ -4972,6 +5118,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "DonRichards",
       "name": "Don Richards",
@@ -5006,6 +5153,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "stefanandonov",
       "name": "Stefan Andonov",
@@ -5040,6 +5188,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "coret",
       "name": "Bob Coret",
@@ -5074,6 +5223,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "wtr-icm",
       "name": "",
@@ -5108,6 +5258,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Johns Hopkins Research Data Repository is an open access repository for Johns Hopkins researchers to share their research data. It is administered by professional curators at JHU Data Services, who will work with depositors to enable future discovery and reuse of your data.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "bgunia",
       "name": "Betsy Gunia",
@@ -5142,6 +5293,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "rwvaldivia",
       "name": "Richard W Valdivia",
@@ -5176,6 +5328,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "charmoniumQ",
       "name": "Sam Grayson",
@@ -5210,6 +5363,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "rawidiyaningrum",
       "name": "",
@@ -5244,6 +5398,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "zieglerms",
       "name": "Micah S. Ziegler",
@@ -5278,6 +5433,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "adkinsrs",
       "name": "Shaun Adkins",
@@ -5312,6 +5468,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "guinslym",
       "name": "Guinslym",
@@ -5348,6 +5505,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/07/AUSSDA-The-Austrian-Social-Science-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kaczmirek",
       "name": "Lars Kaczmirek",
@@ -5384,6 +5542,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/07/AUSSDA-The-Austrian-Social-Science-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "CB-HAL",
       "name": "Christian Bischof",
@@ -5418,6 +5577,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Ash84",
       "name": "L. Tromel",
@@ -5452,6 +5612,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jakobmolandergeus",
       "name": "Jakob Molander (GEUS)",
@@ -5486,6 +5647,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "rhijmans",
       "name": "Robert Hijmans",
@@ -5520,6 +5682,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "thiagombrasil",
       "name": "thiagomatos",
@@ -5554,6 +5717,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "pablovp86",
       "name": "Pablo",
@@ -5588,6 +5752,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "myi100",
       "name": "Muhammed Y. Idris",
@@ -5622,6 +5787,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "ioerDATA is the institutional research data publication repository of the Leibniz Institute of Ecological Urban and Regional Development (IOER). It is managed and curated by the institute's Research Data Centre (IOER FDZ).",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "schorcht-ioer",
       "name": "Martin Schorcht",
@@ -5656,6 +5822,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The data repository of the Instituto Politécnico de Bragança aims to store, preserve, share and manage research data generated by the academic community.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "aialves",
       "name": "",
@@ -5690,6 +5857,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The University of Milan is home to important research teams operating in the university's extremely rich variety of scientific-disciplinary sectors. Besides taking part in the most relevant national and international research programs, the University is also very active in the field of technology transfer and developing applications for scientific research results. dataverse.unimi.it is the repository for research data offered to all researchers in disciplines from health sciences to laws, from economics to hard sciences, from humanities to mathematics.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "joelfan",
       "name": "",
@@ -5724,6 +5892,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "transfluxus",
       "name": "Ramin",
@@ -5758,6 +5927,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ysuarez",
       "name": "Yamil",
@@ -5792,6 +5962,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "luddaniel",
       "name": "",
@@ -5826,6 +5997,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "maximilian-tech",
       "name": "Maximilian Sander",
@@ -5860,6 +6032,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "dataversebot",
       "name": "Dataverse Robot Kitten",
@@ -5894,6 +6067,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "markwilkinson",
       "name": "Mark Wilkinson",
@@ -5928,6 +6102,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ReneFGJr",
       "name": "Rene Faustino Gabriel Junior",
@@ -5962,6 +6137,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "yikangfengnie",
       "name": "",
@@ -5996,6 +6172,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The repository was originally created as Concorda, an ad-hoc initiative for data exchange during the Covid-19 pandemic by HUN-REN Institute for Computer Science and Control (SZTAKI) and HUN-REN Wigner Research Centre for Physics (WIGNER). Since then, the repository was significantly expanded with additional disk space and other resources donated by SZTAKI and WIGNER institutes, and accepts data from all Hungarian researchers (with some storage constraints). In 2021, the ARP project started to build research data infrastructure for the Hungarian Research Network, and chose it as the main repository component to be integrated, while also significantly expanding its storage capacity. See also: https://researchdata.hu/ https://fairsharing.org/4585 https://www.re3data.org/repository/r3d100014109 https://v2.sherpa.ac.uk/id/repository/10638 https://wigner.hu/ https://sztaki.hu/",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "beepsoft",
       "name": "beep",
@@ -6030,6 +6207,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DaRUS, the data repository of the University of Stuttgart, offers a secure location for research data and codes of members or partners of the University of Stuttgart. DaRUS is used not only for publishing finished data, but also for managing and exchanging data at all stages of the lifecycle.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "vkush",
       "name": "Volodymyr Kushnarenko",
@@ -6064,6 +6242,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DUnAs is the institutional research data repository of the University of Aveiro. This repository is intended to share, archive, preserve, cite, access, and explore research data produced in the university scientific research activities",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "josekarvalho",
       "name": "José Carvalho",
@@ -6098,6 +6277,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DUnAs is the institutional research data repository of the University of Aveiro. This repository is intended to share, archive, preserve, cite, access, and explore research data produced in the university scientific research activities",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "j-n-c",
       "name": "José Carvalho",
@@ -6132,6 +6312,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "otter606",
       "name": "",
@@ -6166,6 +6347,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Gabriel-Besombes",
       "name": "Gaby",
@@ -6200,6 +6382,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jeromeroucou",
       "name": "",
@@ -6234,6 +6417,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "LibraData is a place for UVA researchers to share data publicly, and is part of the Libra Scholarly Repository suite of services which includes works of UVA scholarship such as articles, books, theses, and data.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "shlake",
       "name": "Sherry Lake",
@@ -6268,6 +6452,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "michbarsinai",
       "name": "Michael",
@@ -6302,6 +6487,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "atrisovic",
       "name": "Ana Trisovic",
@@ -6336,6 +6522,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Open for researchers associated with British Columbia universities to deposit data.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "eugene-barsky",
       "name": "Eugene Barsky",
@@ -6372,6 +6559,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "kaitlinnewson",
       "name": "Kaitlin Newson",
@@ -6408,6 +6596,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "johnhuck",
       "name": "John Huck",
@@ -6442,6 +6631,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Göttingen Research Online is an institutional repository for the publication of research data at the Göttingen Campus. It is managed by the Göttingen eResearch Alliance, a joint group of the Göttingen State and University Library and Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "pkiraly",
       "name": "Király Péter",
@@ -6478,6 +6668,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/11/Qualitative-Data-Repository.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "adam3smith",
       "name": "Sebastian Karcher",
@@ -6512,6 +6703,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Open for researchers and organizations associated with French universities to deposit data. Hosted by the Center for Socio-Political Data (Sciences Po and CNRS).",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "bappun",
       "name": "Baptiste Rouxel",
@@ -6546,6 +6738,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "CORA. Research Data Repository (RDR) is a federated and multidisciplinary data repository that allows Catalan universities, CERCA research centers and other entities that carry out research to publish research datasets in FAIR mode and following the EOSC guidelines. The objectives of the RDR are to increase the efficiency and transparency of research through the rapid dissemination of datasets and to facilitate their reuse.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "AleixMT",
       "name": "Aleix Mariné-Tena",
@@ -6580,6 +6773,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "A repository for sharing and preserving research data and documents produced, collected and curated at the Institut de physique du globe de Paris (IPGP).",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "claudiodsf",
       "name": "Claudio Satriano",
@@ -6614,6 +6808,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "A statewide archive of research data from Texas Digital Library (TDL) member institutions.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "CCMumma",
       "name": "Courtney Mumma",
@@ -6648,6 +6843,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "UCLA Dataverse allows for the sharing and storage of data from UCLA research. This makes it accessible, discoverable and reusable by the public. The platform also hosts sub-dataverses for different campus groups like schools or departments.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jmjamison",
       "name": "jamie jamison",
@@ -6684,6 +6880,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/10/Odum-Institute-Data-Archive.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "jonc1438",
       "name": "Jonathan Crabtree",
@@ -6718,6 +6915,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Free, open access repository of research data and software produced and developed by CIMMYT scientists.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "solhm",
       "name": "Solomon",
@@ -6752,6 +6950,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Free, open access repository of research data and software produced and developed by CIMMYT scientists.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Gerafp",
       "name": "Gerardo Flores-Petlacalco",
@@ -6786,6 +6985,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "POLEN DataHub Repository is provided by FCCN, digital services FCT – Fundação para a Ciência e Tecnologia, with the aim of promoting the openness and sharing of data resulting from funded research, serving the national scientific community. This platform is aligned with Open Science practices and FAIR principles for research data management.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "JoaoMFCardoso",
       "name": "Thejmfc",
@@ -6820,6 +7020,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "POLEN DataHub Repository is provided by FCCN, digital services FCT – Fundação para a Ciência e Tecnologia, with the aim of promoting the openness and sharing of data resulting from funded research, serving the national scientific community. This platform is aligned with Open Science practices and FAIR principles for research data management.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "zbenta",
       "name": "",
@@ -6854,6 +7055,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The institutional open access research data repository for Nanyang Technological University (NTU). NTU researchers are encouraged to use DR-NTU (Data) to deposit, publish and archive their final research data in order to make their research data discoverable, accessible and reusable.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Venki18",
       "name": "",
@@ -6888,6 +7090,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The federal Belgian data archive for social sciences and the (digital) humanities! SODHA is the Belgian service provider in the Consortium of European Social Science Data Archives (CESSDA ERIC) and is hosted by the State Archives of Belgium. SODHA was built with the help of DEMO (UCLouvain) and Interface Demography (VUB).",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": null
   },
   {
@@ -6909,6 +7112,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The federal Belgian data archive for social sciences and the (digital) humanities! SODHA is the Belgian service provider in the Consortium of European Social Science Data Archives (CESSDA ERIC) and is hosted by the State Archives of Belgium. SODHA was built with the help of DEMO (UCLouvain) and Interface Demography (VUB).",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "youssefOuahalou",
       "name": "Ouahalou Youssef",
@@ -6943,6 +7147,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DUnAs is the institutional research data repository of the University of Aveiro. This repository is intended to share, archive, preserve, cite, access, and explore research data produced in the university scientific research activities",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "PLoboC",
       "name": "Pedro Lobo",
@@ -6977,6 +7182,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Organisme français de recherche agronomique et de coopération internationale pour le développement durable des régions tropicales et méditerranéennes, les activités du CIRAD relèvent des sciences du vivant, des sciences sociales et des sciences de l’ingénieur appliquées à l’agriculture, à l’alimentFrench agricultural research and international cooperation organization working for the sustainable development of tropical and Mediterranean regions, CIRAD's activities concern the life sciences, social sciences and engineering sciences, applied to agriculture, the environment and territorial management.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "gwendoux",
       "name": "gwen",
@@ -7011,6 +7217,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Over the years, IFDC has conducted numerous research and demonstration trials across its global programs and projects. Looking to avoid poor documentation, loss of data, and to boost the efficiency of data usage and decision-making abilities, IFDC has implemented a center-wide initiative to collect all research and development data in standard accessible formats, collate all data and analyses, and to make it available through IFDC solutions. The Dataverse came to corroborate with the IFDC idea to implement the FAIR principles and make the data easily findable, accessible, interoperable, and reusable.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "wpavan",
       "name": "Willingthon Pavan",
@@ -7045,6 +7252,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "carlsonp",
       "name": "Patrick Carlson",
@@ -7079,6 +7287,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "skasberger",
       "name": "Stefan Kasberger",
@@ -7113,6 +7322,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "NYCU Dataverse is the institutional research data repository of the National Yang Ming Chiao Tung University. This repository is aimed to share, archive, preserve, cite, access, and explore research data produced in the university. Datasets deposited to the NYCU Dataverse and published are automatically given a citation and a persistent link, increasing the researcher's impact, and visibility of research.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "twtw",
       "name": "Cheng-Yen Liu",
@@ -7147,6 +7357,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "alejandratenorio",
       "name": "Alejandra Tenorio",
@@ -7181,6 +7392,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Croatian Social Science Data Archive (CROSSDA) is a national infrastructure public service whose role is to ensure the long-term preservation and dissemination of social science research data.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "mglavica",
       "name": "",
@@ -7215,6 +7427,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Open for researchers associated with British Columbia universities to deposit data.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "plesubc",
       "name": "Paul Lesack",
@@ -7249,6 +7462,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "George Mason University Libraries Dataverse publishes, shares, and preserves data of enduring value produced by George Mason faculty, staff, and students.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "wendysmann",
       "name": "",
@@ -7283,6 +7497,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The JPL Open Repository (JOR), replaces the JPL Technical Report Server (TRS) in 2023, is a repository for digital copies of technical publications authored by JPL employees. It includes journal articles (the Final Accepted Version), meeting papers, presentations, and other publications cleared for external distribution from 1992 to the present. It also include research datasets from 2022 on.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": null
   },
   {
@@ -7306,6 +7521,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/X9G8HU"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "DieuwertjeBloemen",
       "name": "",
@@ -7340,6 +7556,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "tjouneau",
       "name": "",
@@ -7376,6 +7593,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/CUGYWW"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "juancorr",
       "name": "Juan Corrales Correyero",
@@ -7410,6 +7628,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "mbamouni",
       "name": "",
@@ -7444,6 +7663,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "edzale",
       "name": "",
@@ -7478,6 +7698,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Open for Heidelberg University affiliated researchers to deposit data.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "lmaylein",
       "name": "Leonhard Maylein",
@@ -7512,6 +7733,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The KEEN Data Management Platform is a common central Data Management and Storage Platform for KEEN project. (KEEN Project Link : http://keen-plattform.de)",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "linsherpa",
       "name": "Lincoln Sherpa",
@@ -7546,6 +7768,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "osnaData, the institutional research data repository of the Osnabrück University. osnaData offers all members of the university the possibility to publish their scientific research data according to the FAIR principles (Findable, Accessible, Interoperable, Reusable), thus making them visible, validatable and reusable worldwide. The research data repository osnaData is committed to the idea of Open Access as well as Open Science. Research data of all types and formats are published.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "philip-muench",
       "name": "",
@@ -7582,6 +7805,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/10/Odum-Institute-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "akio-sone",
       "name": "",
@@ -7618,6 +7842,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/10/Odum-Institute-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "tlchristian",
       "name": "",
@@ -7654,6 +7879,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "lubitchv",
       "name": "Victoria Lubitch",
@@ -7690,6 +7916,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "meghangoodchild",
       "name": "Meghan Goodchild",
@@ -7726,6 +7953,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "amberleahey",
       "name": "",
@@ -7760,6 +7988,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Open for researchers and organizations associated with French universities to deposit data. Hosted by the Center for Socio-Political Data (Sciences Po and CNRS).",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "rmo-cdsp",
       "name": "RomainM",
@@ -7794,6 +8023,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Institutional Data Repository of the University of Minho. Share, publish and manage research data from UMinho research units.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "agostinho-gomes",
       "name": "Agostinho Gomes",
@@ -7830,6 +8060,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/02/Australian-Data-Archive.pdf"
     ],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "stevenmce",
       "name": "",
@@ -7866,6 +8097,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/02/Australian-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "mdmADA",
       "name": "",
@@ -7902,6 +8134,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/02/Australian-Data-Archive.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "janetm",
       "name": "",
@@ -7938,6 +8171,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "WittenbergM",
       "name": "",
@@ -7974,6 +8208,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "LauraHuisintveld",
       "name": "Laura Huis in 't Veld",
@@ -8010,6 +8245,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2020/03/DataverseNO.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Louis-wr",
       "name": "",
@@ -8044,6 +8280,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "ASU Library's research data repository (powered by Harvard’s Dataverse software) helps ASU affiliated researchers share, store, preserve, cite, explore, and make research data accessible and discoverable. Dataverse is a dedicated research data management service platform that serves in the publication and reuse phase of the research data lifecycle and works in concert with the ASU Digital Repository ecosystem to present a more complete picture of ASU’s scholarly activities.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "nightowlaz",
       "name": "Deirdre Kirmis",
@@ -8080,6 +8317,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "JayanthyChengan",
       "name": "",
@@ -8114,6 +8352,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DaRUS, the data repository of the University of Stuttgart, offers a secure location for research data and codes of members or partners of the University of Stuttgart. DaRUS is used not only for publishing finished data, but also for managing and exchanging data at all stages of the lifecycle.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "doigl",
       "name": "Dorothea Iglezakis",
@@ -8148,6 +8387,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "El repositorio de Datos de la Universidad de Concepción, tiene como objetivo conservar, visibilizar y poner a disposición los datos y/o complementos de información utilizada en los proyectos de investigación por nuestros académicos y/o investigadores.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ElvisAravena",
       "name": "",
@@ -8182,6 +8422,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DATICE is a data service and archive for Icelandic social science research data",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "sindribaldur",
       "name": "Sindri",
@@ -8216,6 +8457,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "El Repositorio de Datos Académicos UNR (RDA-UNR) permite compartir, archivar, acceder, explorar y citar los datos de investigación gestionados por los docentes, investigadores y alumnos de la UNR, con el fin de dar visibilidad a los datos, potenciando su acceso, su reutilización y garantizando su preservación a largo plazo. Es un repositorio de auto publicación, en el cual los usuarios cargan, organizan, describen y publican sus datos. Cuentan para hacerlo con la ayuda de un equipo de curadores, guías y sesiones de entrenamiento. The Academic Data Repository of the National University of Rosario (RDA- UNR) allows for sharing, storing, accessing, exploring, and citing research data managed by UNR professors, researchers and students so as to make these data visible and promote its use and reutilization, ensuring its long-term preservation. It is a self-publishing repository, i.e. users upload, organize, describe and publish their own data with the assistance of a team of curators, user guides and training sessions.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "RDA-UNR",
       "name": "",
@@ -8250,6 +8492,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The TRR170-DB was set up to manage data products of the collaborative research center TRR 170 'Late Accretion onto Terrestrial Planets' (https://www.trr170-lateaccretion.de/). The repository also stores data by other institutions and researchers. Data include laboratory and other instrumental data on planetary samples, remote sensing data, geological maps and model simulations.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Abalduin-adm",
       "name": "",
@@ -8284,6 +8527,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "alsantiagoabreu",
       "name": "Alexandre Santiago de Abreu",
@@ -8318,6 +8562,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "kevinworthington",
       "name": "Kevin Worthington",
@@ -8352,6 +8597,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "golsch",
       "name": "Lennard Golsch",
@@ -8386,6 +8632,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jonquet",
       "name": "Clement Jonquet",
@@ -8420,6 +8667,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Bramvdhout",
       "name": "",
@@ -8454,6 +8702,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "orazionelson",
       "name": "Alfredo Cosco",
@@ -8488,6 +8737,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "KhoaBuind",
       "name": "Khoa Bùi",
@@ -8522,6 +8772,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "zhoulvjun",
       "name": "kusoft",
@@ -8556,6 +8807,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Open for researchers associated with British Columbia universities to deposit data.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jalperin",
       "name": "Juan Pablo Alperin",
@@ -8590,6 +8842,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "pacian",
       "name": "Richard Dennis",
@@ -8624,6 +8877,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The institutional open access research data repository for Nanyang Technological University (NTU). NTU researchers are encouraged to use DR-NTU (Data) to deposit, publish and archive their final research data in order to make their research data discoverable, accessible and reusable.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "eunices",
       "name": "eunice",
@@ -8658,6 +8912,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The repository was originally created as Concorda, an ad-hoc initiative for data exchange during the Covid-19 pandemic by HUN-REN Institute for Computer Science and Control (SZTAKI) and HUN-REN Wigner Research Centre for Physics (WIGNER). Since then, the repository was significantly expanded with additional disk space and other resources donated by SZTAKI and WIGNER institutes, and accepts data from all Hungarian researchers (with some storage constraints). In 2021, the ARP project started to build research data infrastructure for the Hungarian Research Network, and chose it as the main repository component to be integrated, while also significantly expanding its storage capacity. See also: https://researchdata.hu/ https://fairsharing.org/4585 https://www.re3data.org/repository/r3d100014109 https://v2.sherpa.ac.uk/id/repository/10638 https://wigner.hu/ https://sztaki.hu/",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "pallinger",
       "name": "",
@@ -8692,6 +8947,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "bricas",
       "name": "Brian Cassidy",
@@ -8726,6 +8982,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "tgoelles",
       "name": "Thomas Gölles",
@@ -8760,6 +9017,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "RAHMAHAMMA",
       "name": "",
@@ -8794,6 +9052,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "sergejzr",
       "name": "Сергей",
@@ -8828,6 +9087,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "virgilejarrige",
       "name": "Virgile Jarrige",
@@ -8862,6 +9122,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DaRUS, the data repository of the University of Stuttgart, offers a secure location for research data and codes of members or partners of the University of Stuttgart. DaRUS is used not only for publishing finished data, but also for managing and exchanging data at all stages of the lifecycle.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "mcgaerty",
       "name": "",
@@ -8896,6 +9157,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "aeonSolutions",
       "name": "Miguel Tomas Silva",
@@ -8930,6 +9192,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "A statewide archive of research data from Texas Digital Library (TDL) member institutions.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "ajdabrowski",
       "name": "Anna Dabrowski",
@@ -8964,6 +9227,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "xiaya2309",
       "name": "",
@@ -8998,6 +9262,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "DS-INRAE",
       "name": "Dimitri Szabo",
@@ -9032,6 +9297,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "lgarciap",
       "name": "",
@@ -9068,6 +9334,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
     ],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ekoi",
       "name": "Eko Indarto",
@@ -9102,6 +9369,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "IlariaBelvedere",
       "name": "Ilaria Belvedere",
@@ -9136,6 +9404,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kuriwaki",
       "name": "Shiro Kuriwaki",
@@ -9170,6 +9439,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "haarli",
       "name": "Markus",
@@ -9204,6 +9474,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "cheneyfeng3",
       "name": "cstr",
@@ -9238,6 +9509,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Jülich DATA is the institutional research data repositorium made at Forschungszentrum Jülich. Featuring metadata focus and running on Kubernetes.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "FlorianRhiem",
       "name": "Florian Rhiem",
@@ -9272,6 +9544,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ischmahl",
       "name": "",
@@ -9306,6 +9579,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "espenfl",
       "name": "Espen",
@@ -9340,6 +9614,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "kamil386",
       "name": "Kamil Guryn",
@@ -9374,6 +9649,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jgara",
       "name": "Jeff Gara",
@@ -9408,6 +9684,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "DeiC Dataverse is the Danish National Repository for Research Data and is available to all universities in Denmark. It is operated by the Danish e-infrastructure Consortium, DeiC, in collaboration with the University of Copenhagen.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Falco-KUB",
       "name": "Falco (Copenhagen University Library)",
@@ -9421,40 +9698,6 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/Falco-KUB",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32436113?v=4"
-    }
-  },
-  {
-    "GitHub Username": "ofahimIQSS",
-    "Timezone": "",
-    "Matrix name": "",
-    "Primary installation": "",
-    "Sweets": "",
-    "Zulip ID": "",
-    "Active": "",
-    "ORCID": "",
-    "Functional Areas": "",
-    "Example pull request": "",
-    "Shout out": "",
-    "URL": "",
-    "freenode nick": "",
-    "Country": "",
-    "Continent": "",
-    "Installation Description": "",
-    "GDCC Member": false,
-    "CoreTrustSeals": [],
-    "GitHub Profile": {
-      "login": "ofahimIQSS",
-      "name": "Omer Fahim",
-      "company": "",
-      "location": "",
-      "bio": "",
-      "blog": "",
-      "twitterUsername": "",
-      "followers": 2,
-      "following": 0,
-      "publicRepos": 7,
-      "htmlUrl": "https://github.com/ofahimIQSS",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/182560764?v=4"
     }
   },
   {
@@ -9476,6 +9719,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "stevenferey",
       "name": "Steven Ferey",
@@ -9510,6 +9754,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "siacus",
       "name": "Stefano Iacus",
@@ -9544,6 +9789,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "pdurbin",
       "name": "Philip Durbin",
@@ -9578,6 +9824,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "jggautier",
       "name": "Julian Gautier",
@@ -9612,6 +9859,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "dliburd",
       "name": "",
@@ -9646,6 +9894,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "kmika11",
       "name": "Katie Mika",
@@ -9680,6 +9929,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "sekmiller",
       "name": "Stephen Kraffmiller",
@@ -9714,6 +9964,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "landreev",
       "name": "",
@@ -9748,6 +9999,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "scolapasta",
       "name": "Gustavo Durand",
@@ -9782,6 +10034,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "ekraffmiller",
       "name": "Ellen Kraffmiller",
@@ -9816,6 +10069,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "stevenwinship",
       "name": "Steven Winship",
@@ -9850,6 +10104,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "jp-tosca",
       "name": "Juan Pablo Tosca Villanueva",
@@ -9884,6 +10139,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "cmbz",
       "name": "C. Boyd",
@@ -9918,6 +10174,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "rtreacy",
       "name": "Bob Treacy",
@@ -9952,6 +10209,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "ChengShi-1",
       "name": "Cheng Shi",
@@ -9986,6 +10244,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "g-saracca",
       "name": "German Gonzalo Saracca",
@@ -10020,6 +10279,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "Saixel",
       "name": "Alexis Guanche",
@@ -10054,6 +10314,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "danielEbanks",
       "name": "Danny Ebanks",
@@ -10088,6 +10349,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
     "GDCC Member": true,
     "CoreTrustSeals": [],
+    "DataverseTV": false,
     "GitHub Profile": {
       "login": "rnichols7",
       "name": "Becca Nichols",

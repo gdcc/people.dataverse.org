@@ -275,6 +275,28 @@ function renderCards(members) {
       wrapper.append(dt, dd);
       meta.append(wrapper);
     }
+
+    if (member.dataverseTv) {
+      const links = node.querySelector(".member-links");
+      const dataverseTvLink = document.createElement("a");
+      dataverseTvLink.href = "https://dataverse.org/dataversetv";
+      dataverseTvLink.target = "_blank";
+      dataverseTvLink.rel = "noreferrer";
+      dataverseTvLink.className = "dataversetv-link";
+      dataverseTvLink.setAttribute(
+        "aria-label",
+        `Open DataverseTV for ${member.githubUsername}`,
+      );
+      const dataverseTvImage = document.createElement("img");
+      dataverseTvImage.src = "./assets/dataversetv.svg";
+      dataverseTvImage.alt = "";
+      dataverseTvImage.className = "dataversetv-link-image";
+      dataverseTvImage.setAttribute("aria-hidden", "true");
+      const dataverseTvLabel = document.createElement("span");
+      dataverseTvLabel.textContent = "Watch me on DataverseTV";
+      dataverseTvLink.append(dataverseTvImage, dataverseTvLabel);
+      links.append(dataverseTvLink);
+    }
     fragment.append(node);
   }
 
@@ -808,6 +830,7 @@ function extractMember(row) {
     installationDescription: row["Installation Description"]?.trim() ?? "",
     gdccMember: Boolean(row["GDCC Member"]),
     coreTrustSeals: Array.isArray(row.CoreTrustSeals) ? row.CoreTrustSeals : [],
+    dataverseTv: Boolean(row.DataverseTV),
     zulipId: row["Zulip ID"]?.trim() ?? "",
     orcid: row.ORCID?.trim() ?? "",
     name: row["GitHub Profile"]?.name?.trim?.() ?? row["GitHub Profile"]?.name ?? "",

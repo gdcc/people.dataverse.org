@@ -522,6 +522,25 @@ select {
   font-weight: 700;
 }
 
+.dataversetv-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  max-width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.dataversetv-link-image {
+  width: 76px;
+  height: auto;
+  display: block;
+  flex: 0 0 auto;
+}
+
 .empty-state {
   padding: 30px;
   border-radius: var(--radius-md);
