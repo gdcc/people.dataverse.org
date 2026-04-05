@@ -433,7 +433,7 @@ function createInstallationDescriptionPreview(description) {
   const preview = truncateDescription(normalized, 58);
 
   const previewText = document.createElement("span");
-  previewText.textContent = preview;
+  appendLinkedText(previewText, preview);
   wrapper.append(previewText);
 
   if (preview !== normalized) {
@@ -445,7 +445,7 @@ function createInstallationDescriptionPreview(description) {
     expandButton.addEventListener("click", () => {
       const expanded = wrapper.dataset.expanded === "true";
       wrapper.dataset.expanded = expanded ? "false" : "true";
-      previewText.textContent = expanded ? preview : normalized;
+      appendLinkedText(previewText, expanded ? preview : normalized);
       expandButton.textContent = expanded ? "..." : " [collapse description]";
       expandButton.setAttribute(
         "aria-label",
