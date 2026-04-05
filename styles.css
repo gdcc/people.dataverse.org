@@ -483,6 +483,11 @@ select {
     padding: 18px;
   }
 
+  .panel.controls-panel {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
   .stats-panel {
     grid-template-columns: 1fr 1fr;
   }
@@ -490,9 +495,24 @@ select {
   .controls-panel {
     flex-direction: column;
     align-items: stretch;
+    gap: 8px;
   }
 
   .field {
     width: 100%;
+    flex: 0 0 auto;
+    gap: 2px;
+    margin: 0;
+  }
+
+  .field span {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  input,
+  select {
+    min-height: 38px;
+    padding: 0 14px;
   }
 }
