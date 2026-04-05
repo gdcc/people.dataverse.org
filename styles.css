@@ -72,6 +72,11 @@ h1 {
   max-width: 13ch;
 }
 
+.hero-home-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 .hero-copy {
   max-width: 58ch;
   margin: 16px 0 0;
@@ -132,6 +137,16 @@ select {
   flex-direction: column;
   gap: 18px;
   margin-top: 22px;
+}
+
+body.member-route .layout {
+  margin-top: 12px;
+}
+
+#overview-panel[hidden],
+#filters-panel[hidden],
+#results-panel[hidden] {
+  display: none !important;
 }
 
 .panel {
@@ -227,6 +242,15 @@ select {
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.member-route-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.member-route-actions[hidden] {
+  display: none !important;
 }
 
 .member-card {

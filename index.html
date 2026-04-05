@@ -29,14 +29,14 @@
   <body>
     <div class="page-shell">
       <header class="hero">
-        <h1>Dataverse People</h1>
+        <h1><a class="hero-home-link" href="./">Dataverse People</a></h1>
         <p class="hero-copy">
           Members of the <a href="https://dataverse.org" target="_blank">Dataverse</a> community.
         </p>
       </header>
 
       <main class="layout">
-        <section class="panel stats-panel" aria-label="Overview">
+        <section id="overview-panel" class="panel stats-panel" aria-label="Overview">
           <div class="stat-card">
             <span class="stat-label">Members</span>
             <strong id="profile-count">0</strong>
@@ -55,7 +55,7 @@
           </div>
         </section>
 
-        <section class="panel controls-panel" aria-label="Filters">
+        <section id="filters-panel" class="panel controls-panel" aria-label="Filters">
           <label class="field">
             <span>Search</span>
             <input
@@ -87,7 +87,7 @@
           </button>
         </section>
 
-        <section class="results-header" aria-label="Results summary">
+        <section id="results-panel" class="results-header" aria-label="Results summary">
           <div>
             <h2>Members</h2>
             <p id="results-copy">Loading directory…</p>
@@ -95,6 +95,9 @@
         </section>
 
         <section id="card-grid" class="card-grid" aria-live="polite"></section>
+        <section id="member-route-actions" class="member-route-actions" hidden>
+          <a class="ghost-button" href="./">Back to all members</a>
+        </section>
       </main>
     </div>
 

@@ -25,6 +25,10 @@ const state = {
 };
 
 const elements = {
+  overviewPanel: document.querySelector("#overview-panel"),
+  filtersPanel: document.querySelector("#filters-panel"),
+  resultsPanel: document.querySelector("#results-panel"),
+  memberRouteActions: document.querySelector("#member-route-actions"),
   searchInput: document.querySelector("#search-input"),
   installationFilter: document.querySelector("#installation-filter"),
   countryFilter: document.querySelector("#country-filter"),
@@ -97,11 +101,30 @@ function bindEvents() {
 }
 
 function render() {
+  const isMemberRoute = Boolean(state.route.memberUsername);
+  document.body.classList.toggle("member-route", isMemberRoute);
+  toggleRouteSections(isMemberRoute);
+
   const visibleMembers = getVisibleMembers();
   updateStats(visibleMembers);
   renderCards(visibleMembers);
   renderMeta(visibleMembers);
   syncFilterInputs();
+}
+
+function toggleRouteSections(isMemberRoute) {
+  if (elements.overviewPanel) {
+    elements.overviewPanel.hidden = isMemberRoute;
+  }
+  if (elements.filtersPanel) {
+    elements.filtersPanel.hidden = isMemberRoute;
+  }
+  if (elements.resultsPanel) {
+    elements.resultsPanel.hidden = isMemberRoute;
+  }
+  if (elements.memberRouteActions) {
+    elements.memberRouteActions.hidden = !isMemberRoute;
+  }
 }
 
 function updateStats(filteredMembers) {
