@@ -145,8 +145,8 @@ function updateStats(filteredMembers) {
     filteredMembers.map((member) => member.country),
   ).toString();
 
-  elements.sourceBadge.textContent = "Bundled snapshot";
-  elements.updatedAt.textContent = `Dataset size: ${allMembers.length} members • Updated ${formatDate(
+  elements.sourceBadge.textContent = "Snapshot";
+  elements.updatedAt.textContent = `${allMembers.length} members • Updated ${formatDate(
     state.loadedAt,
   )}`;
 }

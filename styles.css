@@ -159,7 +159,7 @@ body.member-route .layout {
 .stats-panel {
   display: grid;
   gap: 14px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: stretch;
 }
 
@@ -183,6 +183,12 @@ body.member-route .layout {
   justify-content: center;
   gap: 8px;
   padding: 8px 4px;
+}
+
+.source-note-footer {
+  align-items: flex-start;
+  margin-top: 4px;
+  opacity: 0.9;
 }
 
 .badge {

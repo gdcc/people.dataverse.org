@@ -2,7 +2,7 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-05T14:24:31.229Z",
+  "generatedAt": "2026-04-05T15:51:00.840Z",
   "rowCount": 296,
   "matchedCountryCount": 138,
   "matchedContinentCount": 138,
