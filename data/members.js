@@ -2,7 +2,7 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-05T22:49:31.442Z",
+  "generatedAt": "2026-04-05T23:23:06.655Z",
   "rowCount": 296,
   "matchedCountryCount": 139,
   "matchedContinentCount": 139,
@@ -856,7 +856,7 @@ export const MEMBERS_SNAPSHOT = [
   {
     "GitHub Username": "Athemis",
     "Primary installation": "",
-    "Zulip ID": "",
+    "Zulip ID": "867821",
     "ORCID": "",
     "Working Groups": "",
     "Sweets": "",
@@ -4702,7 +4702,7 @@ export const MEMBERS_SNAPSHOT = [
   {
     "GitHub Username": "kenlhlui",
     "Primary installation": "",
-    "Zulip ID": "",
+    "Zulip ID": "720329",
     "ORCID": "",
     "Working Groups": "",
     "Sweets": "",
@@ -7353,7 +7353,7 @@ export const MEMBERS_SNAPSHOT = [
   {
     "GitHub Username": "shlake",
     "Primary installation": "dataverse.lib.virginia.edu",
-    "Zulip ID": "",
+    "Zulip ID": "599826",
     "ORCID": "",
     "Working Groups": "",
     "Sweets": "",
