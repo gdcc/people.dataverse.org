@@ -394,6 +394,31 @@ function appendInstallationValue(container, installation, country) {
       externalIcon.setAttribute("aria-hidden", "true");
       externalLink.append(externalIcon);
       container.append(externalLink);
+
+      const gdccMember =
+        state.members.find(
+          (entry) => entry.primaryInstallation === installationText && entry.gdccMember,
+        )?.gdccMember ?? false;
+
+      if (gdccMember) {
+        container.append(document.createTextNode(" "));
+        const gdccLink = document.createElement("a");
+        gdccLink.href = "https://www.gdcc.io/members.html";
+        gdccLink.target = "_blank";
+        gdccLink.rel = "noreferrer";
+        gdccLink.className = "gdcc-inline-link";
+        gdccLink.setAttribute(
+          "aria-label",
+          `${installationText} is a GDCC member. Open GDCC members page`,
+        );
+        const gdccLogo = document.createElement("img");
+        gdccLogo.src = "./assets/gdcc-logo.png";
+        gdccLogo.alt = "";
+        gdccLogo.className = "gdcc-inline-icon";
+        gdccLogo.setAttribute("aria-hidden", "true");
+        gdccLink.append(gdccLogo);
+        container.append(gdccLink);
+      }
     }
   }
 
@@ -598,6 +623,7 @@ function extractMember(row) {
     country: row.Country?.trim() ?? "",
     continent: row.Continent?.trim() ?? "",
     installationDescription: row["Installation Description"]?.trim() ?? "",
+    gdccMember: Boolean(row["GDCC Member"]),
     zulipId: row["Zulip ID"]?.trim() ?? "",
     orcid: row.ORCID?.trim() ?? "",
     name: row["GitHub Profile"]?.name?.trim?.() ?? row["GitHub Profile"]?.name ?? "",
@@ -637,12 +663,17 @@ function applyEnrichment(member) {
     member.installationDescription ||
     enrichmentMaps.descriptionByInstallation.get(member.primaryInstallation) ||
     "";
+  const gdccMember =
+    member.gdccMember ||
+    enrichmentMaps.gdccMemberByInstallation.get(member.primaryInstallation) ||
+    false;
 
   return {
     ...member,
     country,
     continent,
     installationDescription,
+    gdccMember,
     name: member.name || githubProfile.name || "",
     bio: member.bio || githubProfile.bio || "",
     githubLocation: member.githubLocation || githubProfile.githubLocation || "",
@@ -657,6 +688,7 @@ function buildEnrichmentMaps(rows) {
   const countryByInstallation = new Map();
   const continentByInstallation = new Map();
   const descriptionByInstallation = new Map();
+  const gdccMemberByInstallation = new Map();
   const githubByUsername = new Map();
 
   for (const row of rows) {
@@ -672,6 +704,9 @@ function buildEnrichmentMaps(rows) {
         member.primaryInstallation,
         member.installationDescription,
       );
+    }
+    if (member.primaryInstallation && member.gdccMember) {
+      gdccMemberByInstallation.set(member.primaryInstallation, true);
     }
 
     if (
@@ -700,6 +735,7 @@ function buildEnrichmentMaps(rows) {
     countryByInstallation,
     continentByInstallation,
     descriptionByInstallation,
+    gdccMemberByInstallation,
     githubByUsername,
   };
 }

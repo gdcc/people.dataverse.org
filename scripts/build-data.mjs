@@ -36,6 +36,14 @@ const descriptionByHostname = new Map(
     ])
     .filter(([hostname]) => Boolean(hostname)),
 );
+const gdccMemberByHostname = new Map(
+  (installationData.installations ?? [])
+    .map((installation) => [
+      normalizeHostname(installation.hostname),
+      Boolean(installation.gdcc_member),
+    ])
+    .filter(([hostname]) => Boolean(hostname)),
+);
 
 const rows = lines.slice(1).map((line) => {
   const values = line.split("\t");
@@ -50,6 +58,7 @@ const rows = lines.slice(1).map((line) => {
   record.Country = countryByHostname.get(installationHost) ?? "";
   record.Continent = continentByHostname.get(installationHost) ?? "";
   record["Installation Description"] = descriptionByHostname.get(installationHost) ?? "";
+  record["GDCC Member"] = gdccMemberByHostname.get(installationHost) ?? false;
   record["GitHub Profile"] = githubProfile;
 
   return record;
@@ -58,6 +67,7 @@ const rows = lines.slice(1).map((line) => {
 const matchedCountries = rows.filter((row) => row.Country).length;
 const matchedContinents = rows.filter((row) => row.Continent).length;
 const matchedDescriptions = rows.filter((row) => row["Installation Description"]).length;
+const matchedGdccMembers = rows.filter((row) => row["GDCC Member"]).length;
 const matchedGitHubProfiles = rows.filter((row) => row["GitHub Profile"]).length;
 
 const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
@@ -72,6 +82,7 @@ const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
     matchedCountryCount: matchedCountries,
     matchedContinentCount: matchedContinents,
     matchedInstallationDescriptionCount: matchedDescriptions,
+    matchedGdccMemberCount: matchedGdccMembers,
     matchedGitHubProfileCount: matchedGitHubProfiles,
   },
   null,
@@ -84,7 +95,7 @@ export const MEMBERS_SNAPSHOT = ${JSON.stringify(rows, null, 2)};
 await writeFile(outputPath, moduleSource);
 
 console.log(
-  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, and ${matchedGitHubProfiles} GitHub profile matches`,
+  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, ${matchedGdccMembers} GDCC member matches, and ${matchedGitHubProfiles} GitHub profile matches`,
 );
 
 function normalizeHostname(value) {

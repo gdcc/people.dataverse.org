@@ -380,6 +380,18 @@ select {
   display: block;
 }
 
+.gdcc-inline-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.gdcc-inline-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
 .installation-description-preview {
   color: var(--muted);
 }
