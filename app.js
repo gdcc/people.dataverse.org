@@ -15,13 +15,7 @@ const enrichmentMaps = buildEnrichmentMaps(MEMBERS_SNAPSHOT);
 const state = {
   members: normalizeMembers(MEMBERS_SNAPSHOT),
   loadedAt: SNAPSHOT_META.generatedAt,
-  route: getRouteFromLocation(),
-  filters: {
-    search: "",
-    installation: "",
-    country: "",
-    continent: "",
-  },
+  ...getLocationState(),
 };
 
 const elements = {
@@ -95,7 +89,9 @@ function bindEvents() {
   });
 
   window.addEventListener("popstate", () => {
-    state.route = getRouteFromLocation();
+    const locationState = getLocationState();
+    state.route = locationState.route;
+    state.filters = locationState.filters;
     render();
   });
 }
@@ -426,6 +422,17 @@ function navigateToMember(username) {
     window.history.pushState(null, "", nextUrl);
   }
   state.route = { memberUsername: username };
+  state.filters = getDefaultFilters();
+  render();
+}
+
+function navigateHomeWithFilters(nextFilters) {
+  state.route = { memberUsername: "" };
+  state.filters = {
+    ...getDefaultFilters(),
+    ...nextFilters,
+  };
+  window.history.pushState(null, "", getHomeUrl(state.filters));
   render();
 }
 
@@ -466,8 +473,12 @@ function appendInstallationValue(container, installation, country) {
     filterLink.textContent = installationText;
     filterLink.addEventListener("click", (event) => {
       event.preventDefault();
-      state.filters.installation = installationText;
-      render();
+      if (state.route.memberUsername) {
+        navigateHomeWithFilters({ installation: installationText });
+      } else {
+        state.filters.installation = installationText;
+        render();
+      }
     });
     container.append(filterLink);
 
@@ -537,8 +548,12 @@ function appendInstallationValue(container, installation, country) {
   countryLink.textContent = `(${country})`;
   countryLink.addEventListener("click", (event) => {
     event.preventDefault();
-    state.filters.country = country;
-    render();
+    if (state.route.memberUsername) {
+      navigateHomeWithFilters({ country });
+    } else {
+      state.filters.country = country;
+      render();
+    }
   });
   container.append(countryLink);
 }
@@ -713,6 +728,13 @@ function getAppBasePath() {
   return pathname === "/" ? "" : pathname;
 }
 
+function getLocationState() {
+  const route = getRouteFromLocation();
+  const filters = getFiltersFromLocation();
+
+  return { route, filters };
+}
+
 function getRouteFromLocation() {
   const pathname = window.location.pathname;
   const relativePath = pathname.startsWith(`${APP_BASE_PATH}/`)
@@ -723,6 +745,38 @@ function getRouteFromLocation() {
   return {
     memberUsername: decodeURIComponent(memberUsername || ""),
   };
+}
+
+function getFiltersFromLocation() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    search: params.get("search") ?? "",
+    installation: params.get("installation") ?? "",
+    country: params.get("country") ?? "",
+    continent: params.get("continent") ?? "",
+  };
+}
+
+function getDefaultFilters() {
+  return {
+    search: "",
+    installation: "",
+    country: "",
+    continent: "",
+  };
+}
+
+function getHomeUrl(filters) {
+  const params = new URLSearchParams();
+
+  for (const [key, value] of Object.entries(filters)) {
+    if (value) {
+      params.set(key, value);
+    }
+  }
+
+  const query = params.toString();
+  return `${APP_BASE_PATH || ""}/${query ? `?${query}` : ""}`.replace(/\/\?/, "/?");
 }
 
 function extractMember(row) {
