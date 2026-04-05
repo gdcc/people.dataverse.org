@@ -20,6 +20,14 @@ const countryByHostname = new Map(
     ])
     .filter(([hostname]) => Boolean(hostname)),
 );
+const continentByHostname = new Map(
+  (installationData.installations ?? [])
+    .map((installation) => [
+      normalizeHostname(installation.hostname),
+      installation.continent ?? "",
+    ])
+    .filter(([hostname]) => Boolean(hostname)),
+);
 
 const rows = lines.slice(1).map((line) => {
   const values = line.split("\t");
@@ -32,12 +40,14 @@ const rows = lines.slice(1).map((line) => {
   const githubProfile = githubUsers[githubUsername]?.profile ?? null;
 
   record.Country = countryByHostname.get(installationHost) ?? "";
+  record.Continent = continentByHostname.get(installationHost) ?? "";
   record["GitHub Profile"] = githubProfile;
 
   return record;
 });
 
 const matchedCountries = rows.filter((row) => row.Country).length;
+const matchedContinents = rows.filter((row) => row.Continent).length;
 const matchedGitHubProfiles = rows.filter((row) => row["GitHub Profile"]).length;
 
 const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
@@ -50,6 +60,7 @@ const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
     generatedAt: new Date().toISOString(),
     rowCount: rows.length,
     matchedCountryCount: matchedCountries,
+    matchedContinentCount: matchedContinents,
     matchedGitHubProfileCount: matchedGitHubProfiles,
   },
   null,
@@ -62,7 +73,7 @@ export const MEMBERS_SNAPSHOT = ${JSON.stringify(rows, null, 2)};
 await writeFile(outputPath, moduleSource);
 
 console.log(
-  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches and ${matchedGitHubProfiles} GitHub profile matches`,
+  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, and ${matchedGitHubProfiles} GitHub profile matches`,
 );
 
 function normalizeHostname(value) {

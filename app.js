@@ -18,6 +18,7 @@ const state = {
     search: "",
     installation: "",
     country: "",
+    continent: "",
   },
 };
 
@@ -25,6 +26,7 @@ const elements = {
   searchInput: document.querySelector("#search-input"),
   installationFilter: document.querySelector("#installation-filter"),
   countryFilter: document.querySelector("#country-filter"),
+  continentFilter: document.querySelector("#continent-filter"),
   resetButton: document.querySelector("#reset-button"),
   profileCount: document.querySelector("#profile-count"),
   installationCount: document.querySelector("#installation-count"),
@@ -59,12 +61,19 @@ function bindEvents() {
       render();
     });
   }
+  if (elements.continentFilter) {
+    elements.continentFilter.addEventListener("change", (event) => {
+      state.filters.continent = event.target.value;
+      render();
+    });
+  }
 
   elements.resetButton.addEventListener("click", () => {
     state.filters = {
       search: "",
       installation: "",
       country: "",
+      continent: "",
     };
     elements.searchInput.value = "";
     if (elements.installationFilter) {
@@ -72,6 +81,9 @@ function bindEvents() {
     }
     if (elements.countryFilter) {
       elements.countryFilter.value = "";
+    }
+    if (elements.continentFilter) {
+      elements.continentFilter.value = "";
     }
     render();
   });
@@ -102,13 +114,14 @@ function updateStats(filteredMembers) {
 }
 
 function renderMeta(filteredMembers) {
-  const { installation, country, search } = state.filters;
+  const { installation, country, continent, search } = state.filters;
   const installationLabel = installation ? ` at ${installation}` : "";
   const countryLabel = country ? ` in ${country}` : "";
+  const continentLabel = continent ? ` in ${continent}` : "";
   const searchLabel = search ? ` matching "${search}"` : "";
 
   elements.resultsCopy.textContent =
-    `${filteredMembers.length} members${installationLabel}${countryLabel}${searchLabel}.`.replace(
+    `${filteredMembers.length} members${installationLabel}${countryLabel}${continentLabel}${searchLabel}.`.replace(
       /\s+\./,
       ".",
     );
@@ -215,6 +228,14 @@ function populateFilters() {
       state.filters.country,
     );
   }
+  if (elements.continentFilter) {
+    fillSelect(
+      elements.continentFilter,
+      uniqueValues(state.members.map((member) => member.continent)),
+      "All continents",
+      state.filters.continent,
+    );
+  }
 }
 
 function fillSelect(element, values, defaultLabel, selectedValue) {
@@ -242,6 +263,9 @@ function syncFilterInputs() {
   if (elements.countryFilter) {
     elements.countryFilter.value = state.filters.country;
   }
+  if (elements.continentFilter) {
+    elements.continentFilter.value = state.filters.continent;
+  }
 }
 
 function filterMembers(members, filters) {
@@ -252,6 +276,7 @@ function filterMembers(members, filters) {
         member.primaryInstallation === filters.installation,
     )
     .filter((member) => !filters.country || member.country === filters.country)
+    .filter((member) => !filters.continent || member.continent === filters.continent)
     .filter((member) => matchesSearch(member, filters.search))
     .sort((left, right) => left.githubUsername.localeCompare(right.githubUsername));
 }
@@ -513,6 +538,7 @@ function extractMember(row) {
     githubUsername: row["GitHub Username"]?.trim() ?? "",
     primaryInstallation: row["Primary installation"]?.trim() ?? "",
     country: row.Country?.trim() ?? "",
+    continent: row.Continent?.trim() ?? "",
     zulipId: row["Zulip ID"]?.trim() ?? "",
     orcid: row.ORCID?.trim() ?? "",
     name: row["GitHub Profile"]?.name?.trim?.() ?? row["GitHub Profile"]?.name ?? "",
@@ -544,10 +570,15 @@ function applyEnrichment(member) {
     member.country ||
     enrichmentMaps.countryByInstallation.get(member.primaryInstallation) ||
     "";
+  const continent =
+    member.continent ||
+    enrichmentMaps.continentByInstallation.get(member.primaryInstallation) ||
+    "";
 
   return {
     ...member,
     country,
+    continent,
     name: member.name || githubProfile.name || "",
     bio: member.bio || githubProfile.bio || "",
     githubLocation: member.githubLocation || githubProfile.githubLocation || "",
@@ -560,12 +591,16 @@ function applyEnrichment(member) {
 
 function buildEnrichmentMaps(rows) {
   const countryByInstallation = new Map();
+  const continentByInstallation = new Map();
   const githubByUsername = new Map();
 
   for (const row of rows) {
     const member = extractMember(row);
     if (member.primaryInstallation && member.country) {
       countryByInstallation.set(member.primaryInstallation, member.country);
+    }
+    if (member.primaryInstallation && member.continent) {
+      continentByInstallation.set(member.primaryInstallation, member.continent);
     }
 
     if (
@@ -592,6 +627,7 @@ function buildEnrichmentMaps(rows) {
 
   return {
     countryByInstallation,
+    continentByInstallation,
     githubByUsername,
   };
 }

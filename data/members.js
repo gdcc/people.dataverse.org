@@ -2,9 +2,10 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-04T23:22:24.601Z",
+  "generatedAt": "2026-04-05T02:15:43.552Z",
   "rowCount": 296,
   "matchedCountryCount": 135,
+  "matchedContinentCount": 135,
   "matchedGitHubProfileCount": 292
 };
 
@@ -24,6 +25,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "srmanda-cs",
       "name": "Ash Manda",
@@ -54,6 +56,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "yesilms",
       "name": "",
@@ -84,6 +87,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "ProfPhoenix",
       "name": "",
@@ -114,6 +118,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "christopherkenny",
       "name": "Christopher T. Kenny",
@@ -144,6 +149,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Parthsuii",
       "name": "Parth karalkar",
@@ -174,6 +180,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "AnneGerlach",
       "name": "Anne Gerlach",
@@ -204,6 +211,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "isaacpratt",
       "name": "Isaac Pratt",
@@ -234,6 +242,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "gtsueng",
       "name": "",
@@ -264,6 +273,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Ozoubia",
       "name": "Oussama Zoubia",
@@ -294,6 +304,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "alungarska",
       "name": "",
@@ -324,6 +335,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "TillJan",
       "name": "",
@@ -354,6 +366,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "c2dhfma",
       "name": "Frederic Maguin",
@@ -384,6 +397,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "22tb",
       "name": "Tobi",
@@ -414,6 +428,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "JulianRein",
       "name": "",
@@ -444,6 +459,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Sathvikaundala",
       "name": "",
@@ -474,6 +490,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "juriroemer",
       "name": "Juri",
@@ -504,6 +521,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Spain",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "ainajene",
       "name": "",
@@ -534,6 +552,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "hitzelbe",
       "name": "",
@@ -564,6 +583,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jennaqi2001",
       "name": "Yijia Jenna Qi",
@@ -594,6 +614,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Maham802",
       "name": "Maham Maham",
@@ -624,6 +645,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "konradoberwimmer",
       "name": "Konrad Oberwimmer",
@@ -654,6 +676,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "bryanmgee",
       "name": "Bryan Gee",
@@ -684,6 +707,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "emmaw786",
       "name": "",
@@ -714,6 +738,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "joannag555",
       "name": "",
@@ -744,6 +769,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "cesarpferreira",
       "name": "",
@@ -774,6 +800,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "yaof22",
       "name": "",
@@ -804,6 +831,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "amandhawb",
       "name": "Amandha Wingert Barok",
@@ -834,6 +862,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "datacuratorcsuc",
       "name": "Curació Dades CSUC",
@@ -864,6 +893,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jonathanbohan",
       "name": "",
@@ -894,6 +924,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "shuffle2",
       "name": "",
@@ -924,6 +955,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "thisisbillie",
       "name": "",
@@ -954,6 +986,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "univiedev",
       "name": "",
@@ -984,6 +1017,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "foa2",
       "name": "",
@@ -1014,6 +1048,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "superpegaso2703",
       "name": "Pablo Picurelli Ortiz ",
@@ -1044,6 +1079,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Athemis",
       "name": "Alexander Minges",
@@ -1074,6 +1110,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Firestar-Reimu",
       "name": "Firestar-Reimu",
@@ -1104,6 +1141,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "emily-katz",
       "name": "",
@@ -1134,6 +1172,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kenlhlui",
       "name": "Ken Lui",
@@ -1164,6 +1203,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "prpfialho",
       "name": "Pedro Fialho",
@@ -1194,6 +1234,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "rachfern85",
       "name": "Rachel Fernandez",
@@ -1224,6 +1265,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "chrisjcameron",
       "name": "",
@@ -1254,6 +1296,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "wshahn",
       "name": "",
@@ -1284,6 +1327,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jpedataeditor",
       "name": "JPE Data Editor",
@@ -1314,6 +1358,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "mbarram",
       "name": "",
@@ -1344,6 +1389,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kwenzig",
       "name": "Knut Wenzig",
@@ -1374,6 +1420,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "kbatyuk",
       "name": "Kirill Batyuk",
@@ -1404,6 +1451,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "daniel-om-weber",
       "name": "Daniel Weber",
@@ -1434,6 +1482,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "synapticrain",
       "name": "",
@@ -1464,6 +1513,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "miramgleiber",
       "name": "Miram Gleiber",
@@ -1494,6 +1544,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "ahsouri",
       "name": "Amir H. Souri",
@@ -1524,6 +1575,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "CharityEverett",
       "name": "Charity Everett",
@@ -1554,6 +1606,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "javieru-dialnet",
       "name": "",
@@ -1584,6 +1637,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "Baroti",
       "name": "Steve Baroti",
@@ -1614,6 +1668,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Jerry-Ma",
       "name": "Zhiyuan  Ma",
@@ -1644,6 +1699,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Odysseas640",
       "name": "Odysseas Stefas",
@@ -1674,6 +1730,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Netherlands",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "aliassheikh",
       "name": "Alias",
@@ -1704,6 +1761,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "andrecastro0o",
       "name": "André Castro",
@@ -1734,6 +1792,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "davidverdu",
       "name": "David Verdú",
@@ -1764,6 +1823,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kjentech",
       "name": "",
@@ -1794,6 +1854,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jamessi1989",
       "name": "",
@@ -1824,6 +1885,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jdmar3",
       "name": "John D. Martin III",
@@ -1854,6 +1916,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Norway",
+    "Continent": "Europe",
     "GitHub Profile": null
   },
   {
@@ -1871,6 +1934,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": null
   },
   {
@@ -1888,6 +1952,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "summitcheung",
       "name": "",
@@ -1918,6 +1983,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "mlage",
       "name": "Marcos Lage",
@@ -1948,6 +2014,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "reikoch",
       "name": "",
@@ -1978,6 +2045,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "fgassert",
       "name": "Francis Gassert",
@@ -2008,6 +2076,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jbiernaux",
       "name": "",
@@ -2038,6 +2107,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "AFIOCCA-INRAE",
       "name": "Amélie Fiocca",
@@ -2068,6 +2138,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "seaneu",
       "name": "",
@@ -2098,6 +2169,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "BeebBenjamin",
       "name": "Richard Benjamin Allen",
@@ -2128,6 +2200,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "bikramj",
       "name": "Bikramjit Singh",
@@ -2158,6 +2231,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "apmireia",
       "name": "",
@@ -2188,6 +2262,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "lobbikerivm",
       "name": "Stefan Lobner",
@@ -2218,6 +2293,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jarulsamy",
       "name": "Joshua Arulsamy",
@@ -2248,6 +2324,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "RemieJanssen",
       "name": "Remie Janssen",
@@ -2278,6 +2355,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "samusz",
       "name": "Sacha Muszlak",
@@ -2308,6 +2386,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "plecor",
       "name": "Pierre Le Corre",
@@ -2338,6 +2417,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "bseeger",
       "name": "B. Seeger",
@@ -2368,6 +2448,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "nana-boateng",
       "name": "Nana Boateng",
@@ -2398,6 +2479,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Belgium",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "okaradeniz",
       "name": "Oguz Ozgur Karadeniz",
@@ -2428,6 +2510,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "glevyhas",
       "name": "Gavi Levy Haskell",
@@ -2458,6 +2541,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Gepiro",
       "name": "",
@@ -2488,6 +2572,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "erodde",
       "name": "",
@@ -2518,6 +2603,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Esteban-Mtz",
       "name": "Esteban Martinez",
@@ -2548,6 +2634,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "diptechexpo",
       "name": "",
@@ -2578,6 +2665,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "faborg",
       "name": "",
@@ -2608,6 +2696,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "younnoh",
       "name": "",
@@ -2638,6 +2727,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "vaidap",
       "name": "Vaida",
@@ -2668,6 +2758,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "vbonamy",
       "name": "Vincent Bonamy",
@@ -2698,6 +2789,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "PatrickKibies",
       "name": "",
@@ -2728,6 +2820,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "Cook4986",
       "name": "Matt Cook",
@@ -2758,6 +2851,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "zearaujo25",
       "name": "Jose Lucas Cordeiro",
@@ -2788,6 +2882,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "larsvilhuber",
       "name": "Lars Vilhuber",
@@ -2818,6 +2913,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "bnavigator",
       "name": "Ben Greiner",
@@ -2848,6 +2944,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "RoHei",
       "name": "",
@@ -2878,6 +2975,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "foobarbecue",
       "name": "Aaron Curtis",
@@ -2908,6 +3006,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "https://github.com/poikilotherm/dataverse",
     "freenode nick": "poikilotherm",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "poikilotherm",
       "name": "Oliver Bertuch",
@@ -2938,6 +3037,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "gaelforget",
       "name": "Gael Forget",
@@ -2968,6 +3068,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "TanayKarve",
       "name": "Tanay Karve",
@@ -2998,6 +3099,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "https://github.com/IQSS/dataverse-ansible",
     "freenode nick": "donsizemore",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "donsizemore",
       "name": "Don Sizemore",
@@ -3028,6 +3130,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "MellyGray",
       "name": "Melina Hernández",
@@ -3058,6 +3161,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "GPortas",
       "name": "Guillermo Portas",
@@ -3088,6 +3192,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Belgium",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "ErykKul",
       "name": "Eryk Kulikowski",
@@ -3118,6 +3223,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "johannes-darms",
       "name": "Johannes Darms",
@@ -3148,6 +3254,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "JR-1991",
       "name": "Jan Range",
@@ -3178,6 +3285,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "tcoupin",
       "name": "Thibault Coupin",
@@ -3208,6 +3316,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "https://github.com/DANS-KNAW/dataverse",
     "freenode nick": "",
     "Country": "Netherlands",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "PaulBoon",
       "name": "Paul Boon",
@@ -3238,6 +3347,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Netherlands",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "janvanmansum",
       "name": "Jan van Mansum",
@@ -3268,6 +3378,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "matthew-a-dunlap",
       "name": "Matthew Dunlap",
@@ -3298,6 +3409,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "ericdevries",
       "name": "Eric de Vries",
@@ -3328,6 +3440,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "sirineREKIK",
       "name": "",
@@ -3358,6 +3471,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "vera",
       "name": "Vera Clemens",
@@ -3388,6 +3502,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Belgium",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "Kris-LIBIS",
       "name": "Kris Dekeyser",
@@ -3418,6 +3533,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Netherlands",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "4tikhonov",
       "name": "Slava Tykhonov",
@@ -3448,6 +3564,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Norway",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "philippconzett",
       "name": "Philipp Conzett",
@@ -3478,6 +3595,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "qqmyers",
       "name": "",
@@ -3508,6 +3626,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "carlo318",
       "name": "",
@@ -3538,6 +3657,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "atniph",
       "name": "Finta Norbert",
@@ -3568,6 +3688,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "hamidtam",
       "name": "Tameem Hamid",
@@ -3598,6 +3719,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "DaftPug",
       "name": "",
@@ -3628,6 +3750,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "nmunatsibw",
       "name": "Nimrod Munatsi",
@@ -3658,6 +3781,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "JeyaSam",
       "name": "",
@@ -3688,6 +3812,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "aseeland",
       "name": "Anett Seeland",
@@ -3718,6 +3843,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Nikos-Askitas",
       "name": "Nikos-Askitas",
@@ -3748,6 +3874,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "DominikWA",
       "name": "Dominik",
@@ -3778,6 +3905,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "yh-repo",
       "name": "Yee Heng",
@@ -3808,6 +3936,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "M-DOREL",
       "name": "SOUL",
@@ -3838,6 +3967,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "tosunmerve",
       "name": "Merve Tosun",
@@ -3868,6 +3998,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Sakshi-75",
       "name": "Sakshi Jain",
@@ -3898,6 +4029,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "JacekChudzik",
       "name": "",
@@ -3928,6 +4060,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "JFLopez7",
       "name": "",
@@ -3958,6 +4091,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "dozed",
       "name": "Stefan Ollinger",
@@ -3988,6 +4122,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "bjosel",
       "name": "",
@@ -4018,6 +4153,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "JBGruber",
       "name": "Johannes Gruber",
@@ -4048,6 +4184,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Asbjoedt",
       "name": "Asbjørn Skødt",
@@ -4078,6 +4215,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kobbejager",
       "name": "Wim Fremout",
@@ -4108,6 +4246,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "RichCaloggero",
       "name": "Rich Caloggero",
@@ -4138,6 +4277,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "aadorian",
       "name": "",
@@ -4168,6 +4308,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "zolttoth",
       "name": "Zoltán Tóth",
@@ -4198,6 +4339,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "phillipsjs",
       "name": "Jonathan  Scott  Phillips ",
@@ -4228,6 +4370,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kulsoomzahra",
       "name": "",
@@ -4258,6 +4401,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "cristobaltapia",
       "name": "Cristóbal Tapia",
@@ -4288,6 +4432,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jorgelpolanco",
       "name": "",
@@ -4318,6 +4463,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "diego-guillen",
       "name": "",
@@ -4348,6 +4494,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "DonRichards",
       "name": "Don Richards",
@@ -4378,6 +4525,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "stefanandonov",
       "name": "Stefan Andonov",
@@ -4408,6 +4556,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "coret",
       "name": "Bob Coret",
@@ -4438,6 +4587,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "wtr-icm",
       "name": "",
@@ -4468,6 +4618,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "bgunia",
       "name": "Betsy Gunia",
@@ -4498,6 +4649,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "rwvaldivia",
       "name": "Richard W Valdivia",
@@ -4528,6 +4680,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "charmoniumQ",
       "name": "Sam Grayson",
@@ -4558,6 +4711,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "rawidiyaningrum",
       "name": "",
@@ -4588,6 +4742,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "zieglerms",
       "name": "Micah S. Ziegler",
@@ -4618,6 +4773,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "adkinsrs",
       "name": "Shaun Adkins",
@@ -4648,6 +4804,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "guinslym",
       "name": "Guinslym",
@@ -4678,6 +4835,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Austria",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "kaczmirek",
       "name": "Lars Kaczmirek",
@@ -4708,6 +4866,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Austria",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "CB-HAL",
       "name": "Christian Bischof",
@@ -4738,6 +4897,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Ash84",
       "name": "L. Tromel",
@@ -4768,6 +4928,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jakobmolandergeus",
       "name": "Jakob Molander (GEUS)",
@@ -4798,6 +4959,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "rhijmans",
       "name": "Robert Hijmans",
@@ -4828,6 +4990,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "thiagombrasil",
       "name": "thiagomatos",
@@ -4858,6 +5021,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "pablovp86",
       "name": "Pablo",
@@ -4888,6 +5052,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "myi100",
       "name": "Muhammed Y. Idris",
@@ -4918,6 +5083,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "schorcht-ioer",
       "name": "Martin Schorcht",
@@ -4948,6 +5114,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "aialves",
       "name": "",
@@ -4978,6 +5145,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Italy",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "joelfan",
       "name": "",
@@ -5008,6 +5176,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "transfluxus",
       "name": "Ramin",
@@ -5038,6 +5207,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "ysuarez",
       "name": "Yamil",
@@ -5068,6 +5238,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "luddaniel",
       "name": "",
@@ -5098,6 +5269,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "maximilian-tech",
       "name": "Maximilian Sander",
@@ -5128,6 +5300,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "dataversebot",
       "name": "Dataverse Robot Kitten",
@@ -5158,6 +5331,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "markwilkinson",
       "name": "Mark Wilkinson",
@@ -5188,6 +5362,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "ReneFGJr",
       "name": "Rene Faustino Gabriel Junior",
@@ -5218,6 +5393,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "yikangfengnie",
       "name": "",
@@ -5248,6 +5424,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Hungary",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "beepsoft",
       "name": "beep",
@@ -5278,6 +5455,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "vkush",
       "name": "Volodymyr Kushnarenko",
@@ -5308,6 +5486,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "josekarvalho",
       "name": "José Carvalho",
@@ -5338,6 +5517,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "j-n-c",
       "name": "José Carvalho",
@@ -5368,6 +5548,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "otter606",
       "name": "",
@@ -5398,6 +5579,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Gabriel-Besombes",
       "name": "Gaby",
@@ -5428,6 +5610,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "jeromeroucou",
       "name": "",
@@ -5458,6 +5641,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "shlake",
       "name": "Sherry Lake",
@@ -5488,6 +5672,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "https://github.com/IQSS/dataverse",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "michbarsinai",
       "name": "Michael",
@@ -5518,6 +5703,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "atrisovic",
       "name": "Ana Trisovic",
@@ -5548,6 +5734,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "eugene-barsky",
       "name": "Eugene Barsky",
@@ -5578,6 +5765,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "kaitlinnewson",
       "name": "Kaitlin Newson",
@@ -5608,6 +5796,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "johnhuck",
       "name": "John Huck",
@@ -5638,6 +5827,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "pkiraly",
       "name": "Király Péter",
@@ -5668,6 +5858,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "adam3smith",
       "name": "Sebastian Karcher",
@@ -5698,6 +5889,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "bappun",
       "name": "Baptiste Rouxel",
@@ -5728,6 +5920,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Spain",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "AleixMT",
       "name": "Aleix Mariné-Tena",
@@ -5758,6 +5951,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "claudiodsf",
       "name": "Claudio Satriano",
@@ -5788,6 +5982,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "CCMumma",
       "name": "Courtney Mumma",
@@ -5818,6 +6013,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "jmjamison",
       "name": "jamie jamison",
@@ -5848,6 +6044,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "jonc1438",
       "name": "Jonathan Crabtree",
@@ -5878,6 +6075,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Mexico",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "solhm",
       "name": "Solomon",
@@ -5908,6 +6106,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Mexico",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "Gerafp",
       "name": "Gerardo Flores-Petlacalco",
@@ -5938,6 +6137,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "JoaoMFCardoso",
       "name": "Thejmfc",
@@ -5968,6 +6168,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "zbenta",
       "name": "",
@@ -5998,6 +6199,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Singapore",
+    "Continent": "Asia",
     "GitHub Profile": {
       "login": "Venki18",
       "name": "",
@@ -6028,6 +6230,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Belgium",
+    "Continent": "Europe",
     "GitHub Profile": null
   },
   {
@@ -6045,6 +6248,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Belgium",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "youssefOuahalou",
       "name": "Ouahalou Youssef",
@@ -6075,6 +6279,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "PLoboC",
       "name": "Pedro Lobo",
@@ -6105,6 +6310,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "gwendoux",
       "name": "gwen",
@@ -6135,6 +6341,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "wpavan",
       "name": "Willingthon Pavan",
@@ -6165,6 +6372,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "carlsonp",
       "name": "Patrick Carlson",
@@ -6195,6 +6403,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "skasberger",
       "name": "Stefan Kasberger",
@@ -6225,6 +6434,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Taiwan (ROC)",
+    "Continent": "Asia",
     "GitHub Profile": {
       "login": "twtw",
       "name": "Cheng-Yen Liu",
@@ -6255,6 +6465,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Kenya",
+    "Continent": "Africa",
     "GitHub Profile": {
       "login": "alejandratenorio",
       "name": "Alejandra Tenorio",
@@ -6285,6 +6496,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Croatia",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "mglavica",
       "name": "",
@@ -6315,6 +6527,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "plesubc",
       "name": "Paul Lesack",
@@ -6345,6 +6558,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "wendysmann",
       "name": "",
@@ -6375,6 +6589,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": null
   },
   {
@@ -6392,6 +6607,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Belgium",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "DieuwertjeBloemen",
       "name": "",
@@ -6422,6 +6638,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "tjouneau",
       "name": "",
@@ -6452,6 +6669,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "https://github.com/Consorcio-Madrono/dataverse/branches",
     "freenode nick": "",
     "Country": "Spain",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "juancorr",
       "name": "Juan Corrales Correyero",
@@ -6482,6 +6700,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "mbamouni",
       "name": "",
@@ -6512,6 +6731,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "edzale",
       "name": "",
@@ -6542,6 +6762,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "lmaylein",
       "name": "Leonhard Maylein",
@@ -6572,6 +6793,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "linsherpa",
       "name": "Lincoln Sherpa",
@@ -6602,6 +6824,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "philip-muench",
       "name": "",
@@ -6632,6 +6855,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "akio-sone",
       "name": "",
@@ -6662,6 +6886,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "tlchristian",
       "name": "",
@@ -6692,6 +6917,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "lubitchv",
       "name": "Victoria Lubitch",
@@ -6722,6 +6948,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "meghangoodchild",
       "name": "Meghan Goodchild",
@@ -6752,6 +6979,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "amberleahey",
       "name": "",
@@ -6782,6 +7010,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "rmo-cdsp",
       "name": "RomainM",
@@ -6812,6 +7041,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Portugal",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "agostinho-gomes",
       "name": "Agostinho Gomes",
@@ -6842,6 +7072,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Australia",
+    "Continent": "Australia",
     "GitHub Profile": {
       "login": "stevenmce",
       "name": "",
@@ -6872,6 +7103,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Australia",
+    "Continent": "Australia",
     "GitHub Profile": {
       "login": "mdmADA",
       "name": "",
@@ -6902,6 +7134,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Australia",
+    "Continent": "Australia",
     "GitHub Profile": {
       "login": "janetm",
       "name": "",
@@ -6932,6 +7165,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Netherlands",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "WittenbergM",
       "name": "",
@@ -6962,6 +7196,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Netherlands",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "LauraHuisintveld",
       "name": "Laura Huis in 't Veld",
@@ -6992,6 +7227,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Norway",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "Louis-wr",
       "name": "",
@@ -7022,6 +7258,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "nightowlaz",
       "name": "Deirdre Kirmis",
@@ -7052,6 +7289,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "https://github.com/JayanthyChengan/dataverse/tree/language-toggle-branch",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "JayanthyChengan",
       "name": "",
@@ -7082,6 +7320,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "doigl",
       "name": "Dorothea Iglezakis",
@@ -7112,6 +7351,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Chile",
+    "Continent": "South America",
     "GitHub Profile": {
       "login": "ElvisAravena",
       "name": "",
@@ -7142,6 +7382,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Iceland",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "sindribaldur",
       "name": "Sindri",
@@ -7172,6 +7413,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Argentina",
+    "Continent": "South America",
     "GitHub Profile": {
       "login": "RDA-UNR",
       "name": "",
@@ -7202,6 +7444,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "Abalduin-adm",
       "name": "",
@@ -7232,6 +7475,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Brazil",
+    "Continent": "South America",
     "GitHub Profile": {
       "login": "alsantiagoabreu",
       "name": "Alexandre Santiago de Abreu",
@@ -7262,6 +7506,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "https://github.com/scholarsportal/SP-dataverse",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kevinworthington",
       "name": "Kevin Worthington",
@@ -7292,6 +7537,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "golsch",
       "name": "Lennard Golsch",
@@ -7322,6 +7568,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "jonquet",
       "name": "Clement Jonquet",
@@ -7352,6 +7599,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Bramvdhout",
       "name": "",
@@ -7382,6 +7630,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "orazionelson",
       "name": "Alfredo Cosco",
@@ -7412,6 +7661,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "KhoaBuind",
       "name": "Khoa Bùi",
@@ -7442,6 +7692,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "zhoulvjun",
       "name": "kusoft",
@@ -7472,6 +7723,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Canada",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "jalperin",
       "name": "Juan Pablo Alperin",
@@ -7502,6 +7754,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "pacian",
       "name": "Richard Dennis",
@@ -7532,6 +7785,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "eunices",
       "name": "eunice",
@@ -7562,6 +7816,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Hungary",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "pallinger",
       "name": "",
@@ -7592,6 +7847,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "bricas",
       "name": "Brian Cassidy",
@@ -7622,6 +7878,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "tgoelles",
       "name": "Thomas Gölles",
@@ -7652,6 +7909,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "RAHMAHAMMA",
       "name": "",
@@ -7682,6 +7940,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "sergejzr",
       "name": "Сергей",
@@ -7712,6 +7971,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "virgilejarrige",
       "name": "Virgile Jarrige",
@@ -7742,6 +8002,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "mcgaerty",
       "name": "",
@@ -7772,6 +8033,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "aeonSolutions",
       "name": "Miguel Tomas Silva",
@@ -7802,6 +8064,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "ajdabrowski",
       "name": "Anna Dabrowski",
@@ -7832,6 +8095,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "xiaya2309",
       "name": "",
@@ -7862,6 +8126,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "DS-INRAE",
       "name": "Dimitri Szabo",
@@ -7892,6 +8157,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "lgarciap",
       "name": "",
@@ -7922,6 +8188,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Netherlands",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "ekoi",
       "name": "Eko Indarto",
@@ -7952,6 +8219,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "IlariaBelvedere",
       "name": "Ilaria Belvedere",
@@ -7982,6 +8250,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kuriwaki",
       "name": "Shiro Kuriwaki",
@@ -8012,6 +8281,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "haarli",
       "name": "Markus",
@@ -8042,6 +8312,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "cheneyfeng3",
       "name": "cstr",
@@ -8072,6 +8343,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Germany",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "FlorianRhiem",
       "name": "Florian Rhiem",
@@ -8102,6 +8374,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "ischmahl",
       "name": "",
@@ -8132,6 +8405,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "espenfl",
       "name": "Espen",
@@ -8162,6 +8436,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "kamil386",
       "name": "Kamil Guryn",
@@ -8192,6 +8467,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "jgara",
       "name": "Jeff Gara",
@@ -8222,6 +8498,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "Denmark",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "Falco-KUB",
       "name": "Falco (Copenhagen University Library)",
@@ -8252,6 +8529,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "ofahimIQSS",
       "name": "Omer Fahim",
@@ -8282,6 +8560,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "France",
+    "Continent": "Europe",
     "GitHub Profile": {
       "login": "stevenferey",
       "name": "Steven Ferey",
@@ -8312,6 +8591,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "siacus",
       "name": "Stefano Iacus",
@@ -8342,6 +8622,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "pdurbin",
       "name": "Philip Durbin",
@@ -8372,6 +8653,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "jggautier",
       "name": "Julian Gautier",
@@ -8402,6 +8684,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "dliburd",
       "name": "",
@@ -8432,6 +8715,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "kmika11",
       "name": "Katie Mika",
@@ -8462,6 +8746,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "sekmiller",
       "name": "Stephen Kraffmiller",
@@ -8492,6 +8777,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "landreev",
       "name": "",
@@ -8522,6 +8808,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "scolapasta",
       "name": "Gustavo Durand",
@@ -8552,6 +8839,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "ekraffmiller",
       "name": "Ellen Kraffmiller",
@@ -8582,6 +8870,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "stevenwinship",
       "name": "Steven Winship",
@@ -8612,6 +8901,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "jp-tosca",
       "name": "Juan Pablo Tosca Villanueva",
@@ -8642,6 +8932,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "cmbz",
       "name": "C. Boyd",
@@ -8672,6 +8963,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "rtreacy",
       "name": "Bob Treacy",
@@ -8702,6 +8994,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "ChengShi-1",
       "name": "Cheng Shi",
@@ -8732,6 +9025,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "g-saracca",
       "name": "German Gonzalo Saracca",
@@ -8762,6 +9056,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "",
+    "Continent": "",
     "GitHub Profile": {
       "login": "Saixel",
       "name": "Alexis Guanche",
@@ -8792,6 +9087,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "danielEbanks",
       "name": "Danny Ebanks",
@@ -8822,6 +9118,7 @@ export const MEMBERS_SNAPSHOT = [
     "URL": "",
     "freenode nick": "",
     "Country": "USA",
+    "Continent": "North America",
     "GitHub Profile": {
       "login": "rnichols7",
       "name": "Becca Nichols",

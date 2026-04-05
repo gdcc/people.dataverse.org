@@ -8,7 +8,7 @@ A lightweight browser app for exploring the community TSV at:
 
 - Loads a bundled snapshot of the sheet so the app works immediately.
 - Uses cached GitHub API profile data so member cards can show richer profile details without runtime API calls.
-- Lets you search members and filter by installation and country.
+- Lets you search members and filter by installation, country, and continent.
 - Shows GitHub usernames alongside primary installation, country, Zulip ID, and ORCID when available.
 
 ## Run it
