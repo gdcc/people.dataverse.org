@@ -3,6 +3,7 @@ import { MEMBERS_SNAPSHOT, SNAPSHOT_META } from "./data/members.js";
 const APP_BASE_PATH = getAppBasePath();
 const fieldLabels = {
   primaryInstallation: "Primary installation",
+  workingGroups: "Working groups",
   country: "Country",
   zulipId: "Zulip ID",
   orcid: "ORCID",
@@ -247,13 +248,14 @@ function renderCards(members) {
     const meta = node.querySelector(".member-meta");
     const fields = [
       "primaryInstallation",
+      "workingGroups",
       "githubLocation",
       "githubCompany",
       "githubBlog",
     ];
 
     for (const key of fields) {
-      if (!member[key]) {
+      if (!member[key] || (Array.isArray(member[key]) && member[key].length === 0)) {
         continue;
       }
 
@@ -269,6 +271,8 @@ function renderCards(members) {
           gdccMember: member.gdccMember,
           coreTrustSeals: member.coreTrustSeals,
         });
+      } else if (key === "workingGroups") {
+        appendWorkingGroupsValue(dd, member.workingGroups);
       } else {
         appendFieldValue(dd, member[key]);
       }
@@ -472,6 +476,17 @@ function getOrcidUrl(orcid) {
   return `https://orcid.org/${encodeURIComponent(orcid)}`;
 }
 
+function getWorkingGroupUrl(name) {
+  const slug = String(name ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `https://www.gdcc.io/working-groups/${slug}.html`;
+}
+
 function appendFieldValue(container, value) {
   const text = String(value ?? "").trim();
   const href = toExternalHref(text);
@@ -488,6 +503,23 @@ function appendFieldValue(container, value) {
   }
 
   appendLinkedText(container, text);
+}
+
+function appendWorkingGroupsValue(container, workingGroups) {
+  container.textContent = "";
+
+  workingGroups.forEach((group, index) => {
+    if (index > 0) {
+      container.append(document.createTextNode(", "));
+    }
+
+    const anchor = document.createElement("a");
+    anchor.href = getWorkingGroupUrl(group);
+    anchor.target = "_blank";
+    anchor.rel = "noreferrer";
+    anchor.textContent = group;
+    container.append(anchor);
+  });
 }
 
 function appendInstallationValue(
@@ -825,6 +857,7 @@ function extractMember(row) {
   return {
     githubUsername: row["GitHub Username"]?.trim() ?? "",
     primaryInstallation: row["Primary installation"]?.trim() ?? "",
+    workingGroups: parseWorkingGroups(row["Working Groups"]),
     country: row.Country?.trim() ?? "",
     continent: row.Continent?.trim() ?? "",
     installationDescription: row["Installation Description"]?.trim() ?? "",
@@ -854,6 +887,13 @@ function extractMember(row) {
       row["GitHub Profile"]?.avatarUrl ??
       "",
   };
+}
+
+function parseWorkingGroups(value) {
+  return String(value ?? "")
+    .split(",")
+    .map((group) => group.trim())
+    .filter(Boolean);
 }
 
 function applyEnrichment(member) {
