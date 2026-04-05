@@ -119,9 +119,10 @@ function renderMeta(filteredMembers) {
   const countryLabel = country ? ` in ${country}` : "";
   const continentLabel = continent ? ` in ${continent}` : "";
   const searchLabel = search ? ` matching "${search}"` : "";
+  const memberLabel = filteredMembers.length === 1 ? "member" : "members";
 
   elements.resultsCopy.textContent =
-    `${filteredMembers.length} members${installationLabel}${countryLabel}${continentLabel}${searchLabel}.`.replace(
+    `${filteredMembers.length} ${memberLabel}${installationLabel}${countryLabel}${continentLabel}${searchLabel}.`.replace(
       /\s+\./,
       ".",
     );
