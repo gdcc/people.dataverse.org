@@ -134,6 +134,8 @@ function renderCards(members) {
     const displayName = node.querySelector(".member-display-name");
     const displayHandle = node.querySelector(".member-display-handle");
     const zulipLink = node.querySelector(".member-zulip-link");
+    const orcidLink = node.querySelector(".member-orcid-link");
+    const orcidLabel = node.querySelector(".member-orcid-label");
     const bio = node.querySelector(".member-bio");
     memberName.textContent = member.name || member.githubUsername;
     avatar.src = member.avatarUrl || getGitHubAvatarUrl(member.githubUsername);
@@ -155,13 +157,19 @@ function renderCards(members) {
     } else {
       zulipLink.hidden = true;
     }
+    if (member.orcid) {
+      orcidLink.href = getOrcidUrl(member.orcid);
+      orcidLabel.textContent = member.orcid;
+      orcidLink.hidden = false;
+    } else {
+      orcidLink.hidden = true;
+    }
     appendLinkedText(bio, member.bio || "");
     bio.hidden = !member.bio;
 
     const meta = node.querySelector(".member-meta");
     const fields = [
       "primaryInstallation",
-      "orcid",
       "githubLocation",
       "githubCompany",
       "githubBlog",
@@ -307,8 +315,26 @@ function getZulipProfileUrl(zulipId) {
   return `https://dataverse.zulipchat.com/#user/${encodeURIComponent(zulipId)}`;
 }
 
+function getOrcidUrl(orcid) {
+  return `https://orcid.org/${encodeURIComponent(orcid)}`;
+}
+
 function appendFieldValue(container, value) {
-  appendLinkedText(container, String(value ?? "").trim());
+  const text = String(value ?? "").trim();
+  const href = toExternalHref(text);
+
+  if (href) {
+    const anchor = document.createElement("a");
+    anchor.href = href;
+    anchor.target = "_blank";
+    anchor.rel = "noreferrer";
+    anchor.textContent = text;
+    container.textContent = "";
+    container.append(anchor);
+    return;
+  }
+
+  appendLinkedText(container, text);
 }
 
 function appendInstallationValue(container, installation, country) {
@@ -439,6 +465,10 @@ function toExternalHref(value) {
 
   const trimmed = value.trim();
 
+  if (isOrcidId(trimmed)) {
+    return `https://orcid.org/${trimmed}`;
+  }
+
   if (isGitHubMention(trimmed)) {
     return `https://github.com/${trimmed.slice(1)}`;
   }
@@ -456,6 +486,10 @@ function toExternalHref(value) {
 
 function isGitHubMention(value) {
   return /^@[a-z0-9](?:[a-z0-9-]{0,38}[a-z0-9])?$/i.test(value);
+}
+
+function isOrcidId(value) {
+  return /^\d{4}-\d{4}-\d{4}-[\dX]{4}$/i.test(value);
 }
 
 function looksLikeWebAddress(value) {

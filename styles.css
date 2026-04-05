@@ -296,8 +296,19 @@ select {
   text-decoration: none;
 }
 
+.member-orcid-link {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 6px 0 0;
+  color: var(--muted);
+  text-decoration: none;
+  max-width: 100%;
+}
+
 .member-display-name[hidden],
-.member-zulip-link[hidden] {
+.member-zulip-link[hidden],
+.member-orcid-link[hidden] {
   display: none;
 }
 
@@ -306,6 +317,10 @@ select {
   height: 20px;
   flex: 0 0 20px;
   opacity: 0.85;
+}
+
+.member-orcid-label {
+  overflow-wrap: anywhere;
 }
 
 .member-bio {
