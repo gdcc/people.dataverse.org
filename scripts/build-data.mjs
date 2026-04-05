@@ -44,6 +44,16 @@ const gdccMemberByHostname = new Map(
     ])
     .filter(([hostname]) => Boolean(hostname)),
 );
+const coreTrustSealsByHostname = new Map(
+  (installationData.installations ?? [])
+    .map((installation) => [
+      normalizeHostname(installation.hostname),
+      Array.isArray(installation.core_trust_seals)
+        ? installation.core_trust_seals.filter(Boolean)
+        : [],
+    ])
+    .filter(([hostname]) => Boolean(hostname)),
+);
 
 const rows = lines.slice(1).map((line) => {
   const values = line.split("\t");
@@ -59,6 +69,7 @@ const rows = lines.slice(1).map((line) => {
   record.Continent = continentByHostname.get(installationHost) ?? "";
   record["Installation Description"] = descriptionByHostname.get(installationHost) ?? "";
   record["GDCC Member"] = gdccMemberByHostname.get(installationHost) ?? false;
+  record["CoreTrustSeals"] = coreTrustSealsByHostname.get(installationHost) ?? [];
   record["GitHub Profile"] = githubProfile;
 
   return record;
@@ -68,6 +79,9 @@ const matchedCountries = rows.filter((row) => row.Country).length;
 const matchedContinents = rows.filter((row) => row.Continent).length;
 const matchedDescriptions = rows.filter((row) => row["Installation Description"]).length;
 const matchedGdccMembers = rows.filter((row) => row["GDCC Member"]).length;
+const matchedCoreTrustSeals = rows.filter(
+  (row) => Array.isArray(row["CoreTrustSeals"]) && row["CoreTrustSeals"].length > 0,
+).length;
 const matchedGitHubProfiles = rows.filter((row) => row["GitHub Profile"]).length;
 
 const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
@@ -83,6 +97,7 @@ const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
     matchedContinentCount: matchedContinents,
     matchedInstallationDescriptionCount: matchedDescriptions,
     matchedGdccMemberCount: matchedGdccMembers,
+    matchedCoreTrustSealCount: matchedCoreTrustSeals,
     matchedGitHubProfileCount: matchedGitHubProfiles,
   },
   null,
@@ -95,7 +110,7 @@ export const MEMBERS_SNAPSHOT = ${JSON.stringify(rows, null, 2)};
 await writeFile(outputPath, moduleSource);
 
 console.log(
-  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, ${matchedGdccMembers} GDCC member matches, and ${matchedGitHubProfiles} GitHub profile matches`,
+  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, ${matchedGdccMembers} GDCC member matches, ${matchedCoreTrustSeals} CoreTrustSeal matches, and ${matchedGitHubProfiles} GitHub profile matches`,
 );
 
 function normalizeHostname(value) {

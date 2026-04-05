@@ -262,7 +262,13 @@ function renderCards(members) {
       const dd = document.createElement("dd");
       dt.textContent = fieldLabels[key];
       if (key === "primaryInstallation") {
-        appendInstallationValue(dd, member.primaryInstallation, member.country);
+        appendInstallationValue(dd, {
+          installation: member.primaryInstallation,
+          country: member.country,
+          installationDescription: member.installationDescription,
+          gdccMember: member.gdccMember,
+          coreTrustSeals: member.coreTrustSeals,
+        });
       } else {
         appendFieldValue(dd, member[key]);
       }
@@ -462,7 +468,10 @@ function appendFieldValue(container, value) {
   appendLinkedText(container, text);
 }
 
-function appendInstallationValue(container, installation, country) {
+function appendInstallationValue(
+  container,
+  { installation, country, installationDescription, gdccMember, coreTrustSeals },
+) {
   const installationText = String(installation ?? "").trim();
   const installationHref = toExternalHref(installationText);
 
@@ -498,11 +507,6 @@ function appendInstallationValue(container, installation, country) {
       externalLink.append(externalIcon);
       container.append(externalLink);
 
-      const gdccMember =
-        state.members.find(
-          (entry) => entry.primaryInstallation === installationText && entry.gdccMember,
-        )?.gdccMember ?? false;
-
       if (gdccMember) {
         container.append(document.createTextNode(" "));
         const gdccLink = document.createElement("a");
@@ -522,15 +526,31 @@ function appendInstallationValue(container, installation, country) {
         gdccLink.append(gdccLogo);
         container.append(gdccLink);
       }
+
+      if (Array.isArray(coreTrustSeals)) {
+        for (const sealUrl of coreTrustSeals) {
+          if (!sealUrl) {
+            continue;
+          }
+
+          container.append(document.createTextNode(" "));
+          const sealLink = document.createElement("a");
+          sealLink.href = sealUrl;
+          sealLink.target = "_blank";
+          sealLink.rel = "noreferrer";
+          sealLink.className = "coretrust-inline-link";
+          sealLink.setAttribute("aria-label", "Open CoreTrustSeal certificate");
+          const sealLogo = document.createElement("img");
+          sealLogo.src = "./assets/coretrustseal.jpg";
+          sealLogo.alt = "";
+          sealLogo.className = "coretrust-inline-icon";
+          sealLogo.setAttribute("aria-hidden", "true");
+          sealLink.append(sealLogo);
+          container.append(sealLink);
+        }
+      }
     }
   }
-
-  const installationDescription =
-    state.members.find(
-      (entry) =>
-        entry.primaryInstallation === installationText &&
-        entry.installationDescription,
-    )?.installationDescription ?? "";
 
   if (installationDescription) {
     container.append(document.createElement("br"));
@@ -787,6 +807,7 @@ function extractMember(row) {
     continent: row.Continent?.trim() ?? "",
     installationDescription: row["Installation Description"]?.trim() ?? "",
     gdccMember: Boolean(row["GDCC Member"]),
+    coreTrustSeals: Array.isArray(row.CoreTrustSeals) ? row.CoreTrustSeals : [],
     zulipId: row["Zulip ID"]?.trim() ?? "",
     orcid: row.ORCID?.trim() ?? "",
     name: row["GitHub Profile"]?.name?.trim?.() ?? row["GitHub Profile"]?.name ?? "",
@@ -830,6 +851,10 @@ function applyEnrichment(member) {
     member.gdccMember ||
     enrichmentMaps.gdccMemberByInstallation.get(member.primaryInstallation) ||
     false;
+  const coreTrustSeals =
+    member.coreTrustSeals.length > 0
+      ? member.coreTrustSeals
+      : (enrichmentMaps.coreTrustSealsByInstallation.get(member.primaryInstallation) ?? []);
 
   return {
     ...member,
@@ -837,6 +862,7 @@ function applyEnrichment(member) {
     continent,
     installationDescription,
     gdccMember,
+    coreTrustSeals,
     name: member.name || githubProfile.name || "",
     bio: member.bio || githubProfile.bio || "",
     githubLocation: member.githubLocation || githubProfile.githubLocation || "",
@@ -852,6 +878,7 @@ function buildEnrichmentMaps(rows) {
   const continentByInstallation = new Map();
   const descriptionByInstallation = new Map();
   const gdccMemberByInstallation = new Map();
+  const coreTrustSealsByInstallation = new Map();
   const githubByUsername = new Map();
 
   for (const row of rows) {
@@ -870,6 +897,12 @@ function buildEnrichmentMaps(rows) {
     }
     if (member.primaryInstallation && member.gdccMember) {
       gdccMemberByInstallation.set(member.primaryInstallation, true);
+    }
+    if (member.primaryInstallation && member.coreTrustSeals.length > 0) {
+      coreTrustSealsByInstallation.set(
+        member.primaryInstallation,
+        member.coreTrustSeals,
+      );
     }
 
     if (
@@ -899,6 +932,7 @@ function buildEnrichmentMaps(rows) {
     continentByInstallation,
     descriptionByInstallation,
     gdccMemberByInstallation,
+    coreTrustSealsByInstallation,
     githubByUsername,
   };
 }

@@ -479,6 +479,19 @@ select {
   display: block;
 }
 
+.coretrust-inline-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.coretrust-inline-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  border-radius: 3px;
+}
+
 .installation-description-preview {
   color: var(--muted);
 }
