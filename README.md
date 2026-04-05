@@ -13,13 +13,11 @@ A lightweight browser app for exploring the community TSV at:
 
 ## Run it
 
-Because the app uses ES modules, serve the directory over HTTP:
-
 ```bash
-python3 -m http.server 8000
+./run.sh
 ```
 
-Then open [http://localhost:8000](http://localhost:8000).
+Then open [http://localhost:8080](http://localhost:8080).
 
 ## Refresh the bundled snapshot
 

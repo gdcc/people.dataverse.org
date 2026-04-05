@@ -1,5 +1,6 @@
 import { MEMBERS_SNAPSHOT, SNAPSHOT_META } from "./data/members.js";
 
+const APP_BASE_PATH = getAppBasePath();
 const fieldLabels = {
   primaryInstallation: "Primary installation",
   country: "Country",
@@ -14,6 +15,7 @@ const enrichmentMaps = buildEnrichmentMaps(MEMBERS_SNAPSHOT);
 const state = {
   members: normalizeMembers(MEMBERS_SNAPSHOT),
   loadedAt: SNAPSHOT_META.generatedAt,
+  route: getRouteFromLocation(),
   filters: {
     search: "",
     installation: "",
@@ -87,13 +89,18 @@ function bindEvents() {
     }
     render();
   });
+
+  window.addEventListener("popstate", () => {
+    state.route = getRouteFromLocation();
+    render();
+  });
 }
 
 function render() {
-  const filteredMembers = filterMembers(state.members, state.filters);
-  updateStats(filteredMembers);
-  renderCards(filteredMembers);
-  renderMeta(filteredMembers);
+  const visibleMembers = getVisibleMembers();
+  updateStats(visibleMembers);
+  renderCards(visibleMembers);
+  renderMeta(visibleMembers);
   syncFilterInputs();
 }
 
@@ -114,6 +121,15 @@ function updateStats(filteredMembers) {
 }
 
 function renderMeta(filteredMembers) {
+  if (state.route.memberUsername) {
+    const memberLabel = filteredMembers.length === 1 ? "member" : "members";
+    const routeLabel = filteredMembers.length
+      ? ` for @${filteredMembers[0].githubUsername}`
+      : ` for @${state.route.memberUsername}`;
+    elements.resultsCopy.textContent = `${filteredMembers.length} ${memberLabel}${routeLabel}.`;
+    return;
+  }
+
   const { installation, country, continent, search } = state.filters;
   const installationLabel = installation ? ` at ${installation}` : "";
   const countryLabel = country ? ` in ${country}` : "";
@@ -143,6 +159,7 @@ function renderCards(members) {
   const fragment = document.createDocumentFragment();
   for (const member of members) {
     const node = elements.cardTemplate.content.firstElementChild.cloneNode(true);
+    const avatarLink = node.querySelector(".member-avatar-link");
     const avatar = node.querySelector(".member-avatar");
     const memberName = node.querySelector(".member-name");
     const displayName = node.querySelector(".member-display-name");
@@ -152,6 +169,21 @@ function renderCards(members) {
     const orcidLabel = node.querySelector(".member-orcid-label");
     const bio = node.querySelector(".member-bio");
     memberName.textContent = member.name || member.githubUsername;
+    avatarLink.href = getMemberUrl(member.githubUsername);
+    avatarLink.addEventListener("click", (event) => {
+      if (
+        event.button !== 0 ||
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey ||
+        event.altKey
+      ) {
+        return;
+      }
+
+      event.preventDefault();
+      navigateToMember(member.githubUsername);
+    });
     avatar.src = member.avatarUrl || getGitHubAvatarUrl(member.githubUsername);
     avatar.alt = `${member.githubUsername} avatar`;
     avatar.addEventListener(
@@ -282,6 +314,18 @@ function filterMembers(members, filters) {
     .sort((left, right) => left.githubUsername.localeCompare(right.githubUsername));
 }
 
+function getVisibleMembers() {
+  if (!state.route.memberUsername) {
+    return filterMembers(state.members, state.filters);
+  }
+
+  return state.members.filter(
+    (member) =>
+      member.githubUsername.toLowerCase() ===
+      state.route.memberUsername.toLowerCase(),
+  );
+}
+
 function matchesSearch(member, search) {
   if (!search) {
     return true;
@@ -335,6 +379,19 @@ function formatDate(value) {
 
 function getGitHubAvatarUrl(username) {
   return `https://github.com/${encodeURIComponent(username)}.png`;
+}
+
+function getMemberUrl(username) {
+  return `${APP_BASE_PATH}/${encodeURIComponent(username)}` || `/${encodeURIComponent(username)}`;
+}
+
+function navigateToMember(username) {
+  const nextUrl = getMemberUrl(username);
+  if (window.location.pathname !== nextUrl) {
+    window.history.pushState(null, "", nextUrl);
+  }
+  state.route = { memberUsername: username };
+  render();
 }
 
 function getZulipProfileUrl(zulipId) {
@@ -614,6 +671,23 @@ function looksLikeWebAddress(value) {
   return /^(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)*\.[a-z]{2,}$/i.test(
     host,
   );
+}
+
+function getAppBasePath() {
+  const pathname = new URL(".", import.meta.url).pathname.replace(/\/$/, "");
+  return pathname === "/" ? "" : pathname;
+}
+
+function getRouteFromLocation() {
+  const pathname = window.location.pathname;
+  const relativePath = pathname.startsWith(`${APP_BASE_PATH}/`)
+    ? pathname.slice(APP_BASE_PATH.length + 1)
+    : pathname.slice(1);
+  const [memberUsername = ""] = relativePath.split("/").filter(Boolean);
+
+  return {
+    memberUsername: decodeURIComponent(memberUsername || ""),
+  };
 }
 
 function extractMember(row) {
