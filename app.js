@@ -106,6 +106,7 @@ function render() {
   toggleRouteSections(isMemberRoute);
 
   const visibleMembers = getVisibleMembers();
+  updateDocumentTitle(visibleMembers);
   updateStats(visibleMembers);
   renderCards(visibleMembers);
   renderMeta(visibleMembers);
@@ -125,6 +126,17 @@ function toggleRouteSections(isMemberRoute) {
   if (elements.memberRouteActions) {
     elements.memberRouteActions.hidden = !isMemberRoute;
   }
+}
+
+function updateDocumentTitle(visibleMembers) {
+  if (state.route.memberUsername && visibleMembers.length === 1) {
+    const member = visibleMembers[0];
+    const titleName = member.name || member.githubUsername;
+    document.title = `${titleName} - Dataverse People`;
+    return;
+  }
+
+  document.title = "Dataverse People";
 }
 
 function updateStats(filteredMembers) {
