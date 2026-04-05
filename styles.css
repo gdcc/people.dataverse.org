@@ -380,6 +380,24 @@ select {
   display: block;
 }
 
+.installation-description-preview {
+  color: var(--muted);
+}
+
+.description-expand-button {
+  border: 0;
+  padding: 0;
+  margin-left: 2px;
+  background: transparent;
+  color: var(--accent-strong);
+  font: inherit;
+  cursor: pointer;
+}
+
+.description-expand-button:hover {
+  text-decoration: underline;
+}
+
 .member-links {
   gap: 10px;
   flex-wrap: wrap;

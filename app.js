@@ -396,6 +396,18 @@ function appendInstallationValue(container, installation, country) {
     }
   }
 
+  const installationDescription =
+    state.members.find(
+      (entry) =>
+        entry.primaryInstallation === installationText &&
+        entry.installationDescription,
+    )?.installationDescription ?? "";
+
+  if (installationDescription) {
+    container.append(document.createElement("br"));
+    container.append(createInstallationDescriptionPreview(installationDescription));
+  }
+
   if (!country) {
     return;
   }
@@ -411,6 +423,51 @@ function appendInstallationValue(container, installation, country) {
     render();
   });
   container.append(countryLink);
+}
+
+function createInstallationDescriptionPreview(description) {
+  const wrapper = document.createElement("span");
+  wrapper.className = "installation-description-preview";
+
+  const normalized = String(description ?? "").replace(/\s+/g, " ").trim();
+  const preview = truncateDescription(normalized, 58);
+
+  const previewText = document.createElement("span");
+  previewText.textContent = preview;
+  wrapper.append(previewText);
+
+  if (preview !== normalized) {
+    const expandButton = document.createElement("button");
+    expandButton.type = "button";
+    expandButton.className = "description-expand-button";
+    expandButton.textContent = "...";
+    expandButton.setAttribute("aria-label", "Read full installation description");
+    expandButton.addEventListener("click", () => {
+      const expanded = wrapper.dataset.expanded === "true";
+      wrapper.dataset.expanded = expanded ? "false" : "true";
+      previewText.textContent = expanded ? preview : normalized;
+      expandButton.textContent = expanded ? "..." : " [collapse description]";
+      expandButton.setAttribute(
+        "aria-label",
+        expanded
+          ? "Read full installation description"
+          : "Collapse installation description",
+      );
+    });
+    wrapper.append(expandButton);
+  }
+
+  return wrapper;
+}
+
+function truncateDescription(text, maxLength) {
+  if (text.length <= maxLength) {
+    return text;
+  }
+
+  const truncated = text.slice(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return (lastSpace > 24 ? truncated.slice(0, lastSpace) : truncated).trimEnd();
 }
 
 function appendLinkedText(container, value) {
@@ -539,6 +596,7 @@ function extractMember(row) {
     primaryInstallation: row["Primary installation"]?.trim() ?? "",
     country: row.Country?.trim() ?? "",
     continent: row.Continent?.trim() ?? "",
+    installationDescription: row["Installation Description"]?.trim() ?? "",
     zulipId: row["Zulip ID"]?.trim() ?? "",
     orcid: row.ORCID?.trim() ?? "",
     name: row["GitHub Profile"]?.name?.trim?.() ?? row["GitHub Profile"]?.name ?? "",
@@ -574,11 +632,16 @@ function applyEnrichment(member) {
     member.continent ||
     enrichmentMaps.continentByInstallation.get(member.primaryInstallation) ||
     "";
+  const installationDescription =
+    member.installationDescription ||
+    enrichmentMaps.descriptionByInstallation.get(member.primaryInstallation) ||
+    "";
 
   return {
     ...member,
     country,
     continent,
+    installationDescription,
     name: member.name || githubProfile.name || "",
     bio: member.bio || githubProfile.bio || "",
     githubLocation: member.githubLocation || githubProfile.githubLocation || "",
@@ -592,6 +655,7 @@ function applyEnrichment(member) {
 function buildEnrichmentMaps(rows) {
   const countryByInstallation = new Map();
   const continentByInstallation = new Map();
+  const descriptionByInstallation = new Map();
   const githubByUsername = new Map();
 
   for (const row of rows) {
@@ -601,6 +665,12 @@ function buildEnrichmentMaps(rows) {
     }
     if (member.primaryInstallation && member.continent) {
       continentByInstallation.set(member.primaryInstallation, member.continent);
+    }
+    if (member.primaryInstallation && member.installationDescription) {
+      descriptionByInstallation.set(
+        member.primaryInstallation,
+        member.installationDescription,
+      );
     }
 
     if (
@@ -628,6 +698,7 @@ function buildEnrichmentMaps(rows) {
   return {
     countryByInstallation,
     continentByInstallation,
+    descriptionByInstallation,
     githubByUsername,
   };
 }
