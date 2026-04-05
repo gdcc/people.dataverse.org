@@ -17,7 +17,7 @@ A lightweight browser app for exploring the community TSV at:
 ./run.sh
 ```
 
-Then open [http://localhost:8080](http://localhost:8080).
+Then open <http://localhost:8080/people.dataverse.org/>
 
 ## Refresh the bundled snapshot
 
