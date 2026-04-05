@@ -82,6 +82,7 @@ function render() {
   updateStats(filteredMembers);
   renderCards(filteredMembers);
   renderMeta(filteredMembers);
+  syncFilterInputs();
 }
 
 function updateStats(filteredMembers) {
@@ -226,6 +227,15 @@ function fillSelect(element, values, defaultLabel, selectedValue) {
   element.value = selectedValue;
 }
 
+function syncFilterInputs() {
+  if (elements.installationFilter) {
+    elements.installationFilter.value = state.filters.installation;
+  }
+  if (elements.countryFilter) {
+    elements.countryFilter.value = state.filters.country;
+  }
+}
+
 function filterMembers(members, filters) {
   return [...members]
     .filter(
@@ -309,9 +319,16 @@ function appendInstallationValue(container, installation, country) {
   }
 
   container.append(document.createElement("br"));
-  const countryText = document.createElement("span");
-  countryText.textContent = `(${country})`;
-  container.append(countryText);
+  const countryLink = document.createElement("a");
+  countryLink.href = "#";
+  countryLink.className = "inline-filter-link";
+  countryLink.textContent = `(${country})`;
+  countryLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    state.filters.country = country;
+    render();
+  });
+  container.append(countryLink);
 }
 
 function appendLinkedText(container, value) {

@@ -335,6 +335,15 @@ select {
   line-height: 1.45;
 }
 
+.inline-filter-link {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.inline-filter-link:hover {
+  text-decoration: underline;
+}
+
 .member-links {
   gap: 10px;
   flex-wrap: wrap;
