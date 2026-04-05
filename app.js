@@ -312,7 +312,38 @@ function appendFieldValue(container, value) {
 }
 
 function appendInstallationValue(container, installation, country) {
-  appendLinkedText(container, String(installation ?? "").trim());
+  const installationText = String(installation ?? "").trim();
+  const installationHref = toExternalHref(installationText);
+
+  if (installationText) {
+    const filterLink = document.createElement("a");
+    filterLink.href = "#";
+    filterLink.className = "inline-filter-link";
+    filterLink.textContent = installationText;
+    filterLink.addEventListener("click", (event) => {
+      event.preventDefault();
+      state.filters.installation = installationText;
+      render();
+    });
+    container.append(filterLink);
+
+    if (installationHref) {
+      container.append(document.createTextNode(" "));
+      const externalLink = document.createElement("a");
+      externalLink.href = installationHref;
+      externalLink.target = "_blank";
+      externalLink.rel = "noreferrer";
+      externalLink.className = "external-inline-link";
+      externalLink.setAttribute("aria-label", `Open ${installationText} in a new window`);
+      const externalIcon = document.createElement("img");
+      externalIcon.src = "./assets/external-link.svg";
+      externalIcon.alt = "";
+      externalIcon.className = "external-inline-icon";
+      externalIcon.setAttribute("aria-hidden", "true");
+      externalLink.append(externalIcon);
+      container.append(externalLink);
+    }
+  }
 
   if (!country) {
     return;

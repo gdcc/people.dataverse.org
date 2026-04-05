@@ -344,6 +344,23 @@ select {
   text-decoration: underline;
 }
 
+.external-inline-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.external-inline-link:hover {
+  color: var(--accent-strong);
+}
+
+.external-inline-icon {
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+
 .member-links {
   gap: 10px;
   flex-wrap: wrap;
