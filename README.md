@@ -1,12 +1,16 @@
 # Dataverse People
 
-A lightweight browser app for exploring the community TSV at:
+Dataverse People is a community directory that uses the [People/Dataverse Community Contributors/Dataversians](https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/edit?usp=sharing) spreadsheet as a starting point and pulls in additional data from the following sources:
 
-`https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv`
+- The GitHub API for information about each member
+- https://github.com/IQSS/dataverse-installations (the [JSON](https://iqss.github.io/dataverse-installations/data/data.json) file, specifically)
+- https://github.com/IQSS/dataverse-tv (the spreadsheet mentioned in the README)
+
+This is very much a work in progress. Please feel free to join the [discussion](https://dataverse.zulipchat.com/#narrow/channel/375707-community/topic/people.2Edataverse.2Eorg/with/583596564) on Zulip!
 
 ## What it does
 
-- Loads a bundled snapshot of the sheet so the app works immediately.
+- Loads a bundled snapshot of the people spreadsheet so the app works immediately.
 - Uses cached GitHub API profile data so member cards can show richer profile details without runtime API calls.
 - Uses cached DataverseTV talk data to add a watch link for members who appear there.
 - Lets you search members and filter by installation, country, and continent.
