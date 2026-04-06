@@ -2,7 +2,7 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-05T23:49:19.337Z",
+  "generatedAt": "2026-04-06T00:17:41.450Z",
   "rowCount": 300,
   "matchedCountryCount": 142,
   "matchedContinentCount": 142,
@@ -10,7 +10,7 @@ export const SNAPSHOT_META = {
   "matchedGdccMemberCount": 79,
   "matchedCoreTrustSealCount": 39,
   "matchedDataverseTvCount": 41,
-  "matchedGitHubProfileCount": 291
+  "matchedGitHubProfileCount": 296
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -669,7 +669,20 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "anarchivist",
+      "name": "maría a. matienzo",
+      "company": "@BerkeleyLibrary",
+      "location": "Seattle, WA",
+      "bio": "Head of Application Development Services, UC Berkeley Library",
+      "blog": "https://matienzo.org/",
+      "twitterUsername": "",
+      "followers": 434,
+      "following": 206,
+      "publicRepos": 170,
+      "htmlUrl": "https://github.com/anarchivist",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73732?v=4"
+    }
   },
   {
     "GitHub Username": "andrecastro0o",
@@ -975,7 +988,20 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "awilfox",
+      "name": "Anna Wilcox",
+      "company": "@BerkeleyLibrary",
+      "location": "Near a PowerPC computer",
+      "bio": "Founder: @AdelieLinux, @wilcox-tech. PowerPC and musl libc enthusiast. Love to port things off x86. IBM alum.",
+      "blog": "https://www.awilfox.com/",
+      "twitterUsername": "awilcox",
+      "followers": 122,
+      "following": 6,
+      "publicRepos": 76,
+      "htmlUrl": "https://github.com/awilfox",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/303838?v=4"
+    }
   },
   {
     "GitHub Username": "bappun",
@@ -4656,7 +4682,20 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "KaiOnGitHub",
+      "name": "Kai König",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 3,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/KaiOnGitHub",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50620424?v=4"
+    }
   },
   {
     "GitHub Username": "kaitlinnewson",
@@ -7249,7 +7288,20 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": true,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "sbarbosadataverse",
+      "name": "Sonia Barbosa",
+      "company": "Harvard Dataverse",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 6,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/sbarbosadataverse",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8322346?v=4"
+    }
   },
   {
     "GitHub Username": "schorcht-ioer",
@@ -8279,7 +8331,20 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "vaidasmo",
+      "name": "Vaidas",
+      "company": "KTU",
+      "location": "Kaunas, Lietuva",
+      "bio": "",
+      "blog": "http://www.vaidasmo.lt",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 3,
+      "publicRepos": 28,
+      "htmlUrl": "https://github.com/vaidasmo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8818209?v=4"
+    }
   },
   {
     "GitHub Username": "vbonamy",

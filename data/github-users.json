@@ -1100,12 +1100,12 @@
   "BenediktMeierUIT": {
     "ok": false,
     "status": 404,
-    "fetchedAt": "2026-04-05T18:08:17.861Z"
+    "fetchedAt": "2026-04-06T00:17:17.976Z"
   },
   "super-lou": {
     "ok": false,
     "status": 404,
-    "fetchedAt": "2026-04-05T18:08:17.988Z"
+    "fetchedAt": "2026-04-06T00:17:18.287Z"
   },
   "summitcheung": {
     "ok": true,
@@ -3630,7 +3630,7 @@
   "BPeuch": {
     "ok": false,
     "status": 404,
-    "fetchedAt": "2026-04-05T18:08:18.046Z"
+    "fetchedAt": "2026-04-06T00:17:18.043Z"
   },
   "youssefOuahalou": {
     "ok": true,
@@ -3833,7 +3833,7 @@
   "ar062800": {
     "ok": false,
     "status": 404,
-    "fetchedAt": "2026-04-05T18:08:18.111Z"
+    "fetchedAt": "2026-04-06T00:17:17.759Z"
   },
   "DieuwertjeBloemen": {
     "ok": true,
@@ -5273,6 +5273,96 @@
       "publicRepos": 0,
       "htmlUrl": "https://github.com/rnichols7",
       "avatarUrl": "https://avatars.githubusercontent.com/u/127120052?v=4"
+    }
+  },
+  "anarchivist": {
+    "ok": true,
+    "fetchedAt": "2026-04-06T00:17:17.702Z",
+    "profile": {
+      "login": "anarchivist",
+      "name": "maría a. matienzo",
+      "company": "@BerkeleyLibrary",
+      "location": "Seattle, WA",
+      "bio": "Head of Application Development Services, UC Berkeley Library",
+      "blog": "https://matienzo.org/",
+      "twitterUsername": "",
+      "followers": 434,
+      "following": 206,
+      "publicRepos": 170,
+      "htmlUrl": "https://github.com/anarchivist",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73732?v=4"
+    }
+  },
+  "awilfox": {
+    "ok": true,
+    "fetchedAt": "2026-04-06T00:17:17.927Z",
+    "profile": {
+      "login": "awilfox",
+      "name": "Anna Wilcox",
+      "company": "@BerkeleyLibrary",
+      "location": "Near a PowerPC computer",
+      "bio": "Founder: @AdelieLinux, @wilcox-tech. PowerPC and musl libc enthusiast. Love to port things off x86. IBM alum.",
+      "blog": "https://www.awilfox.com/",
+      "twitterUsername": "awilcox",
+      "followers": 122,
+      "following": 6,
+      "publicRepos": 76,
+      "htmlUrl": "https://github.com/awilfox",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/303838?v=4"
+    }
+  },
+  "kaiongithub": {
+    "ok": true,
+    "fetchedAt": "2026-04-06T00:17:18.148Z",
+    "profile": {
+      "login": "KaiOnGitHub",
+      "name": "Kai König",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 3,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/KaiOnGitHub",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50620424?v=4"
+    }
+  },
+  "sbarbosadataverse": {
+    "ok": true,
+    "fetchedAt": "2026-04-06T00:17:18.226Z",
+    "profile": {
+      "login": "sbarbosadataverse",
+      "name": "Sonia Barbosa",
+      "company": "Harvard Dataverse",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 6,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/sbarbosadataverse",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8322346?v=4"
+    }
+  },
+  "vaidasmo": {
+    "ok": true,
+    "fetchedAt": "2026-04-06T00:17:18.365Z",
+    "profile": {
+      "login": "vaidasmo",
+      "name": "Vaidas",
+      "company": "KTU",
+      "location": "Kaunas, Lietuva",
+      "bio": "",
+      "blog": "http://www.vaidasmo.lt",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 3,
+      "publicRepos": 28,
+      "htmlUrl": "https://github.com/vaidasmo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8818209?v=4"
     }
   }
 }
