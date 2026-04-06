@@ -37,3 +37,9 @@ node ./scripts/build-data.mjs
 ```
 
 If you set `GITHUB_TOKEN`, the GitHub profile refresh can fetch many more users before hitting rate limits.
+
+To refresh just one member's cached GitHub profile, pass the username:
+
+```bash
+node ./scripts/update-github-users.mjs 4tikhonov
+```

@@ -2045,14 +2045,14 @@
   },
   "4tikhonov": {
     "ok": true,
-    "fetchedAt": "2026-04-04T12:13:52.412Z",
+    "fetchedAt": "2026-04-06T15:24:03.731Z",
     "profile": {
       "login": "4tikhonov",
       "name": "Slava Tykhonov",
       "company": "https://codata.org",
       "location": "Paris, France",
       "bio": "CODATA Head of AI, Harvard Dataverse Ambassador.",
-      "blog": "",
+      "blog": "https://www.linkedin.com/newsletters/croissant-eclair-and-ai-7440826154241945600/",
       "twitterUsername": "4tykhonov",
       "followers": 38,
       "following": 5,

@@ -4,9 +4,10 @@ const membersPath = new URL("../data/community-members.tsv", import.meta.url);
 const cachePath = new URL("../data/github-users.json", import.meta.url);
 const githubApiBase = "https://api.github.com/users/";
 const token = process.env.GITHUB_TOKEN?.trim();
+const requestedUsernames = process.argv.slice(2).map((value) => value.trim()).filter(Boolean);
 
 const rawMembers = await readFile(membersPath, "utf8");
-const usernames = getUsernamesFromTsv(rawMembers);
+const usernames = getUsernamesToFetch(rawMembers, requestedUsernames);
 const cache = await readJsonIfExists(cachePath);
 
 let remaining = Number.POSITIVE_INFINITY;
@@ -21,7 +22,11 @@ for (const username of usernames) {
     break;
   }
 
-  if (cache[username]?.ok && cache[username]?.profile) {
+  if (
+    requestedUsernames.length === 0 &&
+    cache[username]?.ok &&
+    cache[username]?.profile
+  ) {
     continue;
   }
 
@@ -79,6 +84,40 @@ function getUsernamesFromTsv(tsv) {
       .map((line) => line.split("\t")[usernameIndex]?.trim())
       .filter(Boolean),
   )];
+}
+
+function getUsernamesToFetch(tsv, requested) {
+  const knownUsernames = getUsernamesFromTsv(tsv);
+
+  if (requested.length === 0) {
+    return knownUsernames;
+  }
+
+  const knownUsernamesByLowercase = new Map(
+    knownUsernames.map((username) => [username.toLowerCase(), username]),
+  );
+  const resolvedUsernames = [];
+  const unknownUsernames = [];
+
+  for (const requestedUsername of requested) {
+    const resolvedUsername = knownUsernamesByLowercase.get(requestedUsername.toLowerCase());
+    if (!resolvedUsername) {
+      unknownUsernames.push(requestedUsername);
+      continue;
+    }
+
+    if (!resolvedUsernames.includes(resolvedUsername)) {
+      resolvedUsernames.push(resolvedUsername);
+    }
+  }
+
+  if (unknownUsernames.length > 0) {
+    throw new Error(
+      `Unknown GitHub username${unknownUsernames.length === 1 ? "" : "s"} in ${membersPath.pathname}: ${unknownUsernames.join(", ")}`,
+    );
+  }
+
+  return resolvedUsernames;
 }
 
 async function readJsonIfExists(pathUrl) {
