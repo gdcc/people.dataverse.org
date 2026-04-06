@@ -194,8 +194,10 @@ function renderCards(members) {
     const avatarLink = node.querySelector(".member-avatar-link");
     const avatar = node.querySelector(".member-avatar");
     const memberName = node.querySelector(".member-name");
+    const githubRow = node.querySelector(".member-github-row");
     const displayName = node.querySelector(".member-display-name");
     const displayHandle = node.querySelector(".member-display-handle");
+    const issueLink = node.querySelector(".member-issue-link");
     const zulipLink = node.querySelector(".member-zulip-link");
     const orcidLink = node.querySelector(".member-orcid-link");
     const orcidLabel = node.querySelector(".member-orcid-label");
@@ -228,7 +230,14 @@ function renderCards(members) {
     );
     displayHandle.textContent = `@${member.githubUsername}`;
     displayName.href = member.htmlUrl || `https://github.com/${member.githubUsername}`;
-    displayName.hidden = false;
+    githubRow.hidden = false;
+    if (member.issue) {
+      issueLink.href = member.issue;
+      issueLink.hidden = false;
+      issueLink.setAttribute("aria-label", `Open issue for ${member.githubUsername}`);
+    } else {
+      issueLink.hidden = true;
+    }
     if (member.zulipId) {
       zulipLink.href = getZulipProfileUrl(member.zulipId);
       zulipLink.hidden = false;
@@ -858,6 +867,7 @@ function extractMember(row) {
     githubUsername: row["GitHub Username"]?.trim() ?? "",
     primaryInstallation: row["Primary installation"]?.trim() ?? "",
     workingGroups: parseWorkingGroups(row["Working Groups"]),
+    issue: row.issue?.trim() ?? "",
     country: row.Country?.trim() ?? "",
     continent: row.Continent?.trim() ?? "",
     installationDescription: row["Installation Description"]?.trim() ?? "",

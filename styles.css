@@ -369,6 +369,12 @@ select {
   margin-top: 10px;
 }
 
+.member-github-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .member-display-name {
   display: inline-flex;
   align-items: center;
@@ -387,6 +393,14 @@ select {
   text-decoration: none;
 }
 
+.member-issue-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  text-decoration: none;
+}
+
 .member-orcid-link {
   display: inline-flex;
   align-items: flex-start;
@@ -397,9 +411,13 @@ select {
   max-width: 100%;
 }
 
-.member-display-name[hidden],
+.member-github-row[hidden],
 .member-zulip-link[hidden],
 .member-orcid-link[hidden] {
+  display: none;
+}
+
+.member-issue-link[hidden] {
   display: none;
 }
 
