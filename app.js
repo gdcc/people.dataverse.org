@@ -403,7 +403,23 @@ function matchesSearch(member, search) {
     return true;
   }
 
-  return Object.values(member)
+  const searchableValues = {
+    githubUsername: member.githubUsername,
+    primaryInstallation: member.primaryInstallation,
+    workingGroups: Array.isArray(member.workingGroups) ? member.workingGroups.join(" ") : "",
+    issue: member.issue,
+    country: member.country,
+    continent: member.continent,
+    installationDescription: member.installationDescription,
+    orcid: member.orcid,
+    name: member.name,
+    bio: member.bio,
+    githubLocation: member.githubLocation,
+    githubCompany: member.githubCompany,
+    githubBlog: member.githubBlog,
+  };
+
+  return Object.values(searchableValues)
     .join(" ")
     .toLowerCase()
     .includes(search);
