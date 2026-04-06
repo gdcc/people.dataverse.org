@@ -494,7 +494,7 @@ function navigateHomeWithFilters(nextFilters) {
 }
 
 function getZulipProfileUrl(zulipId) {
-  return `https://dataverse.zulipchat.com/#user/${encodeURIComponent(zulipId)}`;
+  return `https://dataverse.zulipchat.com/#narrow/sender/${encodeURIComponent(zulipId)}`;
 }
 
 function getOrcidUrl(orcid) {
