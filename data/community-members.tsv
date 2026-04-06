@@ -63,8 +63,8 @@ cmbz	dataverse.harvard.edu	600327		large-data-support,sensitive-data
 Cook4986	dataverse.harvard.edu							
 coret	datasets.iisg.amsterdam							
 cristobaltapia	darus.uni-stuttgart.de							
-DaftPug								
-daniel-om-weber								
+DaftPug								https://github.com/IQSS/dataverse/issues/10277
+daniel-om-weber								https://github.com/gdcc/easyDataverse/issues/50
 danielEbanks	dataverse.harvard.edu	948476						
 datacuratorcsuc								
 dataversebot						@dataversebot:matrix.org		
@@ -198,7 +198,7 @@ myi100
 nana-boateng	borealisdata.ca	787413						
 nightowlaz	dataverse.asu.edu	598843		large-data-support		@nightowlaz:matrix.org		
 Nikos-Askitas								
-nmunatsibw								
+nmunatsibw								https://github.com/IQSS/dataverse/issues/10277
 Odysseas640								
 okaradeniz	rdr.kuleuven.be	655610						
 orazionelson								
