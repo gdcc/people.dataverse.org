@@ -1,7 +1,4 @@
 GitHub Username	Primary installation	Zulip ID	Working Groups	Issue
-blewis	dataverse.harvard.edu	1035521		
-iannesbitt		659827		
-thegaryking	dataverse.harvard.edu			
 22tb				https://github.com/IQSS/dataverse/issues/11978
 4tikhonov	dataverse.nl	598432		
 aadorian				https://github.com/IQSS/dataverse-frontend/issues/152
@@ -43,6 +40,7 @@ BenediktMeierUIT	dataverse.no	699150
 bgunia	archive.data.jhu.edu	698922	large-data-support,sensitive-data	
 bikramj	borealisdata.ca	719882		
 bjosel				https://github.com/IQSS/dataverse/issues/11976
+blewis	dataverse.harvard.edu	1035521		
 bnavigator				https://github.com/gdcc/easyDataverse/issues/15
 BPeuch	www.sodha.be			
 Bramvdhout				https://github.com/IQSS/dataverse/issues/9235
@@ -116,6 +114,7 @@ gwendoux	dataverse.cirad.fr	652210
 haarli	edmond.mpg.de	652521		
 hamidtam				
 hitzelbe				
+iannesbitt		659827		
 IlariaBelvedere				
 isaacpratt				
 ischmahl				
@@ -268,6 +267,7 @@ synapticrain
 TanayKarve				
 tcoupin	dataverse.ird.fr			
 tgoelles				
+thegaryking	dataverse.harvard.edu			
 thiagombrasil				
 thisisbillie				
 TillJan	data.fz-juelich.de			

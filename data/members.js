@@ -2,7 +2,7 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-07T13:18:27.641Z",
+  "generatedAt": "2026-04-07T13:19:20.071Z",
   "rowCount": 303,
   "matchedCountryCount": 153,
   "matchedContinentCount": 153,
@@ -14,87 +14,6 @@ export const SNAPSHOT_META = {
 };
 
 export const MEMBERS_SNAPSHOT = [
-  {
-    "GitHub Username": "blewis",
-    "Primary installation": "dataverse.harvard.edu",
-    "Zulip ID": "1035521",
-    "Working Groups": "",
-    "Issue": "",
-    "Country": "USA",
-    "Continent": "North America",
-    "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
-    "GDCC Member": true,
-    "CoreTrustSeals": [],
-    "DataverseTV": false,
-    "GitHub Profile": {
-      "login": "blewis",
-      "name": "Ben Lewis",
-      "company": "Harvard University, Center for Geographic Analysis",
-      "location": "United States",
-      "bio": "",
-      "blog": "http://worldmap.harvard.edu",
-      "twitterUsername": "",
-      "followers": 2,
-      "following": 0,
-      "publicRepos": 2,
-      "htmlUrl": "https://github.com/blewis",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/812849?v=4"
-    }
-  },
-  {
-    "GitHub Username": "iannesbitt",
-    "Primary installation": "",
-    "Zulip ID": "659827",
-    "Working Groups": "",
-    "Issue": "",
-    "Country": "",
-    "Continent": "",
-    "Installation Description": "",
-    "GDCC Member": false,
-    "CoreTrustSeals": [],
-    "DataverseTV": false,
-    "GitHub Profile": {
-      "login": "iannesbitt",
-      "name": "Ian Nesbitt",
-      "company": "National Center for Ecological Analysis and Synthesis (NCEAS)",
-      "location": "Berkshire County, Massachusetts",
-      "bio": "Research sw engineer @NCEAS / UCSB and @DataONEorg.\r\nEarth & climate science MS @ UMaine.\r\nFormerly: dev/science @raspishake",
-      "blog": "https://www.iannesbitt.org",
-      "twitterUsername": "paleosurface",
-      "followers": 57,
-      "following": 36,
-      "publicRepos": 47,
-      "htmlUrl": "https://github.com/iannesbitt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18689918?v=4"
-    }
-  },
-  {
-    "GitHub Username": "thegaryking",
-    "Primary installation": "dataverse.harvard.edu",
-    "Zulip ID": "",
-    "Working Groups": "",
-    "Issue": "",
-    "Country": "USA",
-    "Continent": "North America",
-    "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
-    "GDCC Member": true,
-    "CoreTrustSeals": [],
-    "DataverseTV": true,
-    "GitHub Profile": {
-      "login": "thegaryking",
-      "name": "Gary King",
-      "company": "Harvard University",
-      "location": "Cambridge, MA",
-      "bio": "",
-      "blog": "http://gking.harvard.edu",
-      "twitterUsername": "kinggary",
-      "followers": 153,
-      "following": 0,
-      "publicRepos": 1,
-      "htmlUrl": "https://github.com/thegaryking",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/575230?v=4"
-    }
-  },
   {
     "GitHub Username": "22tb",
     "Primary installation": "",
@@ -1192,6 +1111,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/bjosel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/135325484?v=4"
+    }
+  },
+  {
+    "GitHub Username": "blewis",
+    "Primary installation": "dataverse.harvard.edu",
+    "Zulip ID": "1035521",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "blewis",
+      "name": "Ben Lewis",
+      "company": "Harvard University, Center for Geographic Analysis",
+      "location": "United States",
+      "bio": "",
+      "blog": "http://worldmap.harvard.edu",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/blewis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/812849?v=4"
     }
   },
   {
@@ -3162,6 +3108,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/hitzelbe",
       "avatarUrl": "https://avatars.githubusercontent.com/u/49186209?v=4"
+    }
+  },
+  {
+    "GitHub Username": "iannesbitt",
+    "Primary installation": "",
+    "Zulip ID": "659827",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "iannesbitt",
+      "name": "Ian Nesbitt",
+      "company": "National Center for Ecological Analysis and Synthesis (NCEAS)",
+      "location": "Berkshire County, Massachusetts",
+      "bio": "Research sw engineer @NCEAS / UCSB and @DataONEorg.\r\nEarth & climate science MS @ UMaine.\r\nFormerly: dev/science @raspishake",
+      "blog": "https://www.iannesbitt.org",
+      "twitterUsername": "paleosurface",
+      "followers": 57,
+      "following": 36,
+      "publicRepos": 47,
+      "htmlUrl": "https://github.com/iannesbitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18689918?v=4"
     }
   },
   {
@@ -7297,6 +7270,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 36,
       "htmlUrl": "https://github.com/tgoelles",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28436117?v=4"
+    }
+  },
+  {
+    "GitHub Username": "thegaryking",
+    "Primary installation": "dataverse.harvard.edu",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": true,
+    "GitHub Profile": {
+      "login": "thegaryking",
+      "name": "Gary King",
+      "company": "Harvard University",
+      "location": "Cambridge, MA",
+      "bio": "",
+      "blog": "http://gking.harvard.edu",
+      "twitterUsername": "kinggary",
+      "followers": 153,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/thegaryking",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/575230?v=4"
     }
   },
   {
