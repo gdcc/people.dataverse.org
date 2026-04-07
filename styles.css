@@ -421,6 +421,7 @@ select {
   margin: 0;
   line-height: 1.5;
   color: var(--text);
+  overflow-wrap: anywhere;
 }
 
 .member-meta {
@@ -442,6 +443,7 @@ select {
 .member-meta dd {
   margin: 0;
   line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .inline-filter-link {
@@ -497,6 +499,14 @@ select {
 
 .installation-description-preview {
   color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.member-meta dd a,
+.member-bio a,
+.installation-description-preview a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .description-expand-button {
