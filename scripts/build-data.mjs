@@ -5,6 +5,13 @@ const installationsPath = new URL("../data/installations.json", import.meta.url)
 const githubUsersPath = new URL("../data/github-users.json", import.meta.url);
 const dataverseTvPath = new URL("../data/dataversetv.tsv", import.meta.url);
 const outputPath = new URL("../data/members.js", import.meta.url);
+const sourceFields = [
+  "GitHub Username",
+  "Primary installation",
+  "Zulip ID",
+  "Working Groups",
+  "issue",
+];
 
 const raw = await readFile(inputPath, "utf8");
 const installationsRaw = await readFile(installationsPath, "utf8");
@@ -60,8 +67,9 @@ const coreTrustSealsByHostname = new Map(
 
 const rows = lines.slice(1).map((line) => {
   const values = line.split("\t");
-  const record = headers.reduce((entry, header, index) => {
-    entry[header] = values[index] ?? "";
+  const record = sourceFields.reduce((entry, header) => {
+    const index = headers.indexOf(header);
+    entry[header] = index >= 0 ? (values[index] ?? "") : "";
     return entry;
   }, {});
   const installationHost = normalizeHostname(record["Primary installation"]);
