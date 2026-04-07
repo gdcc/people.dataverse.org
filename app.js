@@ -860,7 +860,7 @@ function extractMember(row) {
     githubUsername: row["GitHub Username"]?.trim() ?? "",
     primaryInstallation: row["Primary installation"]?.trim() ?? "",
     workingGroups: parseWorkingGroups(row["Working Groups"]),
-    issue: row.issue?.trim() ?? "",
+    issue: row.Issue?.trim() ?? "",
     country: row.Country?.trim() ?? "",
     continent: row.Continent?.trim() ?? "",
     installationDescription: row["Installation Description"]?.trim() ?? "",

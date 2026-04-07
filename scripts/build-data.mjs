@@ -10,7 +10,7 @@ const sourceFields = [
   "Primary installation",
   "Zulip ID",
   "Working Groups",
-  "issue",
+  "Issue",
 ];
 
 const raw = await readFile(inputPath, "utf8");
