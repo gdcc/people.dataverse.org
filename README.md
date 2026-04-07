@@ -14,7 +14,7 @@ This is very much a work in progress. Please feel free to join the [discussion](
 - Uses cached GitHub API profile data so member cards can show richer profile details without runtime API calls.
 - Uses cached DataverseTV talk data to add a watch link for members who appear there.
 - Lets you search members and filter by installation, country, and continent.
-- Shows GitHub usernames alongside primary installation, country, Zulip ID, and ORCID when available.
+- Shows GitHub usernames alongside primary installation and country, with links for GitHub, Zulip, issues, and other available member details.
 
 ## Run it
 

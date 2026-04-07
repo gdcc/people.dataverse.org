@@ -6,7 +6,6 @@ const fieldLabels = {
   workingGroups: "Working groups",
   country: "Country",
   zulipId: "Zulip ID",
-  orcid: "ORCID",
   githubLocation: "Location",
   githubCompany: "Organization",
   githubBlog: "Website",
@@ -199,8 +198,6 @@ function renderCards(members) {
     const displayHandle = node.querySelector(".member-display-handle");
     const issueLink = node.querySelector(".member-issue-link");
     const zulipLink = node.querySelector(".member-zulip-link");
-    const orcidLink = node.querySelector(".member-orcid-link");
-    const orcidLabel = node.querySelector(".member-orcid-label");
     const bio = node.querySelector(".member-bio");
     memberName.textContent = member.name || member.githubUsername;
     avatarLink.href = getMemberUrl(member.githubUsername);
@@ -243,13 +240,6 @@ function renderCards(members) {
       zulipLink.hidden = false;
     } else {
       zulipLink.hidden = true;
-    }
-    if (member.orcid) {
-      orcidLink.href = getOrcidUrl(member.orcid);
-      orcidLabel.textContent = member.orcid;
-      orcidLink.hidden = false;
-    } else {
-      orcidLink.hidden = true;
     }
     appendLinkedText(bio, member.bio || "");
     bio.hidden = !member.bio;
@@ -411,7 +401,6 @@ function matchesSearch(member, search) {
     country: member.country,
     continent: member.continent,
     installationDescription: member.installationDescription,
-    orcid: member.orcid,
     name: member.name,
     bio: member.bio,
     githubLocation: member.githubLocation,
@@ -495,10 +484,6 @@ function navigateHomeWithFilters(nextFilters) {
 
 function getZulipProfileUrl(zulipId) {
   return `https://dataverse.zulipchat.com/#narrow/sender/${encodeURIComponent(zulipId)}`;
-}
-
-function getOrcidUrl(orcid) {
-  return `https://orcid.org/${encodeURIComponent(orcid)}`;
 }
 
 function getWorkingGroupUrl(name) {
@@ -779,10 +764,6 @@ function toExternalHref(value) {
 
   const trimmed = value.trim();
 
-  if (isOrcidId(trimmed)) {
-    return `https://orcid.org/${trimmed}`;
-  }
-
   if (isGitHubMention(trimmed)) {
     return `https://github.com/${trimmed.slice(1)}`;
   }
@@ -800,10 +781,6 @@ function toExternalHref(value) {
 
 function isGitHubMention(value) {
   return /^@[a-z0-9](?:[a-z0-9-]{0,38}[a-z0-9])?$/i.test(value);
-}
-
-function isOrcidId(value) {
-  return /^\d{4}-\d{4}-\d{4}-[\dX]{4}$/i.test(value);
 }
 
 function looksLikeWebAddress(value) {
@@ -891,7 +868,6 @@ function extractMember(row) {
     coreTrustSeals: Array.isArray(row.CoreTrustSeals) ? row.CoreTrustSeals : [],
     dataverseTv: Boolean(row.DataverseTV),
     zulipId: row["Zulip ID"]?.trim() ?? "",
-    orcid: row.ORCID?.trim() ?? "",
     name: row["GitHub Profile"]?.name?.trim?.() ?? row["GitHub Profile"]?.name ?? "",
     bio: row["GitHub Profile"]?.bio?.trim?.() ?? row["GitHub Profile"]?.bio ?? "",
     githubLocation:
