@@ -2,18 +2,45 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-07T11:04:56.231Z",
-  "rowCount": 302,
-  "matchedCountryCount": 152,
-  "matchedContinentCount": 152,
-  "matchedInstallationDescriptionCount": 150,
-  "matchedGdccMemberCount": 87,
+  "generatedAt": "2026-04-07T13:18:27.641Z",
+  "rowCount": 303,
+  "matchedCountryCount": 153,
+  "matchedContinentCount": 153,
+  "matchedInstallationDescriptionCount": 151,
+  "matchedGdccMemberCount": 88,
   "matchedCoreTrustSealCount": 40,
   "matchedDataverseTvCount": 42,
-  "matchedGitHubProfileCount": 298
+  "matchedGitHubProfileCount": 299
 };
 
 export const MEMBERS_SNAPSHOT = [
+  {
+    "GitHub Username": "blewis",
+    "Primary installation": "dataverse.harvard.edu",
+    "Zulip ID": "1035521",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "blewis",
+      "name": "Ben Lewis",
+      "company": "Harvard University, Center for Geographic Analysis",
+      "location": "United States",
+      "bio": "",
+      "blog": "http://worldmap.harvard.edu",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/blewis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/812849?v=4"
+    }
+  },
   {
     "GitHub Username": "iannesbitt",
     "Primary installation": "",

@@ -5400,5 +5400,23 @@
       "htmlUrl": "https://github.com/iannesbitt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18689918?v=4"
     }
+  },
+  "blewis": {
+    "ok": true,
+    "fetchedAt": "2026-04-07T13:18:21.798Z",
+    "profile": {
+      "login": "blewis",
+      "name": "Ben Lewis",
+      "company": "Harvard University, Center for Geographic Analysis",
+      "location": "United States",
+      "bio": "",
+      "blog": "http://worldmap.harvard.edu",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/blewis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/812849?v=4"
+    }
   }
 }
