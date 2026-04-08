@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-07T13:19:20.071Z",
-  "rowCount": 303,
-  "matchedCountryCount": 153,
-  "matchedContinentCount": 153,
-  "matchedInstallationDescriptionCount": 151,
-  "matchedGdccMemberCount": 88,
-  "matchedCoreTrustSealCount": 40,
+  "generatedAt": "2026-04-08T15:26:27.179Z",
+  "rowCount": 306,
+  "matchedCountryCount": 157,
+  "matchedContinentCount": 157,
+  "matchedInstallationDescriptionCount": 155,
+  "matchedGdccMemberCount": 91,
+  "matchedCoreTrustSealCount": 42,
   "matchedDataverseTvCount": 42,
-  "matchedGitHubProfileCount": 299
+  "matchedGitHubProfileCount": 302
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -2652,6 +2652,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "flgomezc",
+    "Primary installation": "dataverse.bsc.es",
+    "Zulip ID": "739304",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Spain",
+    "Continent": "Europe",
+    "Installation Description": "The BSC Dataverse is the institutional research data and metadata repository of the Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS). It seeks to enable the storage, sharing, and search of research data coming from the BSC researchers, collaborators, and affiliated projects.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "flgomezc",
+      "name": "Felipe Leonardo Gómez-Cortés",
+      "company": "",
+      "location": "BCN, ES",
+      "bio": "Data Scientist  | Physicist\r\nI love to ride my bicycle, write short tales (sci-fi) and study the Large Scale of the Universe <3.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 39,
+      "following": 33,
+      "publicRepos": 47,
+      "htmlUrl": "https://github.com/flgomezc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4997767?v=4"
+    }
+  },
+  {
     "GitHub Username": "FlorianRhiem",
     "Primary installation": "data.fz-juelich.de",
     "Zulip ID": "",
@@ -3058,15 +3085,17 @@ export const MEMBERS_SNAPSHOT = [
   },
   {
     "GitHub Username": "hamidtam",
-    "Primary installation": "",
+    "Primary installation": "borealisdata.ca",
     "Zulip ID": "",
     "Working Groups": "",
     "Issue": "",
-    "Country": "",
-    "Continent": "",
-    "Installation Description": "",
-    "GDCC Member": false,
-    "CoreTrustSeals": [],
+    "Country": "Canada",
+    "Continent": "North America",
+    "Installation Description": "Open for researchers and organizations associated with subscribing Canadian universities to deposit data.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://doi.org/10.34894/PUHYXX"
+    ],
     "DataverseTV": false,
     "GitHub Profile": {
       "login": "hamidtam",
@@ -4587,6 +4616,35 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "KRsaule",
+    "Primary installation": "dataverse.nl",
+    "Zulip ID": "1065714",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Netherlands",
+    "Continent": "Europe",
+    "Installation Description": "DataverseNL is a data repository hosted by DANS. Researchers associated with the DataverseNL partners (Several universities, higher education and research institutes) are able to deposit data. ",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "KRsaule",
+      "name": "Kristine Racina",
+      "company": "DANS",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/KRsaule",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265775953?v=4"
+    }
+  },
+  {
     "GitHub Username": "kulsoomzahra",
     "Primary installation": "",
     "Zulip ID": "",
@@ -5817,6 +5875,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 192,
       "htmlUrl": "https://github.com/pdurbin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/21006?v=4"
+    }
+  },
+  {
+    "GitHub Username": "pedroprincipe",
+    "Primary installation": "datarepositorium.sdum.uminho.pt",
+    "Zulip ID": "663159",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Portugal",
+    "Continent": "Europe",
+    "Installation Description": "Institutional Data Repository of the University of Minho. Share, publish and manage research data from UMinho research units.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "pedroprincipe",
+      "name": "Pedro Principe",
+      "company": "University of Minho",
+      "location": "Portugal",
+      "bio": "Information Specialist. UMinho Open Access Project Manager. OpenAIRE helpdesk & training manager",
+      "blog": "http://www.pedroprincipe.pt",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 14,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/pedroprincipe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5166508?v=4"
     }
   },
   {

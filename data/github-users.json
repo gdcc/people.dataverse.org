@@ -2135,7 +2135,7 @@
   },
   "hamidtam": {
     "ok": true,
-    "fetchedAt": "2026-04-04T12:13:52.825Z",
+    "fetchedAt": "2026-04-08T15:26:11.410Z",
     "profile": {
       "login": "hamidtam",
       "name": "Tameem Hamid",
@@ -5417,6 +5417,60 @@
       "publicRepos": 2,
       "htmlUrl": "https://github.com/blewis",
       "avatarUrl": "https://avatars.githubusercontent.com/u/812849?v=4"
+    }
+  },
+  "flgomezc": {
+    "ok": true,
+    "fetchedAt": "2026-04-08T15:26:01.890Z",
+    "profile": {
+      "login": "flgomezc",
+      "name": "Felipe Leonardo Gómez-Cortés",
+      "company": "",
+      "location": "BCN, ES",
+      "bio": "Data Scientist  | Physicist\r\nI love to ride my bicycle, write short tales (sci-fi) and study the Large Scale of the Universe <3.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 39,
+      "following": 33,
+      "publicRepos": 47,
+      "htmlUrl": "https://github.com/flgomezc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4997767?v=4"
+    }
+  },
+  "KRsaule": {
+    "ok": true,
+    "fetchedAt": "2026-04-08T15:26:17.806Z",
+    "profile": {
+      "login": "KRsaule",
+      "name": "Kristine Racina",
+      "company": "DANS",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/KRsaule",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265775953?v=4"
+    }
+  },
+  "pedroprincipe": {
+    "ok": true,
+    "fetchedAt": "2026-04-08T15:26:22.669Z",
+    "profile": {
+      "login": "pedroprincipe",
+      "name": "Pedro Principe",
+      "company": "University of Minho",
+      "location": "Portugal",
+      "bio": "Information Specialist. UMinho Open Access Project Manager. OpenAIRE helpdesk & training manager",
+      "blog": "http://www.pedroprincipe.pt",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 14,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/pedroprincipe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5166508?v=4"
     }
   }
 }
