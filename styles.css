@@ -451,6 +451,10 @@ select {
   text-decoration: none;
 }
 
+.inline-filter-label {
+  color: var(--accent-strong);
+}
+
 .inline-filter-link:hover {
   text-decoration: underline;
 }

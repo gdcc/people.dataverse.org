@@ -538,22 +538,31 @@ function appendInstallationValue(
 ) {
   const installationText = String(installation ?? "").trim();
   const installationHref = toExternalHref(installationText);
+  const installationAlreadyFiltered =
+    !state.route.memberUsername && state.filters.installation === installationText;
 
   if (installationText) {
-    const filterLink = document.createElement("a");
-    filterLink.href = "#";
-    filterLink.className = "inline-filter-link";
-    filterLink.textContent = installationText;
-    filterLink.addEventListener("click", (event) => {
-      event.preventDefault();
-      if (state.route.memberUsername) {
-        navigateHomeWithFilters({ installation: installationText });
-      } else {
-        state.filters.installation = installationText;
-        render();
-      }
-    });
-    container.append(filterLink);
+    if (installationAlreadyFiltered) {
+      const filterLabel = document.createElement("span");
+      filterLabel.className = "inline-filter-label";
+      filterLabel.textContent = installationText;
+      container.append(filterLabel);
+    } else {
+      const filterLink = document.createElement("a");
+      filterLink.href = "#";
+      filterLink.className = "inline-filter-link";
+      filterLink.textContent = installationText;
+      filterLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        if (state.route.memberUsername) {
+          navigateHomeWithFilters({ installation: installationText });
+        } else {
+          state.filters.installation = installationText;
+          render();
+        }
+      });
+      container.append(filterLink);
+    }
 
     if (installationHref) {
       container.append(document.createTextNode(" "));
@@ -626,20 +635,30 @@ function appendInstallationValue(
   }
 
   container.append(document.createElement("br"));
-  const countryLink = document.createElement("a");
-  countryLink.href = "#";
-  countryLink.className = "inline-filter-link";
-  countryLink.textContent = `(${country})`;
-  countryLink.addEventListener("click", (event) => {
-    event.preventDefault();
-    if (state.route.memberUsername) {
-      navigateHomeWithFilters({ country });
-    } else {
-      state.filters.country = country;
-      render();
-    }
-  });
-  container.append(countryLink);
+  const countryAlreadyFiltered =
+    !state.route.memberUsername && state.filters.country === country;
+
+  if (countryAlreadyFiltered) {
+    const countryLabel = document.createElement("span");
+    countryLabel.className = "inline-filter-label";
+    countryLabel.textContent = `(${country})`;
+    container.append(countryLabel);
+  } else {
+    const countryLink = document.createElement("a");
+    countryLink.href = "#";
+    countryLink.className = "inline-filter-link";
+    countryLink.textContent = `(${country})`;
+    countryLink.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (state.route.memberUsername) {
+        navigateHomeWithFilters({ country });
+      } else {
+        state.filters.country = country;
+        render();
+      }
+    });
+    container.append(countryLink);
+  }
 }
 
 function createInstallationDescriptionPreview(description) {
