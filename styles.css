@@ -393,20 +393,12 @@ select {
   text-decoration: none;
 }
 
-.member-issue-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--muted);
-  text-decoration: none;
-}
-
 .member-github-row[hidden],
 .member-zulip-link[hidden] {
   display: none;
 }
 
-.member-issue-link[hidden] {
+.member-see-also[hidden] {
   display: none;
 }
 
@@ -510,6 +502,25 @@ select {
 .member-meta dd a,
 .member-bio a,
 .installation-description-preview a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.member-see-also {
+  display: grid;
+  gap: 4px;
+}
+
+.member-see-also-title {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.member-see-also-link {
+  color: var(--accent-strong);
+  text-decoration: none;
   overflow-wrap: anywhere;
   word-break: break-word;
 }

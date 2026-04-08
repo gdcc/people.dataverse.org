@@ -196,9 +196,10 @@ function renderCards(members) {
     const githubRow = node.querySelector(".member-github-row");
     const displayName = node.querySelector(".member-display-name");
     const displayHandle = node.querySelector(".member-display-handle");
-    const issueLink = node.querySelector(".member-issue-link");
     const zulipLink = node.querySelector(".member-zulip-link");
     const bio = node.querySelector(".member-bio");
+    const seeAlso = node.querySelector(".member-see-also");
+    const seeAlsoLink = node.querySelector(".member-see-also-link");
     memberName.textContent = member.name || member.githubUsername;
     avatarLink.href = getMemberUrl(member.githubUsername);
     avatarLink.addEventListener("click", (event) => {
@@ -229,11 +230,11 @@ function renderCards(members) {
     displayName.href = member.htmlUrl || `https://github.com/${member.githubUsername}`;
     githubRow.hidden = false;
     if (member.issue) {
-      issueLink.href = member.issue;
-      issueLink.hidden = false;
-      issueLink.setAttribute("aria-label", `Open issue for ${member.githubUsername}`);
+      seeAlso.hidden = false;
+      seeAlsoLink.href = member.issue;
+      seeAlsoLink.textContent = member.issue;
     } else {
-      issueLink.hidden = true;
+      seeAlso.hidden = true;
     }
     if (member.zulipId) {
       zulipLink.href = getZulipProfileUrl(member.zulipId);
