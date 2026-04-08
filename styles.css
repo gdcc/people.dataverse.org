@@ -437,7 +437,8 @@ select {
 
 .member-meta dt {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--text);
+  font-weight: 600;
 }
 
 .member-meta dd {
