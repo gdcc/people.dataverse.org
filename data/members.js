@@ -2,11 +2,11 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-10T02:52:12.110Z",
-  "rowCount": 305,
-  "matchedCountryCount": 170,
-  "matchedContinentCount": 170,
-  "matchedInstallationDescriptionCount": 168,
+  "generatedAt": "2026-04-10T13:11:50.160Z",
+  "rowCount": 306,
+  "matchedCountryCount": 171,
+  "matchedContinentCount": 171,
+  "matchedInstallationDescriptionCount": 169,
   "matchedGdccMemberCount": 92,
   "matchedCoreTrustSealCount": 43,
   "matchedDataverseTvCount": 42,
@@ -4531,6 +4531,20 @@ export const MEMBERS_SNAPSHOT = [
       "htmlUrl": "https://github.com/kmika11",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23460791?v=4"
     }
+  },
+  {
+    "GitHub Username": "Koalax3",
+    "Primary installation": "data.sciencespo.fr",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "France",
+    "Continent": "Europe",
+    "Installation Description": "Open for researchers and organizations associated with French universities to deposit data. Hosted by the Center for Socio-Political Data (Sciences Po and CNRS).",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "kobbejager",
