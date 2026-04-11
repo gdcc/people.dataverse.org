@@ -31,6 +31,7 @@ const elements = {
   profileCount: document.querySelector("#profile-count"),
   installationCount: document.querySelector("#installation-count"),
   countryCount: document.querySelector("#country-count"),
+  continentCount: document.querySelector("#continent-count"),
   sourceBadge: document.querySelector("#source-badge"),
   updatedAt: document.querySelector("#updated-at"),
   resultsCopy: document.querySelector("#results-copy"),
@@ -143,6 +144,9 @@ function updateStats(filteredMembers) {
   ).toString();
   elements.countryCount.textContent = uniqueCount(
     filteredMembers.map((member) => member.country),
+  ).toString();
+  elements.continentCount.textContent = uniqueCount(
+    filteredMembers.map((member) => member.continent),
   ).toString();
 
   elements.sourceBadge.textContent = "Snapshot";
