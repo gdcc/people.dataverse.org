@@ -2,14 +2,14 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-10T21:19:13.447Z",
-  "rowCount": 306,
-  "matchedCountryCount": 172,
-  "matchedContinentCount": 172,
-  "matchedInstallationDescriptionCount": 170,
+  "generatedAt": "2026-04-13T14:31:21.908Z",
+  "rowCount": 307,
+  "matchedCountryCount": 173,
+  "matchedContinentCount": 173,
+  "matchedInstallationDescriptionCount": 171,
   "matchedGdccMemberCount": 92,
   "matchedCoreTrustSealCount": 43,
-  "matchedDataverseTvCount": 42,
+  "matchedDataverseTvCount": 43,
   "matchedGitHubProfileCount": 302
 };
 
@@ -5317,6 +5317,20 @@ export const MEMBERS_SNAPSHOT = [
       "htmlUrl": "https://github.com/MellyGray",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23359572?v=4"
     }
+  },
+  {
+    "GitHub Username": "mercecrosas",
+    "Primary installation": "dataverse.bsc.es",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Spain",
+    "Continent": "Europe",
+    "Installation Description": "The BSC Dataverse is the institutional research data and metadata repository of the Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS). It seeks to enable the storage, sharing, and search of research data coming from the BSC researchers, collaborators, and affiliated projects.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": true,
+    "GitHub Profile": null
   },
   {
     "GitHub Username": "mglavica",
