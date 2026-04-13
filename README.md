@@ -22,7 +22,7 @@ This is very much a work in progress. Please feel free to join the [discussion](
 ./run.sh
 ```
 
-Then open <http://localhost:8080/people.dataverse.org/>
+Then open <http://localhost:7000/people.dataverse.org/>
 
 ## Refresh the bundled snapshot
 
