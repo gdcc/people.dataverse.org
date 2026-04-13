@@ -5472,5 +5472,41 @@
       "htmlUrl": "https://github.com/pedroprincipe",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5166508?v=4"
     }
+  },
+  "tvanerven": {
+    "ok": true,
+    "fetchedAt": "2026-04-13T15:23:18.678Z",
+    "profile": {
+      "login": "tvanerven",
+      "name": "Thomas",
+      "company": "",
+      "location": "Lviv, Ukraine",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 5,
+      "following": 1,
+      "publicRepos": 31,
+      "htmlUrl": "https://github.com/tvanerven",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23262969?v=4"
+    }
+  },
+  "mercecrosas": {
+    "ok": true,
+    "fetchedAt": "2026-04-13T15:23:24.047Z",
+    "profile": {
+      "login": "mercecrosas",
+      "name": "Merce Crosas",
+      "company": "IQSS, Harvard University",
+      "location": "",
+      "bio": "",
+      "blog": "http://scholar.harvard.edu/mercecrosas/",
+      "twitterUsername": "",
+      "followers": 24,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/mercecrosas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/676040?v=4"
+    }
   }
 }

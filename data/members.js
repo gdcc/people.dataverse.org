@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-13T14:31:21.908Z",
-  "rowCount": 307,
+  "generatedAt": "2026-04-13T15:23:29.859Z",
+  "rowCount": 308,
   "matchedCountryCount": 173,
   "matchedContinentCount": 173,
   "matchedInstallationDescriptionCount": 171,
   "matchedGdccMemberCount": 92,
   "matchedCoreTrustSealCount": 43,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 302
+  "matchedGitHubProfileCount": 304
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -5330,7 +5330,20 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": true,
-    "GitHub Profile": null
+    "GitHub Profile": {
+      "login": "mercecrosas",
+      "name": "Merce Crosas",
+      "company": "IQSS, Harvard University",
+      "location": "",
+      "bio": "",
+      "blog": "http://scholar.harvard.edu/mercecrosas/",
+      "twitterUsername": "",
+      "followers": 24,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/mercecrosas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/676040?v=4"
+    }
   },
   {
     "GitHub Username": "mglavica",
@@ -7587,6 +7600,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 51,
       "htmlUrl": "https://github.com/transfluxus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1574219?v=4"
+    }
+  },
+  {
+    "GitHub Username": "tvanerven",
+    "Primary installation": "",
+    "Zulip ID": "720428",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "tvanerven",
+      "name": "Thomas",
+      "company": "",
+      "location": "Lviv, Ukraine",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 5,
+      "following": 1,
+      "publicRepos": 31,
+      "htmlUrl": "https://github.com/tvanerven",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23262969?v=4"
     }
   },
   {
