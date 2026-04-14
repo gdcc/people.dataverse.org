@@ -15,6 +15,7 @@ const enrichmentMaps = buildEnrichmentMaps(MEMBERS_SNAPSHOT);
 const state = {
   members: normalizeMembers(MEMBERS_SNAPSHOT),
   loadedAt: SNAPSHOT_META.generatedAt,
+  view: getViewFromLocation(),
   ...getLocationState(),
 };
 
@@ -32,9 +33,14 @@ const elements = {
   installationCount: document.querySelector("#installation-count"),
   countryCount: document.querySelector("#country-count"),
   continentCount: document.querySelector("#continent-count"),
+  listViewButton: document.querySelector("#list-view-button"),
+  mapViewButton: document.querySelector("#map-view-button"),
   sourceBadge: document.querySelector("#source-badge"),
   updatedAt: document.querySelector("#updated-at"),
   resultsCopy: document.querySelector("#results-copy"),
+  mapPanel: document.querySelector("#map-panel"),
+  mapCopy: document.querySelector("#map-copy"),
+  mapCanvas: document.querySelector("#map-canvas"),
   cardGrid: document.querySelector("#card-grid"),
   cardTemplate: document.querySelector("#member-card-template"),
 };
@@ -89,23 +95,38 @@ function bindEvents() {
     render();
   });
 
+  elements.listViewButton.addEventListener("click", () => {
+    state.view = "list";
+    render();
+  });
+
+  elements.mapViewButton.addEventListener("click", () => {
+    state.view = "map";
+    render();
+  });
+
   window.addEventListener("popstate", () => {
     const locationState = getLocationState();
     state.route = locationState.route;
     state.filters = locationState.filters;
+    state.view = getViewFromLocation();
     render();
   });
 }
 
 function render() {
   const isMemberRoute = Boolean(state.route.memberUsername);
+  const isMapView = !isMemberRoute && state.view === "map";
   document.body.classList.toggle("member-route", isMemberRoute);
+  document.body.classList.toggle("map-view", isMapView);
   toggleRouteSections(isMemberRoute);
 
   const visibleMembers = getVisibleMembers();
   updateDocumentTitle(visibleMembers);
   updateStats(visibleMembers);
-  renderCards(visibleMembers);
+  renderViewToggle();
+  renderMap(visibleMembers, isMapView);
+  renderCards(visibleMembers, !isMapView);
   renderMeta(visibleMembers);
   syncFilterInputs();
 }
@@ -179,8 +200,13 @@ function renderMeta(filteredMembers) {
     );
 }
 
-function renderCards(members) {
+function renderCards(members, isVisible = true) {
+  elements.cardGrid.hidden = !isVisible;
   elements.cardGrid.innerHTML = "";
+
+  if (!isVisible) {
+    return;
+  }
 
   if (!members.length) {
     const empty = document.createElement("div");
@@ -309,6 +335,93 @@ function renderCards(members) {
   }
 
   elements.cardGrid.append(fragment);
+}
+
+function renderViewToggle() {
+  const isMemberRoute = Boolean(state.route.memberUsername);
+  const isMapView = !isMemberRoute && state.view === "map";
+
+  elements.listViewButton.hidden = isMemberRoute;
+  elements.mapViewButton.hidden = isMemberRoute;
+  elements.listViewButton.setAttribute("aria-pressed", String(!isMapView));
+  elements.mapViewButton.setAttribute("aria-pressed", String(isMapView));
+}
+
+function renderMap(members, isVisible) {
+  elements.mapPanel.hidden = !isVisible;
+  elements.mapCanvas.innerHTML = "";
+
+  if (!isVisible) {
+    return;
+  }
+
+  const installations = aggregateInstallations(members);
+  const mappedCount = installations.filter((item) => item.hasCoordinates).length;
+  const unmappedCount = installations.length - mappedCount;
+
+  elements.mapCopy.textContent = `${mappedCount} mapped installations from ${members.length} members${unmappedCount ? ` • ${unmappedCount} installations without coordinates` : ""}.`;
+
+  if (!mappedCount) {
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    empty.textContent =
+      "No filtered installations have coordinates yet. Try clearing a filter or switching back to the list.";
+    elements.mapCanvas.append(empty);
+    return;
+  }
+
+  const surface = document.createElement("div");
+  surface.className = "map-surface";
+
+  const labels = [
+    { text: "Americas", x: 22, y: 38 },
+    { text: "Europe / Africa", x: 52, y: 36 },
+    { text: "Asia / Oceania", x: 78, y: 42 },
+  ];
+
+  for (const label of labels) {
+    const node = document.createElement("span");
+    node.className = "map-region-label";
+    node.textContent = label.text;
+    node.style.left = `${label.x}%`;
+    node.style.top = `${label.y}%`;
+    surface.append(node);
+  }
+
+  const maxCount = Math.max(...installations.map((item) => item.memberCount));
+
+  for (const installation of installations) {
+    if (!installation.hasCoordinates) {
+      continue;
+    }
+
+    const marker = document.createElement("button");
+    marker.type = "button";
+    marker.className = "map-marker";
+    if (state.filters.installation === installation.name) {
+      marker.classList.add("is-active");
+      marker.disabled = true;
+    }
+    marker.style.left = `${projectLongitude(installation.longitude)}%`;
+    marker.style.top = `${projectLatitude(installation.latitude)}%`;
+    const size = 16 + Math.round((installation.memberCount / maxCount) * 18);
+    marker.style.width = `${size}px`;
+    marker.style.height = `${size}px`;
+    marker.title = `${installation.name} • ${installation.memberCount} ${installation.memberCount === 1 ? "member" : "members"}${installation.country ? ` • ${installation.country}` : ""}`;
+    marker.setAttribute("aria-label", marker.title);
+    marker.addEventListener("click", () => {
+      state.filters.installation = installation.name;
+      render();
+    });
+
+    const count = document.createElement("span");
+    count.className = "map-marker-count";
+    count.textContent = installation.memberCount.toString();
+    marker.append(count);
+    surface.append(marker);
+  }
+
+  elements.mapCanvas.append(surface);
 }
 
 function populateFilters() {
@@ -479,11 +592,12 @@ function navigateToMember(username) {
 
 function navigateHomeWithFilters(nextFilters) {
   state.route = { memberUsername: "" };
+  state.view = "list";
   state.filters = {
     ...getDefaultFilters(),
     ...nextFilters,
   };
-  window.history.pushState(null, "", getHomeUrl(state.filters));
+  window.history.pushState(null, "", getHomeUrl(state.filters, state.view));
   render();
 }
 
@@ -835,6 +949,11 @@ function getLocationState() {
   return { route, filters };
 }
 
+function getViewFromLocation() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("view") === "map" ? "map" : "list";
+}
+
 function getRouteFromLocation() {
   const pathname = window.location.pathname;
   const relativePath = pathname.startsWith(`${APP_BASE_PATH}/`)
@@ -866,13 +985,17 @@ function getDefaultFilters() {
   };
 }
 
-function getHomeUrl(filters) {
+function getHomeUrl(filters, view = "list") {
   const params = new URLSearchParams();
 
   for (const [key, value] of Object.entries(filters)) {
     if (value) {
       params.set(key, value);
     }
+  }
+
+  if (view === "map") {
+    params.set("view", "map");
   }
 
   const query = params.toString();
@@ -887,6 +1010,8 @@ function extractMember(row) {
     issue: row.Issue?.trim() ?? "",
     country: row.Country?.trim() ?? "",
     continent: row.Continent?.trim() ?? "",
+    installationLatitude: parseCoordinate(row["Installation Latitude"]),
+    installationLongitude: parseCoordinate(row["Installation Longitude"]),
     installationDescription: row["Installation Description"]?.trim() ?? "",
     gdccMember: Boolean(row["GDCC Member"]),
     coreTrustSeals: Array.isArray(row.CoreTrustSeals) ? row.CoreTrustSeals : [],
@@ -922,6 +1047,11 @@ function parseWorkingGroups(value) {
     .filter(Boolean);
 }
 
+function parseCoordinate(value) {
+  const coordinate = Number(value);
+  return Number.isFinite(coordinate) ? coordinate : null;
+}
+
 function applyEnrichment(member) {
   const githubProfile = enrichmentMaps.githubByUsername.get(member.githubUsername) ?? {};
   const country =
@@ -944,11 +1074,21 @@ function applyEnrichment(member) {
     member.coreTrustSeals.length > 0
       ? member.coreTrustSeals
       : (enrichmentMaps.coreTrustSealsByInstallation.get(member.primaryInstallation) ?? []);
+  const installationLatitude =
+    member.installationLatitude ??
+    enrichmentMaps.latitudeByInstallation.get(member.primaryInstallation) ??
+    null;
+  const installationLongitude =
+    member.installationLongitude ??
+    enrichmentMaps.longitudeByInstallation.get(member.primaryInstallation) ??
+    null;
 
   return {
     ...member,
     country,
     continent,
+    installationLatitude,
+    installationLongitude,
     installationDescription,
     gdccMember,
     coreTrustSeals,
@@ -968,6 +1108,8 @@ function buildEnrichmentMaps(rows) {
   const descriptionByInstallation = new Map();
   const gdccMemberByInstallation = new Map();
   const coreTrustSealsByInstallation = new Map();
+  const latitudeByInstallation = new Map();
+  const longitudeByInstallation = new Map();
   const githubByUsername = new Map();
 
   for (const row of rows) {
@@ -992,6 +1134,14 @@ function buildEnrichmentMaps(rows) {
         member.primaryInstallation,
         member.coreTrustSeals,
       );
+    }
+    if (
+      member.primaryInstallation &&
+      member.installationLatitude !== null &&
+      member.installationLongitude !== null
+    ) {
+      latitudeByInstallation.set(member.primaryInstallation, member.installationLatitude);
+      longitudeByInstallation.set(member.primaryInstallation, member.installationLongitude);
     }
 
     if (
@@ -1022,6 +1172,59 @@ function buildEnrichmentMaps(rows) {
     descriptionByInstallation,
     gdccMemberByInstallation,
     coreTrustSealsByInstallation,
+    latitudeByInstallation,
+    longitudeByInstallation,
     githubByUsername,
   };
+}
+
+function aggregateInstallations(members) {
+  const byInstallation = new Map();
+
+  for (const member of members) {
+    if (!member.primaryInstallation) {
+      continue;
+    }
+
+    const existing = byInstallation.get(member.primaryInstallation) ?? {
+      name: member.primaryInstallation,
+      country: member.country,
+      continent: member.continent,
+      latitude: member.installationLatitude,
+      longitude: member.installationLongitude,
+      memberCount: 0,
+      hasCoordinates:
+        member.installationLatitude !== null && member.installationLongitude !== null,
+    };
+
+    existing.memberCount += 1;
+    existing.country = existing.country || member.country;
+    existing.continent = existing.continent || member.continent;
+    existing.latitude ??= member.installationLatitude;
+    existing.longitude ??= member.installationLongitude;
+    existing.hasCoordinates =
+      existing.latitude !== null && existing.longitude !== null;
+
+    byInstallation.set(member.primaryInstallation, existing);
+  }
+
+  return [...byInstallation.values()].sort((left, right) => {
+    if (right.memberCount !== left.memberCount) {
+      return right.memberCount - left.memberCount;
+    }
+
+    return left.name.localeCompare(right.name);
+  });
+}
+
+function projectLongitude(longitude) {
+  return clamp(((longitude + 180) / 360) * 100, 4, 96);
+}
+
+function projectLatitude(latitude) {
+  return clamp(((90 - latitude) / 180) * 100, 8, 92);
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
 }

@@ -64,6 +64,22 @@ const coreTrustSealsByHostname = new Map(
     ])
     .filter(([hostname]) => Boolean(hostname)),
 );
+const latitudeByHostname = new Map(
+  (installationData.installations ?? [])
+    .map((installation) => [
+      normalizeHostname(installation.hostname),
+      Number.isFinite(Number(installation.lat)) ? Number(installation.lat) : null,
+    ])
+    .filter(([hostname]) => Boolean(hostname)),
+);
+const longitudeByHostname = new Map(
+  (installationData.installations ?? [])
+    .map((installation) => [
+      normalizeHostname(installation.hostname),
+      Number.isFinite(Number(installation.lng)) ? Number(installation.lng) : null,
+    ])
+    .filter(([hostname]) => Boolean(hostname)),
+);
 
 const rows = lines.slice(1).map((line) => {
   const values = line.split("\t");
@@ -81,6 +97,8 @@ const rows = lines.slice(1).map((line) => {
   record["Installation Description"] = descriptionByHostname.get(installationHost) ?? "";
   record["GDCC Member"] = gdccMemberByHostname.get(installationHost) ?? false;
   record["CoreTrustSeals"] = coreTrustSealsByHostname.get(installationHost) ?? [];
+  record["Installation Latitude"] = latitudeByHostname.get(installationHost) ?? null;
+  record["Installation Longitude"] = longitudeByHostname.get(installationHost) ?? null;
   record["DataverseTV"] = dataverseTvUsernames.has(githubUsername.toLowerCase());
   record["GitHub Profile"] = githubProfile;
 
@@ -93,6 +111,11 @@ const matchedDescriptions = rows.filter((row) => row["Installation Description"]
 const matchedGdccMembers = rows.filter((row) => row["GDCC Member"]).length;
 const matchedCoreTrustSeals = rows.filter(
   (row) => Array.isArray(row["CoreTrustSeals"]) && row["CoreTrustSeals"].length > 0,
+).length;
+const matchedCoordinates = rows.filter(
+  (row) =>
+    Number.isFinite(row["Installation Latitude"]) &&
+    Number.isFinite(row["Installation Longitude"]),
 ).length;
 const matchedDataverseTv = rows.filter((row) => row["DataverseTV"] === true).length;
 const matchedGitHubProfiles = rows.filter((row) => row["GitHub Profile"]).length;
@@ -111,6 +134,7 @@ const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
     matchedInstallationDescriptionCount: matchedDescriptions,
     matchedGdccMemberCount: matchedGdccMembers,
     matchedCoreTrustSealCount: matchedCoreTrustSeals,
+    matchedInstallationCoordinateCount: matchedCoordinates,
     matchedDataverseTvCount: matchedDataverseTv,
     matchedGitHubProfileCount: matchedGitHubProfiles,
   },
@@ -124,7 +148,7 @@ export const MEMBERS_SNAPSHOT = ${JSON.stringify(rows, null, 2)};
 await writeFile(outputPath, moduleSource);
 
 console.log(
-  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, ${matchedGdccMembers} GDCC member matches, ${matchedCoreTrustSeals} CoreTrustSeal matches, ${matchedDataverseTv} DataverseTV matches, and ${matchedGitHubProfiles} GitHub profile matches`,
+  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, ${matchedGdccMembers} GDCC member matches, ${matchedCoreTrustSeals} CoreTrustSeal matches, ${matchedCoordinates} installation coordinate matches, ${matchedDataverseTv} DataverseTV matches, and ${matchedGitHubProfiles} GitHub profile matches`,
 );
 
 function normalizeHostname(value) {

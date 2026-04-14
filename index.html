@@ -102,8 +102,25 @@
             <h2>Members</h2>
             <p id="results-copy">Loading directory…</p>
           </div>
+          <div class="view-toggle" role="group" aria-label="Directory view">
+            <button id="list-view-button" class="ghost-button view-toggle-button" type="button">
+              List
+            </button>
+            <button id="map-view-button" class="ghost-button view-toggle-button" type="button">
+              Map
+            </button>
+          </div>
         </section>
 
+        <section id="map-panel" class="panel map-panel" aria-label="Installation map" hidden>
+          <div class="map-panel-header">
+            <div>
+              <h2>Map</h2>
+              <p id="map-copy">Loading map…</p>
+            </div>
+          </div>
+          <div id="map-canvas" class="map-canvas" aria-live="polite"></div>
+        </section>
         <section id="card-grid" class="card-grid" aria-live="polite"></section>
         <section id="member-route-actions" class="member-route-actions" hidden>
           <a class="ghost-button" href="./">Back to all members</a>
