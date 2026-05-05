@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-04-29T13:25:45.956Z",
-  "rowCount": 309,
+  "generatedAt": "2026-05-05T07:21:46.382Z",
+  "rowCount": 310,
   "matchedCountryCount": 174,
   "matchedContinentCount": 174,
   "matchedInstallationDescriptionCount": 172,
   "matchedGdccMemberCount": 92,
   "matchedCoreTrustSealCount": 43,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 305
+  "matchedGitHubProfileCount": 306
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -2211,6 +2211,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 24,
       "htmlUrl": "https://github.com/DS-INRAE",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46443753?v=4"
+    }
+  },
+  {
+    "GitHub Username": "EduardsSk",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/gdcc/mcp-dataverse/issues/15",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "EduardsSk",
+      "name": "Eduards Skvireckis",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "de_dedris",
+      "followers": 5,
+      "following": 48,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/EduardsSk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33160691?v=4"
     }
   },
   {
