@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-05-05T07:21:46.382Z",
-  "rowCount": 310,
-  "matchedCountryCount": 174,
-  "matchedContinentCount": 174,
-  "matchedInstallationDescriptionCount": 172,
+  "generatedAt": "2026-05-07T12:13:13.570Z",
+  "rowCount": 311,
+  "matchedCountryCount": 175,
+  "matchedContinentCount": 175,
+  "matchedInstallationDescriptionCount": 173,
   "matchedGdccMemberCount": 92,
-  "matchedCoreTrustSealCount": 43,
+  "matchedCoreTrustSealCount": 44,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 306
+  "matchedGitHubProfileCount": 307
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -4652,6 +4652,35 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/konradoberwimmer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12108511?v=4"
+    }
+  },
+  {
+    "GitHub Username": "koskalns",
+    "Primary installation": "dv.dataverse.lv",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Latvia",
+    "Continent": "Europe",
+    "Installation Description": "DataverseLV is a secure and sustainable repository for Latvian researchers to deposit, preserve, and share research data in line with Open Science and FAIR principles. The repository is developed, maintained, and curated by the Latvian Data Stewards Network - a collaborative group of specialists from Latvian research institutions who support researchers, advance research data management, and promote open science practices.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [
+      "https://doi.org/10.34894/JM7PTH"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "koskalns",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 10,
+      "htmlUrl": "https://github.com/koskalns",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/241184924?v=4"
     }
   },
   {
