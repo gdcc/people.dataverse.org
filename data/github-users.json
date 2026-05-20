@@ -5562,5 +5562,23 @@
       "htmlUrl": "https://github.com/koskalns",
       "avatarUrl": "https://avatars.githubusercontent.com/u/241184924?v=4"
     }
+  },
+  "LyneVdV": {
+    "ok": true,
+    "fetchedAt": "2026-05-20T14:51:08.437Z",
+    "profile": {
+      "login": "LyneVdV",
+      "name": "",
+      "company": "University of Liège",
+      "location": "Liège, Belgium",
+      "bio": "",
+      "blog": "https://orcid.org/0000-0002-0585-4203",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/LyneVdV",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43570542?v=4"
+    }
   }
 }

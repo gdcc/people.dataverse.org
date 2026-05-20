@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-05-12T12:28:39.574Z",
-  "rowCount": 311,
-  "matchedCountryCount": 178,
-  "matchedContinentCount": 178,
-  "matchedInstallationDescriptionCount": 176,
+  "generatedAt": "2026-05-20T14:51:19.538Z",
+  "rowCount": 312,
+  "matchedCountryCount": 179,
+  "matchedContinentCount": 179,
+  "matchedInstallationDescriptionCount": 177,
   "matchedGdccMemberCount": 93,
   "matchedCoreTrustSealCount": 45,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 307
+  "matchedGitHubProfileCount": 308
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -5096,6 +5096,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/luddaniel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/83018819?v=4"
+    }
+  },
+  {
+    "GitHub Username": "LyneVdV",
+    "Primary installation": "dataverse.uliege.be",
+    "Zulip ID": "986700",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Belgium",
+    "Continent": "Europe",
+    "Installation Description": "The ULiège Dataverse is the ULiège institutional open data sharing repository, used by ULiège researchers to share datasets with the global scientific community, according to the FAIR data principles.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "LyneVdV",
+      "name": "",
+      "company": "University of Liège",
+      "location": "Liège, Belgium",
+      "bio": "",
+      "blog": "https://orcid.org/0000-0002-0585-4203",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/LyneVdV",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43570542?v=4"
     }
   },
   {
