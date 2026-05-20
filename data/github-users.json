@@ -5580,5 +5580,23 @@
       "htmlUrl": "https://github.com/LyneVdV",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43570542?v=4"
     }
+  },
+  "sguyader": {
+    "ok": true,
+    "fetchedAt": "2026-05-20T20:20:37.659Z",
+    "profile": {
+      "login": "sguyader",
+      "name": "Sébastien Guyader",
+      "company": "@INRAE",
+      "location": "Guadeloupe",
+      "bio": "",
+      "blog": "http://www.inrae.fr",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/sguyader",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13856378?v=4"
+    }
   }
 }

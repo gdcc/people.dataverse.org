@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-05-20T14:51:19.538Z",
-  "rowCount": 312,
-  "matchedCountryCount": 179,
-  "matchedContinentCount": 179,
-  "matchedInstallationDescriptionCount": 177,
+  "generatedAt": "2026-05-20T20:20:42.769Z",
+  "rowCount": 313,
+  "matchedCountryCount": 180,
+  "matchedContinentCount": 180,
+  "matchedInstallationDescriptionCount": 178,
   "matchedGdccMemberCount": 93,
   "matchedCoreTrustSealCount": 45,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 308
+  "matchedGitHubProfileCount": 309
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -7002,6 +7002,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 34,
       "htmlUrl": "https://github.com/sergejzr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12542792?v=4"
+    }
+  },
+  {
+    "GitHub Username": "sguyader",
+    "Primary installation": "entrepot.recherche.data.gouv.fr",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "France",
+    "Continent": "Europe",
+    "Installation Description": "The Research Data Gouv platform is the national federated platform for open and shared research data serving the national scientific community. This platform was an integral part of the Second National Plan for Open Science (PNSO) and offers a multidisciplinary data repository, a registry which reports data hosted in other repositories and a web portal. The multidisciplinary repository is a sovereign publishing solution for sharing and opening up data for communities which are yet to set up their own recognised thematic repository.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "sguyader",
+      "name": "Sébastien Guyader",
+      "company": "@INRAE",
+      "location": "Guadeloupe",
+      "bio": "",
+      "blog": "http://www.inrae.fr",
+      "twitterUsername": "",
+      "followers": 2,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/sguyader",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13856378?v=4"
     }
   },
   {
