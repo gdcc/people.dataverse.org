@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-05-20T20:20:42.769Z",
-  "rowCount": 313,
-  "matchedCountryCount": 180,
-  "matchedContinentCount": 180,
-  "matchedInstallationDescriptionCount": 178,
-  "matchedGdccMemberCount": 93,
+  "generatedAt": "2026-05-20T20:31:47.255Z",
+  "rowCount": 314,
+  "matchedCountryCount": 181,
+  "matchedContinentCount": 181,
+  "matchedInstallationDescriptionCount": 179,
+  "matchedGdccMemberCount": 94,
   "matchedCoreTrustSealCount": 45,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 309
+  "matchedGitHubProfileCount": 310
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -2649,6 +2649,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/Falco-KUB",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32436113?v=4"
+    }
+  },
+  {
+    "GitHub Username": "ffritze",
+    "Primary installation": "darus.uni-stuttgart.de",
+    "Zulip ID": "671970",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Germany",
+    "Continent": "Europe",
+    "Installation Description": "DaRUS, the data repository of the University of Stuttgart, offers a secure location for research data and codes of members or partners of the University of Stuttgart. DaRUS is used not only for publishing finished data, but also for managing and exchanging data at all stages of the lifecycle.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "ffritze",
+      "name": "",
+      "company": "University Library of Stuttgart",
+      "location": "Stuttgart, Germany",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/ffritze",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33899100?v=4"
     }
   },
   {

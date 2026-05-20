@@ -5598,5 +5598,23 @@
       "htmlUrl": "https://github.com/sguyader",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13856378?v=4"
     }
+  },
+  "ffritze": {
+    "ok": true,
+    "fetchedAt": "2026-05-20T20:31:40.133Z",
+    "profile": {
+      "login": "ffritze",
+      "name": "",
+      "company": "University Library of Stuttgart",
+      "location": "Stuttgart, Germany",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/ffritze",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33899100?v=4"
+    }
   }
 }
