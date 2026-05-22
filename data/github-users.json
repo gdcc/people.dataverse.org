@@ -5616,5 +5616,41 @@
       "htmlUrl": "https://github.com/ffritze",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33899100?v=4"
     }
+  },
+  "fsmutniak": {
+    "ok": true,
+    "fetchedAt": "2026-05-22T14:22:22.153Z",
+    "profile": {
+      "login": "fsmutniak",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/fsmutniak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89866586?v=4"
+    }
+  },
+  "PFMS21": {
+    "ok": true,
+    "fetchedAt": "2026-05-22T14:22:31.721Z",
+    "profile": {
+      "login": "PFMS21",
+      "name": "Pedro",
+      "company": "FCCN-FCT",
+      "location": "Lisboa",
+      "bio": "",
+      "blog": "polen.fccn.pt",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/PFMS21",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/283989466?v=4"
+    }
   }
 }

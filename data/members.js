@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-05-20T20:31:47.255Z",
-  "rowCount": 314,
-  "matchedCountryCount": 181,
-  "matchedContinentCount": 181,
-  "matchedInstallationDescriptionCount": 179,
-  "matchedGdccMemberCount": 94,
+  "generatedAt": "2026-05-22T14:22:33.983Z",
+  "rowCount": 316,
+  "matchedCountryCount": 183,
+  "matchedContinentCount": 183,
+  "matchedInstallationDescriptionCount": 181,
+  "matchedGdccMemberCount": 95,
   "matchedCoreTrustSealCount": 45,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 310
+  "matchedGitHubProfileCount": 312
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -2838,6 +2838,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 126,
       "htmlUrl": "https://github.com/foobarbecue",
       "avatarUrl": "https://avatars.githubusercontent.com/u/854789?v=4"
+    }
+  },
+  {
+    "GitHub Username": "fsmutniak",
+    "Primary installation": "dataverse.tdl.org",
+    "Zulip ID": "899920",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "A statewide archive of research data from Texas Digital Library (TDL) member institutions.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "fsmutniak",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/fsmutniak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89866586?v=4"
     }
   },
   {
@@ -6080,6 +6107,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/pedroprincipe",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5166508?v=4"
+    }
+  },
+  {
+    "GitHub Username": "PFMS21",
+    "Primary installation": "datahub.polen.fccn.pt",
+    "Zulip ID": "1022008",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Portugal",
+    "Continent": "Europe",
+    "Installation Description": "POLEN DataHub Repository is provided by FCCN, digital services FCT – Fundação para a Ciência e Tecnologia, with the aim of promoting the openness and sharing of data resulting from funded research, serving the national scientific community. This platform is aligned with Open Science practices and FAIR principles for research data management.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "PFMS21",
+      "name": "Pedro",
+      "company": "FCCN-FCT",
+      "location": "Lisboa",
+      "bio": "",
+      "blog": "polen.fccn.pt",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/PFMS21",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/283989466?v=4"
     }
   },
   {
