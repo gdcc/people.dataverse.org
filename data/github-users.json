@@ -5652,5 +5652,23 @@
       "htmlUrl": "https://github.com/PFMS21",
       "avatarUrl": "https://avatars.githubusercontent.com/u/283989466?v=4"
     }
+  },
+  "zbcevik": {
+    "ok": true,
+    "fetchedAt": "2026-05-26T18:12:04.042Z",
+    "profile": {
+      "login": "zbcevik",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 8,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/zbcevik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89674920?v=4"
+    }
   }
 }

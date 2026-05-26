@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-05-22T14:22:33.983Z",
-  "rowCount": 316,
-  "matchedCountryCount": 183,
-  "matchedContinentCount": 183,
-  "matchedInstallationDescriptionCount": 181,
-  "matchedGdccMemberCount": 95,
-  "matchedCoreTrustSealCount": 45,
+  "generatedAt": "2026-05-26T18:13:40.758Z",
+  "rowCount": 317,
+  "matchedCountryCount": 184,
+  "matchedContinentCount": 184,
+  "matchedInstallationDescriptionCount": 182,
+  "matchedGdccMemberCount": 96,
+  "matchedCoreTrustSealCount": 46,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 312
+  "matchedGitHubProfileCount": 313
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -8447,6 +8447,35 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 42,
       "htmlUrl": "https://github.com/ysuarez",
       "avatarUrl": "https://avatars.githubusercontent.com/u/725449?v=4"
+    }
+  },
+  {
+    "GitHub Username": "zbcevik",
+    "Primary installation": "borealisdata.ca",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Canada",
+    "Continent": "North America",
+    "Installation Description": "Open for researchers and organizations associated with subscribing Canadian universities to deposit data.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://doi.org/10.34894/PUHYXX"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "zbcevik",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 8,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/zbcevik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89674920?v=4"
     }
   },
   {
