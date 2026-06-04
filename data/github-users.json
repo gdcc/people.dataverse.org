@@ -5670,5 +5670,77 @@
       "htmlUrl": "https://github.com/zbcevik",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89674920?v=4"
     }
+  },
+  "daniel4nnah": {
+    "ok": true,
+    "fetchedAt": "2026-06-04T00:50:18.708Z",
+    "profile": {
+      "login": "daniel4nnah",
+      "name": "Laura Daniela Serrano Villanova",
+      "company": "",
+      "location": "Bucaramanga, Colombia",
+      "bio": "Whales are my favorite animal, so I work with docker 🐋",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 21,
+      "htmlUrl": "https://github.com/daniel4nnah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90881982?v=4"
+    }
+  },
+  "ddeboer": {
+    "ok": true,
+    "fetchedAt": "2026-06-04T00:50:26.000Z",
+    "profile": {
+      "login": "ddeboer",
+      "name": "David de Boer",
+      "company": "Freelance",
+      "location": "The Netherlands",
+      "bio": "Open sourcerer",
+      "blog": "https://linkedin.com/in/daviddeboer/",
+      "twitterUsername": "",
+      "followers": 183,
+      "following": 2,
+      "publicRepos": 132,
+      "htmlUrl": "https://github.com/ddeboer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89267?v=4"
+    }
+  },
+  "edwinlaw777": {
+    "ok": true,
+    "fetchedAt": "2026-06-04T00:50:32.411Z",
+    "profile": {
+      "login": "edwinlaw777",
+      "name": "Edwin Law",
+      "company": "City University of Hong Kong",
+      "location": "Hong Kong",
+      "bio": "I am a research data librarian from the City University of Hong Kong.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/edwinlaw777",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/219936616?v=4"
+    }
+  },
+  "inDane": {
+    "ok": true,
+    "fetchedAt": "2026-06-04T00:50:39.640Z",
+    "profile": {
+      "login": "inDane",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/inDane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5693407?v=4"
+    }
   }
 }

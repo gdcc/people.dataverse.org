@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-05-26T18:13:40.758Z",
-  "rowCount": 317,
-  "matchedCountryCount": 184,
-  "matchedContinentCount": 184,
-  "matchedInstallationDescriptionCount": 182,
+  "generatedAt": "2026-06-04T00:50:50.246Z",
+  "rowCount": 321,
+  "matchedCountryCount": 185,
+  "matchedContinentCount": 185,
+  "matchedInstallationDescriptionCount": 183,
   "matchedGdccMemberCount": 96,
   "matchedCoreTrustSealCount": 46,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 313
+  "matchedGitHubProfileCount": 317
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -1805,6 +1805,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "daniel4nnah",
+    "Primary installation": "",
+    "Zulip ID": "1082194",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "daniel4nnah",
+      "name": "Laura Daniela Serrano Villanova",
+      "company": "",
+      "location": "Bucaramanga, Colombia",
+      "bio": "Whales are my favorite animal, so I work with docker 🐋",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 21,
+      "htmlUrl": "https://github.com/daniel4nnah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90881982?v=4"
+    }
+  },
+  {
     "GitHub Username": "danielEbanks",
     "Primary installation": "dataverse.harvard.edu",
     "Zulip ID": "948476",
@@ -1937,6 +1964,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/davuluri989",
       "avatarUrl": "https://avatars.githubusercontent.com/u/68589966?v=4"
+    }
+  },
+  {
+    "GitHub Username": "ddeboer",
+    "Primary installation": "datasets.iisg.amsterdam",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Netherlands",
+    "Continent": "Europe",
+    "Installation Description": "The IISH Dataverse contains micro-, meso-, and macro-level datasets on social and economic history.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "ddeboer",
+      "name": "David de Boer",
+      "company": "Freelance",
+      "location": "The Netherlands",
+      "bio": "Open sourcerer",
+      "blog": "https://linkedin.com/in/daviddeboer/",
+      "twitterUsername": "",
+      "followers": 183,
+      "following": 2,
+      "publicRepos": 132,
+      "htmlUrl": "https://github.com/ddeboer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89267?v=4"
     }
   },
   {
@@ -2238,6 +2292,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/EduardsSk",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33160691?v=4"
+    }
+  },
+  {
+    "GitHub Username": "edwinlaw777",
+    "Primary installation": "",
+    "Zulip ID": "987069",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse-frontend/issues/996",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "edwinlaw777",
+      "name": "Edwin Law",
+      "company": "City University of Hong Kong",
+      "location": "Hong Kong",
+      "bio": "I am a research data librarian from the City University of Hong Kong.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/edwinlaw777",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/219936616?v=4"
     }
   },
   {
@@ -3299,6 +3380,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/IlariaBelvedere",
       "avatarUrl": "https://avatars.githubusercontent.com/u/82025109?v=4"
+    }
+  },
+  {
+    "GitHub Username": "inDane",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12428",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "inDane",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/inDane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5693407?v=4"
     }
   },
   {
