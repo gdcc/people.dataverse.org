@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-06-04T00:50:50.246Z",
-  "rowCount": 321,
-  "matchedCountryCount": 185,
-  "matchedContinentCount": 185,
-  "matchedInstallationDescriptionCount": 183,
-  "matchedGdccMemberCount": 96,
-  "matchedCoreTrustSealCount": 46,
+  "generatedAt": "2026-06-04T10:57:47.528Z",
+  "rowCount": 322,
+  "matchedCountryCount": 186,
+  "matchedContinentCount": 186,
+  "matchedInstallationDescriptionCount": 184,
+  "matchedGdccMemberCount": 97,
+  "matchedCoreTrustSealCount": 47,
   "matchedDataverseTvCount": 43,
-  "matchedGitHubProfileCount": 317
+  "matchedGitHubProfileCount": 318
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -533,6 +533,35 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/alungarska",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50579708?v=4"
+    }
+  },
+  {
+    "GitHub Username": "alyssa-queensu",
+    "Primary installation": "borealisdata.ca",
+    "Zulip ID": "1068943",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Canada",
+    "Continent": "North America",
+    "Installation Description": "Open for researchers and organizations associated with subscribing Canadian universities to deposit data.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://doi.org/10.34894/PUHYXX"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "alyssa-queensu",
+      "name": "Alyssa",
+      "company": "Queen's University / Borealis",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/alyssa-queensu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210906912?v=4"
     }
   },
   {

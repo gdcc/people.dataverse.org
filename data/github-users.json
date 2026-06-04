@@ -5742,5 +5742,23 @@
       "htmlUrl": "https://github.com/inDane",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5693407?v=4"
     }
+  },
+  "alyssa-queensu": {
+    "ok": true,
+    "fetchedAt": "2026-06-04T10:57:35.030Z",
+    "profile": {
+      "login": "alyssa-queensu",
+      "name": "Alyssa",
+      "company": "Queen's University / Borealis",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/alyssa-queensu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210906912?v=4"
+    }
   }
 }
