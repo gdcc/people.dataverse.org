@@ -18,7 +18,7 @@ alejandratenorio	data.worldagroforestry.org	702711
 aliassheikh	dataverse.nl			
 alsantiagoabreu	dataverse.fgv.br			
 alungarska				https://github.com/IQSS/dataverse/issues/9897
-alyssa-queensu	borealisdata.ca	1068943		
+alyssa-queensu	borealisdata.ca	1068943	documentation,internationalization	
 amandhawb	dataverse.fiu.edu	940523		
 amberleahey	borealisdata.ca	770128	sensitive-data	
 anarchivist	datasets.lib.berkeley.edu	735407		
@@ -64,6 +64,7 @@ claudiodsf	dataverse.ipgp.fr
 cmbz	dataverse.harvard.edu	600327	large-data-support,sensitive-data	
 Cook4986	dataverse.harvard.edu			
 coret	datasets.iisg.amsterdam			
+cperezmig-dipc		1044607		
 cristobaltapia	darus.uni-stuttgart.de			
 DaftPug				https://github.com/IQSS/dataverse/issues/10277
 daniel-om-weber				https://github.com/gdcc/easyDataverse/issues/50
@@ -151,7 +152,7 @@ jggautier	dataverse.harvard.edu	621770
 jmjamison	dataverse.ucla.edu	653479		
 joannag555				
 JoaoMFCardoso	datahub.polen.fccn.pt	622855		
-joelfan	dataverse.unimi.it			
+joelfan	dataverse.unimi.it			https://github.com/IQSS/dataverse/issues/9358
 johannes-darms		617722		
 johnhuck	borealisdata.ca			
 jonathanbohan				
@@ -178,7 +179,7 @@ kmika11	dataverse.harvard.edu	873979	sensitive-data
 Koalax3	data.sciencespo.fr			
 kobbejager				
 konradoberwimmer				
-koskalns	dv.dataverse.lv			
+koskalns	dv.dataverse.lv	1095566		
 Kris-LIBIS	rdr.kuleuven.be	602159	containerization	
 KRsaule	dataverse.nl	1065714		
 kulsoomzahra				
@@ -197,6 +198,7 @@ luddaniel	entrepot.recherche.data.gouv.fr	649905
 LyneVdV	dataverse.uliege.be	986700		
 M-DOREL				
 Maham802				
+mahendrapaipuri		1023675		
 markwilkinson		653164		
 matthew-a-dunlap	dataverse.unc.edu			
 maximilian-tech				
@@ -245,6 +247,7 @@ rachfern85	dataverse.asu.edu	744896	large-data-support,sensitive-data
 RAHMAHAMMA				https://github.com/IQSS/dataverse-docker/issues/42
 rawidiyaningrum	data.brin.go.id			
 RDA-UNR	dataverse.unr.edu.ar			
+rdlebeau		1091328		
 reikoch				https://github.com/IQSS/dataverse/issues/6678
 RemieJanssen		938380		https://github.com/IQSS/dataverse/issues/11644
 ReneFGJr	cedapdados.ufrgs.br			
@@ -264,12 +267,13 @@ schorcht-ioer	data.fdz.ioer.de
 scolapasta	dataverse.harvard.edu	690603		
 seaneu		666687		https://github.com/IQSS/dataverse-docker/issues/100
 sekmiller	dataverse.harvard.edu	1007626		
-sergejzr	bonndata.uni-bonn.de			
+sergejzr	bonndata.uni-bonn.de	1079368		
 sguyader	entrepot.recherche.data.gouv.fr			
 shlake	dataverse.lib.virginia.edu	599826		
 shuffle2				https://github.com/IQSS/dataverse/issues/10934
 siacus	dataverse.harvard.edu			
 sindribaldur	dataverse.rhi.hi.is			
+Sipxi				
 sirineREKIK	entrepot.recherche.data.gouv.fr			
 skasberger				
 solhm	data.cimmyt.org			
@@ -285,6 +289,7 @@ TanayKarve				https://github.com/IQSS/dataverse/issues/9328
 tcoupin	dataverse.ird.fr			
 tgoelles				https://github.com/IQSS/dataverse/issues/8938
 thegaryking	dataverse.harvard.edu			
+thewilkybarkid				https://github.com/IQSS/dataverse/issues/12471
 thiagombrasil				https://github.com/IQSS/dataverse/issues/9391
 thisisbillie	borealisdata.ca	1074601		
 TillJan	data.fz-juelich.de			
@@ -304,6 +309,7 @@ virgilejarrige		693344		https://github.com/IQSS/dataverse/issues/7940
 vkush	darus.uni-stuttgart.de			
 wendysmann	dataverse.orc.gmu.edu			
 WittenbergM	dataverse.nl			
+won-seoop				
 wpavan	dataverse.ifdc.org			
 wshahn	dataverse.unc.edu	928397		
 wtr-icm				https://github.com/IQSS/dataverse/issues/9608

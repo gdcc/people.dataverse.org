@@ -5760,5 +5760,113 @@
       "htmlUrl": "https://github.com/alyssa-queensu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/210906912?v=4"
     }
+  },
+  "cperezmig-dipc": {
+    "ok": true,
+    "fetchedAt": "2026-07-08T14:27:32.712Z",
+    "profile": {
+      "login": "cperezmig-dipc",
+      "name": "Carlos Pérez Miguel",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/cperezmig-dipc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/172268783?v=4"
+    }
+  },
+  "mahendrapaipuri": {
+    "ok": true,
+    "fetchedAt": "2026-07-08T14:27:52.164Z",
+    "profile": {
+      "login": "mahendrapaipuri",
+      "name": "Mahendra Paipuri",
+      "company": "CNRS",
+      "location": "Paris",
+      "bio": "Sort of jack of all trades, master of none. Love contributing to OSS. Currently, working as a Research Engineer at CNRS in Paris",
+      "blog": "https://mahendrapaipuri.netlify.app/",
+      "twitterUsername": "",
+      "followers": 40,
+      "following": 21,
+      "publicRepos": 62,
+      "htmlUrl": "https://github.com/mahendrapaipuri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44365948?v=4"
+    }
+  },
+  "rdlebeau": {
+    "ok": true,
+    "fetchedAt": "2026-07-08T14:28:10.090Z",
+    "profile": {
+      "login": "rdlebeau",
+      "name": "",
+      "company": "Indiana University",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 6,
+      "htmlUrl": "https://github.com/rdlebeau",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/198827564?v=4"
+    }
+  },
+  "Sipxi": {
+    "ok": true,
+    "fetchedAt": "2026-07-08T14:28:25.608Z",
+    "profile": {
+      "login": "Sipxi",
+      "name": "Sipxi",
+      "company": "",
+      "location": "Czech Republic",
+      "bio": "Studying at VUT FIT...",
+      "blog": "https://sipxi.me",
+      "twitterUsername": "",
+      "followers": 7,
+      "following": 6,
+      "publicRepos": 22,
+      "htmlUrl": "https://github.com/Sipxi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84419238?v=4"
+    }
+  },
+  "thewilkybarkid": {
+    "ok": true,
+    "fetchedAt": "2026-07-08T14:28:31.401Z",
+    "profile": {
+      "login": "thewilkybarkid",
+      "name": "Chris Wilkinson",
+      "company": "@PREreview",
+      "location": "Cambridge, UK",
+      "bio": "Head of Technology at @PREreview",
+      "blog": "https://thewilkybarkid.dev",
+      "twitterUsername": "thewilkybarkid",
+      "followers": 39,
+      "following": 13,
+      "publicRepos": 218,
+      "htmlUrl": "https://github.com/thewilkybarkid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1784740?v=4"
+    }
+  },
+  "won-seoop": {
+    "ok": true,
+    "fetchedAt": "2026-07-08T14:28:48.037Z",
+    "profile": {
+      "login": "won-seoop",
+      "name": "won_seop",
+      "company": "",
+      "location": "",
+      "bio": "행동이 생각을 만든다",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 5,
+      "following": 11,
+      "publicRepos": 51,
+      "htmlUrl": "https://github.com/won-seoop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/123632194?v=4"
+    }
   }
 }

@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-07-08T13:17:31.713Z",
-  "rowCount": 322,
+  "generatedAt": "2026-07-08T14:29:01.191Z",
+  "rowCount": 328,
   "matchedCountryCount": 186,
   "matchedContinentCount": 186,
   "matchedInstallationDescriptionCount": 184,
   "matchedGdccMemberCount": 97,
   "matchedCoreTrustSealCount": 47,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 318
+  "matchedGitHubProfileCount": 324
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -539,7 +539,7 @@ export const MEMBERS_SNAPSHOT = [
     "GitHub Username": "alyssa-queensu",
     "Primary installation": "borealisdata.ca",
     "Zulip ID": "1068943",
-    "Working Groups": "",
+    "Working Groups": "documentation,internationalization",
     "Issue": "",
     "Country": "Canada",
     "Continent": "North America",
@@ -1750,6 +1750,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 43,
       "htmlUrl": "https://github.com/coret",
       "avatarUrl": "https://avatars.githubusercontent.com/u/101820?v=4"
+    }
+  },
+  {
+    "GitHub Username": "cperezmig-dipc",
+    "Primary installation": "",
+    "Zulip ID": "1044607",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "cperezmig-dipc",
+      "name": "Carlos Pérez Miguel",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/cperezmig-dipc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/172268783?v=4"
     }
   },
   {
@@ -4124,7 +4151,7 @@ export const MEMBERS_SNAPSHOT = [
     "Primary installation": "dataverse.unimi.it",
     "Zulip ID": "",
     "Working Groups": "",
-    "Issue": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/9358",
     "Country": "Italy",
     "Continent": "Europe",
     "Installation Description": "The University of Milan is home to important research teams operating in the university's extremely rich variety of scientific-disciplinary sectors. Besides taking part in the most relevant national and international research programs, the University is also very active in the field of technology transfer and developing applications for scientific research results. dataverse.unimi.it is the repository for research data offered to all researchers in disciplines from health sciences to laws, from economics to hard sciences, from humanities to mathematics.",
@@ -4848,7 +4875,7 @@ export const MEMBERS_SNAPSHOT = [
   {
     "GitHub Username": "koskalns",
     "Primary installation": "dv.dataverse.lv",
-    "Zulip ID": "",
+    "Zulip ID": "1095566",
     "Working Groups": "",
     "Issue": "",
     "Country": "Latvia",
@@ -5368,6 +5395,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/Maham802",
       "avatarUrl": "https://avatars.githubusercontent.com/u/116267645?v=4"
+    }
+  },
+  {
+    "GitHub Username": "mahendrapaipuri",
+    "Primary installation": "",
+    "Zulip ID": "1023675",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "mahendrapaipuri",
+      "name": "Mahendra Paipuri",
+      "company": "CNRS",
+      "location": "Paris",
+      "bio": "Sort of jack of all trades, master of none. Love contributing to OSS. Currently, working as a Research Engineer at CNRS in Paris",
+      "blog": "https://mahendrapaipuri.netlify.app/",
+      "twitterUsername": "",
+      "followers": 40,
+      "following": 21,
+      "publicRepos": 62,
+      "htmlUrl": "https://github.com/mahendrapaipuri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44365948?v=4"
     }
   },
   {
@@ -6683,6 +6737,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "rdlebeau",
+    "Primary installation": "",
+    "Zulip ID": "1091328",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "rdlebeau",
+      "name": "",
+      "company": "Indiana University",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 6,
+      "htmlUrl": "https://github.com/rdlebeau",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/198827564?v=4"
+    }
+  },
+  {
     "GitHub Username": "reikoch",
     "Primary installation": "",
     "Zulip ID": "",
@@ -7198,7 +7279,7 @@ export const MEMBERS_SNAPSHOT = [
   {
     "GitHub Username": "sergejzr",
     "Primary installation": "bonndata.uni-bonn.de",
-    "Zulip ID": "",
+    "Zulip ID": "1079368",
     "Working Groups": "",
     "Issue": "",
     "Country": "Germany",
@@ -7355,6 +7436,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/sindribaldur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/20801939?v=4"
+    }
+  },
+  {
+    "GitHub Username": "Sipxi",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "Sipxi",
+      "name": "Sipxi",
+      "company": "",
+      "location": "Czech Republic",
+      "bio": "Studying at VUT FIT...",
+      "blog": "https://sipxi.me",
+      "twitterUsername": "",
+      "followers": 7,
+      "following": 6,
+      "publicRepos": 22,
+      "htmlUrl": "https://github.com/Sipxi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84419238?v=4"
     }
   },
   {
@@ -7764,6 +7872,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/thegaryking",
       "avatarUrl": "https://avatars.githubusercontent.com/u/575230?v=4"
+    }
+  },
+  {
+    "GitHub Username": "thewilkybarkid",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12471",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "thewilkybarkid",
+      "name": "Chris Wilkinson",
+      "company": "@PREreview",
+      "location": "Cambridge, UK",
+      "bio": "Head of Technology at @PREreview",
+      "blog": "https://thewilkybarkid.dev",
+      "twitterUsername": "thewilkybarkid",
+      "followers": 39,
+      "following": 13,
+      "publicRepos": 218,
+      "htmlUrl": "https://github.com/thewilkybarkid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1784740?v=4"
     }
   },
   {
@@ -8285,6 +8420,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/WittenbergM",
       "avatarUrl": "https://avatars.githubusercontent.com/u/87473137?v=4"
+    }
+  },
+  {
+    "GitHub Username": "won-seoop",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "won-seoop",
+      "name": "won_seop",
+      "company": "",
+      "location": "",
+      "bio": "행동이 생각을 만든다",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 5,
+      "following": 11,
+      "publicRepos": 51,
+      "htmlUrl": "https://github.com/won-seoop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/123632194?v=4"
     }
   },
   {
