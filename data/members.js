@@ -2,14 +2,14 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-06-04T10:57:47.528Z",
+  "generatedAt": "2026-07-08T13:17:31.713Z",
   "rowCount": 322,
   "matchedCountryCount": 186,
   "matchedContinentCount": 186,
   "matchedInstallationDescriptionCount": 184,
   "matchedGdccMemberCount": 97,
   "matchedCoreTrustSealCount": 47,
-  "matchedDataverseTvCount": 43,
+  "matchedDataverseTvCount": 46,
   "matchedGitHubProfileCount": 318
 };
 
@@ -548,7 +548,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/PUHYXX"
     ],
-    "DataverseTV": false,
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "alyssa-queensu",
       "name": "Alyssa",
@@ -4858,7 +4858,7 @@ export const MEMBERS_SNAPSHOT = [
     "CoreTrustSeals": [
       "https://doi.org/10.34894/JM7PTH"
     ],
-    "DataverseTV": false,
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "koskalns",
       "name": "",
@@ -8161,7 +8161,7 @@ export const MEMBERS_SNAPSHOT = [
     "Installation Description": "",
     "GDCC Member": false,
     "CoreTrustSeals": [],
-    "DataverseTV": false,
+    "DataverseTV": true,
     "GitHub Profile": {
       "login": "vera",
       "name": "Vera Clemens",
