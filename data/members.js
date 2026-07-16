@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-07-16T13:30:31.627Z",
-  "rowCount": 331,
-  "matchedCountryCount": 187,
-  "matchedContinentCount": 187,
-  "matchedInstallationDescriptionCount": 184,
-  "matchedGdccMemberCount": 97,
+  "generatedAt": "2026-07-16T18:49:35.088Z",
+  "rowCount": 334,
+  "matchedCountryCount": 190,
+  "matchedContinentCount": 190,
+  "matchedInstallationDescriptionCount": 187,
+  "matchedGdccMemberCount": 100,
   "matchedCoreTrustSealCount": 47,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 327
+  "matchedGitHubProfileCount": 330
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -122,6 +122,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/Abalduin-adm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110982992?v=4"
+    }
+  },
+  {
+    "GitHub Username": "Abhyastamita",
+    "Primary installation": "dataverse.lib.virginia.edu",
+    "Zulip ID": "989705",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "LibraData is a place for UVA researchers to share data publicly, and is part of the Libra Scholarly Repository suite of services which includes works of UVA scholarship such as articles, books, theses, and data.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "Abhyastamita",
+      "name": "Katherine Perdue",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/Abhyastamita",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13049763?v=4"
     }
   },
   {
@@ -8203,6 +8230,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "UncleJefferson",
+    "Primary installation": "dataverse.lib.virginia.edu",
+    "Zulip ID": "935523",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "LibraData is a place for UVA researchers to share data publicly, and is part of the Libra Scholarly Repository suite of services which includes works of UVA scholarship such as articles, books, theses, and data.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "UncleJefferson",
+      "name": "Tim Stevens",
+      "company": "UVA Library",
+      "location": "Charlottesville, VA",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/UncleJefferson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1038759?v=4"
+    }
+  },
+  {
     "GitHub Username": "univiedev",
     "Primary installation": "data.aussda.at",
     "Zulip ID": "932029",
@@ -8584,6 +8638,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/wtr-icm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/58430746?v=4"
+    }
+  },
+  {
+    "GitHub Username": "Xiaoming",
+    "Primary installation": "dataverse.lib.virginia.edu",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "LibraData is a place for UVA researchers to share data publicly, and is part of the Libra Scholarly Repository suite of services which includes works of UVA scholarship such as articles, books, theses, and data.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "Xiaoming",
+      "name": "Xiaoming Wang",
+      "company": "University of Virginia ",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 7,
+      "following": 1,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/Xiaoming",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/214696?v=4"
     }
   },
   {

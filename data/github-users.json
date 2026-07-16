@@ -5922,5 +5922,59 @@
       "htmlUrl": "https://github.com/leligdon",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27231301?v=4"
     }
+  },
+  "UncleJefferson": {
+    "ok": true,
+    "fetchedAt": "2026-07-16T18:48:09.210Z",
+    "profile": {
+      "login": "UncleJefferson",
+      "name": "Tim Stevens",
+      "company": "UVA Library",
+      "location": "Charlottesville, VA",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 1,
+      "htmlUrl": "https://github.com/UncleJefferson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1038759?v=4"
+    }
+  },
+  "Abhyastamita": {
+    "ok": true,
+    "fetchedAt": "2026-07-16T18:48:19.741Z",
+    "profile": {
+      "login": "Abhyastamita",
+      "name": "Katherine Perdue",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 9,
+      "htmlUrl": "https://github.com/Abhyastamita",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13049763?v=4"
+    }
+  },
+  "Xiaoming": {
+    "ok": true,
+    "fetchedAt": "2026-07-16T18:49:32.985Z",
+    "profile": {
+      "login": "Xiaoming",
+      "name": "Xiaoming Wang",
+      "company": "University of Virginia ",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 7,
+      "following": 1,
+      "publicRepos": 2,
+      "htmlUrl": "https://github.com/Xiaoming",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/214696?v=4"
+    }
   }
 }
