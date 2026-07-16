@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-07-08T14:29:01.191Z",
-  "rowCount": 328,
-  "matchedCountryCount": 186,
-  "matchedContinentCount": 186,
+  "generatedAt": "2026-07-16T13:30:31.627Z",
+  "rowCount": 331,
+  "matchedCountryCount": 187,
+  "matchedContinentCount": 187,
   "matchedInstallationDescriptionCount": 184,
   "matchedGdccMemberCount": 97,
   "matchedCoreTrustSealCount": 47,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 324
+  "matchedGitHubProfileCount": 327
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -5124,6 +5124,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "leligdon",
+    "Primary installation": "dataverse.dartmouth.edu",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "leligdon",
+      "name": "Lora Leligdon",
+      "company": "Dartmouth College",
+      "location": "Hanover, NH",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/leligdon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/27231301?v=4"
+    }
+  },
+  {
     "GitHub Username": "lgarciap",
     "Primary installation": "",
     "Zulip ID": "",
@@ -5806,6 +5833,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/mlage",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6475645?v=4"
+    }
+  },
+  {
+    "GitHub Username": "mmillenaa",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12529",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "mmillenaa",
+      "name": "Millena Miranda Franco",
+      "company": "FGV Sao Paulo Law School",
+      "location": "Brazil",
+      "bio": "PhD student at the University of Sao Paulo and visiting researcher at the FGV Sao Paulo Law School. ",
+      "blog": "http://lattes.cnpq.br/3848824456283762",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 8,
+      "htmlUrl": "https://github.com/mmillenaa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102330737?v=4"
     }
   },
   {
@@ -8692,6 +8746,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/younnoh",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6482978?v=4"
+    }
+  },
+  {
+    "GitHub Username": "youseihuayu-wonderful",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "pydataverse",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "youseihuayu-wonderful",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 3,
+      "publicRepos": 16,
+      "htmlUrl": "https://github.com/youseihuayu-wonderful",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/258670436?v=4"
     }
   },
   {

@@ -5868,5 +5868,59 @@
       "htmlUrl": "https://github.com/won-seoop",
       "avatarUrl": "https://avatars.githubusercontent.com/u/123632194?v=4"
     }
+  },
+  "mmillenaa": {
+    "ok": true,
+    "fetchedAt": "2026-07-16T13:29:35.657Z",
+    "profile": {
+      "login": "mmillenaa",
+      "name": "Millena Miranda Franco",
+      "company": "FGV Sao Paulo Law School",
+      "location": "Brazil",
+      "bio": "PhD student at the University of Sao Paulo and visiting researcher at the FGV Sao Paulo Law School. ",
+      "blog": "http://lattes.cnpq.br/3848824456283762",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 8,
+      "htmlUrl": "https://github.com/mmillenaa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102330737?v=4"
+    }
+  },
+  "youseihuayu-wonderful": {
+    "ok": true,
+    "fetchedAt": "2026-07-16T13:29:44.181Z",
+    "profile": {
+      "login": "youseihuayu-wonderful",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 3,
+      "publicRepos": 16,
+      "htmlUrl": "https://github.com/youseihuayu-wonderful",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/258670436?v=4"
+    }
+  },
+  "leligdon": {
+    "ok": true,
+    "fetchedAt": "2026-07-16T13:30:26.184Z",
+    "profile": {
+      "login": "leligdon",
+      "name": "Lora Leligdon",
+      "company": "Dartmouth College",
+      "location": "Hanover, NH",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 0,
+      "publicRepos": 5,
+      "htmlUrl": "https://github.com/leligdon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/27231301?v=4"
+    }
   }
 }
