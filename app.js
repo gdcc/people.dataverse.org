@@ -547,18 +547,46 @@ function appendInstallationValue(
     !state.route.memberUsername && state.filters.installation === installationText;
 
   if (installationText) {
-    if (installationAlreadyFiltered) {
-      const filterLabel = document.createElement("span");
-      filterLabel.className = "inline-filter-label";
-      filterLabel.textContent = installationText;
-      container.append(filterLabel);
+    if (installationHref) {
+      const installationLink = document.createElement("a");
+      installationLink.href = installationHref;
+      installationLink.target = "_blank";
+      installationLink.rel = "noreferrer";
+      installationLink.className = "installation-external-link";
+      installationLink.textContent = installationText;
+      container.append(installationLink);
     } else {
-      const filterLink = document.createElement("a");
-      filterLink.href = "#";
-      filterLink.className = "inline-filter-link";
-      filterLink.textContent = installationText;
-      filterLink.addEventListener("click", (event) => {
-        event.preventDefault();
+      const installationLabel = document.createElement("span");
+      installationLabel.textContent = installationText;
+      container.append(installationLabel);
+    }
+
+    container.append(document.createTextNode(" "));
+    const filterIcon = document.createElement("img");
+    filterIcon.src = "./assets/filter.svg";
+    filterIcon.alt = "";
+    filterIcon.className = "installation-filter-icon";
+    filterIcon.setAttribute("aria-hidden", "true");
+
+    if (installationAlreadyFiltered) {
+      const activeFilter = document.createElement("span");
+      activeFilter.className = "installation-filter-active";
+      activeFilter.setAttribute("role", "img");
+      activeFilter.setAttribute(
+        "aria-label",
+        `Currently filtering by installation: ${installationText}`,
+      );
+      activeFilter.append(filterIcon);
+      container.append(activeFilter);
+    } else {
+      const filterButton = document.createElement("button");
+      filterButton.type = "button";
+      filterButton.className = "installation-filter-button";
+      filterButton.setAttribute(
+        "aria-label",
+        `Filter by installation: ${installationText}`,
+      );
+      filterButton.addEventListener("click", () => {
         if (state.route.memberUsername) {
           navigateHomeWithFilters({ installation: installationText });
         } else {
@@ -566,25 +594,11 @@ function appendInstallationValue(
           render();
         }
       });
-      container.append(filterLink);
+      filterButton.append(filterIcon);
+      container.append(filterButton);
     }
 
     if (installationHref) {
-      container.append(document.createTextNode(" "));
-      const externalLink = document.createElement("a");
-      externalLink.href = installationHref;
-      externalLink.target = "_blank";
-      externalLink.rel = "noreferrer";
-      externalLink.className = "external-inline-link";
-      externalLink.setAttribute("aria-label", `Open ${installationText} in a new window`);
-      const externalIcon = document.createElement("img");
-      externalIcon.src = "./assets/external-link.svg";
-      externalIcon.alt = "";
-      externalIcon.className = "external-inline-icon";
-      externalIcon.setAttribute("aria-hidden", "true");
-      externalLink.append(externalIcon);
-      container.append(externalLink);
-
       if (gdccMember) {
         container.append(document.createTextNode(" "));
         const gdccLink = document.createElement("a");

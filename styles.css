@@ -452,18 +452,49 @@ select {
   text-decoration: underline;
 }
 
-.external-inline-link {
-  display: inline-flex;
-  align-items: center;
-  color: var(--muted);
+.installation-external-link {
+  color: var(--accent-strong);
   text-decoration: none;
 }
 
-.external-inline-link:hover {
-  color: var(--accent-strong);
+.installation-external-link:hover {
+  text-decoration: underline;
 }
 
-.external-inline-icon {
+.installation-filter-button,
+.installation-filter-active {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.installation-filter-button {
+  margin: 0;
+  padding: 1px;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.installation-filter-button:hover {
+  background: var(--accent-soft);
+}
+
+.installation-filter-button:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 1px;
+}
+
+.installation-filter-active {
+  padding: 1px;
+  border-radius: 3px;
+  background: var(--accent-soft);
+  opacity: 0.65;
+}
+
+.installation-filter-icon {
   width: 14px;
   height: 14px;
   display: block;
@@ -472,6 +503,7 @@ select {
 .gdcc-inline-link {
   display: inline-flex;
   align-items: center;
+  vertical-align: middle;
   text-decoration: none;
 }
 
@@ -484,6 +516,7 @@ select {
 .coretrust-inline-link {
   display: inline-flex;
   align-items: center;
+  vertical-align: middle;
   text-decoration: none;
 }
 
