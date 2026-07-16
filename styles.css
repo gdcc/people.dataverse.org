@@ -461,15 +461,15 @@ select {
   text-decoration: underline;
 }
 
-.installation-filter-button,
-.installation-filter-active {
+.inline-filter-button,
+.inline-filter-active {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
 }
 
-.installation-filter-button {
+.inline-filter-button {
   margin: 0;
   padding: 1px;
   border: 0;
@@ -478,23 +478,23 @@ select {
   cursor: pointer;
 }
 
-.installation-filter-button:hover {
+.inline-filter-button:hover {
   background: var(--accent-soft);
 }
 
-.installation-filter-button:focus-visible {
+.inline-filter-button:focus-visible {
   outline: 2px solid var(--accent-strong);
   outline-offset: 1px;
 }
 
-.installation-filter-active {
+.inline-filter-active {
   padding: 1px;
   border-radius: 3px;
   background: var(--accent-soft);
   opacity: 0.65;
 }
 
-.installation-filter-icon {
+.inline-filter-icon {
   width: 14px;
   height: 14px;
   display: block;
