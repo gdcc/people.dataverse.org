@@ -73,6 +73,7 @@ function bindEvents() {
     state.filters = {
       search: "",
       installation: "",
+      workingGroup: "",
       country: "",
       continent: "",
     };
@@ -165,15 +166,19 @@ function renderMeta(filteredMembers) {
     return;
   }
 
-  const { installation, country, continent, search } = state.filters;
+  const { installation, workingGroup, country, continent, search } =
+    state.filters;
   const installationLabel = installation ? ` at ${installation}` : "";
+  const workingGroupLabel = workingGroup
+    ? ` in the ${workingGroup} working group`
+    : "";
   const countryLabel = country ? ` in ${country}` : "";
   const continentLabel = continent ? ` in ${continent}` : "";
   const searchLabel = search ? ` matching "${search}"` : "";
   const memberLabel = filteredMembers.length === 1 ? "member" : "members";
 
   elements.resultsCopy.textContent =
-    `${filteredMembers.length} ${memberLabel}${installationLabel}${countryLabel}${continentLabel}${searchLabel}.`.replace(
+    `${filteredMembers.length} ${memberLabel}${installationLabel}${workingGroupLabel}${countryLabel}${continentLabel}${searchLabel}.`.replace(
       /\s+\./,
       ".",
     );
@@ -375,6 +380,11 @@ function filterMembers(members, filters) {
         !filters.installation ||
         member.primaryInstallation === filters.installation,
     )
+    .filter(
+      (member) =>
+        !filters.workingGroup ||
+        member.workingGroups.includes(filters.workingGroup),
+    )
     .filter((member) => !filters.country || member.country === filters.country)
     .filter((member) => !filters.continent || member.continent === filters.continent)
     .filter((member) => matchesSearch(member, filters.search))
@@ -534,7 +544,52 @@ function appendWorkingGroupsValue(container, workingGroups) {
     anchor.rel = "noreferrer";
     anchor.textContent = group;
     container.append(anchor);
+
+    container.append(document.createTextNode(" "));
+    appendFilterControl(container, {
+      active:
+        !state.route.memberUsername && state.filters.workingGroup === group,
+      activeLabel: `Currently filtering by working group: ${group}`,
+      filterLabel: `Filter by working group: ${group}`,
+      onFilter: () => {
+        if (state.route.memberUsername) {
+          navigateHomeWithFilters({ workingGroup: group });
+        } else {
+          state.filters.workingGroup = group;
+          render();
+        }
+      },
+    });
   });
+}
+
+function appendFilterControl(
+  container,
+  { active, activeLabel, filterLabel, onFilter },
+) {
+  const filterIcon = document.createElement("img");
+  filterIcon.src = "./assets/filter.svg";
+  filterIcon.alt = "";
+  filterIcon.className = "inline-filter-icon";
+  filterIcon.setAttribute("aria-hidden", "true");
+
+  if (active) {
+    const activeFilter = document.createElement("span");
+    activeFilter.className = "inline-filter-active";
+    activeFilter.setAttribute("role", "img");
+    activeFilter.setAttribute("aria-label", activeLabel);
+    activeFilter.append(filterIcon);
+    container.append(activeFilter);
+    return;
+  }
+
+  const filterButton = document.createElement("button");
+  filterButton.type = "button";
+  filterButton.className = "inline-filter-button";
+  filterButton.setAttribute("aria-label", filterLabel);
+  filterButton.addEventListener("click", onFilter);
+  filterButton.append(filterIcon);
+  container.append(filterButton);
 }
 
 function appendInstallationValue(
@@ -562,41 +617,19 @@ function appendInstallationValue(
     }
 
     container.append(document.createTextNode(" "));
-    const filterIcon = document.createElement("img");
-    filterIcon.src = "./assets/filter.svg";
-    filterIcon.alt = "";
-    filterIcon.className = "installation-filter-icon";
-    filterIcon.setAttribute("aria-hidden", "true");
-
-    if (installationAlreadyFiltered) {
-      const activeFilter = document.createElement("span");
-      activeFilter.className = "installation-filter-active";
-      activeFilter.setAttribute("role", "img");
-      activeFilter.setAttribute(
-        "aria-label",
-        `Currently filtering by installation: ${installationText}`,
-      );
-      activeFilter.append(filterIcon);
-      container.append(activeFilter);
-    } else {
-      const filterButton = document.createElement("button");
-      filterButton.type = "button";
-      filterButton.className = "installation-filter-button";
-      filterButton.setAttribute(
-        "aria-label",
-        `Filter by installation: ${installationText}`,
-      );
-      filterButton.addEventListener("click", () => {
+    appendFilterControl(container, {
+      active: installationAlreadyFiltered,
+      activeLabel: `Currently filtering by installation: ${installationText}`,
+      filterLabel: `Filter by installation: ${installationText}`,
+      onFilter: () => {
         if (state.route.memberUsername) {
           navigateHomeWithFilters({ installation: installationText });
         } else {
           state.filters.installation = installationText;
           render();
         }
-      });
-      filterButton.append(filterIcon);
-      container.append(filterButton);
-    }
+      },
+    });
 
     if (installationHref) {
       if (gdccMember) {
@@ -866,6 +899,7 @@ function getFiltersFromLocation() {
   return {
     search: params.get("search") ?? "",
     installation: params.get("installation") ?? "",
+    workingGroup: params.get("workingGroup") ?? "",
     country: params.get("country") ?? "",
     continent: params.get("continent") ?? "",
   };
@@ -875,6 +909,7 @@ function getDefaultFilters() {
   return {
     search: "",
     installation: "",
+    workingGroup: "",
     country: "",
     continent: "",
   };
