@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const inputPath = new URL("../data/community-members.tsv", import.meta.url);
+const involvementPath = new URL("../data/project-involvement.tsv", import.meta.url);
 const installationsPath = new URL("../data/installations.json", import.meta.url);
 const githubUsersPath = new URL("../data/github-users.json", import.meta.url);
 const dataverseTvPath = new URL("../data/dataversetv.tsv", import.meta.url);
@@ -14,6 +15,7 @@ const sourceFields = [
 ];
 
 const raw = await readFile(inputPath, "utf8");
+const involvementRaw = await readFile(involvementPath, "utf8");
 const installationsRaw = await readFile(installationsPath, "utf8");
 const githubUsersRaw = await readFile(githubUsersPath, "utf8");
 const dataverseTvRaw = await readFile(dataverseTvPath, "utf8");
@@ -21,7 +23,14 @@ const lines = raw.trim().split(/\r?\n/);
 const headers = lines[0].split("\t");
 const installationData = JSON.parse(installationsRaw);
 const githubUsers = JSON.parse(githubUsersRaw);
+const githubProfilesByUsername = new Map(
+  Object.entries(githubUsers).map(([username, value]) => [
+    username.toLowerCase(),
+    value?.profile ?? null,
+  ]),
+);
 const dataverseTvUsernames = getDataverseTvUsernames(dataverseTvRaw);
+const involvementByUsername = getInvolvementByUsername(involvementRaw);
 const countryByHostname = new Map(
   (installationData.installations ?? [])
     .map((installation) => [
@@ -72,20 +81,28 @@ const rows = lines.slice(1).map((line) => {
     entry[header] = index >= 0 ? (values[index] ?? "") : "";
     return entry;
   }, {});
-  const installationHost = normalizeHostname(record["Primary installation"]);
-  const githubUsername = String(record["GitHub Username"] ?? "").trim();
-  const githubProfile = githubUsers[githubUsername]?.profile ?? null;
-
-  record.Country = countryByHostname.get(installationHost) ?? "";
-  record.Continent = continentByHostname.get(installationHost) ?? "";
-  record["Installation Description"] = descriptionByHostname.get(installationHost) ?? "";
-  record["GDCC Member"] = gdccMemberByHostname.get(installationHost) ?? false;
-  record["CoreTrustSeals"] = coreTrustSealsByHostname.get(installationHost) ?? [];
-  record["DataverseTV"] = dataverseTvUsernames.has(githubUsername.toLowerCase());
-  record["GitHub Profile"] = githubProfile;
-
-  return record;
+  return createSnapshotRecord(record);
 });
+
+const usernamesInRows = new Set(
+  rows.map((row) => String(row["GitHub Username"] ?? "").trim().toLowerCase()).filter(Boolean),
+);
+
+for (const username of involvementByUsername.keys()) {
+  if (usernamesInRows.has(username)) {
+    continue;
+  }
+
+  rows.push(
+    createSnapshotRecord({
+      "GitHub Username": username,
+      "Primary installation": "",
+      "Zulip ID": "",
+      "Working Groups": "",
+      Issue: "",
+    }),
+  );
+}
 
 const matchedCountries = rows.filter((row) => row.Country).length;
 const matchedContinents = rows.filter((row) => row.Continent).length;
@@ -96,6 +113,10 @@ const matchedCoreTrustSeals = rows.filter(
 ).length;
 const matchedDataverseTv = rows.filter((row) => row["DataverseTV"] === true).length;
 const matchedGitHubProfiles = rows.filter((row) => row["GitHub Profile"]).length;
+const matchedInvolvementPeriods = rows.reduce(
+  (count, row) => count + (Array.isArray(row.Periods) ? row.Periods.length : 0),
+  0,
+);
 
 const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
   {
@@ -103,6 +124,8 @@ const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
       "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
     installationSource:
       "https://iqss.github.io/dataverse-installations/data/data.json",
+    involvementSource:
+      "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=50565170&format=tsv",
     githubUserSource: "https://api.github.com/users/{username}",
     generatedAt: new Date().toISOString(),
     rowCount: rows.length,
@@ -113,6 +136,7 @@ const moduleSource = `export const SNAPSHOT_META = ${JSON.stringify(
     matchedCoreTrustSealCount: matchedCoreTrustSeals,
     matchedDataverseTvCount: matchedDataverseTv,
     matchedGitHubProfileCount: matchedGitHubProfiles,
+    matchedInvolvementPeriodCount: matchedInvolvementPeriods,
   },
   null,
   2,
@@ -124,7 +148,7 @@ export const MEMBERS_SNAPSHOT = ${JSON.stringify(rows, null, 2)};
 await writeFile(outputPath, moduleSource);
 
 console.log(
-  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, ${matchedGdccMembers} GDCC member matches, ${matchedCoreTrustSeals} CoreTrustSeal matches, ${matchedDataverseTv} DataverseTV matches, and ${matchedGitHubProfiles} GitHub profile matches`,
+  `Wrote ${rows.length} rows to ${outputPath.pathname} with ${matchedCountries} country matches, ${matchedContinents} continent matches, ${matchedDescriptions} installation descriptions, ${matchedGdccMembers} GDCC member matches, ${matchedCoreTrustSeals} CoreTrustSeal matches, ${matchedDataverseTv} DataverseTV matches, ${matchedGitHubProfiles} GitHub profile matches, and ${matchedInvolvementPeriods} involvement periods`,
 );
 
 function normalizeHostname(value) {
@@ -158,4 +182,51 @@ function getDataverseTvUsernames(tsv) {
   }
 
   return usernames;
+}
+
+function getInvolvementByUsername(tsv) {
+  const [headerLine, ...rows] = tsv.trim().split(/\r?\n/);
+  const headers = headerLine.split("\t");
+  const indexByHeader = Object.fromEntries(headers.map((header, index) => [header, index]));
+  const involvementByUsername = new Map();
+
+  for (const row of rows) {
+    const columns = row.split("\t");
+    const username = (columns[indexByHeader["GitHub Username"]] ?? "").trim().toLowerCase();
+    if (!username) {
+      continue;
+    }
+
+    const period = {
+      "Start Date": (columns[indexByHeader["Start Date"]] ?? "").trim(),
+      "End Date": (columns[indexByHeader["End Date"]] ?? "").trim(),
+    };
+
+    const existing = involvementByUsername.get(username) ?? [];
+    existing.push(period);
+    involvementByUsername.set(username, existing);
+  }
+
+  return involvementByUsername;
+}
+
+function createSnapshotRecord(record) {
+  const installationHost = normalizeHostname(record["Primary installation"]);
+  const githubUsername = String(record["GitHub Username"] ?? "").trim();
+  const githubProfile =
+    githubUsers[githubUsername]?.profile ??
+    githubProfilesByUsername.get(githubUsername.toLowerCase()) ??
+    null;
+
+  return {
+    ...record,
+    Country: countryByHostname.get(installationHost) ?? "",
+    Continent: continentByHostname.get(installationHost) ?? "",
+    "Installation Description": descriptionByHostname.get(installationHost) ?? "",
+    "GDCC Member": gdccMemberByHostname.get(installationHost) ?? false,
+    CoreTrustSeals: coreTrustSealsByHostname.get(installationHost) ?? [],
+    DataverseTV: dataverseTvUsernames.has(githubUsername.toLowerCase()),
+    "GitHub Profile": githubProfile,
+    Periods: involvementByUsername.get(githubUsername.toLowerCase()) ?? [],
+  };
 }

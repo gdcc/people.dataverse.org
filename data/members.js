@@ -1,16 +1,18 @@
 export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
+  "involvementSource": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=50565170&format=tsv",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-07-16T18:49:35.088Z",
-  "rowCount": 334,
+  "generatedAt": "2026-07-29T02:38:56.054Z",
+  "rowCount": 340,
   "matchedCountryCount": 190,
   "matchedContinentCount": 190,
   "matchedInstallationDescriptionCount": 187,
   "matchedGdccMemberCount": 100,
   "matchedCoreTrustSealCount": 47,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 330
+  "matchedGitHubProfileCount": 330,
+  "matchedInvolvementPeriodCount": 21
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -39,7 +41,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/22tb",
       "avatarUrl": "https://avatars.githubusercontent.com/u/51000626?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "4tikhonov",
@@ -68,7 +71,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 63,
       "htmlUrl": "https://github.com/4tikhonov",
       "avatarUrl": "https://avatars.githubusercontent.com/u/704075?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "aadorian",
@@ -95,7 +99,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 651,
       "htmlUrl": "https://github.com/aadorian",
       "avatarUrl": "https://avatars.githubusercontent.com/u/734790?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Abalduin-adm",
@@ -122,7 +127,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/Abalduin-adm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110982992?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Abhyastamita",
@@ -149,7 +155,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/Abhyastamita",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13049763?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "adam3smith",
@@ -178,7 +185,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 56,
       "htmlUrl": "https://github.com/adam3smith",
       "avatarUrl": "https://avatars.githubusercontent.com/u/128986?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "adkinsrs",
@@ -205,7 +213,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 31,
       "htmlUrl": "https://github.com/adkinsrs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5665914?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "aeonSolutions",
@@ -232,7 +241,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 244,
       "htmlUrl": "https://github.com/aeonSolutions",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7936768?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "AFIOCCA-INRAE",
@@ -259,7 +269,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/AFIOCCA-INRAE",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25335479?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "agostinho-gomes",
@@ -286,7 +297,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/agostinho-gomes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/47567037?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ahsouri",
@@ -313,7 +325,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 20,
       "htmlUrl": "https://github.com/ahsouri",
       "avatarUrl": "https://avatars.githubusercontent.com/u/40439250?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "aialves",
@@ -340,7 +353,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/aialves",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13556933?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ainajene",
@@ -367,7 +381,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/ainajene",
       "avatarUrl": "https://avatars.githubusercontent.com/u/72206387?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ajdabrowski",
@@ -394,7 +409,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/ajdabrowski",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46501789?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "akio-sone",
@@ -423,7 +439,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 26,
       "htmlUrl": "https://github.com/akio-sone",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3188102?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "AleixMT",
@@ -450,7 +467,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 26,
       "htmlUrl": "https://github.com/AleixMT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23342150?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "alejandratenorio",
@@ -477,7 +495,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/alejandratenorio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/31973211?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "aliassheikh",
@@ -506,7 +525,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 45,
       "htmlUrl": "https://github.com/aliassheikh",
       "avatarUrl": "https://avatars.githubusercontent.com/u/93505057?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "alsantiagoabreu",
@@ -533,7 +553,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/alsantiagoabreu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/77691111?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "alungarska",
@@ -560,7 +581,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/alungarska",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50579708?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "alyssa-queensu",
@@ -589,7 +611,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/alyssa-queensu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/210906912?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "amandhawb",
@@ -616,7 +639,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 29,
       "htmlUrl": "https://github.com/amandhawb",
       "avatarUrl": "https://avatars.githubusercontent.com/u/74625367?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "amberleahey",
@@ -645,7 +669,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/amberleahey",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17624834?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "anarchivist",
@@ -672,7 +697,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 170,
       "htmlUrl": "https://github.com/anarchivist",
       "avatarUrl": "https://avatars.githubusercontent.com/u/73732?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "andrecastro0o",
@@ -701,7 +727,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 23,
       "htmlUrl": "https://github.com/andrecastro0o",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1690557?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "AnneGerlach",
@@ -728,7 +755,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/AnneGerlach",
       "avatarUrl": "https://avatars.githubusercontent.com/u/45122888?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "apmireia",
@@ -755,7 +783,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/apmireia",
       "avatarUrl": "https://avatars.githubusercontent.com/u/168076783?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ar062800",
@@ -769,7 +798,8 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": null,
+    "Periods": []
   },
   {
     "GitHub Username": "Asbjoedt",
@@ -796,7 +826,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 14,
       "htmlUrl": "https://github.com/Asbjoedt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16759989?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "aseeland",
@@ -823,7 +854,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/aseeland",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5227118?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Ash84",
@@ -850,7 +882,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/Ash84",
       "avatarUrl": "https://avatars.githubusercontent.com/u/58844429?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Athemis",
@@ -877,7 +910,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 110,
       "htmlUrl": "https://github.com/Athemis",
       "avatarUrl": "https://avatars.githubusercontent.com/u/552653?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "atniph",
@@ -904,7 +938,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/atniph",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55395248?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "atrisovic",
@@ -931,7 +966,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 66,
       "htmlUrl": "https://github.com/atrisovic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13986265?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "awilfox",
@@ -958,7 +994,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 76,
       "htmlUrl": "https://github.com/awilfox",
       "avatarUrl": "https://avatars.githubusercontent.com/u/303838?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "bappun",
@@ -985,7 +1022,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/bappun",
       "avatarUrl": "https://avatars.githubusercontent.com/u/24225471?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Baroti",
@@ -1014,7 +1052,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 11,
       "htmlUrl": "https://github.com/Baroti",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2582511?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "BeebBenjamin",
@@ -1041,7 +1080,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 13,
       "htmlUrl": "https://github.com/BeebBenjamin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4963887?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "beepsoft",
@@ -1068,7 +1108,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 42,
       "htmlUrl": "https://github.com/beepsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1926265?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "BenediktMeierUIT",
@@ -1084,7 +1125,8 @@ export const MEMBERS_SNAPSHOT = [
       "https://www.coretrustseal.org/wp-content/uploads/2020/03/DataverseNO.pdf"
     ],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": null,
+    "Periods": []
   },
   {
     "GitHub Username": "bgunia",
@@ -1111,7 +1153,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/bgunia",
       "avatarUrl": "https://avatars.githubusercontent.com/u/47605686?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "bikramj",
@@ -1140,7 +1183,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 11,
       "htmlUrl": "https://github.com/bikramj",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7265815?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "bjosel",
@@ -1167,7 +1211,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/bjosel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/135325484?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "blewis",
@@ -1194,7 +1239,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/blewis",
       "avatarUrl": "https://avatars.githubusercontent.com/u/812849?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "bnavigator",
@@ -1221,7 +1267,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 190,
       "htmlUrl": "https://github.com/bnavigator",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4623504?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "BPeuch",
@@ -1235,7 +1282,8 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": null,
+    "Periods": []
   },
   {
     "GitHub Username": "Bramvdhout",
@@ -1262,7 +1310,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/Bramvdhout",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32885158?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "bricas",
@@ -1289,7 +1338,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 64,
       "htmlUrl": "https://github.com/bricas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18400?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "bryanmgee",
@@ -1316,7 +1366,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/bryanmgee",
       "avatarUrl": "https://avatars.githubusercontent.com/u/113212676?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "bseeger",
@@ -1343,7 +1394,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 109,
       "htmlUrl": "https://github.com/bseeger",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7966375?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "c2dhfma",
@@ -1370,7 +1422,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/c2dhfma",
       "avatarUrl": "https://avatars.githubusercontent.com/u/134602822?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "carlo318",
@@ -1397,7 +1450,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 16,
       "htmlUrl": "https://github.com/carlo318",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6966708?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "carlsonp",
@@ -1424,7 +1478,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 68,
       "htmlUrl": "https://github.com/carlsonp",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1167797?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "CB-HAL",
@@ -1453,7 +1508,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/CB-HAL",
       "avatarUrl": "https://avatars.githubusercontent.com/u/73164983?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "CCMumma",
@@ -1480,7 +1536,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/CCMumma",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12702471?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "cesarpferreira",
@@ -1507,7 +1564,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/cesarpferreira",
       "avatarUrl": "https://avatars.githubusercontent.com/u/100295910?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "CharityEverett",
@@ -1534,7 +1592,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 45,
       "htmlUrl": "https://github.com/CharityEverett",
       "avatarUrl": "https://avatars.githubusercontent.com/u/155777861?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "charmoniumQ",
@@ -1561,7 +1620,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 155,
       "htmlUrl": "https://github.com/charmoniumQ",
       "avatarUrl": "https://avatars.githubusercontent.com/u/928570?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "cheneyfeng3",
@@ -1588,7 +1648,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/cheneyfeng3",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6157438?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ChengShi-1",
@@ -1615,7 +1676,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 15,
       "htmlUrl": "https://github.com/ChengShi-1",
       "avatarUrl": "https://avatars.githubusercontent.com/u/91049239?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2024-09",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "chrisjcameron",
@@ -1642,7 +1709,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 11,
       "htmlUrl": "https://github.com/chrisjcameron",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1383080?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "christopherkenny",
@@ -1669,7 +1737,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 112,
       "htmlUrl": "https://github.com/christopherkenny",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28026893?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "claudiodsf",
@@ -1696,7 +1765,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 58,
       "htmlUrl": "https://github.com/claudiodsf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1390993?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "cmbz",
@@ -1723,7 +1793,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/cmbz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18597493?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2023-04",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "Cook4986",
@@ -1750,7 +1826,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 16,
       "htmlUrl": "https://github.com/Cook4986",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7727928?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "coret",
@@ -1777,7 +1854,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 43,
       "htmlUrl": "https://github.com/coret",
       "avatarUrl": "https://avatars.githubusercontent.com/u/101820?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "cperezmig-dipc",
@@ -1804,7 +1882,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/cperezmig-dipc",
       "avatarUrl": "https://avatars.githubusercontent.com/u/172268783?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "cristobaltapia",
@@ -1831,7 +1910,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 49,
       "htmlUrl": "https://github.com/cristobaltapia",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7276493?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "DaftPug",
@@ -1858,7 +1938,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 17,
       "htmlUrl": "https://github.com/DaftPug",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46531841?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "daniel-om-weber",
@@ -1885,7 +1966,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 15,
       "htmlUrl": "https://github.com/daniel-om-weber",
       "avatarUrl": "https://avatars.githubusercontent.com/u/37004549?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "daniel4nnah",
@@ -1912,7 +1994,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 21,
       "htmlUrl": "https://github.com/daniel4nnah",
       "avatarUrl": "https://avatars.githubusercontent.com/u/90881982?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "danielEbanks",
@@ -1939,7 +2022,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/danielEbanks",
       "avatarUrl": "https://avatars.githubusercontent.com/u/56091180?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "datacuratorcsuc",
@@ -1966,7 +2050,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/datacuratorcsuc",
       "avatarUrl": "https://avatars.githubusercontent.com/u/161481307?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "dataversebot",
@@ -1993,7 +2078,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/dataversebot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/52299539?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "davidverdu",
@@ -2020,7 +2106,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 12,
       "htmlUrl": "https://github.com/davidverdu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7900069?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "davuluri989",
@@ -2047,7 +2134,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/davuluri989",
       "avatarUrl": "https://avatars.githubusercontent.com/u/68589966?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ddeboer",
@@ -2074,7 +2162,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 132,
       "htmlUrl": "https://github.com/ddeboer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89267?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "diego-guillen",
@@ -2101,7 +2190,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/diego-guillen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/108262102?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "DieuwertjeBloemen",
@@ -2130,7 +2220,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/DieuwertjeBloemen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/92870663?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "diptechexpo",
@@ -2157,7 +2248,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/diptechexpo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/78333467?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "dliburd",
@@ -2184,7 +2276,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/dliburd",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11178866?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2007-12",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "doigl",
@@ -2211,7 +2309,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 15,
       "htmlUrl": "https://github.com/doigl",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38038460?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "DominikWA",
@@ -2238,7 +2337,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/DominikWA",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27404965?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "DonRichards",
@@ -2265,7 +2365,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 143,
       "htmlUrl": "https://github.com/DonRichards",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2738244?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "donsizemore",
@@ -2294,7 +2395,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/donsizemore",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12831666?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "dozed",
@@ -2321,7 +2423,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 131,
       "htmlUrl": "https://github.com/dozed",
       "avatarUrl": "https://avatars.githubusercontent.com/u/239058?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "DS-INRAE",
@@ -2348,7 +2451,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 24,
       "htmlUrl": "https://github.com/DS-INRAE",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46443753?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "EduardsSk",
@@ -2375,7 +2479,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/EduardsSk",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33160691?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "edwinlaw777",
@@ -2402,7 +2507,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/edwinlaw777",
       "avatarUrl": "https://avatars.githubusercontent.com/u/219936616?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "edzale",
@@ -2429,7 +2535,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 12,
       "htmlUrl": "https://github.com/edzale",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6197374?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ekoi",
@@ -2458,7 +2565,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 141,
       "htmlUrl": "https://github.com/ekoi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3190928?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ekraffmiller",
@@ -2485,7 +2593,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 23,
       "htmlUrl": "https://github.com/ekraffmiller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/675224?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2023-01",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "ElvisAravena",
@@ -2512,7 +2626,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/ElvisAravena",
       "avatarUrl": "https://avatars.githubusercontent.com/u/119429731?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "emily-katz",
@@ -2539,7 +2654,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/emily-katz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/165943350?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "emmaw786",
@@ -2568,7 +2684,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/emmaw786",
       "avatarUrl": "https://avatars.githubusercontent.com/u/204848579?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ericdevries",
@@ -2595,7 +2712,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 59,
       "htmlUrl": "https://github.com/ericdevries",
       "avatarUrl": "https://avatars.githubusercontent.com/u/817612?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "erodde",
@@ -2622,7 +2740,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/erodde",
       "avatarUrl": "https://avatars.githubusercontent.com/u/155449327?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ErykKul",
@@ -2651,7 +2770,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 13,
       "htmlUrl": "https://github.com/ErykKul",
       "avatarUrl": "https://avatars.githubusercontent.com/u/101262459?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "espenfl",
@@ -2678,7 +2798,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 31,
       "htmlUrl": "https://github.com/espenfl",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16185242?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Esteban-Mtz",
@@ -2705,7 +2826,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/Esteban-Mtz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/57714822?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "eugene-barsky",
@@ -2732,7 +2854,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/eugene-barsky",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10885112?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "eunices",
@@ -2759,7 +2882,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/eunices",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4596893?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "faborg",
@@ -2786,7 +2910,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/faborg",
       "avatarUrl": "https://avatars.githubusercontent.com/u/145348250?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Falco-KUB",
@@ -2813,7 +2938,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/Falco-KUB",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32436113?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ffritze",
@@ -2840,7 +2966,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/ffritze",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33899100?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "fgassert",
@@ -2867,7 +2994,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 44,
       "htmlUrl": "https://github.com/fgassert",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2185984?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Firestar-Reimu",
@@ -2894,7 +3022,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 24,
       "htmlUrl": "https://github.com/Firestar-Reimu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/65082432?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "flgomezc",
@@ -2921,7 +3050,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 47,
       "htmlUrl": "https://github.com/flgomezc",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4997767?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "FlorianRhiem",
@@ -2948,7 +3078,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 23,
       "htmlUrl": "https://github.com/FlorianRhiem",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4411847?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "foa2",
@@ -2975,7 +3106,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 11,
       "htmlUrl": "https://github.com/foa2",
       "avatarUrl": "https://avatars.githubusercontent.com/u/9935074?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "foobarbecue",
@@ -3002,7 +3134,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 126,
       "htmlUrl": "https://github.com/foobarbecue",
       "avatarUrl": "https://avatars.githubusercontent.com/u/854789?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "fsmutniak",
@@ -3029,7 +3162,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/fsmutniak",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89866586?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "g-saracca",
@@ -3056,7 +3190,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 16,
       "htmlUrl": "https://github.com/g-saracca",
       "avatarUrl": "https://avatars.githubusercontent.com/u/64560524?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Gabriel-Besombes",
@@ -3083,7 +3218,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/Gabriel-Besombes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43054081?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "gaelforget",
@@ -3110,7 +3246,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 121,
       "htmlUrl": "https://github.com/gaelforget",
       "avatarUrl": "https://avatars.githubusercontent.com/u/20276764?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Gepiro",
@@ -3137,7 +3274,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/Gepiro",
       "avatarUrl": "https://avatars.githubusercontent.com/u/63105199?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Gerafp",
@@ -3164,7 +3302,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/Gerafp",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25359497?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "glevyhas",
@@ -3191,7 +3330,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/glevyhas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5382977?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "golsch",
@@ -3218,7 +3358,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/golsch",
       "avatarUrl": "https://avatars.githubusercontent.com/u/36492865?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "GPortas",
@@ -3245,7 +3386,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 14,
       "htmlUrl": "https://github.com/GPortas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17010447?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "gtsueng",
@@ -3272,7 +3414,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 70,
       "htmlUrl": "https://github.com/gtsueng",
       "avatarUrl": "https://avatars.githubusercontent.com/u/9200138?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "guinslym",
@@ -3299,7 +3442,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 420,
       "htmlUrl": "https://github.com/guinslym",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4588993?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "gwendoux",
@@ -3326,7 +3470,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 33,
       "htmlUrl": "https://github.com/gwendoux",
       "avatarUrl": "https://avatars.githubusercontent.com/u/102069?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "haarli",
@@ -3353,7 +3498,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/haarli",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5524896?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "hamidtam",
@@ -3382,7 +3528,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/hamidtam",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19354125?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "hitzelbe",
@@ -3409,7 +3556,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/hitzelbe",
       "avatarUrl": "https://avatars.githubusercontent.com/u/49186209?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "iannesbitt",
@@ -3436,7 +3584,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 47,
       "htmlUrl": "https://github.com/iannesbitt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18689918?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "IlariaBelvedere",
@@ -3463,7 +3612,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/IlariaBelvedere",
       "avatarUrl": "https://avatars.githubusercontent.com/u/82025109?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "inDane",
@@ -3490,7 +3640,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/inDane",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5693407?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "isaacpratt",
@@ -3517,7 +3668,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/isaacpratt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/22667420?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ischmahl",
@@ -3544,7 +3696,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/ischmahl",
       "avatarUrl": "https://avatars.githubusercontent.com/u/82931945?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "j-n-c",
@@ -3571,7 +3724,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/j-n-c",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17250006?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JacekChudzik",
@@ -3598,7 +3752,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/JacekChudzik",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25703252?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jakobmolandergeus",
@@ -3625,7 +3780,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/jakobmolandergeus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/26303145?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jalperin",
@@ -3652,7 +3808,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 35,
       "htmlUrl": "https://github.com/jalperin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/129638?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jamessi1989",
@@ -3679,7 +3836,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/jamessi1989",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19503062?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "janetm",
@@ -3708,7 +3866,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/janetm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1214804?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "janvanmansum",
@@ -3737,7 +3896,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 165,
       "htmlUrl": "https://github.com/janvanmansum",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3862694?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jarulsamy",
@@ -3764,7 +3924,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 103,
       "htmlUrl": "https://github.com/jarulsamy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/14321139?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "javieru-dialnet",
@@ -3791,7 +3952,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/javieru-dialnet",
       "avatarUrl": "https://avatars.githubusercontent.com/u/203098969?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JayanthyChengan",
@@ -3820,7 +3982,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 11,
       "htmlUrl": "https://github.com/JayanthyChengan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12862735?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JBGruber",
@@ -3847,7 +4010,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 108,
       "htmlUrl": "https://github.com/JBGruber",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23524101?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jbiernaux",
@@ -3874,7 +4038,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/jbiernaux",
       "avatarUrl": "https://avatars.githubusercontent.com/u/178903515?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jdmar3",
@@ -3901,7 +4066,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 71,
       "htmlUrl": "https://github.com/jdmar3",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2459227?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jennaqi2001",
@@ -3928,7 +4094,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/jennaqi2001",
       "avatarUrl": "https://avatars.githubusercontent.com/u/90373001?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jeromeroucou",
@@ -3955,7 +4122,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/jeromeroucou",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13969969?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Jerry-Ma",
@@ -3982,7 +4150,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 59,
       "htmlUrl": "https://github.com/Jerry-Ma",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2752708?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JeyaSam",
@@ -4009,7 +4178,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/JeyaSam",
       "avatarUrl": "https://avatars.githubusercontent.com/u/51686455?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JFLopez7",
@@ -4036,7 +4206,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/JFLopez7",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17785064?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jgara",
@@ -4063,7 +4234,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/jgara",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13679887?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jggautier",
@@ -4090,7 +4262,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/jggautier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18374574?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2016-09",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "jmjamison",
@@ -4117,7 +4295,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 51,
       "htmlUrl": "https://github.com/jmjamison",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229689?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "joannag555",
@@ -4144,7 +4323,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/joannag555",
       "avatarUrl": "https://avatars.githubusercontent.com/u/224524825?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JoaoMFCardoso",
@@ -4171,7 +4351,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/JoaoMFCardoso",
       "avatarUrl": "https://avatars.githubusercontent.com/u/14236784?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "joelfan",
@@ -4198,7 +4379,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/joelfan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/24876842?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "johannes-darms",
@@ -4225,7 +4407,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 13,
       "htmlUrl": "https://github.com/johannes-darms",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8245181?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "johnhuck",
@@ -4254,7 +4437,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/johnhuck",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5233196?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jonathanbohan",
@@ -4281,7 +4465,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/jonathanbohan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33063235?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jonc1438",
@@ -4310,7 +4495,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/jonc1438",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7737314?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jonquet",
@@ -4337,7 +4523,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/jonquet",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7379183?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jorgelpolanco",
@@ -4364,7 +4551,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/jorgelpolanco",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13474701?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "josekarvalho",
@@ -4391,7 +4579,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 37,
       "htmlUrl": "https://github.com/josekarvalho",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1966160?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "jp-tosca",
@@ -4418,7 +4607,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/jp-tosca",
       "avatarUrl": "https://avatars.githubusercontent.com/u/142103991?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2023-10",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "jpedataeditor",
@@ -4445,7 +4640,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/jpedataeditor",
       "avatarUrl": "https://avatars.githubusercontent.com/u/191240343?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JR-1991",
@@ -4472,7 +4668,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 84,
       "htmlUrl": "https://github.com/JR-1991",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30547301?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "juancorr",
@@ -4501,7 +4698,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/juancorr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/325896?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "JulianRein",
@@ -4528,7 +4726,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/JulianRein",
       "avatarUrl": "https://avatars.githubusercontent.com/u/35046938?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "juriroemer",
@@ -4555,7 +4754,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 14,
       "htmlUrl": "https://github.com/juriroemer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/31971585?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kaczmirek",
@@ -4584,7 +4784,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/kaczmirek",
       "avatarUrl": "https://avatars.githubusercontent.com/u/31477308?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kaiongithub",
@@ -4611,7 +4812,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/KaiOnGitHub",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50620424?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kaitlinnewson",
@@ -4640,7 +4842,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 125,
       "htmlUrl": "https://github.com/kaitlinnewson",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6903515?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kamil386",
@@ -4667,7 +4870,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/kamil386",
       "avatarUrl": "https://avatars.githubusercontent.com/u/56053188?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kbatyuk",
@@ -4694,7 +4898,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/kbatyuk",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44371797?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kenlhlui",
@@ -4721,7 +4926,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 22,
       "htmlUrl": "https://github.com/kenlhlui",
       "avatarUrl": "https://avatars.githubusercontent.com/u/116421546?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kevinworthington",
@@ -4748,7 +4954,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 28,
       "htmlUrl": "https://github.com/kevinworthington",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1189231?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "KhoaBuind",
@@ -4775,7 +4982,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 13,
       "htmlUrl": "https://github.com/KhoaBuind",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18130009?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kjentech",
@@ -4802,7 +5010,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/kjentech",
       "avatarUrl": "https://avatars.githubusercontent.com/u/84007507?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kmika11",
@@ -4829,7 +5038,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 20,
       "htmlUrl": "https://github.com/kmika11",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23460791?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Koalax3",
@@ -4843,7 +5053,8 @@ export const MEMBERS_SNAPSHOT = [
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
-    "GitHub Profile": null
+    "GitHub Profile": null,
+    "Periods": []
   },
   {
     "GitHub Username": "kobbejager",
@@ -4870,7 +5081,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 15,
       "htmlUrl": "https://github.com/kobbejager",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4146403?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "konradoberwimmer",
@@ -4897,7 +5109,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/konradoberwimmer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12108511?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "koskalns",
@@ -4926,7 +5139,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/koskalns",
       "avatarUrl": "https://avatars.githubusercontent.com/u/241184924?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Kris-LIBIS",
@@ -4955,7 +5169,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 54,
       "htmlUrl": "https://github.com/Kris-LIBIS",
       "avatarUrl": "https://avatars.githubusercontent.com/u/477395?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "KRsaule",
@@ -4984,7 +5199,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/KRsaule",
       "avatarUrl": "https://avatars.githubusercontent.com/u/265775953?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kulsoomzahra",
@@ -5011,7 +5227,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 24,
       "htmlUrl": "https://github.com/kulsoomzahra",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46336830?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kuriwaki",
@@ -5038,7 +5255,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 94,
       "htmlUrl": "https://github.com/kuriwaki",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8290417?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "kwenzig",
@@ -5065,7 +5283,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/kwenzig",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6614820?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "landreev",
@@ -5092,7 +5311,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/landreev",
       "avatarUrl": "https://avatars.githubusercontent.com/u/737558?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2000-12",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "larsvilhuber",
@@ -5119,7 +5344,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 154,
       "htmlUrl": "https://github.com/larsvilhuber",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7022712?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "LauraHuisintveld",
@@ -5148,7 +5374,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/LauraHuisintveld",
       "avatarUrl": "https://avatars.githubusercontent.com/u/34090667?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "leligdon",
@@ -5175,7 +5402,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/leligdon",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27231301?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "lgarciap",
@@ -5202,7 +5430,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 28,
       "htmlUrl": "https://github.com/lgarciap",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6784322?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "linsherpa",
@@ -5229,7 +5458,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/linsherpa",
       "avatarUrl": "https://avatars.githubusercontent.com/u/87706210?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "lmaylein",
@@ -5256,7 +5486,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/lmaylein",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7468155?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "lobbikerivm",
@@ -5283,7 +5514,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/lobbikerivm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/135022299?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Louis-wr",
@@ -5312,7 +5544,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/Louis-wr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/85620187?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "lubitchv",
@@ -5341,7 +5574,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 16,
       "htmlUrl": "https://github.com/lubitchv",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43550154?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "luddaniel",
@@ -5368,7 +5602,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/luddaniel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/83018819?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "LyneVdV",
@@ -5395,7 +5630,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/LyneVdV",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43570542?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "M-DOREL",
@@ -5422,7 +5658,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/M-DOREL",
       "avatarUrl": "https://avatars.githubusercontent.com/u/147842161?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Maham802",
@@ -5449,7 +5686,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/Maham802",
       "avatarUrl": "https://avatars.githubusercontent.com/u/116267645?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mahendrapaipuri",
@@ -5476,7 +5714,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 62,
       "htmlUrl": "https://github.com/mahendrapaipuri",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44365948?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "markwilkinson",
@@ -5503,7 +5742,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 107,
       "htmlUrl": "https://github.com/markwilkinson",
       "avatarUrl": "https://avatars.githubusercontent.com/u/986414?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "matthew-a-dunlap",
@@ -5532,7 +5772,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 13,
       "htmlUrl": "https://github.com/matthew-a-dunlap",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8901015?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2017-08",
+        "End Date": "2019-12"
+      }
+    ]
   },
   {
     "GitHub Username": "maximilian-tech",
@@ -5559,7 +5805,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 21,
       "htmlUrl": "https://github.com/maximilian-tech",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55374514?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mbamouni",
@@ -5586,7 +5833,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/mbamouni",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11071597?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mbarram",
@@ -5613,7 +5861,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/mbarram",
       "avatarUrl": "https://avatars.githubusercontent.com/u/152221784?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mcgaerty",
@@ -5640,7 +5889,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/mcgaerty",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32057779?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mdmADA",
@@ -5669,7 +5919,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/mdmADA",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23644215?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "meghangoodchild",
@@ -5698,7 +5949,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/meghangoodchild",
       "avatarUrl": "https://avatars.githubusercontent.com/u/34171553?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "MellyGray",
@@ -5725,7 +5977,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 8,
       "htmlUrl": "https://github.com/MellyGray",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23359572?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mercecrosas",
@@ -5752,7 +6005,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/mercecrosas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/676040?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2004-10",
+        "End Date": "2021-07"
+      }
+    ]
   },
   {
     "GitHub Username": "mglavica",
@@ -5779,7 +6038,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/mglavica",
       "avatarUrl": "https://avatars.githubusercontent.com/u/138896?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "michbarsinai",
@@ -5806,7 +6066,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 25,
       "htmlUrl": "https://github.com/michbarsinai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1938468?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "miramgleiber",
@@ -5833,7 +6094,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/miramgleiber",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19195120?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mlage",
@@ -5860,7 +6122,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/mlage",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6475645?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "mmillenaa",
@@ -5887,7 +6150,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 8,
       "htmlUrl": "https://github.com/mmillenaa",
       "avatarUrl": "https://avatars.githubusercontent.com/u/102330737?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "myi100",
@@ -5914,7 +6178,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 18,
       "htmlUrl": "https://github.com/myi100",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2923059?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "nana-boateng",
@@ -5943,7 +6208,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 21,
       "htmlUrl": "https://github.com/nana-boateng",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44186742?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "nightowlaz",
@@ -5970,7 +6236,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/nightowlaz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/22484650?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Nikos-Askitas",
@@ -5997,7 +6264,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/Nikos-Askitas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/148442281?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "nmunatsibw",
@@ -6024,7 +6292,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/nmunatsibw",
       "avatarUrl": "https://avatars.githubusercontent.com/u/129177120?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Odysseas640",
@@ -6051,7 +6320,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 17,
       "htmlUrl": "https://github.com/Odysseas640",
       "avatarUrl": "https://avatars.githubusercontent.com/u/68035017?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "okaradeniz",
@@ -6080,7 +6350,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/okaradeniz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50135284?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "orazionelson",
@@ -6107,7 +6378,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 38,
       "htmlUrl": "https://github.com/orazionelson",
       "avatarUrl": "https://avatars.githubusercontent.com/u/113308?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "otter606",
@@ -6134,7 +6406,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/otter606",
       "avatarUrl": "https://avatars.githubusercontent.com/u/9452189?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Ozoubia",
@@ -6161,7 +6434,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 54,
       "htmlUrl": "https://github.com/Ozoubia",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18463201?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "pablovp86",
@@ -6188,7 +6462,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/pablovp86",
       "avatarUrl": "https://avatars.githubusercontent.com/u/26493682?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "pacian",
@@ -6215,7 +6490,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 18,
       "htmlUrl": "https://github.com/pacian",
       "avatarUrl": "https://avatars.githubusercontent.com/u/15014363?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "pallinger",
@@ -6242,7 +6518,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 22,
       "htmlUrl": "https://github.com/pallinger",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1242914?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Parthsuii",
@@ -6269,7 +6546,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 14,
       "htmlUrl": "https://github.com/Parthsuii",
       "avatarUrl": "https://avatars.githubusercontent.com/u/125957510?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "PatrickKibies",
@@ -6296,7 +6574,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/PatrickKibies",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8845630?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "PaulBoon",
@@ -6325,7 +6604,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 76,
       "htmlUrl": "https://github.com/PaulBoon",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2151103?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "pdurbin",
@@ -6352,7 +6632,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 192,
       "htmlUrl": "https://github.com/pdurbin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/21006?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2012-12",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "pedroprincipe",
@@ -6379,7 +6665,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/pedroprincipe",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5166508?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "PFMS21",
@@ -6406,7 +6693,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/PFMS21",
       "avatarUrl": "https://avatars.githubusercontent.com/u/283989466?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "philip-muench",
@@ -6433,7 +6721,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 34,
       "htmlUrl": "https://github.com/philip-muench",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25961565?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "philippconzett",
@@ -6462,7 +6751,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 16,
       "htmlUrl": "https://github.com/philippconzett",
       "avatarUrl": "https://avatars.githubusercontent.com/u/21955790?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "phillipsjs",
@@ -6489,7 +6779,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 19,
       "htmlUrl": "https://github.com/phillipsjs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5552158?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "pkiraly",
@@ -6516,7 +6807,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 95,
       "htmlUrl": "https://github.com/pkiraly",
       "avatarUrl": "https://avatars.githubusercontent.com/u/218218?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "plecor",
@@ -6543,7 +6835,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/plecor",
       "avatarUrl": "https://avatars.githubusercontent.com/u/146710476?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "plesubc",
@@ -6570,7 +6863,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/plesubc",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59897035?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "PLoboC",
@@ -6597,7 +6891,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/PLoboC",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25769350?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "poikilotherm",
@@ -6624,7 +6919,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 42,
       "htmlUrl": "https://github.com/poikilotherm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5468333?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ProfPhoenix",
@@ -6651,7 +6947,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/ProfPhoenix",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89162090?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "prpfialho",
@@ -6678,7 +6975,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 8,
       "htmlUrl": "https://github.com/prpfialho",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7935214?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "qqmyers",
@@ -6707,7 +7005,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/qqmyers",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6731983?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rachfern85",
@@ -6734,7 +7033,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/rachfern85",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59843025?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "RAHMAHAMMA",
@@ -6761,7 +7061,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/RAHMAHAMMA",
       "avatarUrl": "https://avatars.githubusercontent.com/u/47905281?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rawidiyaningrum",
@@ -6788,7 +7089,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/rawidiyaningrum",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30921155?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "RDA-UNR",
@@ -6815,7 +7117,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/RDA-UNR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/111135734?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rdlebeau",
@@ -6842,7 +7145,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/rdlebeau",
       "avatarUrl": "https://avatars.githubusercontent.com/u/198827564?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "reikoch",
@@ -6869,7 +7173,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 15,
       "htmlUrl": "https://github.com/reikoch",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8436725?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "RemieJanssen",
@@ -6896,7 +7201,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 20,
       "htmlUrl": "https://github.com/RemieJanssen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27146369?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ReneFGJr",
@@ -6923,7 +7229,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 57,
       "htmlUrl": "https://github.com/ReneFGJr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7451759?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rhijmans",
@@ -6950,7 +7257,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 31,
       "htmlUrl": "https://github.com/rhijmans",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11481397?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "RichCaloggero",
@@ -6977,7 +7285,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 80,
       "htmlUrl": "https://github.com/RichCaloggero",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6731039?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rmo-cdsp",
@@ -7004,7 +7313,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/rmo-cdsp",
       "avatarUrl": "https://avatars.githubusercontent.com/u/14806890?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rnichols7",
@@ -7031,7 +7341,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/rnichols7",
       "avatarUrl": "https://avatars.githubusercontent.com/u/127120052?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "RoHei",
@@ -7058,7 +7369,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/RoHei",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38701619?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rtreacy",
@@ -7085,7 +7397,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/rtreacy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/675667?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "rwvaldivia",
@@ -7112,7 +7425,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/rwvaldivia",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1844023?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Saixel",
@@ -7139,7 +7453,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/Saixel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/74431162?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Sakshi-75",
@@ -7166,7 +7481,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 56,
       "htmlUrl": "https://github.com/Sakshi-75",
       "avatarUrl": "https://avatars.githubusercontent.com/u/20265098?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "samusz",
@@ -7193,7 +7509,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 116,
       "htmlUrl": "https://github.com/samusz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/341706?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Sathvikaundala",
@@ -7220,7 +7537,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 39,
       "htmlUrl": "https://github.com/Sathvikaundala",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221063571?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "sbarbosadataverse",
@@ -7247,7 +7565,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/sbarbosadataverse",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8322346?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "1995-10",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "schorcht-ioer",
@@ -7274,7 +7598,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/schorcht-ioer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/123582538?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "scolapasta",
@@ -7301,7 +7626,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/scolapasta",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4268292?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2008-12",
+        "End Date": "2026-06"
+      }
+    ]
   },
   {
     "GitHub Username": "seaneu",
@@ -7328,7 +7659,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/seaneu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62105812?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "sekmiller",
@@ -7355,7 +7687,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/sekmiller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2364928?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2010-12",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "sergejzr",
@@ -7382,7 +7720,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 34,
       "htmlUrl": "https://github.com/sergejzr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12542792?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "sguyader",
@@ -7409,7 +7748,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/sguyader",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13856378?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "shlake",
@@ -7436,7 +7776,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 79,
       "htmlUrl": "https://github.com/shlake",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3809325?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "shuffle2",
@@ -7463,7 +7804,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 58,
       "htmlUrl": "https://github.com/shuffle2",
       "avatarUrl": "https://avatars.githubusercontent.com/u/113063?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "siacus",
@@ -7490,7 +7832,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 17,
       "htmlUrl": "https://github.com/siacus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5621970?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2022-05",
+        "End Date": "2025-08"
+      }
+    ]
   },
   {
     "GitHub Username": "sindribaldur",
@@ -7517,7 +7865,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/sindribaldur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/20801939?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Sipxi",
@@ -7544,7 +7893,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 22,
       "htmlUrl": "https://github.com/Sipxi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/84419238?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "sirineREKIK",
@@ -7571,7 +7921,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/sirineREKIK",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110403723?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "skasberger",
@@ -7598,7 +7949,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 43,
       "htmlUrl": "https://github.com/skasberger",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1374253?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "solhm",
@@ -7625,7 +7977,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/solhm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11419590?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "srmanda-cs",
@@ -7654,7 +8007,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/srmanda-cs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/72903456?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "stefanandonov",
@@ -7681,7 +8035,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 93,
       "htmlUrl": "https://github.com/stefanandonov",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25883420?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "stevenferey",
@@ -7708,7 +8063,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/stevenferey",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13960773?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "stevenmce",
@@ -7737,7 +8093,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 8,
       "htmlUrl": "https://github.com/stevenmce",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1224019?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "stevenwinship",
@@ -7764,7 +8121,13 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/stevenwinship",
       "avatarUrl": "https://avatars.githubusercontent.com/u/39765413?v=4"
-    }
+    },
+    "Periods": [
+      {
+        "Start Date": "2023-10",
+        "End Date": ""
+      }
+    ]
   },
   {
     "GitHub Username": "summitcheung",
@@ -7791,7 +8154,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/summitcheung",
       "avatarUrl": "https://avatars.githubusercontent.com/u/189391064?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "superpegaso2703",
@@ -7818,7 +8182,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/superpegaso2703",
       "avatarUrl": "https://avatars.githubusercontent.com/u/177873564?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "synapticrain",
@@ -7845,7 +8210,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/synapticrain",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46411893?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "TanayKarve",
@@ -7872,7 +8238,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 26,
       "htmlUrl": "https://github.com/TanayKarve",
       "avatarUrl": "https://avatars.githubusercontent.com/u/42843134?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "tcoupin",
@@ -7899,7 +8266,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 26,
       "htmlUrl": "https://github.com/tcoupin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7457386?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "tgoelles",
@@ -7926,7 +8294,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 36,
       "htmlUrl": "https://github.com/tgoelles",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28436117?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "thegaryking",
@@ -7953,7 +8322,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/thegaryking",
       "avatarUrl": "https://avatars.githubusercontent.com/u/575230?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "thewilkybarkid",
@@ -7980,7 +8350,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 218,
       "htmlUrl": "https://github.com/thewilkybarkid",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1784740?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "thiagombrasil",
@@ -8007,7 +8378,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/thiagombrasil",
       "avatarUrl": "https://avatars.githubusercontent.com/u/34483743?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "thisisbillie",
@@ -8036,7 +8408,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/thisisbillie",
       "avatarUrl": "https://avatars.githubusercontent.com/u/95002283?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "TillJan",
@@ -8063,7 +8436,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/TillJan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/129257955?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "tjouneau",
@@ -8090,7 +8464,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/tjouneau",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6040893?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "tlchristian",
@@ -8119,7 +8494,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 8,
       "htmlUrl": "https://github.com/tlchristian",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6351715?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "tosunmerve",
@@ -8146,7 +8522,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/tosunmerve",
       "avatarUrl": "https://avatars.githubusercontent.com/u/100139006?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "transfluxus",
@@ -8173,7 +8550,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 51,
       "htmlUrl": "https://github.com/transfluxus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1574219?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "tvanerven",
@@ -8200,7 +8578,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 31,
       "htmlUrl": "https://github.com/tvanerven",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23262969?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "twtw",
@@ -8227,7 +8606,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 12,
       "htmlUrl": "https://github.com/twtw",
       "avatarUrl": "https://avatars.githubusercontent.com/u/260506?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "UncleJefferson",
@@ -8254,7 +8634,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/UncleJefferson",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1038759?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "univiedev",
@@ -8283,7 +8664,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/univiedev",
       "avatarUrl": "https://avatars.githubusercontent.com/u/219859838?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "vaidap",
@@ -8310,7 +8692,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 34,
       "htmlUrl": "https://github.com/vaidap",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13666710?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "vaidasmo",
@@ -8337,7 +8720,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 28,
       "htmlUrl": "https://github.com/vaidasmo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8818209?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "vbonamy",
@@ -8364,7 +8748,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 54,
       "htmlUrl": "https://github.com/vbonamy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1545503?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Venki18",
@@ -8391,7 +8776,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/Venki18",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19611506?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "vera",
@@ -8418,7 +8804,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 20,
       "htmlUrl": "https://github.com/vera",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16904069?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "virgilejarrige",
@@ -8445,7 +8832,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/virgilejarrige",
       "avatarUrl": "https://avatars.githubusercontent.com/u/67372423?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "vkush",
@@ -8472,7 +8860,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/vkush",
       "avatarUrl": "https://avatars.githubusercontent.com/u/21084836?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "wendysmann",
@@ -8499,7 +8888,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/wendysmann",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11178843?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "WittenbergM",
@@ -8528,7 +8918,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/WittenbergM",
       "avatarUrl": "https://avatars.githubusercontent.com/u/87473137?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "won-seoop",
@@ -8555,7 +8946,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 51,
       "htmlUrl": "https://github.com/won-seoop",
       "avatarUrl": "https://avatars.githubusercontent.com/u/123632194?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "wpavan",
@@ -8582,7 +8974,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 55,
       "htmlUrl": "https://github.com/wpavan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/87217?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "wshahn",
@@ -8611,7 +9004,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 3,
       "htmlUrl": "https://github.com/wshahn",
       "avatarUrl": "https://avatars.githubusercontent.com/u/162052406?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "wtr-icm",
@@ -8638,7 +9032,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/wtr-icm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/58430746?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "Xiaoming",
@@ -8665,7 +9060,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/Xiaoming",
       "avatarUrl": "https://avatars.githubusercontent.com/u/214696?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "xiaya2309",
@@ -8692,7 +9088,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/xiaya2309",
       "avatarUrl": "https://avatars.githubusercontent.com/u/83048566?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "yaof22",
@@ -8719,7 +9116,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/yaof22",
       "avatarUrl": "https://avatars.githubusercontent.com/u/203778983?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "yesilms",
@@ -8746,7 +9144,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/yesilms",
       "avatarUrl": "https://avatars.githubusercontent.com/u/215659881?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "yh-repo",
@@ -8773,7 +9172,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/yh-repo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/128443265?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "yikangfengnie",
@@ -8800,7 +9200,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/yikangfengnie",
       "avatarUrl": "https://avatars.githubusercontent.com/u/122010545?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "younnoh",
@@ -8827,7 +9228,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/younnoh",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6482978?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "youseihuayu-wonderful",
@@ -8854,7 +9256,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 16,
       "htmlUrl": "https://github.com/youseihuayu-wonderful",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258670436?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "youssefOuahalou",
@@ -8881,7 +9284,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/youssefOuahalou",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46802308?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "ysuarez",
@@ -8908,7 +9312,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 42,
       "htmlUrl": "https://github.com/ysuarez",
       "avatarUrl": "https://avatars.githubusercontent.com/u/725449?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "zbcevik",
@@ -8937,7 +9342,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 9,
       "htmlUrl": "https://github.com/zbcevik",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89674920?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "zbenta",
@@ -8964,7 +9370,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 7,
       "htmlUrl": "https://github.com/zbenta",
       "avatarUrl": "https://avatars.githubusercontent.com/u/54443719?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "zearaujo25",
@@ -8991,7 +9398,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 25,
       "htmlUrl": "https://github.com/zearaujo25",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17474404?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "zhoulvjun",
@@ -9018,7 +9426,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 5,
       "htmlUrl": "https://github.com/zhoulvjun",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16499028?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "zieglerms",
@@ -9045,7 +9454,8 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/zieglerms",
       "avatarUrl": "https://avatars.githubusercontent.com/u/36274412?v=4"
-    }
+    },
+    "Periods": []
   },
   {
     "GitHub Username": "zolttoth",
@@ -9072,6 +9482,127 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/zolttoth",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3974882?v=4"
-    }
+    },
+    "Periods": []
+  },
+  {
+    "GitHub Username": "kcondon",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null,
+    "Periods": [
+      {
+        "Start Date": "2007-05",
+        "End Date": "2023-10"
+      }
+    ]
+  },
+  {
+    "GitHub Username": "mheppler",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null,
+    "Periods": [
+      {
+        "Start Date": "2007-06",
+        "End Date": "2021-03"
+      }
+    ]
+  },
+  {
+    "GitHub Username": "eaquigley",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null,
+    "Periods": [
+      {
+        "Start Date": "2013-08",
+        "End Date": "2016-08"
+      }
+    ]
+  },
+  {
+    "GitHub Username": "djbrooke",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null,
+    "Periods": [
+      {
+        "Start Date": "2016-07",
+        "End Date": "2022-01"
+      }
+    ]
+  },
+  {
+    "GitHub Username": "dlmurphy",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null,
+    "Periods": [
+      {
+        "Start Date": "2016-10",
+        "End Date": "2019-07"
+      }
+    ]
+  },
+  {
+    "GitHub Username": "taniaschlatter",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": null,
+    "Periods": [
+      {
+        "Start Date": "2016-11",
+        "End Date": "2022-05"
+      }
+    ]
   }
 ];

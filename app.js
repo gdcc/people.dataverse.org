@@ -2,6 +2,7 @@ import { MEMBERS_SNAPSHOT, SNAPSHOT_META } from "./data/members.js";
 
 const APP_BASE_PATH = getAppBasePath();
 const fieldLabels = {
+  joined: "Joined",
   primaryInstallation: "Primary installation",
   workingGroups: "Working groups",
   country: "Country",
@@ -15,6 +16,7 @@ const enrichmentMaps = buildEnrichmentMaps(MEMBERS_SNAPSHOT);
 const state = {
   members: normalizeMembers(MEMBERS_SNAPSHOT),
   loadedAt: SNAPSHOT_META.generatedAt,
+  timelineAutoScrolled: false,
   ...getLocationState(),
 };
 
@@ -22,6 +24,7 @@ const elements = {
   overviewPanel: document.querySelector("#overview-panel"),
   filtersPanel: document.querySelector("#filters-panel"),
   resultsPanel: document.querySelector("#results-panel"),
+  timelinePanel: document.querySelector("#timeline-panel"),
   memberRouteActions: document.querySelector("#member-route-actions"),
   searchInput: document.querySelector("#search-input"),
   installationFilter: document.querySelector("#installation-filter"),
@@ -35,6 +38,8 @@ const elements = {
   sourceBadge: document.querySelector("#source-badge"),
   updatedAt: document.querySelector("#updated-at"),
   resultsCopy: document.querySelector("#results-copy"),
+  timelineCopy: document.querySelector("#timeline-copy"),
+  timelineBars: document.querySelector("#timeline-bars"),
   cardGrid: document.querySelector("#card-grid"),
   cardTemplate: document.querySelector("#member-card-template"),
 };
@@ -106,6 +111,7 @@ function render() {
   const visibleMembers = getVisibleMembers();
   updateDocumentTitle(visibleMembers);
   updateStats(visibleMembers);
+  renderTimeline(visibleMembers);
   renderCards(visibleMembers);
   renderMeta(visibleMembers);
   syncFilterInputs();
@@ -121,9 +127,279 @@ function toggleRouteSections(isMemberRoute) {
   if (elements.resultsPanel) {
     elements.resultsPanel.hidden = isMemberRoute;
   }
+  if (elements.timelinePanel) {
+    elements.timelinePanel.hidden = isMemberRoute;
+  }
   if (elements.memberRouteActions) {
     elements.memberRouteActions.hidden = !isMemberRoute;
   }
+}
+
+function renderTimeline(members) {
+  if (!elements.timelineBars || !elements.timelineCopy) {
+    return;
+  }
+
+  elements.timelineBars.innerHTML = "";
+  const timeline = buildTimelineRows(members);
+
+  if (!timeline) {
+    elements.timelineCopy.textContent = "No timeline data for this selection.";
+    return;
+  }
+
+  elements.timelineCopy.textContent = `${timeline.rows.length} members • ${formatMonthIndex(
+    timeline.startMonthIndex,
+  )} to ${formatMonthIndex(timeline.endMonthIndex)}.`;
+
+  const shell = document.createElement("div");
+  shell.className = "timeline-shell";
+
+  const names = document.createElement("div");
+  names.className = "timeline-names";
+
+  const namesGrid = document.createElement("div");
+  namesGrid.className = "timeline-names-grid";
+
+  const scroll = document.createElement("div");
+  scroll.className = "timeline-scroll";
+
+  const tracksGrid = document.createElement("div");
+  tracksGrid.className = "timeline-tracks-grid";
+  tracksGrid.style.setProperty("--timeline-width", `${timeline.widthPx}px`);
+
+  const namesFragment = document.createDocumentFragment();
+  const tracksFragment = document.createDocumentFragment();
+  for (const row of timeline.rows) {
+    const nameRow = document.createElement("div");
+    nameRow.className = "timeline-name-row";
+
+    const name = document.createElement("span");
+    name.className = "timeline-name";
+    name.textContent = row.label;
+
+    nameRow.append(name);
+    namesFragment.append(nameRow);
+
+    const trackRow = document.createElement("div");
+    trackRow.className = "timeline-track-row";
+
+    const track = document.createElement("span");
+    track.className = "timeline-track";
+
+    for (const segment of row.segments) {
+      const bar = document.createElement("span");
+      bar.className = "timeline-segment";
+      bar.style.left = `${segment.leftPercent}%`;
+      bar.style.width = `${segment.widthPercent}%`;
+      bar.title = `${row.label}: ${segment.startLabel} to ${segment.endLabel}`;
+      track.append(bar);
+    }
+
+    trackRow.append(track);
+    tracksFragment.append(trackRow);
+  }
+
+  const axisNameRow = document.createElement("div");
+  axisNameRow.className = "timeline-axis-name-row";
+
+  const axisName = document.createElement("span");
+  axisName.className = "timeline-axis-name";
+  axisName.textContent = "Dates";
+
+  axisNameRow.append(axisName);
+  namesFragment.append(axisNameRow);
+
+  const axisTrackRow = document.createElement("div");
+  axisTrackRow.className = "timeline-axis-track-row";
+
+  const axisTrack = document.createElement("span");
+  axisTrack.className = "timeline-axis-track";
+
+  for (const tick of timeline.ticks) {
+    const tickNode = document.createElement("span");
+    tickNode.className = "timeline-axis-tick";
+    tickNode.style.left = `${tick.leftPercent}%`;
+
+    const label = document.createElement("span");
+    label.className = "timeline-axis-label";
+    label.textContent = tick.label;
+    tickNode.append(label);
+    axisTrack.append(tickNode);
+  }
+
+  axisTrackRow.append(axisTrack);
+  tracksFragment.append(axisTrackRow);
+
+  namesGrid.append(namesFragment);
+  tracksGrid.append(tracksFragment);
+  names.append(namesGrid);
+  scroll.append(tracksGrid);
+  shell.append(names, scroll);
+  elements.timelineBars.append(shell);
+
+  if (!state.timelineAutoScrolled) {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const scroller = scroll;
+        scroller.scrollLeft = scroller.scrollWidth;
+        state.timelineAutoScrolled = scroller.scrollLeft > 0;
+      });
+    });
+  }
+}
+
+function buildTimelineRows(members) {
+  const rows = [];
+  const currentDate = new Date();
+  const currentMonthIndex = getMonthIndex({
+    year: currentDate.getUTCFullYear(),
+    month: currentDate.getUTCMonth() + 1,
+  });
+  let minMonthIndex = Number.POSITIVE_INFINITY;
+  let maxMonthIndex = Number.NEGATIVE_INFINITY;
+
+  for (const member of members) {
+    if (!Array.isArray(member.periods) || member.periods.length === 0) {
+      continue;
+    }
+
+    const segments = [];
+    let hasOpenSegment = false;
+    let earliestOpenStartMonthIndex = Number.POSITIVE_INFINITY;
+    let earliestStartMonthIndex = Number.POSITIVE_INFINITY;
+    let latestClosedEndMonthIndex = Number.NEGATIVE_INFINITY;
+    for (const period of member.periods) {
+      const startParts = parseYearMonth(period.startDate);
+      if (!startParts) {
+        continue;
+      }
+
+      const startMonthIndex = getMonthIndex(startParts);
+      earliestStartMonthIndex = Math.min(earliestStartMonthIndex, startMonthIndex);
+      const endParts = parseYearMonth(period.endDate);
+      const endMonthIndex = Math.max(
+        startMonthIndex,
+        endParts ? getMonthIndex(endParts) : currentMonthIndex,
+      );
+
+      if (!endParts) {
+        hasOpenSegment = true;
+        earliestOpenStartMonthIndex = Math.min(
+          earliestOpenStartMonthIndex,
+          startMonthIndex,
+        );
+      } else {
+        latestClosedEndMonthIndex = Math.max(latestClosedEndMonthIndex, endMonthIndex);
+      }
+
+      minMonthIndex = Math.min(minMonthIndex, startMonthIndex);
+      maxMonthIndex = Math.max(maxMonthIndex, endMonthIndex);
+      segments.push({
+        startMonthIndex,
+        endMonthIndex,
+        startLabel: formatMonthIndex(startMonthIndex),
+        endLabel: endParts ? formatMonthIndex(endMonthIndex) : "present",
+      });
+    }
+
+    if (segments.length === 0) {
+      continue;
+    }
+
+    segments.sort((left, right) => left.startMonthIndex - right.startMonthIndex);
+    rows.push({
+      label: member.githubUsername,
+      segments,
+      hasOpenSegment,
+      earliestOpenStartMonthIndex,
+      earliestStartMonthIndex,
+      latestClosedEndMonthIndex,
+    });
+  }
+
+  if (rows.length === 0) {
+    return null;
+  }
+
+  const totalMonths = maxMonthIndex - minMonthIndex + 1;
+  const monthSpan = Math.max(1, totalMonths - 1);
+  const pixelsPerMonth = 7;
+  const widthPx = Math.max(totalMonths * pixelsPerMonth, 360);
+
+  rows.sort((left, right) => {
+    if (left.hasOpenSegment !== right.hasOpenSegment) {
+      return left.hasOpenSegment ? -1 : 1;
+    }
+
+    if (left.hasOpenSegment && right.hasOpenSegment) {
+      if (left.earliestOpenStartMonthIndex !== right.earliestOpenStartMonthIndex) {
+        return left.earliestOpenStartMonthIndex - right.earliestOpenStartMonthIndex;
+      }
+    } else if (!left.hasOpenSegment && !right.hasOpenSegment) {
+      if (left.latestClosedEndMonthIndex !== right.latestClosedEndMonthIndex) {
+        return right.latestClosedEndMonthIndex - left.latestClosedEndMonthIndex;
+      }
+    }
+
+    if (left.earliestStartMonthIndex !== right.earliestStartMonthIndex) {
+      return left.earliestStartMonthIndex - right.earliestStartMonthIndex;
+    }
+
+    return left.label.localeCompare(right.label);
+  });
+
+  for (const row of rows) {
+    for (const segment of row.segments) {
+      segment.leftPercent = ((segment.startMonthIndex - minMonthIndex) / monthSpan) * 100;
+      segment.widthPercent =
+        ((segment.endMonthIndex - segment.startMonthIndex + 1) / totalMonths) * 100;
+    }
+  }
+
+  return {
+    rows,
+    startMonthIndex: minMonthIndex,
+    endMonthIndex: maxMonthIndex,
+    widthPx,
+    ticks: buildTimelineTicks(minMonthIndex, maxMonthIndex, monthSpan),
+  };
+}
+
+function buildTimelineTicks(startMonthIndex, endMonthIndex, monthSpan) {
+  const tickMonthIndexes = new Set([startMonthIndex, endMonthIndex]);
+  const startYear = Math.floor(startMonthIndex / 12);
+  const endYear = Math.floor(endMonthIndex / 12);
+
+  for (let year = startYear; year <= endYear; year += 1) {
+    const januaryMonthIndex = getMonthIndex({ year, month: 1 });
+    if (januaryMonthIndex >= startMonthIndex && januaryMonthIndex <= endMonthIndex) {
+      tickMonthIndexes.add(januaryMonthIndex);
+    }
+  }
+
+  return [...tickMonthIndexes]
+    .sort((left, right) => left - right)
+    .map((tickMonthIndex) => {
+      const isBoundary =
+        tickMonthIndex === startMonthIndex || tickMonthIndex === endMonthIndex;
+      const year = Math.floor(tickMonthIndex / 12);
+
+      return {
+        leftPercent: ((tickMonthIndex - startMonthIndex) / monthSpan) * 100,
+        label: isBoundary ? formatMonthIndex(tickMonthIndex) : String(year),
+      };
+    });
+}
+
+function getMonthIndex(parts) {
+  return parts.year * 12 + (parts.month - 1);
+}
+
+function formatMonthIndex(monthIndex) {
+  const year = Math.floor(monthIndex / 12);
+  const month = (monthIndex % 12) + 1;
+  return formatInvolvementMonthYear(`${year}-${String(month).padStart(2, "0")}`);
 }
 
 function updateDocumentTitle(visibleMembers) {
@@ -256,6 +532,7 @@ function renderCards(members) {
 
     const meta = node.querySelector(".member-meta");
     const fields = [
+      "joined",
       "primaryInstallation",
       "workingGroups",
       "githubLocation",
@@ -929,8 +1206,13 @@ function getHomeUrl(filters) {
 }
 
 function extractMember(row) {
+  const periods = parsePeriods(row.Periods);
+  const joined = formatInvolvementMonthYear(getEarliestStartDate(periods));
+
   return {
     githubUsername: row["GitHub Username"]?.trim() ?? "",
+    joined,
+    periods,
     primaryInstallation: row["Primary installation"]?.trim() ?? "",
     workingGroups: parseWorkingGroups(row["Working Groups"]),
     issue: row.Issue?.trim() ?? "",
@@ -969,6 +1251,66 @@ function parseWorkingGroups(value) {
     .split(",")
     .map((group) => group.trim())
     .filter(Boolean);
+}
+
+function parsePeriods(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value
+    .map((period) => ({
+      startDate: String(period?.["Start Date"] ?? "").trim(),
+      endDate: String(period?.["End Date"] ?? "").trim(),
+    }))
+    .filter((period) => period.startDate || period.endDate);
+}
+
+function getEarliestStartDate(periods) {
+  const startDates = periods
+    .map((period) => period.startDate)
+    .filter((dateValue) => /^\d{4}-\d{2}(?:-\d{2})?$/.test(dateValue));
+
+  if (startDates.length === 0) {
+    return "";
+  }
+
+  return startDates.sort((left, right) => left.localeCompare(right))[0];
+}
+
+function formatInvolvementMonthYear(value) {
+  const match = String(value ?? "").match(/^(\d{4})-(\d{2})(?:-(\d{2}))?$/);
+  if (!match) {
+    return "";
+  }
+
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  if (!Number.isFinite(year) || !Number.isFinite(month) || month < 1 || month > 12) {
+    return "";
+  }
+
+  const date = new Date(Date.UTC(year, month - 1, 1));
+  return new Intl.DateTimeFormat(undefined, {
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+}
+
+function parseYearMonth(value) {
+  const match = String(value ?? "").match(/^(\d{4})-(\d{2})(?:-(\d{2}))?$/);
+  if (!match) {
+    return null;
+  }
+
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  if (!Number.isFinite(year) || !Number.isFinite(month) || month < 1 || month > 12) {
+    return null;
+  }
+
+  return { year, month };
 }
 
 function applyEnrichment(member) {

@@ -30,6 +30,7 @@ If the cached source files change and you want to update the checked-in snapshot
 
 ```bash
 ./scripts/download-tsv.sh
+./scripts/download-project-involvement-tsv.sh
 ./scripts/download-installations-json.sh
 ./scripts/update-dataversetv.sh
 node ./scripts/update-github-users.mjs

@@ -159,7 +159,8 @@ body.member-route .layout {
 
 #overview-panel[hidden],
 #filters-panel[hidden],
-#results-panel[hidden] {
+#results-panel[hidden],
+#timeline-panel[hidden] {
   display: none !important;
 }
 
@@ -295,6 +296,135 @@ select {
 
 .results-header p {
   margin: 8px 0 0;
+}
+
+.timeline-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.timeline-header h2 {
+  font-size: 1.75rem;
+}
+
+.timeline-header p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.timeline-bars {
+  overflow: hidden;
+  padding: 4px;
+}
+
+.timeline-shell {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  column-gap: 12px;
+}
+
+.timeline-names {
+  background: var(--panel-strong);
+  border-radius: var(--radius-sm);
+}
+
+.timeline-names-grid,
+.timeline-tracks-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.timeline-scroll {
+  overflow-x: auto;
+  min-width: 0;
+}
+
+.timeline-tracks-grid {
+  width: max(100%, var(--timeline-width));
+}
+
+.timeline-name-row,
+.timeline-track-row {
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-axis-name-row,
+.timeline-axis-track-row {
+  height: 28px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-name,
+.timeline-axis-name {
+  display: block;
+  width: 100%;
+  font-size: 0.85rem;
+  color: var(--text);
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.timeline-axis-name {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.timeline-track {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.timeline-segment {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+}
+
+.timeline-axis-track {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.timeline-axis-tick {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.timeline-axis-tick::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 7px;
+  background: var(--border);
+}
+
+.timeline-axis-label {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  white-space: nowrap;
 }
 
 .card-grid {
@@ -643,6 +773,16 @@ select {
     flex-direction: column;
     align-items: stretch;
     gap: 8px;
+  }
+
+  .timeline-shell {
+    grid-template-columns: 120px minmax(0, 1fr);
+    column-gap: 8px;
+  }
+
+  .timeline-name,
+  .timeline-axis-name {
+    font-size: 0.75rem;
   }
 
   .field {
