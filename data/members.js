@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-07-16T18:49:35.088Z",
-  "rowCount": 334,
-  "matchedCountryCount": 190,
-  "matchedContinentCount": 190,
-  "matchedInstallationDescriptionCount": 187,
-  "matchedGdccMemberCount": 100,
+  "generatedAt": "2026-08-03T14:00:05.356Z",
+  "rowCount": 339,
+  "matchedCountryCount": 196,
+  "matchedContinentCount": 196,
+  "matchedInstallationDescriptionCount": 193,
+  "matchedGdccMemberCount": 102,
   "matchedCoreTrustSealCount": 47,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 330
+  "matchedGitHubProfileCount": 335
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -1726,6 +1726,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "codocedo",
+    "Primary installation": "datospararesiliencia.cl",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Chile",
+    "Continent": "South America",
+    "Installation Description": "Datos para resiliencia is a platform developed by the Chilean Institute for Disaster Resilience (Itrend) that is designed to facilitate the use of data associated with disaster risk management (DRM) for researchers and developers of resilience solutions. It is an open-access tool used for finding, obtaining, sharing and preserving research-quality datasets.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "codocedo",
+      "name": "",
+      "company": "Itrend Chile",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 4,
+      "following": 1,
+      "publicRepos": 15,
+      "htmlUrl": "https://github.com/codocedo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24249740?v=4"
+    }
+  },
+  {
     "GitHub Username": "Cook4986",
     "Primary installation": "dataverse.harvard.edu",
     "Zulip ID": "",
@@ -2242,14 +2269,14 @@ export const MEMBERS_SNAPSHOT = [
   },
   {
     "GitHub Username": "DonRichards",
-    "Primary installation": "",
+    "Primary installation": "archive.data.jhu.edu",
     "Zulip ID": "651907",
     "Working Groups": "",
     "Issue": "",
-    "Country": "",
-    "Continent": "",
-    "Installation Description": "",
-    "GDCC Member": false,
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "The Johns Hopkins Research Data Repository is an open access repository for Johns Hopkins researchers to share their research data. It is administered by professional curators at JHU Data Services, who will work with depositors to enable future discovery and reuse of your data.",
+    "GDCC Member": true,
     "CoreTrustSeals": [],
     "DataverseTV": false,
     "GitHub Profile": {
@@ -3823,6 +3850,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "jaysundu",
+    "Primary installation": "datasets.lib.berkeley.edu",
+    "Zulip ID": "674237",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "All data in the UC Berkeley Library Dataverse has been acquired and licensed by the library for use by UC Berkeley and Lawrence Berkeley National Lab students, faculty, and staff. Data records and terms are viewable by any user, regardless of affiliation. Please login to the repository using a Calnet ID and passphrase to view and download data files. Note that accessing some data files requires agreeing to the terms of use as listed in the guestbook functionality. Research data (i.e. data, code, and other outputs generated during the research process) are not stored on UC Berkeley Library’s Dataverse.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "jaysundu",
+      "name": "Jay Sundu",
+      "company": "jpersonal",
+      "location": "Berkeley",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 6,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/jaysundu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2875910?v=4"
+    }
+  },
+  {
     "GitHub Username": "JBGruber",
     "Primary installation": "",
     "Zulip ID": "",
@@ -4555,6 +4609,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 14,
       "htmlUrl": "https://github.com/juriroemer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/31971585?v=4"
+    }
+  },
+  {
+    "GitHub Username": "jyuenger",
+    "Primary installation": "dataverse.harvard.edu",
+    "Zulip ID": "1180700",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "jyuenger",
+      "name": "Jeremy Yuenger",
+      "company": "Harvard University",
+      "location": "Boston, MA",
+      "bio": "",
+      "blog": "https://github.com/jyuenger",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 6,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/jyuenger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42808446?v=4"
     }
   },
   {
@@ -5590,13 +5671,13 @@ export const MEMBERS_SNAPSHOT = [
   },
   {
     "GitHub Username": "mbarram",
-    "Primary installation": "",
+    "Primary installation": "datospararesiliencia.cl",
     "Zulip ID": "",
     "Working Groups": "",
     "Issue": "",
-    "Country": "",
-    "Continent": "",
-    "Installation Description": "",
+    "Country": "Chile",
+    "Continent": "South America",
+    "Installation Description": "Datos para resiliencia is a platform developed by the Chilean Institute for Disaster Resilience (Itrend) that is designed to facilitate the use of data associated with disaster risk management (DRM) for researchers and developers of resilience solutions. It is an open-access tool used for finding, obtaining, sharing and preserving research-quality datasets.",
     "GDCC Member": false,
     "CoreTrustSeals": [],
     "DataverseTV": false,
@@ -6299,6 +6380,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "PaulaSaav",
+    "Primary installation": "papyrus-datos.co",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Colombia",
+    "Continent": "South America",
+    "Installation Description": "Papyrus is a multidisciplinary data repository, which houses the scientific data sets of research projects carried out by the Colombian institutions belonging to the Colombia Consortium, whose purpose is to give the data visibility, guarantee their preservation and facilitate their access, retrieval and reuse through centralized custody and management.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "PaulaSaav",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/PaulaSaav",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/132466798?v=4"
+    }
+  },
+  {
     "GitHub Username": "PaulBoon",
     "Primary installation": "dataverse.nl",
     "Zulip ID": "928678",
@@ -6734,6 +6842,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 2,
       "htmlUrl": "https://github.com/rachfern85",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59843025?v=4"
+    }
+  },
+  {
+    "GitHub Username": "RadioConica",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12571",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "RadioConica",
+      "name": "Arnau Santos i Fernández",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 4,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/RadioConica",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47863985?v=4"
     }
   },
   {

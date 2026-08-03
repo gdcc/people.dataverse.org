@@ -5976,5 +5976,95 @@
       "htmlUrl": "https://github.com/Xiaoming",
       "avatarUrl": "https://avatars.githubusercontent.com/u/214696?v=4"
     }
+  },
+  "codocedo": {
+    "ok": true,
+    "fetchedAt": "2026-08-03T13:58:45.481Z",
+    "profile": {
+      "login": "codocedo",
+      "name": "",
+      "company": "Itrend Chile",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 4,
+      "following": 1,
+      "publicRepos": 15,
+      "htmlUrl": "https://github.com/codocedo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24249740?v=4"
+    }
+  },
+  "jaysundu": {
+    "ok": true,
+    "fetchedAt": "2026-08-03T13:58:55.340Z",
+    "profile": {
+      "login": "jaysundu",
+      "name": "Jay Sundu",
+      "company": "jpersonal",
+      "location": "Berkeley",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 6,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/jaysundu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2875910?v=4"
+    }
+  },
+  "jyuenger": {
+    "ok": true,
+    "fetchedAt": "2026-08-03T13:59:19.930Z",
+    "profile": {
+      "login": "jyuenger",
+      "name": "Jeremy Yuenger",
+      "company": "Harvard University",
+      "location": "Boston, MA",
+      "bio": "",
+      "blog": "https://github.com/jyuenger",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 6,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/jyuenger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42808446?v=4"
+    }
+  },
+  "PaulaSaav": {
+    "ok": true,
+    "fetchedAt": "2026-08-03T13:59:37.630Z",
+    "profile": {
+      "login": "PaulaSaav",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/PaulaSaav",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/132466798?v=4"
+    }
+  },
+  "RadioConica": {
+    "ok": true,
+    "fetchedAt": "2026-08-03T13:59:45.040Z",
+    "profile": {
+      "login": "RadioConica",
+      "name": "Arnau Santos i Fernández",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 3,
+      "following": 4,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/RadioConica",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47863985?v=4"
+    }
   }
 }
