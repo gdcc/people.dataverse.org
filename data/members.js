@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-08-03T14:00:05.356Z",
-  "rowCount": 339,
+  "generatedAt": "2026-08-27T14:30:34.287Z",
+  "rowCount": 340,
   "matchedCountryCount": 196,
   "matchedContinentCount": 196,
   "matchedInstallationDescriptionCount": 193,
   "matchedGdccMemberCount": 102,
   "matchedCoreTrustSealCount": 47,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 335
+  "matchedGitHubProfileCount": 336
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -7760,6 +7760,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 10,
       "htmlUrl": "https://github.com/solhm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11419590?v=4"
+    }
+  },
+  {
+    "GitHub Username": "sriramkanakam87",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12645",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "sriramkanakam87",
+      "name": "Sri Ram Sagar Kanakam",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 4,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/sriramkanakam87",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90332705?v=4"
     }
   },
   {
