@@ -667,18 +667,18 @@
   },
   "kenlhlui": {
     "ok": true,
-    "fetchedAt": "2026-04-04T02:01:44.238Z",
+    "fetchedAt": "2026-09-21T18:12:55.325Z",
     "profile": {
       "login": "kenlhlui",
       "name": "Ken Lui",
       "company": "@MDLutoronto",
       "location": "Toronto",
       "bio": "I work in a library.",
-      "blog": "",
+      "blog": "kenlhlui.github.io",
       "twitterUsername": "kenlhlui",
-      "followers": 13,
-      "following": 60,
-      "publicRepos": 22,
+      "followers": 14,
+      "following": 67,
+      "publicRepos": 30,
       "htmlUrl": "https://github.com/kenlhlui",
       "avatarUrl": "https://avatars.githubusercontent.com/u/116421546?v=4"
     }
@@ -6083,6 +6083,150 @@
       "publicRepos": 4,
       "htmlUrl": "https://github.com/sriramkanakam87",
       "avatarUrl": "https://avatars.githubusercontent.com/u/90332705?v=4"
+    }
+  },
+  "bwd213": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:12:29.671Z",
+    "profile": {
+      "login": "bwd213",
+      "name": "Bowen Deng",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 10,
+      "htmlUrl": "https://github.com/bwd213",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8646260?v=4"
+    }
+  },
+  "dumoulina": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:12:35.597Z",
+    "profile": {
+      "login": "dumoulina",
+      "name": "Antoine Dumoulin",
+      "company": "@inria",
+      "location": "Grenoble, France",
+      "bio": "3D computer vision PhD student",
+      "blog": "dumoulin.me",
+      "twitterUsername": "",
+      "followers": 27,
+      "following": 100,
+      "publicRepos": 21,
+      "htmlUrl": "https://github.com/dumoulina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48944658?v=4"
+    }
+  },
+  "hmalheirokeep": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:12:40.826Z",
+    "profile": {
+      "login": "hmalheirokeep",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/hmalheirokeep",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/189735602?v=4"
+    }
+  },
+  "Janvi-kapoor": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:12:49.213Z",
+    "profile": {
+      "login": "Janvi-kapoor",
+      "name": "Janvi kapoor",
+      "company": "",
+      "location": "Harda, Madhya Pradesh, India",
+      "bio": "BCA Student | Open Source Contributor @learning-unlimited | Learning SAP BTP, Java, and MERN Stack. Aspiring GSoC '26 Contributor. 🚀",
+      "blog": "https://linkedin.com/in/janvikapoor",
+      "twitterUsername": "",
+      "followers": 6,
+      "following": 4,
+      "publicRepos": 12,
+      "htmlUrl": "https://github.com/Janvi-kapoor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/216144189?v=4"
+    }
+  },
+  "RiekeLo-UiT": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:13:03.523Z",
+    "profile": {
+      "login": "RiekeLo-UiT",
+      "name": "Rieke Lo Madsen",
+      "company": "The Arctic University of Norway",
+      "location": "Tromsø",
+      "bio": "",
+      "blog": "https://orcid.org/0000-0002-2651-5796",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 3,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/RiekeLo-UiT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/255340840?v=4"
+    }
+  },
+  "rolfande": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:13:09.728Z",
+    "profile": {
+      "login": "rolfande",
+      "name": "Rolf Andersen",
+      "company": "UiT The Arctic University of Norway",
+      "location": "Tromso, Norway",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/rolfande",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56400709?v=4"
+    }
+  },
+  "ubkm": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:13:16.430Z",
+    "profile": {
+      "login": "ubkm",
+      "name": "Karl Magnus Nilsen",
+      "company": "UiT The Arctic University of Norway",
+      "location": "Tromsø, Norway",
+      "bio": "Software engineer at the UiT Library.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 8,
+      "htmlUrl": "https://github.com/ubkm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30798937?v=4"
+    }
+  },
+  "tuannx": {
+    "ok": true,
+    "fetchedAt": "2026-09-21T18:14:42.106Z",
+    "profile": {
+      "login": "tuannx",
+      "name": "Tony Nguyen",
+      "company": "",
+      "location": "United States",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 55,
+      "following": 637,
+      "publicRepos": 120,
+      "htmlUrl": "https://github.com/tuannx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1305700?v=4"
     }
   }
 }

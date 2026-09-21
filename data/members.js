@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-08-27T14:30:34.287Z",
-  "rowCount": 340,
-  "matchedCountryCount": 196,
-  "matchedContinentCount": 196,
-  "matchedInstallationDescriptionCount": 193,
-  "matchedGdccMemberCount": 102,
-  "matchedCoreTrustSealCount": 47,
+  "generatedAt": "2026-09-21T18:14:53.609Z",
+  "rowCount": 348,
+  "matchedCountryCount": 200,
+  "matchedContinentCount": 200,
+  "matchedInstallationDescriptionCount": 197,
+  "matchedGdccMemberCount": 106,
+  "matchedCoreTrustSealCount": 51,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 336
+  "matchedGitHubProfileCount": 344
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -1346,6 +1346,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "bwd213",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12660",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "bwd213",
+      "name": "Bowen Deng",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 10,
+      "htmlUrl": "https://github.com/bwd213",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8646260?v=4"
+    }
+  },
+  {
     "GitHub Username": "c2dhfma",
     "Primary installation": "",
     "Zulip ID": "",
@@ -2375,6 +2402,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 24,
       "htmlUrl": "https://github.com/DS-INRAE",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46443753?v=4"
+    }
+  },
+  {
+    "GitHub Username": "dumoulina",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/gdcc/dataverse-previewers/issues/171",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "dumoulina",
+      "name": "Antoine Dumoulin",
+      "company": "@inria",
+      "location": "Grenoble, France",
+      "bio": "3D computer vision PhD student",
+      "blog": "dumoulin.me",
+      "twitterUsername": "",
+      "followers": 27,
+      "following": 100,
+      "publicRepos": 21,
+      "htmlUrl": "https://github.com/dumoulina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48944658?v=4"
     }
   },
   {
@@ -3439,6 +3493,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "hmalheirokeep",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12727",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "hmalheirokeep",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/hmalheirokeep",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/189735602?v=4"
+    }
+  },
+  {
     "GitHub Username": "iannesbitt",
     "Primary installation": "",
     "Zulip ID": "659827",
@@ -3764,6 +3845,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 165,
       "htmlUrl": "https://github.com/janvanmansum",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3862694?v=4"
+    }
+  },
+  {
+    "GitHub Username": "Janvi-kapoor",
+    "Primary installation": "",
+    "Zulip ID": "1198139",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "Janvi-kapoor",
+      "name": "Janvi kapoor",
+      "company": "",
+      "location": "Harda, Madhya Pradesh, India",
+      "bio": "BCA Student | Open Source Contributor @learning-unlimited | Learning SAP BTP, Java, and MERN Stack. Aspiring GSoC '26 Contributor. 🚀",
+      "blog": "https://linkedin.com/in/janvikapoor",
+      "twitterUsername": "",
+      "followers": 6,
+      "following": 4,
+      "publicRepos": 12,
+      "htmlUrl": "https://github.com/Janvi-kapoor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/216144189?v=4"
     }
   },
   {
@@ -4779,15 +4887,17 @@ export const MEMBERS_SNAPSHOT = [
   },
   {
     "GitHub Username": "kenlhlui",
-    "Primary installation": "",
+    "Primary installation": "borealisdata.ca",
     "Zulip ID": "720329",
     "Working Groups": "",
     "Issue": "",
-    "Country": "",
-    "Continent": "",
-    "Installation Description": "",
-    "GDCC Member": false,
-    "CoreTrustSeals": [],
+    "Country": "Canada",
+    "Continent": "North America",
+    "Installation Description": "Open for researchers and organizations associated with subscribing Canadian universities to deposit data.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://doi.org/10.34894/PUHYXX"
+    ],
     "DataverseTV": false,
     "GitHub Profile": {
       "login": "kenlhlui",
@@ -4795,11 +4905,11 @@ export const MEMBERS_SNAPSHOT = [
       "company": "@MDLutoronto",
       "location": "Toronto",
       "bio": "I work in a library.",
-      "blog": "",
+      "blog": "kenlhlui.github.io",
       "twitterUsername": "kenlhlui",
-      "followers": 13,
-      "following": 60,
-      "publicRepos": 22,
+      "followers": 14,
+      "following": 67,
+      "publicRepos": 30,
       "htmlUrl": "https://github.com/kenlhlui",
       "avatarUrl": "https://avatars.githubusercontent.com/u/116421546?v=4"
     }
@@ -7115,6 +7225,35 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "RiekeLo-UiT",
+    "Primary installation": "dataverse.no",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Norway",
+    "Continent": "Europe",
+    "Installation Description": "DataverseNO is a national, generalist repository for open research data from researchers from Norwegian research institutions. DataverseNO enables the FAIR Guiding Principles for scientific data management and stewardship and is CoreTrustSeal certified.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://www.coretrustseal.org/wp-content/uploads/2020/03/DataverseNO.pdf"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "RiekeLo-UiT",
+      "name": "Rieke Lo Madsen",
+      "company": "The Arctic University of Norway",
+      "location": "Tromsø",
+      "bio": "",
+      "blog": "https://orcid.org/0000-0002-2651-5796",
+      "twitterUsername": "",
+      "followers": 1,
+      "following": 3,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/RiekeLo-UiT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/255340840?v=4"
+    }
+  },
+  {
     "GitHub Username": "rmo-cdsp",
     "Primary installation": "data.sciencespo.fr",
     "Zulip ID": "",
@@ -7193,6 +7332,35 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 4,
       "htmlUrl": "https://github.com/RoHei",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38701619?v=4"
+    }
+  },
+  {
+    "GitHub Username": "rolfande",
+    "Primary installation": "dataverse.no",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Norway",
+    "Continent": "Europe",
+    "Installation Description": "DataverseNO is a national, generalist repository for open research data from researchers from Norwegian research institutions. DataverseNO enables the FAIR Guiding Principles for scientific data management and stewardship and is CoreTrustSeal certified.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://www.coretrustseal.org/wp-content/uploads/2020/03/DataverseNO.pdf"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "rolfande",
+      "name": "Rolf Andersen",
+      "company": "UiT The Arctic University of Norway",
+      "location": "Tromso, Norway",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/rolfande",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56400709?v=4"
     }
   },
   {
@@ -8338,6 +8506,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "tuannx",
+    "Primary installation": "",
+    "Zulip ID": "1199680",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "tuannx",
+      "name": "Tony Nguyen",
+      "company": "",
+      "location": "United States",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 55,
+      "following": 637,
+      "publicRepos": 120,
+      "htmlUrl": "https://github.com/tuannx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1305700?v=4"
+    }
+  },
+  {
     "GitHub Username": "tvanerven",
     "Primary installation": "opendata.nas.gov.ua",
     "Zulip ID": "720428",
@@ -8389,6 +8584,35 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 12,
       "htmlUrl": "https://github.com/twtw",
       "avatarUrl": "https://avatars.githubusercontent.com/u/260506?v=4"
+    }
+  },
+  {
+    "GitHub Username": "ubkm",
+    "Primary installation": "dataverse.no",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Norway",
+    "Continent": "Europe",
+    "Installation Description": "DataverseNO is a national, generalist repository for open research data from researchers from Norwegian research institutions. DataverseNO enables the FAIR Guiding Principles for scientific data management and stewardship and is CoreTrustSeal certified.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://www.coretrustseal.org/wp-content/uploads/2020/03/DataverseNO.pdf"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "ubkm",
+      "name": "Karl Magnus Nilsen",
+      "company": "UiT The Arctic University of Norway",
+      "location": "Tromsø, Norway",
+      "bio": "Software engineer at the UiT Library.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 8,
+      "htmlUrl": "https://github.com/ubkm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30798937?v=4"
     }
   },
   {
