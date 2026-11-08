@@ -13,6 +13,7 @@ ahsouri	dataverse.jpl.nasa.gov
 aialves	dados.ipb.pt	660626		
 ainajene	dataverse.bsc.es	813045		
 ajdabrowski	dataverse.tdl.org			
+akeldamas	dataverse.nl			https://github.com/IQSS/dataverse/issues/12765
 akio-sone	dataverse.unc.edu	601920	containerization	
 AleixMT	dataverse.csuc.cat			
 alejandratenorio	data.worldagroforestry.org	702711		
@@ -87,6 +88,7 @@ DominikWA				https://github.com/IQSS/dataverse/issues/9755
 DonRichards	archive.data.jhu.edu	651907		
 donsizemore	dataverse.unc.edu	626369	containerization,sensitive-data	
 dozed				https://github.com/IQSS/dataverse/issues/9943
+drkotireddysaripalli				https://github.com/IQSS/dataverse/issues/12800
 DS-INRAE	entrepot.recherche.data.gouv.fr	658065	documentation	
 dumoulina				https://github.com/gdcc/dataverse-previewers/issues/171
 EduardsSk				https://github.com/gdcc/mcp-dataverse/issues/15
@@ -162,6 +164,7 @@ JoaoMFCardoso	datahub.polen.fccn.pt	622855
 joelfan	dataverse.unimi.it			https://github.com/IQSS/dataverse/issues/9358
 johannes-darms		617722		
 johnhuck	borealisdata.ca			
+jonasBOAT				https://github.com/IQSS/dataverse-frontend/issues/117
 jonathanbohan				
 jonc1438	dataverse.unc.edu			
 jonquet	entrepot.recherche.data.gouv.fr			
@@ -170,6 +173,7 @@ josekarvalho	dunas.ua.pt	602158
 jp-tosca	dataverse.harvard.edu	648750		
 jpedataeditor				
 JR-1991	darus.uni-stuttgart.de	599841	pydataverse	
+jrvosse				https://github.com/IQSS/dataverse/issues/11580
 juancorr	edatos.consorciomadrono.es	663397		
 JulianRein				
 juriroemer				
@@ -178,6 +182,7 @@ kaczmirek	data.aussda.at
 kaiongithub		784992		
 kaitlinnewson	borealisdata.ca			
 kamil386				
+KatalinaToth	dataverse.harvard.edu	1222811		
 kbatyuk	dataverse.whoi.edu			
 kenlhlui	borealisdata.ca	720329		
 kevinworthington				
@@ -208,6 +213,7 @@ LyneVdV	dataverse.uliege.be	986700
 M-DOREL				
 Maham802				
 mahendrapaipuri		1023675		
+marangiop	dataverse.bsc.es	1225696		
 markwilkinson		653164		
 matthew-a-dunlap	dataverse.unc.edu			
 maximilian-tech				
@@ -297,6 +303,7 @@ stefanandonov				https://github.com/IQSS/dataverse/issues/9628
 stevenferey	entrepot.recherche.data.gouv.fr	919805		
 stevenmce	dataverse.ada.edu.au			
 stevenwinship	dataverse.harvard.edu	980865		
+subtleazn		1210007		https://github.com/IQSS/dataverse/issues/12779
 summitcheung				https://github.com/IQSS/dataverse-frontend/issues/555
 superpegaso2703		934432		
 synapticrain	dataverse.arcc.uwyo.edu			

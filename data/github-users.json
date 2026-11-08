@@ -6228,5 +6228,131 @@
       "htmlUrl": "https://github.com/tuannx",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1305700?v=4"
     }
+  },
+  "akeldamas": {
+    "ok": true,
+    "fetchedAt": "2026-11-08T18:06:12.314Z",
+    "profile": {
+      "login": "akeldamas",
+      "name": "Laurens Tobias",
+      "company": "",
+      "location": "Leiden",
+      "bio": "My cat handles QA; will meow for bugs.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 6,
+      "following": 11,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/akeldamas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45464235?v=4"
+    }
+  },
+  "drkotireddysaripalli": {
+    "ok": true,
+    "fetchedAt": "2026-11-08T18:06:18.752Z",
+    "profile": {
+      "login": "drkotireddysaripalli",
+      "name": "Koti Reddy Saripalli",
+      "company": "",
+      "location": "",
+      "bio": "Founder & Chairman, Pinnacle Blooms Network | Developmental measurement, rehabilitation systems and digital health research",
+      "blog": "https://github.com/drkotireddysaripalli/pinnacle-research-library",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/drkotireddysaripalli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/213033541?v=4"
+    }
+  },
+  "jonasBOAT": {
+    "ok": true,
+    "fetchedAt": "2026-11-08T18:06:27.493Z",
+    "profile": {
+      "login": "jonasBOAT",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/jonasBOAT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190854080?v=4"
+    }
+  },
+  "jrvosse": {
+    "ok": true,
+    "fetchedAt": "2026-11-08T18:06:33.201Z",
+    "profile": {
+      "login": "jrvosse",
+      "name": "Jacco van Ossenbruggen",
+      "company": "VU",
+      "location": "Amsterdam",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 53,
+      "following": 1,
+      "publicRepos": 35,
+      "htmlUrl": "https://github.com/jrvosse",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/497690?v=4"
+    }
+  },
+  "KatalinaToth": {
+    "ok": true,
+    "fetchedAt": "2026-11-08T18:06:38.284Z",
+    "profile": {
+      "login": "KatalinaToth",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/KatalinaToth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/226170822?v=4"
+    }
+  },
+  "marangiop": {
+    "ok": true,
+    "fetchedAt": "2026-11-08T18:06:43.914Z",
+    "profile": {
+      "login": "marangiop",
+      "name": "Paolo Marangio",
+      "company": "Barcelona Supercomputing Center",
+      "location": "Barcelona",
+      "bio": "HPC and Data Science specialist. Hard-working, highly-organized, with well-developed communication, time management skills and a strong team spirit",
+      "blog": "https://www.linkedin.com/in/marangiop/",
+      "twitterUsername": "",
+      "followers": 26,
+      "following": 42,
+      "publicRepos": 28,
+      "htmlUrl": "https://github.com/marangiop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29339953?v=4"
+    }
+  },
+  "subtleazn": {
+    "ok": true,
+    "fetchedAt": "2026-11-08T18:06:51.544Z",
+    "profile": {
+      "login": "subtleazn",
+      "name": "Nash Ang",
+      "company": "",
+      "location": "San Francisco, CA",
+      "bio": "I create inspiring, human-centered projects that unite storytelling, technology, and design guided by a passion for people and purpose.",
+      "blog": "https://nash.is-a.dev",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 7,
+      "publicRepos": 25,
+      "htmlUrl": "https://github.com/subtleazn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35722806?v=4"
+    }
   }
 }

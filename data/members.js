@@ -2,15 +2,15 @@ export const SNAPSHOT_META = {
   "source": "https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/export?gid=0&format=tsv",
   "installationSource": "https://iqss.github.io/dataverse-installations/data/data.json",
   "githubUserSource": "https://api.github.com/users/{username}",
-  "generatedAt": "2026-10-05T18:37:04.165Z",
-  "rowCount": 348,
-  "matchedCountryCount": 200,
-  "matchedContinentCount": 200,
-  "matchedInstallationDescriptionCount": 197,
-  "matchedGdccMemberCount": 106,
-  "matchedCoreTrustSealCount": 51,
+  "generatedAt": "2026-11-08T18:06:59.832Z",
+  "rowCount": 355,
+  "matchedCountryCount": 203,
+  "matchedContinentCount": 203,
+  "matchedInstallationDescriptionCount": 200,
+  "matchedGdccMemberCount": 108,
+  "matchedCoreTrustSealCount": 52,
   "matchedDataverseTvCount": 46,
-  "matchedGitHubProfileCount": 344
+  "matchedGitHubProfileCount": 351
 };
 
 export const MEMBERS_SNAPSHOT = [
@@ -394,6 +394,35 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 6,
       "htmlUrl": "https://github.com/ajdabrowski",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46501789?v=4"
+    }
+  },
+  {
+    "GitHub Username": "akeldamas",
+    "Primary installation": "dataverse.nl",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12765",
+    "Country": "Netherlands",
+    "Continent": "Europe",
+    "Installation Description": "DataverseNL is a data repository hosted by DANS. Researchers associated with the DataverseNL partners (Several universities, higher education and research institutes) are able to deposit data. ",
+    "GDCC Member": true,
+    "CoreTrustSeals": [
+      "https://www.coretrustseal.org/wp-content/uploads/2018/04/Tilburg-University-Dataverse.pdf"
+    ],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "akeldamas",
+      "name": "Laurens Tobias",
+      "company": "",
+      "location": "Leiden",
+      "bio": "My cat handles QA; will meow for bugs.",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 6,
+      "following": 11,
+      "publicRepos": 4,
+      "htmlUrl": "https://github.com/akeldamas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45464235?v=4"
     }
   },
   {
@@ -2375,6 +2404,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 131,
       "htmlUrl": "https://github.com/dozed",
       "avatarUrl": "https://avatars.githubusercontent.com/u/239058?v=4"
+    }
+  },
+  {
+    "GitHub Username": "drkotireddysaripalli",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12800",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "drkotireddysaripalli",
+      "name": "Koti Reddy Saripalli",
+      "company": "",
+      "location": "",
+      "bio": "Founder & Chairman, Pinnacle Blooms Network | Developmental measurement, rehabilitation systems and digital health research",
+      "blog": "https://github.com/drkotireddysaripalli/pinnacle-research-library",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 3,
+      "htmlUrl": "https://github.com/drkotireddysaripalli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/213033541?v=4"
     }
   },
   {
@@ -4419,6 +4475,33 @@ export const MEMBERS_SNAPSHOT = [
     }
   },
   {
+    "GitHub Username": "jonasBOAT",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse-frontend/issues/117",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "jonasBOAT",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 0,
+      "publicRepos": 0,
+      "htmlUrl": "https://github.com/jonasBOAT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190854080?v=4"
+    }
+  },
+  {
     "GitHub Username": "jonathanbohan",
     "Primary installation": "",
     "Zulip ID": "",
@@ -4634,6 +4717,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 84,
       "htmlUrl": "https://github.com/JR-1991",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30547301?v=4"
+    }
+  },
+  {
+    "GitHub Username": "jrvosse",
+    "Primary installation": "",
+    "Zulip ID": "",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/11580",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "jrvosse",
+      "name": "Jacco van Ossenbruggen",
+      "company": "VU",
+      "location": "Amsterdam",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 53,
+      "following": 1,
+      "publicRepos": 35,
+      "htmlUrl": "https://github.com/jrvosse",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/497690?v=4"
     }
   },
   {
@@ -4856,6 +4966,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 0,
       "htmlUrl": "https://github.com/kamil386",
       "avatarUrl": "https://avatars.githubusercontent.com/u/56053188?v=4"
+    }
+  },
+  {
+    "GitHub Username": "KatalinaToth",
+    "Primary installation": "dataverse.harvard.edu",
+    "Zulip ID": "1222811",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "USA",
+    "Continent": "North America",
+    "Installation Description": "Share, archive, and get credit for your data. Find and cite data across all research fields.",
+    "GDCC Member": true,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "KatalinaToth",
+      "name": "",
+      "company": "",
+      "location": "",
+      "bio": "",
+      "blog": "",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 1,
+      "publicRepos": 7,
+      "htmlUrl": "https://github.com/KatalinaToth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/226170822?v=4"
     }
   },
   {
@@ -5667,6 +5804,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 62,
       "htmlUrl": "https://github.com/mahendrapaipuri",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44365948?v=4"
+    }
+  },
+  {
+    "GitHub Username": "marangiop",
+    "Primary installation": "dataverse.bsc.es",
+    "Zulip ID": "1225696",
+    "Working Groups": "",
+    "Issue": "",
+    "Country": "Spain",
+    "Continent": "Europe",
+    "Installation Description": "The BSC Dataverse is the institutional research data and metadata repository of the Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS). It seeks to enable the storage, sharing, and search of research data coming from the BSC researchers, collaborators, and affiliated projects.",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "marangiop",
+      "name": "Paolo Marangio",
+      "company": "Barcelona Supercomputing Center",
+      "location": "Barcelona",
+      "bio": "HPC and Data Science specialist. Hard-working, highly-organized, with well-developed communication, time management skills and a strong team spirit",
+      "blog": "https://www.linkedin.com/in/marangiop/",
+      "twitterUsername": "",
+      "followers": 26,
+      "following": 42,
+      "publicRepos": 28,
+      "htmlUrl": "https://github.com/marangiop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29339953?v=4"
     }
   },
   {
@@ -8094,6 +8258,33 @@ export const MEMBERS_SNAPSHOT = [
       "publicRepos": 1,
       "htmlUrl": "https://github.com/stevenwinship",
       "avatarUrl": "https://avatars.githubusercontent.com/u/39765413?v=4"
+    }
+  },
+  {
+    "GitHub Username": "subtleazn",
+    "Primary installation": "",
+    "Zulip ID": "1210007",
+    "Working Groups": "",
+    "Issue": "https://github.com/IQSS/dataverse/issues/12779",
+    "Country": "",
+    "Continent": "",
+    "Installation Description": "",
+    "GDCC Member": false,
+    "CoreTrustSeals": [],
+    "DataverseTV": false,
+    "GitHub Profile": {
+      "login": "subtleazn",
+      "name": "Nash Ang",
+      "company": "",
+      "location": "San Francisco, CA",
+      "bio": "I create inspiring, human-centered projects that unite storytelling, technology, and design guided by a passion for people and purpose.",
+      "blog": "https://nash.is-a.dev",
+      "twitterUsername": "",
+      "followers": 0,
+      "following": 7,
+      "publicRepos": 25,
+      "htmlUrl": "https://github.com/subtleazn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35722806?v=4"
     }
   },
   {
